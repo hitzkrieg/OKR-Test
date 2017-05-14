@@ -2,6 +2,7 @@
 
 This is the code used in the paper:
 
+
 <b>"A Consolidated Open Knowledge Representation for Multiple Texts"</b><br/>
 Rachel Wities, Vered Shwartz, Gabriel Stanovsky, Meni Adler, Ori Shapira, Shyam Upadhyay, Dan Roth, Eugenio Martinez Camara, Iryna Gurevych and Ido Dagan. LSDSem 2017. [link](???) (TBD).
 
