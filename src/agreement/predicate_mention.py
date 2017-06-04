@@ -11,6 +11,7 @@ sys.path.append('../common')
 from mention_common import *
 from constants import NULL_VALUE
 from filter_propositions import filter_verbal, filter_non_verbal
+from collections import defaultdict
 
 
 def compute_predicate_mention_agreement(graph1, graph2):
@@ -118,3 +119,88 @@ def extract_consensual_mentions(graph1, graph2):
     consensual_mentions = graph1_prop_mentions.intersection(graph2_prop_mentions)
 
     return consensual_mentions, graph1_prop_mentions, graph2_prop_mentions
+
+
+
+def analyse_predicate_mentions_individually(graph1, graph2):
+    """
+    Receives gold and pred graphs, and prints the predicted predicates.
+    :param graph1: the gold graph
+    :param graph2: the predicted graph
+    :for now no returns
+    """
+    graph1_prop_mentions = set.union(*[set(map(str, prop.mentions.values())) for prop in graph1.propositions.values()])
+    graph2_prop_mentions = set.union(*[set(map(str, prop.mentions.values())) for prop in graph2.propositions.values()])    
+
+
+    common_sentences = set([x.split('[')[0] for x in graph1_prop_mentions]).intersection(set([x.split('[')[0] for x in graph2_prop_mentions]))
+
+    consensual_mentions = graph1_prop_mentions.intersection(graph2_prop_mentions)
+    # predicted_mentions_but_not_in_gold  = graph2_prop_mentions.union(graph1_prop_mentions).intersection(graph2_prop_mentions)
+    # gold_mentions_but_not_predicted = graph2_prop_mentions.union(graph1_prop_mentions).intersection(graph1_prop_mentions)
+
+    predicted_mentions_but_not_in_gold = graph2_prop_mentions - graph1_prop_mentions
+    gold_mentions_but_not_predicted = graph1_prop_mentions - graph2_prop_mentions
+
+    ignored_gold_predicates =  set([a for a in graph1_prop_mentions if a.split('[')[0] not in common_sentences])
+    ignored_pred_predicates =  set([a for a in graph2_prop_mentions if a.split('[')[0] not in common_sentences])
+
+    # Create sentID :list of indices dictionary for predicates
+
+    dict1 = defaultdict(list)
+    dict2 = defaultdict(list)
+
+    for a in gold_mentions_but_not_predicted:
+        dict1[a.split('[')[0]].append(a.split('[')[1].rstrip(']').split(', '))
+
+    for a in predicted_mentions_but_not_in_gold:
+        dict2[a.split('[')[0]].append(a.split('[')[1].rstrip(']').split(', '))
+
+    matches = 0    
+    match_pc = 0.0
+    thresh = 0.0
+    for sentID in dict2.keys():
+        list1 = dict1[sentID]
+        list2 = dict2[sentID]
+        for i in list2:
+            for j in list1:
+                intersect = set(i).intersection(j)
+                if len(intersect)!=0:
+                    matches+=1
+                    lexical_overal_pc = len(intersect)/len(set(i).union(j))
+                    if(lexical_overal_pc >= thresh):
+                        print("    --------")
+                        sentence = graph1.sentences[int(sentID)]
+                        print("    Sentence: {} , Gold predicate: {}, Predicted predicate: {}".format(sentence, [sentence[int(index)] for index in j], [sentence[int(index)] for index in i] ))
+                    match_pc += lexical_overal_pc
+                    break
+    if matches!=0:                
+        match_pc = match_pc/matches*100  
+        
+
+
+
+    print('No of consensual mentions: {}'.format(len(consensual_mentions)))
+    print('No of predicted mentions not in gold: {}'.format(len(predicted_mentions_but_not_in_gold)))
+    print('No of gold mentions but not in predicted: {}'.format(len(gold_mentions_but_not_predicted)))
+    print('No of gold mentions which have been ignored from evaluation: {}'.format(len(ignored_gold_predicates)))
+    print('No of predicted mentions which have been ignored from evaluation: {}'.format(len(ignored_pred_predicates)))
+    print('No of predicted mentions which have some intersection with the unmatched gold predicates: {}'.format(matches))
+    print('Lexical match in such cases: {}'.format(match_pc))
+def evaluate_unmatched_sentences(list1, list2):
+
+    """
+    Receives gold and predicted indices of different predicate mentions in a sentence
+    :param list1: the list of indices from gold annotation
+    :param graph2: the list of indices from predicted annotation
+    :returns .....
+    """
+    no_of_matches  = 0
+
+                   
+
+
+
+
+
+

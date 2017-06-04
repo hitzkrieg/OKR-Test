@@ -79,7 +79,12 @@ def evaluate_entity_mention(test_graphs):
         # NER entity
         ner_singles = [[s_num, num, tok.ent_iob, tok.tag_] for s_num, sentence in sents.iteritems() for num, tok in
                        enumerate(nlp(sentence)) if tok.ent_iob in [1, 3]]
+
+                       
         ner_wpos = convert_iob_to_seq(ner_singles)
+        print 'ner'
+        print ner_singles
+        print ner_wpos
 
         # Remove determiners and possesives
         ner_wpos = [[mention[0], [index for num, index in enumerate(mention[1]) if not mention[2][num] == u'DT'],

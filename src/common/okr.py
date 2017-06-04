@@ -7,8 +7,21 @@ import copy
 import logging
 import itertools
 import xml.etree.ElementTree as ET
+import re
+import stop_words
+from collections import defaultdict
 
-from constants import *
+NULL_VALUE = 0
+STOP_WORDS = stop_words.get_stop_words('en')
+
+
+class MentionType:
+    """
+    Enum for mention type
+    """
+    Entity = 0
+    Proposition = 1
+
 
 
 class OKR:
@@ -158,6 +171,8 @@ class PropositionMention(Mention):
         self.template = None  # template with argument IDs
         self.is_explicit = is_explicit
 
+
+
     def __str__(self):
         """
         Use this as a unique id for a mention which is comparable among graphs
@@ -180,6 +195,8 @@ class PropositionMention(Mention):
             return str(self.sentence_id) + str(verb_noun_indices)
 
         return str(self.sentence_id) + str(self.indices)
+
+    # __repr__ = __str__     
 
 
 class ArgumentMention:
@@ -303,7 +320,7 @@ def load_graph_from_file(input_file):
 
         # Entity terms
         terms = set([mention.terms for mention in mentions.values()])
-
+        
         entities[int(entity[0].text)] = Entity(int(entity[0].text),  # id
                                                entity[1].text,  # name
                                                mentions,  # entity mentions
@@ -382,6 +399,7 @@ def load_graph_from_file(input_file):
 
             # Create the transitive closure of the entailment graph
             final_graph = transitive_closure(graph)
+            
             proposition_entailment = Entailment_graph(final_graph, None, contradictions_graph, None)
 
         else:
@@ -507,3 +525,45 @@ def from_term_id_to_mention_id(graph, mentions, mention_type):
         new_graph += list(itertools.product(m1_lst, m2_lst))
 
     return new_graph
+
+# output_folder = './sentences'
+# input_folder = '../../data/baseline/test'
+# for f in os.listdir(input_folder):
+#     input_file = input_folder+'/'+f
+#     okr_graph1 = load_graph_from_file(input_file)
+#     output_file =  output_folder+ '/'+ re.match(r'(.+).xml', f).group(1) + '.txt'
+#     print(output_file)
+#     with open(output_file, 'w')as output:
+#         for sent in okr_graph1.sentences.values():
+#             # print(sent)
+#             output.write(' '.join(sent)+'\n')
+
+
+        
+
+
+# print('Printing an entity ID:')
+
+# print (okr_graph1.propositions.keys()[0])
+# print ('Printing mentions of an entity ')
+# for proposition in okr_graph1.propositions.values():
+#     print (proposition.entailment_graph.contradictions_graph)
+
+# graph_prop_mentions = set.union(*[set(map(str, prop.mentions.values())) for prop in okr_graph1.propositions.values()])
+# # print((graph_prop_mentions))
+
+# # TO DO:could be better implemented by multiple keys instead of double sorting
+# # print(sorted(sorted(graph_prop_mentions, key= lambda a: int(a.split('[')[1].rstrip(']').split(', ')[0])), key= lambda a: int(a.split('[')[0]) ))
+
+# dict1 = defaultdict(list)
+
+# for a in graph_prop_mentions:
+#     dict1[a.split('[')[0]].append(a.split('[')[1].rstrip(']').split(', '))
+
+
+
+# # for indices in dict1.values():
+# #     print(len(indices)) 
+
+# print(dict1)
+

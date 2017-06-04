@@ -18,6 +18,7 @@ from filter_propositions import cram_proposition_mentions
 from filter_propositions import filter_verbal, filter_non_verbal
 from predicate_mention import compute_predicate_mention_agreement
 from predicate_mention import compute_predicate_mention_agreement
+from predicate_mention import analyse_predicate_mentions_individually
 from okr import PropositionMention, Proposition, load_graphs_from_folder
 
 
@@ -136,3 +137,21 @@ def create_proposition_mention(sent_id, indices, terms):
                               argument_mentions=NULL_VALUE,
                               is_explicit=True)
 
+
+
+def analyse_predicate_mentions(test_graphs, prop_ex, nom_file):
+    """
+    Calculate the average predicate mention metric on test graphs.
+    :param test_graphs: the graphs for the test sets
+    :param prop_ex: the proposition extraction object
+    :return the average predicate mention metric on the test graphs
+    """
+    pred_graphs = [predict_predicate_mention(test_graph, prop_ex, nom_file) for test_graph in test_graphs]
+    # return np.mean([compute_predicate_mention_agreement(test_graph, pred_graph)[0]
+    #                 for test_graph, pred_graph in zip(test_graphs, pred_graphs)])
+
+    i= 1
+    for test_graph, pred_graph in zip(test_graphs, pred_graphs):
+        print('**** File {}****'.format(i))
+        i = i+1
+        analyse_predicate_mentions_individually(test_graph, pred_graph)
