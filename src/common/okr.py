@@ -526,21 +526,22 @@ def from_term_id_to_mention_id(graph, mentions, mention_type):
 
     return new_graph
 
-# output_folder = './sentences'
-# input_folder = '../../data/baseline/test'
-# for f in os.listdir(input_folder):
-#     input_file = input_folder+'/'+f
-#     okr_graph1 = load_graph_from_file(input_file)
-#     output_file =  output_folder+ '/'+ re.match(r'(.+).xml', f).group(1) + '.txt'
-#     print(output_file)
-#     with open(output_file, 'w')as output:
-#         for sent in okr_graph1.sentences.values():
-#             # print(sent)
-#             output.write(' '.join(sent)+'\n')
+def extract_sentences():
+    output_folder = './sentences'
+    input_folder = '../../data/baseline/test'
+    for f in os.listdir(input_folder):
+        input_file = input_folder+'/'+f
+        okr_graph1 = load_graph_from_file(input_file)
+        output_file =  output_folder+ '/'+ re.match(r'(.+).xml', f).group(1) + '.txt'
+        print(output_file)
+        with open(output_file, 'w')as output:
+            for sent in okr_graph1.sentences.values():
+                # print(sent)
+                output.write(' '.join(sent)+'\n')
 
 
         
-
+# extract_sentences()
 
 # print('Printing an entity ID:')
 
@@ -567,3 +568,5 @@ def from_term_id_to_mention_id(graph, mentions, mention_type):
 
 # print(dict1)
 
+# okr_graph1 = load_graph_from_file('../../data/baseline/test/car_bomb.xml')
+# print(okr_graph1.prop_mentions_by_key.values())
