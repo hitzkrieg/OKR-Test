@@ -2,8 +2,8 @@ import os
 import re
 
 
-input_folder = '../../../src/common/sentences'
-output_folder ='../../../src/baseline_system/openie_extractions'
+input_folder = '../../../src/common/sentences/dev'
+output_folder ='../../../src/baseline_system/openie_extractions/dev'
 
 # input_folder = '../common/sentences'
 # output_folder = './openie_extractions'
