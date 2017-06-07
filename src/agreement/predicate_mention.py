@@ -171,7 +171,10 @@ def analyse_predicate_mentions_individually(graph1, graph2):
                     if(lexical_overal_pc >= thresh):
                         print("    --------")
                         sentence = graph1.sentences[int(sentID)]
-                        print("    Sentence: {} , Gold predicate: {}, Predicted predicate: {}".format(sentence, [sentence[int(index)] for index in j], [sentence[int(index)] for index in i] ))
+                        gold_prop_mention = graph1.prop_mentions_by_key[sentID+'['+', '.join(j)+']']
+                        predicted_prop_mention = graph2.prop_mentions_by_key[sentID+'['+', '.join(i)+']']
+                        print("    \n Sentence: {} , Gold predicate: {}, Gold arguments: {}, Predicted predicate: {}, Predicted arguments: {}".format(' '.join(sentence), ' '.join([sentence[int(index)] for index in j]) , [' '.join(argument_mention.terms) for argument_mention in gold_prop_mention.argument_mentions.values()]   ,  ' '.join([sentence[int(index)] for index in i] ),  [' '.join(argument_mention.terms) for argument_mention in predicate_prop_mention.argument_mentions.values()]  ))
+
                     match_pc += lexical_overal_pc
                     break
     if matches!=0:                
