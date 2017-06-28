@@ -156,6 +156,8 @@ def analyse_predicate_mentions_individually(graph1, graph2):
     for a in predicted_mentions_but_not_in_gold:
         dict2[a.split('[')[0]].append(a.split('[')[1].rstrip(']').split(', '))
 
+        
+
     matches = 0    
     match_pc = 0.0
     thresh = 0.0
