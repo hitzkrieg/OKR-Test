@@ -1,0 +1,360 @@
+**** File 1****
+    --------
+    Sentence: ['In', 'response', 'to', 'the', 'new', 'criminal', 'charges', ',', 'Penn', 'State', 'has', 'placed', 'Graham', 'Spanier', 'on', 'leave', ',', 'effective', 'immediately', ':'] , Gold predicate: ['response', 'placed'], Predicted predicate: ['response']
+    --------
+    Sentence: ['In', 'response', 'to', 'the', 'new', 'criminal', 'charges', ',', 'Penn', 'State', 'has', 'placed', 'Graham', 'Spanier', 'on', 'leave', ',', 'effective', 'immediately', ':'] , Gold predicate: ['response', 'placed'], Predicted predicate: ['placed']
+    --------
+    Sentence: ['In', 'response', 'to', 'the', 'new', 'criminal', 'charges', ',', 'Penn', 'State', 'has', 'placed', 'Graham', 'Spanier', 'on', 'leave', ',', 'effective', 'immediately', ':'] , Gold predicate: ['response', 'placed'], Predicted predicate: ['In', 'placed']
+    --------
+    Sentence: ['Penn', 'State', 'Admins', 'Charged', 'In', 'Sandusky', 'Scandal', 'Cover-Up'] , Gold predicate: ['Penn', 'State', 'Admins'], Predicted predicate: ['State']
+    --------
+    Sentence: ['Pennsylvania', 'Attorney', 'General', 'Linda', 'Kelly', 'is', 'now', 'going', 'over', 'details', 'on', 'charges', 'filed', 'on', 'Former', 'Penn', 'State', 'President', 'Graham', 'Spainer', 'on', 'ESPN', '.'] , Gold predicate: ['charges', 'filed'], Predicted predicate: ['filed']
+    --------
+    Sentence: ['Penn', 'State', 'Prez', 'to', 'face', 'charges', 'for', 'his', 'role', 'in', 'the', 'scandal'] , Gold predicate: ['face', 'charges'], Predicted predicate: ['face']
+    --------
+    Sentence: ['ncaa', 'Penn', 'State', 'officials', 'arraigned', 'on', 'new', 'charges'] , Gold predicate: ['Penn', 'State', 'officials'], Predicted predicate: ['State']
+    --------
+    Sentence: ['Penn', 'State', 'keep', 'gettin', 'that', 'booty', 'handed', 'to', 'them', 'behind', 'Sandusky', 'They', 'are', 'charging', 'the', 'former', 'president', 'of', 'the', 'university'] , Gold predicate: ['are', 'charging'], Predicted predicate: ['charging']
+    --------
+    Sentence: ['Penn', 'State', 'keep', 'gettin', 'that', 'booty', 'handed', 'to', 'them', 'behind', 'Sandusky', 'They', 'are', 'charging', 'the', 'former', 'president', 'of', 'the', 'university'] , Gold predicate: ['are', 'charging'], Predicted predicate: ['are']
+    --------
+    Sentence: ['Former', 'OSU', 'official', ':', 'RT', '@', 'SPORTSbyBROOKS', ':', 'Graham', 'Spanier', 'charges', 'include', '3', 'felonies', ',', 'endangerment', 'of', 'children', '.', '(', 'PDF', ')'] , Gold predicate: ['Former', 'official'], Predicted predicate: ['Former']
+    --------
+    Sentence: ['Former', 'OSU', 'official', ':', 'RT', '@', 'SPORTSbyBROOKS', ':', 'Graham', 'Spanier', 'charges', 'include', '3', 'felonies', ',', 'endangerment', 'of', 'children', '.', '(', 'PDF', ')'] , Gold predicate: ['OSU', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['Fmr', 'Penn', 'St', 'Pres', 'Graham', 'Spanier', 'charged', 'w', 'several', 'counts', 'in', 'child', 'rape', 'scandal', 'incl', 'perjury', ',', 'conspiracy', 'endangering', 'welfare', 'of', 'childrn'] , Gold predicate: ['charged', 'w'], Predicted predicate: ['charged']
+    --------
+    Sentence: ['~', 'Spanier', 'facing', 'charges', 'in', 'Sandusky', 'scandal'] , Gold predicate: ['facing', 'charges'], Predicted predicate: ['facing']
+    --------
+    Sentence: ['Graham', 'Spanier', 'charged', 'in', 'connection', 'to', 'Sandusky', 'case'] , Gold predicate: ['charged', 'connection'], Predicted predicate: ['connection']
+    --------
+    Sentence: ['Graham', 'Spanier', 'charged', 'in', 'connection', 'to', 'Sandusky', 'case'] , Gold predicate: ['charged', 'connection'], Predicted predicate: ['charged']
+    --------
+    Sentence: ['Penn', 'State', 'officials', 'arraigned', 'on', 'new', 'charges'] , Gold predicate: ['Penn', 'State', 'officials'], Predicted predicate: ['State']
+    --------
+    Sentence: ['3', 'former', 'Penn', 'State', 'officials', '--', 'including', 'ex-President', 'Spanier', '--', 'charged', 'in', 'Sandusky', 'abuse', 'scandal'] , Gold predicate: ['Penn', 'State', 'officials'], Predicted predicate: ['State']
+    --------
+    Sentence: ['3', 'former', 'Penn', 'State', 'officials', '--', 'including', 'ex-President', 'Spanier', '--', 'charged', 'in', 'Sandusky', 'abuse', 'scandal'] , Gold predicate: ['3', 'former', 'officials'], Predicted predicate: ['former']
+    --------
+    Sentence: ['Graham', 'Spanier', 'faces', 'charges', 'in', 'Penn', 'State', 'scandal', ',', 'report', 'says', '-', 'Washington', 'Post', '(', 'blog', ')'] , Gold predicate: ['faces', 'charges'], Predicted predicate: ['faces']
+    --------
+    Sentence: ['New', 'charges', 'bring', 'Penn', 'State', 'officials', 'to', 'court'] , Gold predicate: ['Penn', 'State', 'officials'], Predicted predicate: ['State']
+No of consensual mentions: 91
+No of predicted mentions not in gold: 97
+No of gold mentions but not in predicted: 79
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 3
+No of predicted mentions which have some intersection with the unmatched gold predicates: 20
+Lexical match in such cases: 0.0
+**** File 2****
+    --------
+    Sentence: ['Car', 'Bomb', 'in', 'sassine', 'pics', 'coming', 'now'] , Gold predicate: ['Car', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'blast', 'kills', 'at', 'least', '2', 'people', ',', 'injures', 'dozens', 'more', '(', 'VIDEO', ')'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Official', 'killed', 'in', 'Beirut', 'car', 'bomb'] , Gold predicate: ['Beirut', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Number', 'of', 'killed', 'in', 'Beirut', 'bombing', 'up', 'to', '8', '.', 'And', '58', 'wounded', '.'] , Gold predicate: ['Number', 'killed'], Predicted predicate: ['Number']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'anti-Damascus', 'security', 'official'] , Gold predicate: ['Beirut', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'anti-Damascus', 'security', 'official'] , Gold predicate: ['security', 'official'], Predicted predicate: ['security']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'anti-Damascus', 'security', 'official'] , Gold predicate: ['security', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['Lebanon', 'PM', 'Links', 'Car', 'Bomb', 'to', 'Crisis', 'in', 'Syria'] , Gold predicate: ['Car', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Car', 'Bomb', 'in', 'Beirut', 'Kills', '8'] , Gold predicate: ['Car', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Car', 'bomb', 'kills', '8', 'in', 'Beirut', 'Lebanon'] , Gold predicate: ['Car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'blast', 'kills', 'top', 'intelligence', 'official'] , Gold predicate: ['top', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'blast', 'kills', 'top', 'intelligence', 'official'] , Gold predicate: ['top', 'official'], Predicted predicate: ['top']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'blast', 'kills', 'top', 'intelligence', 'official'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Top', 'security', 'official', 'among', '8', 'killed', 'in', 'Lebanon', 'car', 'bombing'] , Gold predicate: ['security', 'official'], Predicted predicate: ['security']
+    --------
+    Sentence: ['Top', 'security', 'official', 'among', '8', 'killed', 'in', 'Lebanon', 'car', 'bombing'] , Gold predicate: ['Top', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['Top', 'security', 'official', 'among', '8', 'killed', 'in', 'Lebanon', 'car', 'bombing'] , Gold predicate: ['Top', 'official'], Predicted predicate: ['Top']
+    --------
+    Sentence: ['Car', 'bombing', 'of', 'intelligence', 'official', 'rocks', 'Lebanon'] , Gold predicate: ['intelligence', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['``', 'Anti-Syrian', 'official', 'killed', 'as', 'car', 'bomb', 'rocks', 'Beirut', "''", 'on'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['``', 'Anti-Syrian', 'official', 'killed', 'as', 'car', 'bomb', 'rocks', 'Beirut', "''", 'on'] , Gold predicate: ['Anti-Syrian', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['At', 'least', 'two', 'killed', 'and', 'fifteen', 'wounded', 'by', 'large', 'bomb', 'that', 'explodes', 'in', 'central', 'Beirut', '.'] , Gold predicate: ['large', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'top', 'Lebanese', 'security', 'official', ',', '7', 'others', ':', 'A', 'car', 'bomb', 'ripped', 'through', 'Beirut', 'on', 'Friday'] , Gold predicate: ['security', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'top', 'Lebanese', 'security', 'official', ',', '7', 'others', ':', 'A', 'car', 'bomb', 'ripped', 'through', 'Beirut', 'on', 'Friday'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'top', 'Lebanese', 'security', 'official', ',', '7', 'others', ':', 'A', 'car', 'bomb', 'ripped', 'through', 'Beirut', 'on', 'Friday'] , Gold predicate: ['security', 'official'], Predicted predicate: ['security']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'top', 'Lebanese', 'security', 'official', ',', '7', 'others', ':', 'A', 'car', 'bomb', 'ripped', 'through', 'Beirut', 'on', 'Friday'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', 'top', 'Lebanese', 'security', 'official', ',', '7', 'others', ':', 'A', 'car', 'bomb', 'ripped', 'through', 'Beirut', 'on', 'Friday'] , Gold predicate: ['top', 'official'], Predicted predicate: ['top']
+    --------
+    Sentence: ['Beirut', 'Car', 'Bomb', ':', 'Security', 'Official', 'Among', 'Dead'] , Gold predicate: ['Security', 'Official'], Predicted predicate: ['Official']
+    --------
+    Sentence: ['Beirut', 'Car', 'Bomb', ':', 'Security', 'Official', 'Among', 'Dead'] , Gold predicate: ['Car', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Beirut', 'Car', 'Bomb', ':', 'Security', 'Official', 'Among', 'Dead'] , Gold predicate: ['Security', 'Official'], Predicted predicate: ['Security']
+    --------
+    Sentence: ['Car', 'Bomb', 'In', 'Christian', 'Area', 'of', 'Beirut'] , Gold predicate: ['Car', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Look', 'At', 'this', '!', 'Beirut', 'car', 'bomb', 'kills', 'leading', 'Syrian', 'foe'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Look', 'At', 'this', '!', 'Beirut', 'car', 'bomb', 'kills', 'leading', 'Syrian', 'foe'] , Gold predicate: ['leading', 'foe'], Predicted predicate: ['leading']
+    --------
+    Sentence: ['Aftermath', 'of', 'Beirut', 'blast', '-', 'Photos', ':', 'Car', 'bomb', 'in', 'Beirut'] , Gold predicate: ['Car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['A', 'car', 'bomb', 'exploded', 'in', 'Beirut', '(', 'Achrafieh', ')', '.', 'People', 'on', 'the', 'ground', 'say', 'it', "'s", 'a', 'massive', 'one', '.'] , Gold predicate: ['People', 'on', 'the', 'ground'], Predicted predicate: ['People']
+    --------
+    Sentence: ['A', 'car', 'bomb', 'exploded', 'in', 'Beirut', '(', 'Achrafieh', ')', '.', 'People', 'on', 'the', 'ground', 'say', 'it', "'s", 'a', 'massive', 'one', '.'] , Gold predicate: ['People', 'on', 'the', 'ground'], Predicted predicate: ['ground']
+    --------
+    Sentence: ['A', 'car', 'bomb', 'exploded', 'in', 'Beirut', '(', 'Achrafieh', ')', '.', 'People', 'on', 'the', 'ground', 'say', 'it', "'s", 'a', 'massive', 'one', '.'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Car', 'Bomb', 'in', 'Beirut', 'kills', 'head', 'of', 'Information', 'Branch', 'in', 'Lebanon'] , Gold predicate: ['Car', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Car', 'bomb', 'wrecks', 'Beirut', 'peace'] , Gold predicate: ['Car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['WSVN-TV', '-', 'Beirut', 'car', 'bomb', 'kills', '8', ',', 'wounds', 'dozens'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', '8'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['News/', 'Car', 'bomb', 'rips', 'through', 'Beirut'] , Gold predicate: ['Car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Carnage', 'in', 'Beirut', ':', 'Photos', ':', 'Car', 'bomb', 'in', 'Beirut'] , Gold predicate: ['Car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'sparks', 'fears', 'of', 'Syria', 'spillover'] , Gold predicate: ['Beirut', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'sparks', 'fears', 'of', 'Syria', 'spillover'] , Gold predicate: ['sparks', 'fears'], Predicted predicate: ['sparks']
+    --------
+    Sentence: ['Beirut', 'car', 'bomb', 'kills', '8', ',', 'wounds', 'dozens', '-', 'USA', 'TODAY'] , Gold predicate: ['Beirut', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Deadly', 'car', 'bomb', 'blast', 'rips', 'through', 'Beirut'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Lebanon', 'on', 'edge', 'after', 'anti-Syrian', 'official', 'killed', 'by', 'Beirut', 'car', 'bomb'] , Gold predicate: ['anti-Syrian', 'official'], Predicted predicate: ['official']
+    --------
+    Sentence: ['Lebanon', 'on', 'edge', 'after', 'anti-Syrian', 'official', 'killed', 'by', 'Beirut', 'car', 'bomb'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+No of consensual mentions: 44
+No of predicted mentions not in gold: 75
+No of gold mentions but not in predicted: 89
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 13
+No of predicted mentions which have some intersection with the unmatched gold predicates: 47
+Lexical match in such cases: 0.0
+**** File 3****
+    --------
+    Sentence: ['Israel', 'PM', 'Benjamin', 'Netanyahu', "'s", 'Likud', 'Party', 'allies', 'with', 'ultra-nationalist', 'party', 'Yisrael', 'Beitenu', 'for', 'January', 'elections'] , Gold predicate: ['ultra-nationalist', 'party'], Predicted predicate: ['party']
+    --------
+    Sentence: ['Check', 'this', 'out', ':', 'Israel', "'s", 'Netanyahu', ',', 'ally', 'Lieberman', 'merge', 'parties', '[', 'a', 'link', 'in', 'my', 'bio', ']'] , Gold predicate: ['ally', 'Lieberman'], Predicted predicate: ['ally']
+    --------
+    Sentence: ['Israeli', 'PM', 'solidifies', 'bloc', 'with', 'Lieberman'] , Gold predicate: ['solidifies', 'bloc'], Predicted predicate: ['solidifies']
+    --------
+    Sentence: ['Israeli', 'Prime', 'Minister', 'Benjamin', 'Netanyahu', 'announces', 'merger', 'with', 'ultra', 'nationalist', 'Israel', 'Beiteinu', '@', 'AP'] , Gold predicate: ['Israeli', 'Prime', 'Minister', 'Benjamin', 'Netanyahu'], Predicted predicate: ['Prime']
+    --------
+    Sentence: ['Israeli', 'Prime', 'Minister', 'Benjamin', 'Netanyahu', 'announces', 'merger', 'with', 'ultra', 'nationalist', 'Israel', 'Beiteinu', '@', 'AP'] , Gold predicate: ['Israeli', 'Prime', 'Minister', 'Benjamin', 'Netanyahu'], Predicted predicate: ['Minister']
+    --------
+    Sentence: ['Netanyahu', "'s", 'Likud', 'party', 'links', 'arms', 'with', 'hardline', 'right', 'ahead', 'of', 'national', 'vote', '-', 'Christian', 'Science', 'Monitor'] , Gold predicate: ['hardline', 'right'], Predicted predicate: ['right']
+    --------
+    Sentence: ['Netanyahu', "'s", 'Likud', 'party', 'links', 'arms', 'with', 'hardline', 'right', 'ahead', 'of', 'national', 'vote', '-', 'Christian', 'Science', 'Monitor'] , Gold predicate: ['links', 'arms', 'ahead'], Predicted predicate: ['arms']
+    --------
+    Sentence: ['Netanyahu', "'s", 'Likud', 'party', 'links', 'arms', 'with', 'hardline', 'right', 'ahead', 'of', 'national', 'vote', '-', 'Christian', 'Science', 'Monitor'] , Gold predicate: ['links', 'arms', 'ahead'], Predicted predicate: ['links']
+    --------
+    Sentence: ['AP', 'News', '-', 'Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['ultranationalist', 'party'], Predicted predicate: ['party']
+    --------
+    Sentence: ['AP', 'News', '-', 'Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['Israeli', 'prime', 'minister'], Predicted predicate: ['prime']
+    --------
+    Sentence: ['AP', 'News', '-', 'Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['Israeli', 'prime', 'minister'], Predicted predicate: ['minister']
+    --------
+    Sentence: ['AP', 'News', '-', 'Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['merger', 'ahead'], Predicted predicate: ['merger']
+    --------
+    Sentence: ['Likud', 'is', 'moving', 'further', 'to', 'the', 'right', ':', '``', 'Israel', "'s", 'Netanyahu', ',', 'ally', 'Lieberman', 'merge', 'parties', "''", 'via', '@', 'egyindependent'] , Gold predicate: ['ally', 'Lieberman'], Predicted predicate: ['ally']
+    --------
+    Sentence: ['Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['Israeli', 'prime', 'minister'], Predicted predicate: ['minister']
+    --------
+    Sentence: ['Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['Israeli', 'prime', 'minister'], Predicted predicate: ['prime']
+    --------
+    Sentence: ['Israeli', 'prime', 'minister', 'announces', 'merger', 'with', 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election', '.'] , Gold predicate: ['merger', 'ahead'], Predicted predicate: ['merger']
+    --------
+    Sentence: ['Netanyahu', 'Forms', 'Coalition', 'With', 'a', 'Nationalist', 'Party', ':'] , Gold predicate: ['Nationalist', 'Party'], Predicted predicate: ['Party']
+    --------
+    Sentence: ['Deal', 'on', 'merger', 'with', 'Netanyahu', "'s", 'Likud', 'was', 'reached', 'two', 'months', 'ago', ':'] , Gold predicate: ['was', 'reached'], Predicted predicate: ['was']
+    --------
+    Sentence: ['Deal', 'on', 'merger', 'with', 'Netanyahu', "'s", 'Likud', 'was', 'reached', 'two', 'months', 'ago', ':'] , Gold predicate: ['was', 'reached'], Predicted predicate: ['reached']
+    --------
+    Sentence: ['Netanyahu', 'Announces', 'Coalition', 'With', 'a', 'Nationalist', 'Party'] , Gold predicate: ['Nationalist', 'Party'], Predicted predicate: ['Party']
+    --------
+    Sentence: ['the', 'Likud', 'by', 'promising', 'Yvet', 'what', 'ever', 'position', 'he', 'wants', 'has', 'just', 'lost', 'the', 'ground', 'as', 'the', 'party', 'responsible', 'for', 'national', 'security', 'israel'] , Gold predicate: ['just', 'lost', 'ground'], Predicted predicate: ['lost']
+    --------
+    Sentence: ['the', 'Likud', 'by', 'promising', 'Yvet', 'what', 'ever', 'position', 'he', 'wants', 'has', 'just', 'lost', 'the', 'ground', 'as', 'the', 'party', 'responsible', 'for', 'national', 'security', 'israel'] , Gold predicate: ['just', 'lost', 'ground'], Predicted predicate: ['ground']
+    --------
+    Sentence: ['Dear', 'God', 'RT', '@', 'hany2m', ':', 'Israel', "'s", 'Netanyahu', ',', 'ally', 'Lieberman', 'merge', 'parties', 'ahead', 'of', 'January', '22', 'election', '|', 'Reuters', '-'] , Gold predicate: ['ally', 'Lieberman'], Predicted predicate: ['ally']
+    --------
+    Sentence: ['Battlelines', 'drawn', '-', 'Netanyahu', 'announces', 'merger', 'with', 'Lieberman', "'s", 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election'] , Gold predicate: ['merger', 'ahead'], Predicted predicate: ['merger']
+    --------
+    Sentence: ['Battlelines', 'drawn', '-', 'Netanyahu', 'announces', 'merger', 'with', 'Lieberman', "'s", 'ultranationalist', 'party', 'ahead', 'of', 'January', 'election'] , Gold predicate: ['ultranationalist', 'party'], Predicted predicate: ['party']
+    --------
+    Sentence: ['The', 'Likud', 'and', 'Yisrael', 'Beiteinu', 'will', 'be', 'running', 'together', 'in', 'the', 'Knesset', 'elections', ',', 'on', 'one', 'ticket', '.', 'Biberman'] , Gold predicate: ['will', 'running', 'together'], Predicted predicate: ['will']
+    --------
+    Sentence: ['The', 'Likud', 'and', 'Yisrael', 'Beiteinu', 'will', 'be', 'running', 'together', 'in', 'the', 'Knesset', 'elections', ',', 'on', 'one', 'ticket', '.', 'Biberman'] , Gold predicate: ['will', 'running', 'together'], Predicted predicate: ['running']
+    --------
+    Sentence: ['Yechimovich', 'Wo', "n't", 'Sit', 'in', 'Netanyahu-Liberman', 'Coalition', ':'] , Gold predicate: ['Wo', "n't", 'Sit'], Predicted predicate: ['Sit']
+    --------
+    Sentence: ['Yechimovich', 'Wo', "n't", 'Sit', 'in', 'Netanyahu-Liberman', 'Coalition', ':'] , Gold predicate: ['Wo', "n't", 'Sit'], Predicted predicate: ['Wo']
+    --------
+    Sentence: ['Israel', "'s", 'Netanyahu', ',', 'ally', 'Lieberman', 'merge', 'parties'] , Gold predicate: ['ally', 'Lieberman'], Predicted predicate: ['ally']
+    --------
+    Sentence: ['Substantial', 'opposition', 'within', 'Likud', 'and', 'Yisrael', 'Beytenu', 'to', 'new', 'alliance'] , Gold predicate: ['opposition', 'within'], Predicted predicate: ['opposition']
+    --------
+    Sentence: ['Netanyahu', 'and', 'Avigdor', 'Lieberman', 'to', 'announce', 'the', 'unification', 'of', 'their', 'Likud', 'and', 'Yisrael', 'Beiteinu', 'parties'] , Gold predicate: ['to', 'announce'], Predicted predicate: ['announce']
+    --------
+    Sentence: ['Netanyahu', ',', 'Lieberman', 'to', 'unify', 'parties', 'ahead', 'of', 'upcoming', 'Israel', 'elections'] , Gold predicate: ['unify', 'ahead'], Predicted predicate: ['unify']
+    --------
+    Sentence: ['Netanyahu', ',', 'Lieberman', 'join', 'forces', 'for', 'Israel', 'poll', ':', 'reports'] , Gold predicate: ['join', 'forces'], Predicted predicate: ['join']
+    --------
+    Sentence: ['Deal', 'on', 'merger', 'with', 'Netanyahu', "'s", 'Likud', 'was', 'reached', 'two', 'months', 'ago'] , Gold predicate: ['was', 'reached'], Predicted predicate: ['reached']
+    --------
+    Sentence: ['Deal', 'on', 'merger', 'with', 'Netanyahu', "'s", 'Likud', 'was', 'reached', 'two', 'months', 'ago'] , Gold predicate: ['was', 'reached'], Predicted predicate: ['was']
+    --------
+    Sentence: ['Israel', "'s", 'Likud', 'Party', 'and', 'Yisrael', 'Beitenu', 'agree', 'to', 'join', 'forces', 'in', 'right-wing', 'bloc', 'for', 'January', "'s", 'election'] , Gold predicate: ['join', 'forces', 'bloc'], Predicted predicate: ['join']
+    --------
+    Sentence: ['Israeli', 'PM', 'Benjamin', 'Netanyahu', '&', 'amp', ';', 'FM', 'Avigdor', 'Lieberman', 'announced', 'on', 'merging', 'their', 'right-wing', 'parties', 'ahead', 'of', 'election', '|'] , Gold predicate: ['merging', 'ahead'], Predicted predicate: ['merging']
+    --------
+    Sentence: ['Today', "'s", 'Likud-Yisrael', 'Beitenu', 'merger', 'was', 'attempt', 'to', 'take', 'wind', 'out', 'of', 'sails', 'of', 'Gideon', 'Saar', 'brewing', 'sex', 'scandal'] , Gold predicate: ['take', 'wind', 'sails'], Predicted predicate: ['wind']
+    --------
+    Sentence: ['Today', "'s", 'Likud-Yisrael', 'Beitenu', 'merger', 'was', 'attempt', 'to', 'take', 'wind', 'out', 'of', 'sails', 'of', 'Gideon', 'Saar', 'brewing', 'sex', 'scandal'] , Gold predicate: ['was', 'attempt'], Predicted predicate: ['was']
+    --------
+    Sentence: ['Today', "'s", 'Likud-Yisrael', 'Beitenu', 'merger', 'was', 'attempt', 'to', 'take', 'wind', 'out', 'of', 'sails', 'of', 'Gideon', 'Saar', 'brewing', 'sex', 'scandal'] , Gold predicate: ['was', 'attempt'], Predicted predicate: ['attempt']
+    --------
+    Sentence: ['Today', "'s", 'Likud-Yisrael', 'Beitenu', 'merger', 'was', 'attempt', 'to', 'take', 'wind', 'out', 'of', 'sails', 'of', 'Gideon', 'Saar', 'brewing', 'sex', 'scandal'] , Gold predicate: ['sex', 'scandal'], Predicted predicate: ['sex']
+    --------
+    Sentence: ['Today', "'s", 'Likud-Yisrael', 'Beitenu', 'merger', 'was', 'attempt', 'to', 'take', 'wind', 'out', 'of', 'sails', 'of', 'Gideon', 'Saar', 'brewing', 'sex', 'scandal'] , Gold predicate: ['take', 'wind', 'sails'], Predicted predicate: ['take']
+    --------
+    Sentence: ['Netanyahu', "'s", 'Likud', 'merges', 'with', 'far-right', 'Lieberman', 'party', 'ahead', 'of', 'January', 'poll'] , Gold predicate: ['far-right', 'party'], Predicted predicate: ['party']
+    --------
+    Sentence: ['Netanyahu', "'s", 'Likud', 'merges', 'with', 'far-right', 'Lieberman', 'party', 'ahead', 'of', 'January', 'poll'] , Gold predicate: ['merges', 'ahead'], Predicted predicate: ['merges']
+    --------
+    Sentence: ['Likud-Beitanu', 'merge', 'bad', 'news', 'for', 'Israel', '.', 'Netenyahu', 'government', 'has', 'become', 'more', 'unappealing', '2', 'West', 'and', 'greatly', 'threatens', 'Israeli-Arab', 'position'] , Gold predicate: ['Netenyahu', 'government'], Predicted predicate: ['government']
+    --------
+    Sentence: ['Likud-Beitanu', 'merge', 'bad', 'news', 'for', 'Israel', '.', 'Netenyahu', 'government', 'has', 'become', 'more', 'unappealing', '2', 'West', 'and', 'greatly', 'threatens', 'Israeli-Arab', 'position'] , Gold predicate: ['become', 'unappealing'], Predicted predicate: ['become']
+    --------
+    Sentence: ['Likud-Beitanu', 'merge', 'bad', 'news', 'for', 'Israel', '.', 'Netenyahu', 'government', 'has', 'become', 'more', 'unappealing', '2', 'West', 'and', 'greatly', 'threatens', 'Israeli-Arab', 'position'] , Gold predicate: ['Israeli-Arab', 'position'], Predicted predicate: ['position']
+No of consensual mentions: 43
+No of predicted mentions not in gold: 82
+No of gold mentions but not in predicted: 105
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 0
+No of predicted mentions which have some intersection with the unmatched gold predicates: 48
+Lexical match in such cases: 0.0
+**** File 4****
+    --------
+    Sentence: ['Investigators', 'received', '25', 'tips', 'yesterday', 'and', '21', 'overnight', 'about', 'the', 'Whitney', 'Heichel', 'case', '.', 'FindWhitney'] , Gold predicate: ['Whitney', 'Heichel', 'case'], Predicted predicate: ['case']
+    --------
+    Sentence: ['findwhitney', 'Gresham', 'woman', "'s", 'body', 'found', ';', 'police', 'have', 'arrested', 'Jonathon', 'Holt', 'of', 'Gresham', '@', 'KGWNews'] , Gold predicate: ['have', 'arrested'], Predicted predicate: ['have']
+    --------
+    Sentence: ['findwhitney', 'Gresham', 'woman', "'s", 'body', 'found', ';', 'police', 'have', 'arrested', 'Jonathon', 'Holt', 'of', 'Gresham', '@', 'KGWNews'] , Gold predicate: ['have', 'arrested'], Predicted predicate: ['arrested']
+    --------
+    Sentence: ['Neighbor', 'arrested', 'for', 'murder', 'of', 'Starbucks', 'worker', 'Whitney', 'Heichel', '.'] , Gold predicate: ['worker', 'Whitney', 'Heichel'], Predicted predicate: ['worker']
+    --------
+    Sentence: ['Search', 'crews', 'looking', 'for', 'clues', 'in', 'Whitney', 'Heichel', 'case', 'on', 'Larch', 'Mountain', 'and', 'near', 'Troutdale', 'apartments'] , Gold predicate: ['Search', 'crews'], Predicted predicate: ['Search']
+    --------
+    Sentence: ['Search', 'crews', 'looking', 'for', 'clues', 'in', 'Whitney', 'Heichel', 'case', 'on', 'Larch', 'Mountain', 'and', 'near', 'Troutdale', 'apartments'] , Gold predicate: ['Search', 'crews'], Predicted predicate: ['crews']
+    --------
+    Sentence: ['Search', 'crews', 'looking', 'for', 'clues', 'in', 'Whitney', 'Heichel', 'case', 'on', 'Larch', 'Mountain', 'and', 'near', 'Troutdale', 'apartments'] , Gold predicate: ['Whitney', 'Heichel', 'case'], Predicted predicate: ['case']
+    --------
+    Sentence: ['Gresham', 'PD', 'confirm', 'the', 'cell', 'phone', 'found', 'is', 'Whitney', "'s", ',', 'and', 'they', 'are', 'now', 'searching', 'the', 'bushes', 'by', 'that', 'apartment', 'complex', 'in', 'troutdale', '.'] , Gold predicate: ['is', "'s"], Predicted predicate: ['is']
+    --------
+    Sentence: ['Gresham', 'police', 'announce', 'discovery', 'of', 'body', ',', 'arrest', 'of', 'suspect', 'in', 'Whitney', 'Heichel', 'disappearance', '|', 'The', 'Oregonian'] , Gold predicate: ['Gresham', 'police'], Predicted predicate: ['police']
+    --------
+    Sentence: ['Watching', 'the', 'news', 'conference', 'regarding', 'Whitney', 'Heichel', '-', 'so', 'incredibly', 'sad', 'and', 'horrifying', '.', 'Praying', 'for', 'her', 'family', 'and', 'Gresham', 'tonight', '.'] , Gold predicate: ['so', 'incredibly', 'horrifying'], Predicted predicate: ['horrifying']
+    --------
+    Sentence: ['Kids', 'find', 'missing', 'Oregon', 'woman', "'s", 'cell', 'phone', 'in', 'a', 'field', '.', 'Police', 'say', 'it', "'s", 'a', 'big', 'find', 'in', 'the', 'hunt', 'for', 'Whitney', 'Heichel.Watch', 'NWCN', 'for', 'details', '!'] , Gold predicate: ["'s", 'find'], Predicted predicate: ["'s"]
+    --------
+    Sentence: ['Kids', 'find', 'missing', 'Oregon', 'woman', "'s", 'cell', 'phone', 'in', 'a', 'field', '.', 'Police', 'say', 'it', "'s", 'a', 'big', 'find', 'in', 'the', 'hunt', 'for', 'Whitney', 'Heichel.Watch', 'NWCN', 'for', 'details', '!'] , Gold predicate: ["'s", 'find'], Predicted predicate: ['find']
+    --------
+    Sentence: ['Whitney', 'Heichel', 'investigation', 'yelds', 'more', 'clues', ',', 'say', 'police', ';', 'Gresham', 'residents', 'on', 'guard', 'FindWhitney'] , Gold predicate: ['on', 'guard'], Predicted predicate: ['guard']
+    --------
+    Sentence: ['Police', 'search', 'Clackamas', 'County', 'park', 'for', 'missing', 'Gresham', 'woman'] , Gold predicate: ['Clackamas', 'County', 'park'], Predicted predicate: ['park']
+No of consensual mentions: 74
+No of predicted mentions not in gold: 72
+No of gold mentions but not in predicted: 87
+No of gold mentions which have been ignored from evaluation: 4
+No of predicted mentions which have been ignored from evaluation: 0
+No of predicted mentions which have some intersection with the unmatched gold predicates: 14
+Lexical match in such cases: 0.0
+**** File 5****
+    --------
+    Sentence: ['Top', 'News', 'Today', ':', 'FBI', 'arrests', 'man', 'for', 'attempting', 'to', 'bomb', 'New', 'York', 'Federal', 'Reserve'] , Gold predicate: ['to', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Man', 'Arrested', 'in', 'Alleged', 'Federal', 'Reserve', 'Bomb', 'Plot'] , Gold predicate: ['Federal', 'Reserve', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Man', 'Arrested', 'in', 'Alleged', 'Federal', 'Reserve', 'Bomb', 'Plot'] , Gold predicate: ['Federal', 'Reserve', 'Bomb'], Predicted predicate: ['Reserve']
+    --------
+    Sentence: ['FBI', 'arrests', 'man', 'for', 'attempting', 'to', 'bomb', 'New', 'York', 'Federal', 'Reserve', ':'] , Gold predicate: ['to', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['FBI-NYPD', 'task', 'force', 'foils', 'Federal', 'Reserve', 'bomb', 'plot', '-', 'Los', 'Angeles', 'Times'] , Gold predicate: ['FBI-NYPD', 'task', 'force'], Predicted predicate: ['force']
+    --------
+    Sentence: ['FBI-NYPD', 'task', 'force', 'foils', 'Federal', 'Reserve', 'bomb', 'plot', '-', 'Los', 'Angeles', 'Times'] , Gold predicate: ['Federal', 'Reserve', 'bomb'], Predicted predicate: ['Reserve']
+    --------
+    Sentence: ['FBI-NYPD', 'task', 'force', 'foils', 'Federal', 'Reserve', 'bomb', 'plot', '-', 'Los', 'Angeles', 'Times'] , Gold predicate: ['FBI-NYPD', 'task', 'force'], Predicted predicate: ['task']
+    --------
+    Sentence: ['FBI-NYPD', 'task', 'force', 'foils', 'Federal', 'Reserve', 'bomb', 'plot', '-', 'Los', 'Angeles', 'Times'] , Gold predicate: ['Federal', 'Reserve', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Arrest', 'in', 'a', 'Plot', 'to', 'Bomb', 'the', 'New', 'York', 'Federal', 'Reserve', 'Bank', '.'] , Gold predicate: ['to', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Suspect', 'arrested', 'in', 'NYC', 'car', 'bomb', 'plot', ';', 'target', 'was', 'Fed', 'Reserve', 'Bank', ';', 'Quazi', 'Nafis', 'arrested', 'with', 'detonator', ';', 'in', 'FBI', 'sting'] , Gold predicate: ['car', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['CNN', "'s", 'Susan', 'Candiotti', ':', 'Man', 'arrested', 'in', 'Federal', 'Reserve', 'bomb', 'plot', 'is', '21', 'years', 'old', '.'] , Gold predicate: ['Federal', 'Reserve', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['CNN', "'s", 'Susan', 'Candiotti', ':', 'Man', 'arrested', 'in', 'Federal', 'Reserve', 'bomb', 'plot', 'is', '21', 'years', 'old', '.'] , Gold predicate: ['Federal', 'Reserve', 'bomb'], Predicted predicate: ['Reserve']
+    --------
+    Sentence: ['New', 'York', 'Fed', 'Bomb', 'Plot', ':', 'FBI', 'Arrest', 'Man'] , Gold predicate: ['New', 'York', 'Fed', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['FBI', 'Arrests', 'Person', 'In', 'Suspected', 'New', 'York', 'Bomb', 'Plot', ',', 'Source', 'Familiar', 'With', 'Situation', 'Says'] , Gold predicate: ['New', 'York', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['BREAKING', ':', '@', 'CBSNews', 'has', 'learned', 'the', 'FBI', 'has', 'thwarted', 'a', 'plot', 'to', 'detonate', 'a', 'massive', 'bomb', 'outside', 'the', 'Federal', 'Reserve', 'in', 'New', 'York', "''"] , Gold predicate: ['has', 'thwarted'], Predicted predicate: ['thwarted']
+    --------
+    Sentence: ['BREAKING', ':', '@', 'CBSNews', 'has', 'learned', 'the', 'FBI', 'has', 'thwarted', 'a', 'plot', 'to', 'detonate', 'a', 'massive', 'bomb', 'outside', 'the', 'Federal', 'Reserve', 'in', 'New', 'York', "''"] , Gold predicate: ['has', 'thwarted'], Predicted predicate: ['has']
+    --------
+    Sentence: ['BREAKING', ':', '@', 'CBSNews', 'has', 'learned', 'the', 'FBI', 'has', 'thwarted', 'a', 'plot', 'to', 'detonate', 'a', 'massive', 'bomb', 'outside', 'the', 'Federal', 'Reserve', 'in', 'New', 'York', "''"] , Gold predicate: ['massive', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['BREAKING', ':', '@', 'CBSNews', 'has', 'learned', 'the', 'FBI', 'has', 'thwarted', 'a', 'plot', 'to', 'detonate', 'a', 'massive', 'bomb', 'outside', 'the', 'Federal', 'Reserve', 'in', 'New', 'York', "''"] , Gold predicate: ['detonate', 'outside'], Predicted predicate: ['detonate']
+    --------
+    Sentence: ['BREAKING', ':', '@', 'CBSNews', 'has', 'learned', 'the', 'FBI', 'has', 'thwarted', 'a', 'plot', 'to', 'detonate', 'a', 'massive', 'bomb', 'outside', 'the', 'Federal', 'Reserve', 'in', 'New', 'York', "''"] , Gold predicate: ['has', 'learned'], Predicted predicate: ['learned']
+    --------
+    Sentence: ['BREAKING', ':', '@', 'CBSNews', 'has', 'learned', 'the', 'FBI', 'has', 'thwarted', 'a', 'plot', 'to', 'detonate', 'a', 'massive', 'bomb', 'outside', 'the', 'Federal', 'Reserve', 'in', 'New', 'York', "''"] , Gold predicate: ['has', 'learned'], Predicted predicate: ['has']
+    --------
+    Sentence: ['New', 'York', 'Bank', 'Bomb', 'Plot', 'Foiled', 'In', 'FBI', 'Sting', '-', 'Sky', 'News'] , Gold predicate: ['Bank', 'Bomb'], Predicted predicate: ['Bank']
+    --------
+    Sentence: ['New', 'York', 'Bank', 'Bomb', 'Plot', 'Foiled', 'In', 'FBI', 'Sting', '-', 'Sky', 'News'] , Gold predicate: ['Bank', 'Bomb'], Predicted predicate: ['Bomb']
+    --------
+    Sentence: ['Man', 'arrested', 'in', 'purported', 'plot', 'to', 'bomb', 'New', 'York', 'Federal', 'Reserve', '-', 'Washington', 'Post', 'new', 'news'] , Gold predicate: ['to', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['FBI', 'arrests', 'man', 'in', 'New', 'York', 'who', 'had', 'a', '1,000', 'pound', 'bomb', 'and', 'was', 'allegedly', 'on', 'his', 'way', 'to', 'detonate', 'it', 'at', 'the', 'Federal', 'Reserve', '@', 'NewYorkFBI'] , Gold predicate: ['1,000', 'pound', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['FBI', 'arrests', 'man', 'in', 'New', 'York', 'who', 'had', 'a', '1,000', 'pound', 'bomb', 'and', 'was', 'allegedly', 'on', 'his', 'way', 'to', 'detonate', 'it', 'at', 'the', 'Federal', 'Reserve', '@', 'NewYorkFBI'] , Gold predicate: ['was', 'on', 'his', 'way'], Predicted predicate: ['was']
+    --------
+    Sentence: ['FBI', 'arrests', 'man', 'in', 'New', 'York', 'who', 'had', 'a', '1,000', 'pound', 'bomb', 'and', 'was', 'allegedly', 'on', 'his', 'way', 'to', 'detonate', 'it', 'at', 'the', 'Federal', 'Reserve', '@', 'NewYorkFBI'] , Gold predicate: ['1,000', 'pound', 'bomb'], Predicted predicate: ['pound']
+    --------
+    Sentence: ['FBI', 'arrests', 'man', 'in', 'New', 'York', 'who', 'had', 'a', '1,000', 'pound', 'bomb', 'and', 'was', 'allegedly', 'on', 'his', 'way', 'to', 'detonate', 'it', 'at', 'the', 'Federal', 'Reserve', '@', 'NewYorkFBI'] , Gold predicate: ['who', 'had'], Predicted predicate: ['had']
+    --------
+    Sentence: ['FBI', 'arrests', 'man', 'in', 'New', 'York', 'who', 'had', 'a', '1,000', 'pound', 'bomb', 'and', 'was', 'allegedly', 'on', 'his', 'way', 'to', 'detonate', 'it', 'at', 'the', 'Federal', 'Reserve', '@', 'NewYorkFBI'] , Gold predicate: ['was', 'on', 'his', 'way'], Predicted predicate: ['was', 'on']
+    --------
+    Sentence: ['Man', 'arrested', 'for', 'Federal', 'Reserve', 'bomb', 'plot'] , Gold predicate: ['Federal', 'Reserve', 'bomb'], Predicted predicate: ['Reserve']
+    --------
+    Sentence: ['Man', 'arrested', 'for', 'Federal', 'Reserve', 'bomb', 'plot'] , Gold predicate: ['Federal', 'Reserve', 'bomb'], Predicted predicate: ['bomb']
+    --------
+    Sentence: ['Man', 'arrested', 'in', 'plot', 'to', 'bomb', 'NY', 'Federal', 'Reserve', 'Bank'] , Gold predicate: ['to', 'bomb'], Predicted predicate: ['bomb']
+No of consensual mentions: 43
+No of predicted mentions not in gold: 90
+No of gold mentions but not in predicted: 73
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 0
+No of predicted mentions which have some intersection with the unmatched gold predicates: 31
+Lexical match in such cases: 0.0

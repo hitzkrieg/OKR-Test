@@ -1,0 +1,220 @@
+###syria_bombs.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  2
+warplanes, planes, jets
+gold_cluster_id:  4
+town, city
+gold_cluster_id:  11
+rebels, rebel-held
+gold_cluster_id:  26
+military, forces
+gold_cluster_id:  34
+pilot, he
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  5
+northern syria, northern
+predicted_cluster_id:  6
+towns, town
+predicted_cluster_id:  11
+at least 44, at least 40, at least 43
+predicted_cluster_id:  14
+dozens, scores
+predicted_cluster_id:  16
+civilians, at least 30 civilians
+**********
+###hurricane_sandy.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  0
+hurricane sandy, superstorm sandy
+gold_cluster_id:  1
+nj, new jersey, n.j
+gold_cluster_id:  2
+nj coast, new jersey coast
+gold_cluster_id:  9
+united states, u.s
+gold_cluster_id:  22
+southern nj, southern new jersey
+gold_cluster_id:  26
+early this evening, early evening
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  2
+nj, southern nj coast, nj coast, southern nj
+predicted_cluster_id:  3
+new jersey, new jersey coast, some parts of new jersey area, southern new jersey
+predicted_cluster_id:  8
+city, atlantic county, atlantic city
+predicted_cluster_id:  11
+united states, northeastern united states
+predicted_cluster_id:  18
+national hurricane center, center
+predicted_cluster_id:  20
+power, storm
+predicted_cluster_id:  25
+this evening, early this evening
+predicted_cluster_id:  30
+routes, roads
+**********
+###prison_officer.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  1
+officer, david black, victim, he, guard
+gold_cluster_id:  5
+prison, police, jail, work
+gold_cluster_id:  7
+ni, northern ireland, n.ire, n. ireland
+gold_cluster_id:  8
+m1 eastbound, mi
+gold_cluster_id:  9
+car, registered
+gold_cluster_id:  14
+29 year old, man
+gold_cluster_id:  26
+fm, peter robinson
+gold_cluster_id:  27
+deputy fm, martin mcguinness
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  8
+prisoner, prison
+predicted_cluster_id:  25
+two men, man
+predicted_cluster_id:  32
+gunman, gunman
+predicted_cluster_id:  35
+fm, deputy fm
+**********
+###fuel_tanker.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  5
+riyadh, capital
+gold_cluster_id:  12
+it, truck, tanker
+gold_cluster_id:  16
+at least 22 people, at least 22
+gold_cluster_id:  19
+fuel, gas
+gold_cluster_id:  39
+bbc news, bbcworld news
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+eastern riyadh, riyadh
+predicted_cluster_id:  3
+60, more than 60
+predicted_cluster_id:  4
+around 14 ppl, 14 people
+predicted_cluster_id:  5
+at least 22, at least 23, 22
+predicted_cluster_id:  41
+today, early today
+**********
+###syrian_plane.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  0
+syria, damascus
+gold_cluster_id:  1
+plane, jet, passenger
+gold_cluster_id:  2
+munitions, ammunition
+gold_cluster_id:  4
+russian-made, russia, moscow
+gold_cluster_id:  6
+turkish, its, ankara, turkey
+gold_cluster_id:  26
+syrian, syria-bound
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+syrian, syrian
+predicted_cluster_id:  7
+turkey, turkey
+predicted_cluster_id:  10
+moscow, moscow
+predicted_cluster_id:  14
+ankara, ankara
+predicted_cluster_id:  16
+military, military
+**********
+###armstrong_doping.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  0
+lance armstrong, him, his, he
+gold_cluster_id:  6
+u.s anti-doping agency, usada, its, united states anti-doping agency, doping agency
+gold_cluster_id:  9
+program, ring
+gold_cluster_id:  11
+11 teammates, eleven teammates
+gold_cluster_id:  19
+dealer, peddlar
+gold_cluster_id:  23
+dope, drug
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  5
+teammates, teammate, eleven teammates
+predicted_cluster_id:  17
+ring, repeated
+predicted_cluster_id:  21
+cyclist, some cyclists
+predicted_cluster_id:  26
+earlier, former
+**********
+###fresno_shooting.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  4
+business, workplace, plant, premises
+gold_cluster_id:  7
+california, calif
+gold_cluster_id:  8
+chicken, poultry, meat
+gold_cluster_id:  12
+self, himself, gunman
+gold_cluster_id:  19
+3, three
+gold_cluster_id:  37
+new, latest
+gold_cluster_id:  38
+details, info
+gold_cluster_id:  45
+eight people, 8
+gold_cluster_id:  52
+himself, worker, employee
+gold_cluster_id:  56
+3, three
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+mass, eight people
+predicted_cluster_id:  1
+fresno, central fresno
+predicted_cluster_id:  6
+2 co-workers, 2
+predicted_cluster_id:  7
+8, 8
+predicted_cluster_id:  8
+central california, ca
+predicted_cluster_id:  13
+3, at least 3 people, 3, 3
+predicted_cluster_id:  17
+himself, himself
+predicted_cluster_id:  23
+three, three
+predicted_cluster_id:  31
+newspaper, sacbee newspaper
+predicted_cluster_id:  45
+4, 4
+predicted_cluster_id:  48
+today, today
+predicted_cluster_id:  51
+reality, man
+**********

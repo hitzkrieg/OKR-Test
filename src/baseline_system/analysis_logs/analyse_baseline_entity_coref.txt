@@ -1,0 +1,1088 @@
+###syria_bombs.xml
+
+Sentence:  Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold entities:  syrian, government, warplanes, northern, town, 44 people, homes, rubble, rebel-held
+ 
+Sentence:  Syrian air strikes on rebel towns
+Gold entities:  syrian, towns, rebel
+ 
+Sentence:  At Least 40 Die as Planes Bomb Syrian Town Held by Rebels
+Gold entities:  syrian, planes, town, at least 40, rebels
+ 
+Sentence:  Scores dead as Syrian jets bomb rebel-held town :
+Gold entities:  syrian, jets, town, rebel-held, scores
+ 
+Sentence:  Syrian Rebels Bogged Down in Aleppo
+Gold entities:  syrian, rebels, aleppo
+ 
+Sentence:  Airstrike on Syrian city kills at least 30 civilians - Los Angeles Times
+Gold entities:  syrian, city, at least 30 civilians, los angeles times
+ 
+Sentence:  At least 44 killed in Syrian regime warplane strikes on Maaret al-Numan
+Gold entities:  syrian, regime, warplane, at least 44, maaret al-numan
+ 
+Sentence:  Syrian airstrikes kill at least 43 - Oct 19 @ 6:59 AM ET
+Gold entities:  syrian, at least 43
+ 
+Sentence:  News Syrian air strikes on rebel towns
+Gold entities:  syrian, towns, rebel
+ 
+Sentence:  At least 43 die in Syrian airstrikes - TheChronicleHerald.ca
+Gold entities:  syrian, at least 43, thechronicleherald.ca
+ 
+Sentence:  Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold entities:  syrian, regime, town, rebel-held, afp, herve bar, immediate, aftermath
+ 
+Sentence:  Syrian helicopter reportedly downed by rebels over Idlib
+Gold entities:  syrian, rebels, helicopter, idlib
+ 
+Sentence:  Scores dead as Syria|n jets bomb rebel-held town
+Gold entities:  syria|n, jets, town, rebel-held, scores
+ 
+Sentence:  Divided Syrian rebels agree on joint leadership
+Gold entities:  syrian, rebels, leadership, joint
+ 
+Sentence:  Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air
+Gold entities:  syrian, rebels, helicopter, military, mid-air
+ 
+Sentence:  Syrian Rebels Blow Up A Military Helicopter In Mid-Air [ vid 0:54 ]
+Gold entities:  syrian, rebels, helicopter, military, mid-air
+ 
+Sentence:  Syrian rebels fight for key town of Maaret al-Numan
+Gold entities:  syrian, town, rebels, maaret al-numan, key
+ 
+Sentence:  Dozens Killed in Syrian Bombing of Rebel-Held Town
+Gold entities:  syrian, town, rebel-held, dozens
+ 
+Sentence:  Syrian man loses 18 relatives in airstrike
+Gold entities:  syrian, man, 18 relatives
+ 
+Sentence:  At Least 40 Die as Planes Bomb a Syrian Town Held by Rebels
+Gold entities:  syrian, planes, town, at least 40, rebels
+ 
+Sentence:  Rebels 'hit Syrian oil and gas pipelines'
+Gold entities:  syrian, rebels, oil, gas, pipelines'
+ 
+Sentence:  Syria drops cluster bombs on Maaret al-Numan : rebels http : //t.co/l7jFkDGG
+Gold entities:  syria, rebels, maaret al-numan
+ 
+Sentence:  Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air @ Jalopnik
+Gold entities:  syrian, rebels, helicopter, military, mid-air
+ 
+Sentence:  A Syrian air force pilot explains why he bombed civilians
+Gold entities:  syrian, pilot, he, air force, civilians
+ 
+Sentence:  49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold entities:  syrian, jets, town, rebel-held, 49, oneindia.in, strategic
+ 
+Sentence:  Syrian helicopter explodes in Idlib , via @ cjchivers .
+Gold entities:  syrian, helicopter, idlib
+ 
+Sentence:  At Least 40 Die as Planes Bomb a Syrian Town Held by Rebels . NYT
+Gold entities:  syrian, planes, town, at least 40, rebels, nyt
+ 
+Sentence:  Syrian planes strike key town
+Gold entities:  syrian, planes, town, key
+ 
+Sentence:  'Airstrikes ' Pound Syrian Rebel Strongholds
+Gold entities:  syrian, rebel, strongholds
+ 
+Sentence:  Airstrikes in northern Syria kill at least 43
+Gold entities:  at least 43, northern syria
+ 
+Sentence:  Seized by Rebels , Town Is Crushed by Syrian Forces
+Gold entities:  syrian, town, rebels, forces
+ 
+Sentence:  20 killed in Syrian airstrikes -
+Gold entities:  syrian, 20
+ 
+Sentence:  Syrian Regime Attacks on Rebel Areas Leave 90 Dead
+Gold entities:  syrian, regime, rebel, areas, 90
+ 
+Sentence:  90 dead in Syrian regime attacks on rebel areas
+Gold entities:  syrian, regime, rebel, areas, 90
+ 
+Sentence:  Syria drops cluster bombs on Maaret al-Numan : rebels - AFP-
+Gold entities:  syria, rebels, maaret al-numan, afp-
+ 
+
+ The Gold clusters:
+cluster_id:  0 syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syria|n, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syria, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syria
+cluster_id:  1 government, regime, regime, regime, regime
+cluster_id:  2 warplanes, planes, jets, warplane, jets, planes, jets, planes, planes
+cluster_id:  4 town, town, town, city, town, town, town, town, town, town, town, town, town
+cluster_id:  8 towns, towns
+cluster_id:  10 at least 40, at least 40, at least 40
+cluster_id:  11 rebels, rebels, rebels, rebels, rebels, rebels, rebels, rebels, rebels, rebels, rebels, rebels, rebel, rebels, rebel, rebel, rebels, rebel, rebel, rebel-held, rebel-held, rebel-held, rebel-held, rebel-held, rebel-held
+cluster_id:  12 scores, scores
+cluster_id:  17 maaret al-numan, maaret al-numan, maaret al-numan, maaret al-numan
+cluster_id:  19 at least 43, at least 43, at least 43
+cluster_id:  21 afp, afp-
+cluster_id:  23 helicopter, helicopter, helicopter, helicopter, helicopter
+cluster_id:  24 idlib, idlib
+cluster_id:  26 military, military, military, forces
+cluster_id:  27 key, key
+cluster_id:  34 pilot, he
+cluster_id:  44 areas, areas
+cluster_id:  45 90, 90
+cluster_id:  51 mid-air, mid-air, mid-air
+ 
+The predicted clusters:
+cluster_id:  0 syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syria, syria|n, syrian, syria, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian
+cluster_id:  1 government, regime, regime, regime, regime
+cluster_id:  2 warplane, warplanes
+cluster_id:  3 planes, planes, planes, planes
+cluster_id:  4 jets, jets, jets
+cluster_id:  5 northern syria, northern
+cluster_id:  6 town, town, town, town, town, town, town, town, towns, towns, town, town, town, town
+cluster_id:  11 at least 43, at least 40, at least 40, at least 44, at least 40, at least 43, at least 43
+cluster_id:  12 rebel, rebels, rebels, rebels, rebel, rebels, rebel, rebels, rebels, rebels, rebels, rebels, rebel, rebels, rebels, rebels, rebels, rebel, rebels
+cluster_id:  13 rebel-held, rebel-held, rebel-held, rebel-held, rebel-held, rebel-held
+cluster_id:  14 scores, dozens, scores
+cluster_id:  16 civilians, at least 30 civilians
+cluster_id:  18 maaret al-numan, maaret al-numan, maaret al-numan, maaret al-numan
+cluster_id:  20 afp-, afp
+cluster_id:  22 helicopter, helicopter, helicopter, helicopter, helicopter
+cluster_id:  23 idlib, idlib
+cluster_id:  24 military, military, military
+cluster_id:  26 key, key
+cluster_id:  41 areas, areas
+cluster_id:  42 90, 90
+cluster_id:  47 mid-air, mid-air, mid-air
+ 
+**********
+###hurricane_sandy.xml
+
+Sentence:  Hurricane Sandy makes landfall on NJ coast | http : //t.co/ZFWYzGQx
+Gold entities:  hurricane sandy, nj coast
+ 
+Sentence:  World_news Hurricane Sandy picks up speed ahead of mid-Atlantic landfall
+Gold entities:  hurricane sandy, mid-atlantic
+ 
+Sentence:  NYC Hurricane Sandy Floods Subways
+Gold entities:  hurricane sandy, nyc, subways
+ 
+Sentence:  Atlantic City Boardwalk Destroyed By Hurricane Sandy - YouTube
+Gold entities:  hurricane sandy, atlantic city, boardwalk
+ 
+Sentence:  Hurricane Sandy Pounds Into Atlantic City
+Gold entities:  hurricane sandy, atlantic city
+ 
+Sentence:  Hurricane Sandy Floods Towns : Hurricane Sandy Heading Toward United States
+Gold entities:  hurricane sandy, hurricane sandy, towns, united states
+ 
+Sentence:  Former Hurricane Sandy officially makes landfall on New Jersey coast near Atlantic City .
+Gold entities:  hurricane sandy, new jersey coast, atlantic city, former, officially
+ 
+Sentence:  Hurricane Sandy already flooded the beach sheeeshh
+Gold entities:  hurricane sandy, beach
+ 
+Sentence:  Atlantic City flooded by Hurricane Sandy -
+Gold entities:  hurricane sandy, atlantic city
+ 
+Sentence:  Shore Fellowship outside of Atlantic City , NJ is set up for relief in the aftermath of Hurricane Sandy .
+Gold entities:  hurricane sandy, nj, atlantic city, relief, shore fellowship
+ 
+Sentence:  MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold entities:  hurricane sandy, nj coast, atlantic city, former, forecasters, center, ap
+ 
+Sentence:  Hurricane sandy flooded some parts of new Jersey area yesterday .
+Gold entities:  hurricane sandy, yesterday, some parts of new jersey area
+ 
+Sentence:  Hurricane Sandy 'largest storm recorded in Atlantic'
+Gold entities:  hurricane sandy, storm, atlantic'
+ 
+Sentence:  Hurricane Sandy is closing in on the Atlantic coastline .
+Gold entities:  hurricane sandy, atlantic coastline
+ 
+Sentence:  Sandy makes landfall in southern New Jersey .
+Gold entities:  sandy, southern new jersey
+ 
+Sentence:  Atlantic City is covered in flood waters that have swamped building
+Gold entities:  atlantic city, building
+ 
+Sentence:  Superstorm Sandy causes major flooding on New Jersey 's Atlantic coast
+Gold entities:  superstorm sandy, new jersey, major, atlantic coast
+ 
+Sentence:  Hurricane Sandy in the City of Toronto
+Gold entities:  hurricane sandy, toronto, city
+ 
+Sentence:  Flooding as Hurricane Sandy makes landfall
+Gold entities:  hurricane sandy
+ 
+Sentence:  Hurricane Sandy landfall : early this evening in southern NJ
+Gold entities:  hurricane sandy, southern nj, early this evening
+ 
+Sentence:  `` Hurricane Sandy moving toward coast at 28 mph . Storm is centered 40 miles south of Atlantic City , New Jersey . '' @ mix983
+Gold entities:  hurricane sandy, new jersey, atlantic city, storm, 28 mph, 40 miles, coast
+ 
+Sentence:  Up to one foot of water being reported in major roads in Atlantic City , New Jersey . Water levels rising , reports CNN .
+Gold entities:  new jersey, atlantic city, major, up to one foot, water, water, roads, levels, cnn
+ 
+Sentence:  State routes closed in northeastern Pennsylvania due to Hurricane Sandy..
+Gold entities:  hurricane sandy.., northeastern pennsylvania, state, routes
+ 
+Sentence:  Hurricane sandy mess up NJ
+Gold entities:  hurricane sandy, nj
+ 
+Sentence:  The northeastern United States battled epic flood waters and lengthy power outages on Tuesday after ( cont )
+Gold entities:  northeastern united states, epic, lengthy, power, tuesday
+ 
+Sentence:  Sandy makes landfall near Atlantic City . Storm surge from 9 to 14 feet .
+Gold entities:  sandy, atlantic city, storm, 9, 14 feet
+ 
+Sentence:  Hurricane Sandy damages Atlantic City boardwalk , floods NJ coast
+Gold entities:  hurricane sandy, nj coast, atlantic city, boardwalk
+ 
+Sentence:  reports Atlantic City is flooding Sandy
+Gold entities:  sandy, atlantic city
+ 
+Sentence:  Airlines cancel 3,000 flights as Hurricane Sandy nears landfall
+Gold entities:  hurricane sandy, airlines, 3,000 flights
+ 
+Sentence:  Emergencies have been declared in 6 states as Hurricane Sandy wheels toward land.The monster storm is to make landfall in NJ this evening .
+Gold entities:  hurricane sandy, nj, storm, 6 states, emergencies, monster, this evening, land.the
+ 
+Sentence:  New Jersey newspapers suspend Tuesday delivery as Hurricane Sandy nears
+Gold entities:  hurricane sandy, new jersey, tuesday, newspapers
+ 
+Sentence:  Hurricane Sandy speeds towards landfall - CBS News
+Gold entities:  hurricane sandy, cbs news
+ 
+Sentence:  Sandy makes landfall in New Jersey
+Gold entities:  sandy, new jersey
+ 
+Sentence:  Hurricane Sandy expected to make landfall along or just south of southern NJ coast by early evening - @ NHC_Atlantic
+Gold entities:  hurricane sandy, early evening, southern nj coast, nhc_atlantic
+ 
+Sentence:  Hurricane Sandy Makes Landfall in New Jersey
+Gold entities:  hurricane sandy, new jersey
+ 
+Sentence:  Hurricane Sandy causes at least 29 U.S . Deaths
+Gold entities:  hurricane sandy, u.s, at least 29
+ 
+Sentence:  According to the National Hurricane Center , Sandy is located about 265 miles southeast of Atlantic City , New Jersey .
+Gold entities:  sandy, new jersey, atlantic city, national hurricane center, about 265 miles
+ 
+Sentence:  Atlantic City Landfall
+Gold entities:  atlantic city
+ 
+Sentence:  Hurricane Sandy floods New York
+Gold entities:  hurricane sandy, new york
+ 
+Sentence:  Shark swimming through the streets of Atlantic City , NJ which is completely flooded from hurricane Sandy . CRAZY !
+Gold entities:  hurricane sandy, nj, atlantic city, shark, streets, completely
+ 
+Sentence:  AP now saying `` former '' Hurricane Sandy has made landfall along New Jersey coast .
+Gold entities:  hurricane sandy, new jersey coast, former, ap
+ 
+Sentence:  Widespread Flooding Starts in Atlantic County , N.J .
+Gold entities:  n.j, widespread, atlantic county
+ 
+Sentence:  Hurricane_Sandy About to make LandFall
+Gold entities:  hurricane_sandy
+ 
+Sentence:  Atlantic City , New Jersey Sandy StaySafe
+Gold entities:  sandy, new jersey, atlantic city
+ 
+
+ The Gold clusters:
+cluster_id:  0 hurricane sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, superstorm sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy.., hurricane sandy, sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane_sandy, sandy
+cluster_id:  1 nj, new jersey, new jersey, new jersey, nj, nj, new jersey, new jersey, new jersey, new jersey, nj, n.j, new jersey
+cluster_id:  2 nj coast, new jersey coast, nj coast, nj coast, new jersey coast
+cluster_id:  6 atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city
+cluster_id:  7 boardwalk, boardwalk
+cluster_id:  9 united states, u.s
+cluster_id:  10 former, former, former
+cluster_id:  20 storm, storm, storm, storm
+cluster_id:  22 southern new jersey, southern nj
+cluster_id:  24 major, major
+cluster_id:  26 early this evening, early evening
+cluster_id:  29 water, water
+cluster_id:  41 tuesday, tuesday
+cluster_id:  60 ap, ap
+cluster_id:  70 atlantic coastline, atlantic coast
+ 
+The predicted clusters:
+cluster_id:  0 hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy.., hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, hurricane sandy, sandy, hurricane_sandy, hurricane sandy
+cluster_id:  2 southern nj coast, nj, nj coast, southern nj, nj coast, nj, nj, nj, nj coast
+cluster_id:  3 new jersey, new jersey, new jersey, some parts of new jersey area, new jersey, southern new jersey, new jersey coast, new jersey, new jersey coast, new jersey, new jersey, new jersey
+cluster_id:  8 atlantic city, atlantic city, atlantic city, atlantic county, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, atlantic city, city, atlantic city
+cluster_id:  9 boardwalk, boardwalk
+cluster_id:  11 united states, northeastern united states
+cluster_id:  13 former, former, former
+cluster_id:  18 national hurricane center, center
+cluster_id:  20 storm, storm, power, storm, storm
+cluster_id:  23 major, major
+cluster_id:  25 this evening, early this evening
+cluster_id:  29 water, water
+cluster_id:  30 routes, roads
+cluster_id:  37 tuesday, tuesday
+cluster_id:  53 ap, ap
+cluster_id:  59 atlantic coastline, atlantic coast
+ 
+**********
+###prison_officer.xml
+
+Sentence:  NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold entities:  ministers, officer, jakarta, prison, northern ireland
+ 
+Sentence:  Duffy arrested in connection with prison officer murder :
+Gold entities:  officer, prison, duffy
+ 
+Sentence:  Prison officer shot dead on M1 Eastbound , Irish registered car found burnt out in Inglewood with locals saying 2/3 men inside
+Gold entities:  officer, irish, prison, m1 eastbound, car, registered, inglewood, locals, 2/3 men
+ 
+Sentence:  Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold entities:  officers, irish, prison, police, n.ire, police, 29 year old, yesterday, garda/
+ 
+Sentence:  Prison officer murdered on M1
+Gold entities:  officer, prison, m1
+ 
+Sentence:  Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold entities:  officer, david black, officer, prison, prison, northern ireland, two men
+ 
+Sentence:  Heart goes out to the prison officers family who was killed in n. Ireland yesterday . Lets not go back there again .
+Gold entities:  officers, prison, n. ireland, yesterday, family
+ 
+Sentence:  [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold entities:  officer, northern ireland, motorway, republicans, dissident
+ 
+Sentence:  Murdered prison officer is named -
+Gold entities:  officer, prison
+ 
+Sentence:  Northern Ireland motorway crash victim 'ambushed ' by gunman
+Gold entities:  victim, northern ireland, motorway, gunman
+ 
+Sentence:  On MSN today - Prison officer shot dead in ambush
+Gold entities:  officer, prison, msn today
+ 
+Sentence:  Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold entities:  officer, prison, northern ireland, car, republican, dissident, stronghold
+ 
+Sentence:  Gunman ambushes Northern Ireland prison officer
+Gold entities:  officer, prison, northern ireland, gunman
+ 
+Sentence:  Northern Ireland FM Peter Robinson and Deputy FM Martin McGuinness condemn `` brutal attack '' which killed prison officer
+Gold entities:  officer, prison, northern ireland, fm, peter robinson, deputy fm, martin mcguinness, brutal
+ 
+Sentence:  In shock ! horrific that poor prison officers family
+Gold entities:  
+ 
+Sentence:  Republicans Behind Motorway Attack On Prison Officer
+Gold entities:  officer, motorway, republicans
+ 
+Sentence:  Is there a connection between the incident at spruce field and the murder of Prison Officer ?
+Gold entities:  
+ 
+Sentence:  Counting blessings that I 'm working remotely today , after prison officer assassinated driving on M1 when I 'd normally be going to Belfast .
+Gold entities:  officer, prison, m1
+ 
+Sentence:  Prison officer 's murder condemned - The Ulster Herald
+Gold entities:  officer, prison, the ulster herald
+ 
+Sentence:  Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold entities:  officer, prison, northern ireland, shooting, sectarian, the guardian
+ 
+Sentence:  Prison officer gets stiffed
+Gold entities:  officer, prison
+ 
+Sentence:  prisoner officer shot dead on M1 in Northern Ireland . what a waste of life and does not bode well
+Gold entities:  officer, northern ireland, m1, prisoner
+ 
+Sentence:  Prison Officer Shot Dead On Motorway In NI - Sky News
+Gold entities:  officer, prison, ni, motorway, sky news
+ 
+Sentence:  Jail officer family 'devastated ' The family of a Northern Ireland prison officer murdered as he drove to work are `` ab
+Gold entities:  officer, officer, he, jail, prison, work, northern ireland, family, family
+ 
+Sentence:  2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold entities:  guard, prison, northern ireland, 2 militants, ira
+ 
+Sentence:  Just commented on @ thejournal_ie : Prison officer killed in Armagh motorway shooting -
+Gold entities:  officer, prison, armagh motorway
+ 
+Sentence:  Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold entities:  officer, officer, david black, irish, irish, jail, prison, northern ireland, police, man
+ 
+Sentence:  news Murdered prison officer is named
+Gold entities:  officer, prison
+ 
+Sentence:  RIP to the prison officer shot dead while travelling to work ! Hope the scumbag gets caught justice
+Gold entities:  officer, work, prison
+ 
+Sentence:  The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold entities:  officer, david black, work, prison, mi, two, cookstown
+ 
+
+ The Gold clusters:
+cluster_id:  1 officer, officer, officer, officers, officer, officer, david black, officer, officers, officer, officer, victim, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, he, guard, officer, officer, officer, david black, officer, officer, officer, david black
+cluster_id:  2 irish, irish, irish, irish
+cluster_id:  5 prison, prison, prison, prison, police, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, jail, prison, work, prison, prison, jail, prison, prison, work, prison, work, prison
+cluster_id:  7 northern ireland, n.ire, northern ireland, n. ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, ni, northern ireland, northern ireland, northern ireland
+cluster_id:  8 m1 eastbound, m1, m1, m1, mi
+cluster_id:  9 car, registered, car
+cluster_id:  13 police, police
+cluster_id:  14 29 year old, man
+cluster_id:  15 yesterday, yesterday
+cluster_id:  18 family, family, family
+cluster_id:  19 motorway, motorway, motorway, motorway, armagh motorway
+cluster_id:  20 republicans, republican, republicans
+cluster_id:  21 dissident, dissident
+cluster_id:  26 fm, peter robinson
+cluster_id:  27 deputy fm, martin mcguinness
+ 
+The predicted clusters:
+cluster_id:  1 officer, officer, officer, officers, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officer, officers, officer, officer, officer, officer, officer
+cluster_id:  2 david black, david black, david black
+cluster_id:  6 irish, irish, irish, irish
+cluster_id:  8 prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prison, prisoner, prison, prison, prison, prison, prison, prison, prison
+cluster_id:  9 police, police
+cluster_id:  10 jail, jail
+cluster_id:  11 work, work, work
+cluster_id:  13 northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland, northern ireland
+cluster_id:  17 m1, m1 eastbound, m1, m1
+cluster_id:  19 car, car
+cluster_id:  25 man, two men
+cluster_id:  26 yesterday, yesterday
+cluster_id:  28 family, family, family
+cluster_id:  29 motorway, motorway, armagh motorway, motorway, motorway
+cluster_id:  30 republican, republicans, republicans
+cluster_id:  31 dissident, dissident
+cluster_id:  32 gunman, gunman
+cluster_id:  35 deputy fm, fm
+ 
+**********
+###fuel_tanker.xml
+
+Sentence:  A gas tanker exploded under the National Guard Bridge in Riyadh - around 14 ppl killed , and more than 60 injured
+Gold entities:  national guard bridge, riyadh, more than 60, around 14 ppl, tanker, gas
+ 
+Sentence:  At least 23 killed in Riyadh fuel truck blast - http : //t.co/ZajumhON via
+Gold entities:  riyadh, at least 23, truck, fuel
+ 
+Sentence:  Gas explosion eastern Riyadh
+Gold entities:  eastern riyadh, gas
+ 
+Sentence:  Saudi Arabia fuel tanker explosion kills at least 22
+Gold entities:  tanker, saudi arabia, at least 22, fuel
+ 
+Sentence:  ( World ) At least 23 killed in Riyadh fuel truck blast : TV
+Gold entities:  riyadh, at least 23, truck, fuel
+ 
+Sentence:  Truck explodes in Saudi capital , killing at least 22 :
+Gold entities:  capital, truck, saudi, at least 22
+ 
+Sentence:  At least 22 killed in Riyadh fuel truck blast - World Updates | The Star Online
+Gold entities:  riyadh, truck, at least 22, fuel, the star online
+ 
+Sentence:  Saudi fuel truck crash kills 22
+Gold entities:  truck, saudi, fuel, 22
+ 
+Sentence:  Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold entities:  riyadh, truck, saudi, fuel, embassy, embassy, ph, 1 filipino, 9, hospitals, 3
+ 
+Sentence:  Video at site of Riyadh Explosion
+Gold entities:  
+ 
+Sentence:  At least 23 killed in Riyadh fuel truck blast | Reuters
+Gold entities:  riyadh, at least 23, truck, fuel, reuters
+ 
+Sentence:  Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold entities:  truck, saudi arabia, fuel, building, 10
+ 
+Sentence:  world news Fuel tanker explosion kills 22 in Saudi capital
+Gold entities:  capital, tanker, saudi, fuel, 22
+ 
+Sentence:  The route from Riyadh to Damamm is morbidly dark .
+Gold entities:  riyadh, route, damamm, dark, morbidly
+ 
+Sentence:  Egypt Jan25 Saudi fuel truck crash kills 22
+Gold entities:  truck, saudi, fuel, 22, egypt
+ 
+Sentence:  Saudi Arabia ( Security Rating : 3 ) - Fuel truck explodes in Saudi capital , killing at least 22 people |
+Gold entities:  capital, truck, saudi, saudi arabia, at least 22 people, fuel
+ 
+Sentence:  Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold entities:  riyadh, tanker, fuel, 22, toll, 111, -saudi state tv
+ 
+Sentence:  Saudi Arabia fuel truck crash kills 22 in Riyadh - BBC News
+Gold entities:  riyadh, truck, saudi arabia, fuel, 22, bbc news
+ 
+Sentence:  UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold entities:  riyadh, truck, saudi arabia, fuel, uae, president, king abdullah, cable, condolences, victims
+ 
+Sentence:  Riyadh gas tanker mishap : Six malayalees include in injured
+Gold entities:  riyadh, tanker, gas, six malayalees
+ 
+Sentence:  Fuel tanker explosion kills 14 in Riyadh - The Hindu
+Gold entities:  riyadh, tanker, fuel, the hindu, 14
+ 
+Sentence:  Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold entities:  capital, tanker, saudi, fuel, 14, yahoo news
+ 
+Sentence:  Explosion in Riyadh early today . 21 died and 123 are injured .
+Gold entities:  riyadh, early today, 21, 123
+ 
+Sentence:  First Reactions to the Riyadh Explosion
+Gold entities:  
+ 
+Sentence:  Explosion rips through industrial building in Saudi Arabia 's capital
+Gold entities:  capital, saudi arabia, building, industrial
+ 
+Sentence:  Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold entities:  truck, tanker, saudi, saudi arabia, fuel, 22
+ 
+Sentence:  Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold entities:  capital, riyadh, tanker, truck, saudi, at least 22, fuel, 22, more than 110
+ 
+Sentence:  bbcworld news Deaths in Saudi fuel truck crash
+Gold entities:  truck, saudi, fuel, bbcworld news
+ 
+Sentence:  Fuel Truck Blast Kills 60 , Injures upto 200 in Riyadh on today
+Gold entities:  riyadh, truck, fuel, 60, upto 200, today
+ 
+Sentence:  The New York Times - Saudi Arabia : Fuel Truck Explodes , Killing Many NYtimes KSA Saudi
+Gold entities:  truck, saudi arabia, fuel, the new york times, many
+ 
+Sentence:  Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold entities:  truck, fuel, building, 10
+ 
+Sentence:  Fuel tanker explosion kills 14 people after it crashes into highway underpass in Saudi capital
+Gold entities:  capital, tanker, it, saudi, fuel, 14 people, highway underpass
+ 
+
+ The Gold clusters:
+cluster_id:  5 riyadh, riyadh, riyadh, capital, capital, capital, capital, capital, capital, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, capital, riyadh, riyadh
+cluster_id:  9 at least 23, at least 23, at least 23
+cluster_id:  12 truck, truck, tanker, tanker, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, tanker, truck, tanker, tanker, tanker, tanker, truck, tanker, tanker, truck, truck, truck, truck, tanker, it
+cluster_id:  13 saudi arabia, saudi, saudi, saudi, saudi, saudi, saudi, saudi, saudi, saudi arabia, saudi, saudi arabia, saudi arabia, saudi arabia, saudi arabia, saudi, saudi arabia, saudi, saudi arabia
+cluster_id:  16 at least 22, at least 22, at least 22, at least 22 people, at least 22
+cluster_id:  19 fuel, gas, gas, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, gas, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel
+cluster_id:  20 22, 22, 22, 22, 22, 22, 22
+cluster_id:  21 embassy, embassy
+cluster_id:  29 building, building, building
+cluster_id:  30 10, 10
+cluster_id:  39 bbc news, bbcworld news
+cluster_id:  49 14, 14, 14 people
+ 
+The predicted clusters:
+cluster_id:  0 riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, eastern riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh, riyadh
+cluster_id:  2 capital, capital, capital, capital, capital, capital, capital
+cluster_id:  3 more than 60, 60
+cluster_id:  4 14 people, 14, around 14 ppl, 14
+cluster_id:  5 at least 23, at least 22, at least 22, at least 23, 22, 22, 22, at least 22, 22, at least 23, 22, 22, 22, at least 22
+cluster_id:  6 truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck, truck
+cluster_id:  7 tanker, tanker, tanker, tanker, tanker, tanker, tanker, tanker, tanker, tanker
+cluster_id:  9 saudi, saudi arabia, saudi, saudi arabia, saudi, saudi, saudi, saudi, saudi arabia, saudi arabia, saudi, saudi arabia, saudi, saudi arabia, saudi arabia, saudi, saudi, saudi, saudi arabia
+cluster_id:  11 fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel, fuel
+cluster_id:  12 gas, gas, gas
+cluster_id:  13 embassy, embassy
+cluster_id:  20 building, building, building
+cluster_id:  21 10, 10
+cluster_id:  41 today, early today
+ 
+**********
+###syrian_plane.xml
+
+Sentence:  Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold entities:  syria, syrian, plane, plane, munitions, munitions, turkey, russian-made, equipment
+ 
+Sentence:  Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold entities:  syrian, jet, russia, russian, turkey, passengers
+ 
+Sentence:  Turkey Escalates Confrontation with Syria , Forcing Syrian Plane to Land
+Gold entities:  syria, syrian, plane, turkey
+ 
+Sentence:  Syrian passenger plane forced to land in Turkey
+Gold entities:  syrian, plane, turkey, passenger
+ 
+Sentence:  Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold entities:  syrian, syrian, plane, ammunition, russia, equipment, turkey, passenger, pm, military, defence ministry
+ 
+Sentence:  Syrian passenger plane forced to land in Turkey :
+Gold entities:  syrian, plane, turkey, passenger
+ 
+Sentence:  Turkey forces down suspect Syrian plane
+Gold entities:  syrian, plane, turkey
+ 
+Sentence:  Al Jazeera News : Turkey intercepts Syrian passenger
+Gold entities:  syrian, passenger, turkey, passenger, al jazeera news
+ 
+Sentence:  Turkish PM says plane from Moscow forced to land in Turkey was carrying ammunition for Syria government .
+Gold entities:  syria, plane, ammunition, turkey, turkish, pm, government, moscow
+ 
+Sentence:  Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold entities:  syrian, plane, turkish, passenger, ankara, moscow, f16s
+ 
+Sentence:  Syrian plane was carrying ammunition
+Gold entities:  syrian, plane, ammunition
+ 
+Sentence:  Syria passenger plane forced to land in Turkey
+Gold entities:  syria, plane, turkey, passenger
+ 
+Sentence:  Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold entities:  plane, russian, moscow, turkey, its, passenger, ankara, lives, military, syria-bound
+ 
+Sentence:  Syrian plane was carrying ammunition .
+Gold entities:  syrian, plane, ammunition
+ 
+Sentence:  Turkey forced a Syrian passenger plane coming from Moscow to land at Ankara
+Gold entities:  syrian, plane, turkey, passenger, ankara, moscow
+ 
+Sentence:  Ankara sends note to Damascus over plane cargo
+Gold entities:  damascus, plane, ankara, cargo, note
+ 
+Sentence:  Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold entities:  syrian, syrian, plane, plane, turkey, turkey, its, passenger
+ 
+Sentence:  Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold entities:  syrian, jet, turkey, passenger
+ 
+Sentence:  Syrian plane was carrying ammunition
+Gold entities:  syrian, plane, ammunition
+ 
+Sentence:  Syrian Bound Plane From Moscow Forced To Land In Turkey
+Gold entities:  plane, turkey, moscow, syrian
+ 
+Sentence:  Turkey intercepts Syrian passenger plane
+Gold entities:  syrian, plane, turkey, passenger
+ 
+Sentence:  Turkey Says Syrian Plane Carried Russian Munitions
+Gold entities:  syrian, plane, munitions, russian, turkey
+ 
+Sentence:  Turkey forces Syria plane to land
+Gold entities:  syria, plane, turkey
+ 
+Sentence:  Syrian Plane Carried Ammunition
+Gold entities:  syrian, plane, ammunition
+ 
+Sentence:  Turkey says Syrian plane carried Russian munitions | Reuters
+Gold entities:  syrian, plane, munitions, russian, turkey, reuters
+ 
+Sentence:  Turkey forces Syria passenger plane to land in Ankara
+Gold entities:  syria, plane, turkey, passenger, ankara
+ 
+Sentence:  Turkey reportedly intercepts Syrian passenger plane
+Gold entities:  syrian, plane, turkey, passenger
+ 
+Sentence:  Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold entities:  syrian, plane, turkey, moscow, cargo
+ 
+Sentence:  Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold entities:  syria, syrian, plane, plane, ammunition, ammunition, turkey, russian-made, equipment
+ 
+Sentence:  Turkey forces Syrian passenger plane to land
+Gold entities:  syrian, plane, turkey, passenger
+ 
+
+ The Gold clusters:
+cluster_id:  0 syria, syrian, syrian, syria, syrian, syrian, syrian, syrian, syria, syria, syrian, syrian, syrian, syria, syrian, syrian, syria, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syria, syrian, syrian, syrian, damascus, syrian
+cluster_id:  1 plane, plane, jet, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, passenger, plane, plane, plane, plane, plane, jet, plane, plane, plane, plane, plane, plane, plane
+cluster_id:  2 munitions, munitions, ammunition, ammunition, ammunition, ammunition, ammunition, munitions, munitions, ammunition, ammunition, ammunition
+cluster_id:  3 turkey, turkey, turkey, turkey, turkey, turkey, turkey
+cluster_id:  4 russian-made, russia, russian, russia, russian-made, russian, russian, russian, moscow
+cluster_id:  5 equipment, equipment, equipment
+cluster_id:  6 turkey, turkey, turkey, turkey, turkey, turkish, turkish, turkey, its, turkey, turkey, turkey, its, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, ankara
+cluster_id:  7 passengers, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger
+cluster_id:  8 pm, pm
+cluster_id:  14 ankara, ankara, ankara, ankara
+cluster_id:  15 moscow, moscow, moscow, moscow, moscow
+cluster_id:  21 cargo, cargo
+cluster_id:  26 syria-bound, syrian
+ 
+The predicted clusters:
+cluster_id:  0 syrian, syrian, syria, syria, syrian, syrian, syrian, syrian, syrian, syrian, syria, syria, syrian, syrian, syrian, syria, syria, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syria, syrian, syrian, syrian, syrian, syrian, syrian, syrian, syrian
+cluster_id:  2 plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane, plane
+cluster_id:  3 jet, jet
+cluster_id:  4 passenger, passenger, passenger, passenger, passenger, passenger, passenger, passenger, passengers, passenger, passenger, passenger, passenger, passenger, passenger
+cluster_id:  5 munitions, munitions, munitions, munitions
+cluster_id:  6 ammunition, ammunition, ammunition, ammunition, ammunition, ammunition, ammunition, ammunition
+cluster_id:  7 turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey, turkey
+cluster_id:  8 russian-made, russian-made
+cluster_id:  9 russian, russian, russian, russia, russia, russian
+cluster_id:  10 moscow, moscow, moscow, moscow, moscow, moscow
+cluster_id:  11 equipment, equipment, equipment
+cluster_id:  12 turkish, turkish
+cluster_id:  13 its, its
+cluster_id:  14 ankara, ankara, ankara, ankara, ankara
+cluster_id:  15 pm, pm
+cluster_id:  16 military, military
+cluster_id:  22 cargo, cargo
+ 
+**********
+###armstrong_doping.xml
+
+Sentence:  Lance Armstrong 's repeated denials of doping claims
+Gold entities:  lance armstrong, repeated
+ 
+Sentence:  Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold entities:  lance armstrong, key, teammate, george hincapie
+ 
+Sentence:  George Hincapie , who raced alongside Armstrong in his 7 Tour wins , apologizes for doping . Stopped using in 2006 .
+Gold entities:  armstrong, his, george hincapie, 7 tour wins, 2006
+ 
+Sentence:  George Hincapie confesses to doping
+Gold entities:  george hincapie
+ 
+Sentence:  `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold entities:  lance armstrong, u.s anti-doping agency, evidence, sophisticated, program, cnn
+ 
+Sentence:  USADA Report on Allegations Against Lance Armstrong
+Gold entities:  lance armstrong, usada
+ 
+Sentence:  Eleven Lance Armstrong Teammates Testified Against Him in Doping Case :
+Gold entities:  lance armstrong, him, eleven teammates, case
+ 
+Sentence:  U.S . anti-doping agency report says cyclist Armstrong cheated
+Gold entities:  armstrong, u.s anti-doping agency, cyclist
+ 
+Sentence:  Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold entities:  lance armstrong, his, usada, jonathan vaughters, uci, controllers, cancer, earlier, hi, hcg, affidavit
+ 
+Sentence:  US anti-doping agency has called lance armstrong `` not only a drug user but alao a dealer '' bloodyhell
+Gold entities:  lance armstrong, us anti-doping agency, dealer, drug, user
+ 
+Sentence:  Lance Armstrong has flown into New York to deny doping claims . Be more convincing if he 'd used a plane .
+Gold entities:  lance armstrong, new york
+ 
+Sentence:  U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe . Cycling
+Gold entities:  lance armstrong, him, u.s anti-doping agency, 11 teammates
+ 
+Sentence:  USADA reveals evidence against Lance Armstrong
+Gold entities:  lance armstrong, usada, evidence
+ 
+Sentence:  Lance Armstrong a real life dope peddlar @ upthealps
+Gold entities:  lance armstrong, peddlar, real life, dope
+ 
+Sentence:  USADA releases Lance Armstrong evidence .
+Gold entities:  lance armstrong, usada, evidence
+ 
+Sentence:  Lance Armstrong got doping BlameSuarez
+Gold entities:  lance armstrong
+ 
+Sentence:  Hincapie , Former Lance Armstrong Lieutenant , Admits Doping in Cycling
+Gold entities:  lance armstrong, hincapie, lieutenant, former, cycling
+ 
+Sentence:  ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold entities:  lance armstrong, antidoping agency, case, nytimes
+ 
+Sentence:  11 Teammates Testified In Doping Case Against Lance Armstrong
+Gold entities:  lance armstrong, 11 teammates, case
+ 
+Sentence:  NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold entities:  lance armstrong, most sophisticated, program, nytimes, cycling
+ 
+Sentence:  A summing up of Lance 's USADA doping report
+Gold entities:  lance, usada
+ 
+Sentence:  Lance Armstrong unfazed by doping maelstorm
+Gold entities:  lance armstrong, maelstorm
+ 
+Sentence:  Doping Agency Says 11 Teammates Testified Against Lance Armstrong
+Gold entities:  lance armstrong, doping agency, 11 teammates
+ 
+Sentence:  Lance Armstrong 's Teammates Claim He Doped - KBOI
+Gold entities:  lance armstrong, he, teammates
+ 
+Sentence:  Teammates Say Lance Armstrong Doped
+Gold entities:  lance armstrong, teammates
+ 
+Sentence:  Lance Armstrong Was Central Figure in Doping Ring , Officials Say
+Gold entities:  lance armstrong, ring, officials
+ 
+Sentence:  USADA Issues Bombshell on Lance Armstrong
+Gold entities:  lance armstrong, usada, bombshell
+ 
+Sentence:  U.S . Anti-Doping Agency : Evidence against Lance Armstrong is `` overwhelming ''
+Gold entities:  lance armstrong, u.s anti-doping agency, evidence, overwhelming
+ 
+Sentence:  USADA to release file on Lance Armstrong and US Postal doping
+Gold entities:  lance armstrong, usada, file, us postal
+ 
+Sentence:  Antidoping Agency Expected to Detail Its Case Against Lance Armstrong
+Gold entities:  lance armstrong, antidoping agency, its, case
+ 
+Sentence:  Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold entities:  lance armstrong, united states anti-doping agency, usada, five team-mates, six-month, former
+ 
+Sentence:  Evidence From the Investigation Into Alleged Doping by Lance Armstrong
+Gold entities:  lance armstrong, evidence
+ 
+Sentence:  Lance Armstrong was at center of doping program , USADA says
+Gold entities:  lance armstrong, usada, program
+ 
+Sentence:  US- Anti-doping agency strengthens case against Lance Armstrong Cycling legend Lance Armstrong s
+Gold entities:  lance armstrong, lance, us- anti-doping agency, case, legend, cycling
+ 
+Sentence:  Lance Armstrong should be on Shameless
+Gold entities:  
+ 
+Sentence:  ( AP ) -- U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe .
+Gold entities:  lance armstrong, him, u.s anti-doping agency, 11 teammates, ap
+ 
+Sentence:  The Lance Armstrong Doping Report
+Gold entities:  lance armstrong
+ 
+Sentence:  Looks like George Hincapie is solidifying the case against Lance Armstrong . Shame it 's true about lance.. But it will improve cycling
+Gold entities:  lance armstrong, george hincapie, case
+ 
+Sentence:  Armstrong Lieutenant Hincapie Admits to Doping :
+Gold entities:  armstrong, hincapie, lieutenant
+ 
+Sentence:  Lance Armstrong finds support with some cyclists , desipite USADA doping report
+Gold entities:  lance armstrong, usada, some cyclists
+ 
+Sentence:  Atlanta ( GA ) WXIA : USADA issues scathing doping report on Lance Armstrong
+Gold entities:  lance armstrong, ( usada, scathing, atlanta, ga, wxia
+ 
+Sentence:  USADA Releases Doping Evidence Against Lance Armstrong - http : //t.co/OSWAQJpv
+Gold entities:  lance armstrong, usada, evidence
+ 
+
+ The Gold clusters:
+cluster_id:  0 lance armstrong, lance armstrong, armstrong, lance armstrong, lance armstrong, lance armstrong, him, armstrong, lance armstrong, his, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance, lance armstrong, lance armstrong, lance armstrong, he, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, him, lance armstrong, lance armstrong, armstrong, lance armstrong, lance armstrong, lance armstrong, his, him, lance
+cluster_id:  3 george hincapie, george hincapie, george hincapie, hincapie, george hincapie, hincapie
+cluster_id:  6 u.s anti-doping agency, usada, u.s anti-doping agency, usada, us anti-doping agency, u.s anti-doping agency, usada, usada, antidoping agency, usada, usada, u.s anti-doping agency, usada, antidoping agency, its, united states anti-doping agency, usada, usada, us- anti-doping agency, u.s anti-doping agency, usada, ( usada, usada, doping agency
+cluster_id:  7 evidence, evidence, evidence, evidence, evidence, evidence
+cluster_id:  8 sophisticated, most sophisticated
+cluster_id:  9 program, program, program, ring
+cluster_id:  11 eleven teammates, 11 teammates, 11 teammates, 11 teammates, 11 teammates
+cluster_id:  12 case, case, case, case, case, case
+cluster_id:  19 dealer, peddlar
+cluster_id:  23 drug, dope
+cluster_id:  24 lieutenant, lieutenant
+cluster_id:  25 nytimes, nytimes
+cluster_id:  27 teammates, teammates
+cluster_id:  47 former, former
+cluster_id:  48 cycling, cycling, cycling
+ 
+The predicted clusters:
+cluster_id:  0 lance armstrong, lance armstrong, armstrong, lance armstrong, lance armstrong, armstrong, lance armstrong, armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance, lance armstrong, lance armstrong, lance armstrong, lance, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong, lance armstrong
+cluster_id:  1 him, him, him
+cluster_id:  2 his, his
+cluster_id:  5 eleven teammates, teammates, teammates, teammate
+cluster_id:  6 george hincapie, george hincapie, hincapie, george hincapie, hincapie, george hincapie
+cluster_id:  9 antidoping agency, u.s anti-doping agency, us- anti-doping agency, u.s anti-doping agency, us anti-doping agency, u.s anti-doping agency, u.s anti-doping agency, u.s anti-doping agency, antidoping agency
+cluster_id:  10 usada, usada, usada, ( usada, usada, usada, usada, usada, usada, usada, usada, usada
+cluster_id:  14 evidence, evidence, evidence, evidence, evidence, evidence
+cluster_id:  15 sophisticated, most sophisticated
+cluster_id:  16 program, program, program
+cluster_id:  17 repeated, ring
+cluster_id:  19 11 teammates, 11 teammates, 11 teammates, 11 teammates
+cluster_id:  20 case, case, case, case, case, case
+cluster_id:  21 some cyclists, cyclist
+cluster_id:  26 former, earlier, former
+cluster_id:  33 lieutenant, lieutenant
+cluster_id:  34 nytimes, nytimes
+cluster_id:  47 cycling, cycling, cycling
+ 
+**********
+###fresno_shooting.xml
+
+Sentence:  Mass shooting reported at a Central Fresno business
+Gold entities:  mass, business, central fresno
+ 
+Sentence:  2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold entities:  fresno, plant, 2, 8, california, chicken
+ 
+Sentence:  At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold entities:  fresno, workplace, calif, at least 3 people, -ras
+ 
+Sentence:  Reports Of Mass Shooting In Fresno , California
+Gold entities:  mass, fresno, california
+ 
+Sentence:  Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold entities:  mass, fresno, workplace, ca, gunman, scene, sigh, it
+ 
+Sentence:  Palin Says Gunman kills 2 co-workers , self at Calif . poultry plant
+Gold entities:  plant, calif, poultry, gunman, self, palin, 2 co-workers
+ 
+Sentence:  Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold entities:  plant, plant, california, california, gunman, gunman, one, one, three, three, police, police
+ 
+Sentence:  How horrible . Terrible workplace shooting in Fresno this morning .
+Gold entities:  fresno, workplace, terrible, this morning
+ 
+Sentence:  Xiii ! RT @ AP : BREAKING : At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold entities:  fresno, workplace, calif, at least 3 people, -ras
+ 
+Sentence:  Workplace shooting in central Fresno . What a horrible way to start Election Day . ) - :
+Gold entities:  workplace, horrible, election day, way, central fresno
+ 
+Sentence:  Mass Shooting at California Meat Plant - ABC News
+Gold entities:  mass, plant, california, meat, abc news
+ 
+Sentence:  Reports Of Mass Shooting At Apple Valley Farms Plant In Central California
+Gold entities:  mass, plant, apple valley farms, central california
+ 
+Sentence:  Sacbee - Newspaper : 3 shot at Fresno , Calif. , workplace
+Gold entities:  fresno, workplace, calif., sacbee newspaper, 3
+ 
+Sentence:  Reports Of Mass Shooting At Apple Valley Farms Premises In Central California
+Gold entities:  mass, premises, apple valley farms, central california
+ 
+Sentence:  Compass Newspaper boss shot by unknown gunmen
+Gold entities:  
+ 
+Sentence:  Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold entities:  workplace, business, shooter, new, details, witness, central fresno
+ 
+Sentence:  Gunman kills one , wounds three at Fresno , California plant : police
+Gold entities:  fresno, plant, california, gunman, one, three, police
+ 
+Sentence:  Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold entities:  fresno, plant, chicken, suspect, parolee, 'extensive, history
+ 
+Sentence:  BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold entities:  fresno, workplace, plant, 2, ca, apple valley farms, 8, fox news
+ 
+Sentence:  Eight people shot , at least two dead , at Fresno plant - Los Angeles Times
+Gold entities:  fresno, plant, eight people, at least two, los angeles times
+ 
+Sentence:  Newspaper report : At least 3 people shot at workplace in Fresno , Calif . fox5atl
+Gold entities:  fresno, workplace, calif, at least 3 people, newspaper, fox5atl
+ 
+Sentence:  3 people reportedly shot at the Apple Valley Farms plant in Fresno , California :
+Gold entities:  fresno, plant, california, apple valley farms, 3 people
+ 
+Sentence:  Mass shooting reported at Fresno workplace
+Gold entities:  mass, fresno, workplace
+ 
+Sentence:  1 dead , 4 wounded as worker opens fire at Fresno plant , police say
+Gold entities:  fresno, plant, 1, police, 4, worker
+ 
+Sentence:  Wordpress Developer needed ( Fresno )
+Gold entities:  
+ 
+Sentence:  People in Fresno commit suicide . But catch a few bodies first
+Gold entities:  
+ 
+Sentence:  Fresno police respond to workplace shooting
+Gold entities:  fresno, workplace, police
+ 
+Sentence:  We 're LIVE on @ ABC30 right NOW with the latest info on the fatal workplace shooting in Fresno .
+Gold entities:  fresno, workplace, latest, info
+ 
+Sentence:  The death toll from a workplace shooting in Fresno , California has risen to 3 Newsroom
+Gold entities:  fresno, workplace, california, 3
+ 
+Sentence:  More details on today 's report of a shooting in Fresno , California :
+Gold entities:  fresno, california, details, today, more
+ 
+Sentence:  3 shot at Fresno poultry processing plant - Nov 6 @ 4:15 PM ET
+Gold entities:  fresno, plant, poultry, 3
+ 
+Sentence:  Apple Might Kick Intel Chips Out of Macs :
+Gold entities:  
+ 
+Sentence:  A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold entities:  mass, plant, california, apple valley farms, different, reality, today, many
+ 
+Sentence:  Death toll rises to three in Fresno chicken plant shooting
+Gold entities:  fresno, plant, chicken, three
+ 
+Sentence:  Reports of mass shooting in Fresno , California
+Gold entities:  mass, fresno, california
+ 
+Sentence:  Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold entities:  fresno, workplace, calif, california, gunman, 1, police, 4, ap
+ 
+Sentence:  Fresno Workplace shooting - Blackstone Avenue
+Gold entities:  fresno, workplace
+ 
+Sentence:  Employee in Fresno , CA shoots 4 then himself
+Gold entities:  fresno, ca, employee, himself, 4, then
+ 
+Sentence:  Fresno gunman identified , in critical condition
+Gold entities:  fresno, gunman, critical
+ 
+Sentence:  Reports Of Mass Shooting At Apple Valley Farms Plant In Central California , 8 shot
+Gold entities:  mass, plant, apple valley farms, central california, 8
+ 
+Sentence:  1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold entities:  fresno, plant, chicken, 1, 4
+ 
+Sentence:  O_o RT @ HuffingtonPost BREAKING : Reports of mass shooting in Fresno , California
+Gold entities:  mass, fresno, california, huffingtonpost
+ 
+Sentence:  Gunman kills 1 , wounds 3 in workplace shooting in Fresno , CA
+Gold entities:  fresno, workplace, ca, gunman, 1, 3, 3
+ 
+Sentence:  Man Reported in Surgery After Being Shot Multiple Times
+Gold entities:  man, multiple times
+ 
+Sentence:  Horrifying ! Mass shooting reported at Fresno workplace | The Lookout - Yahoo ! News
+Gold entities:  mass, fresno, workplace, the lookout, yahoo ! news
+ 
+Sentence:  8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold entities:  mass, fresno, 2, california, 8 people, huffingtonpost
+ 
+Sentence:  fresno 's mass shooter was driving kimmiescar
+Gold entities:  mass, fresno, shooter, kimmiescar
+ 
+Sentence:  Central East Chiropractic offers help with pain relief and wellness in Fresno
+Gold entities:  
+ 
+Sentence:  As if on cue , reports of mass shooting in Fresno California .
+Gold entities:  mass, fresno, california
+ 
+Sentence:  Initial reports from the central Fresno workplace shooting are that the gunman killed himself .
+Gold entities:  workplace, gunman, himself, central fresno, initial
+ 
+
+ The Gold clusters:
+cluster_id:  0 mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass
+cluster_id:  3 fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno
+cluster_id:  4 business, workplace, plant, plant, plant, plant, workplace, plant, plant, plant, workplace, workplace, workplace, plant, plant, plant, plant, plant, workplace, workplace, business, premises, plant, workplace, plant, plant, workplace, workplace, plant, workplace, workplace, workplace, plant, workplace, workplace, workplace, workplace, workplace
+cluster_id:  5 2, 2, 2
+cluster_id:  7 california, calif, california, ca, calif, california, california, calif, california, calif., california, ca, calif, california, california, california, california, california, calif, california, ca, california, ca, california, california
+cluster_id:  8 chicken, chicken, chicken, chicken, poultry, meat, poultry
+cluster_id:  10 at least 3 people, at least 3 people, at least 3 people
+cluster_id:  11 -ras, -ras
+cluster_id:  12 gunman, gunman, self, gunman, gunman, shooter, gunman, gunman, gunman, gunman, shooter, gunman, himself
+cluster_id:  18 one, one, one, 1, 1, 1, 1
+cluster_id:  19 three, three, three, 3
+cluster_id:  20 police, police, police, police, police, police
+cluster_id:  22 horrible, terrible
+cluster_id:  28 apple valley farms, apple valley farms, apple valley farms, apple valley farms, apple valley farms, apple valley farms
+cluster_id:  29 central california, central california, central california
+cluster_id:  31 3, 3 people, 3
+cluster_id:  37 new, latest
+cluster_id:  38 details, details, info
+cluster_id:  44 central fresno, central fresno, central fresno, central fresno
+cluster_id:  45 8, eight people, 8, 8 people
+cluster_id:  51 4, 4, 4
+cluster_id:  52 worker, employee, himself
+cluster_id:  56 3, three
+cluster_id:  66 huffingtonpost, huffingtonpost
+ 
+The predicted clusters:
+cluster_id:  0 eight people, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass, mass
+cluster_id:  1 fresno, central fresno, central fresno, central fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, central fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno, fresno
+cluster_id:  2 business, business
+cluster_id:  3 workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace, workplace
+cluster_id:  4 plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant, plant
+cluster_id:  6 2, 2, 2, 2 co-workers
+cluster_id:  7 8, 8, 8 people, 8
+cluster_id:  8 ca, california, california, california, california, calif., california, california, central california, california, california, central california, ca, central california, california, california, california, california, california, california, ca, ca, california
+cluster_id:  9 calif, calif, calif, calif, calif
+cluster_id:  10 chicken, chicken, chicken, chicken
+cluster_id:  11 poultry, poultry
+cluster_id:  13 at least 3 people, 3, 3, 3, at least 3 people, at least 3 people, 3 people, 3
+cluster_id:  14 -ras, -ras
+cluster_id:  15 gunman, gunman, gunman, shooter, gunman, shooter, gunman, gunman, gunman, gunman, gunman
+cluster_id:  17 himself, himself
+cluster_id:  22 1, one, 1, one, 1, one, 1
+cluster_id:  23 three, three, three, three
+cluster_id:  24 police, police, police, police, police, police
+cluster_id:  25 horrible, terrible
+cluster_id:  30 apple valley farms, apple valley farms, apple valley farms, apple valley farms, apple valley farms, apple valley farms
+cluster_id:  31 sacbee newspaper, newspaper
+cluster_id:  34 details, details
+cluster_id:  45 4, 4, 4, 4
+cluster_id:  48 today, today
+cluster_id:  51 man, reality
+cluster_id:  55 huffingtonpost, huffingtonpost
+ 
+**********
