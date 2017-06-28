@@ -1,0 +1,5 @@
+../../src/baseline_system/../common/sentences/test/car_bomb.txt
+../../src/baseline_system/../common/sentences/test/whitney_heichel.txt
+../../src/baseline_system/../common/sentences/test/spanier.txt
+../../src/baseline_system/../common/sentences/test/likud_beiteinu.txt
+../../src/baseline_system/../common/sentences/test/terrorist_arrested.txt
