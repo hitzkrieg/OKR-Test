@@ -21,24 +21,12 @@ from okr import *
 from docopt import docopt
 from eval_predicate_mention import *
 from prop_extraction import prop_extraction
-from eval_entity_coref import evaluate_entity_coref
-from eval_entailment_graph import evaluate_entailment
-from eval_argument_coref import evaluate_argument_coref
-from eval_entity_mention import evaluate_entity_mention
-from eval_predicate_coref import evaluate_predicate_coref
-from eval_argument_mention import evaluate_argument_mention
 
 
 def main():
     """
     Receives the validation set and the test set, runs the baseline systems,
-    and computes the task-level evaluation metrics:
-    1) Entity mentions
-    2) Entity coreference
-    3) Predicate mentions
-    4) Predicate coreference
-    5) Argument mention within predicate chains
-    6) Entailment graph
+    and prints analysis logs of propositions
     """
     args = docopt("""Receives the validation set and the test set, runs the baseline systems,
     and computes the task-level evaluation metrics:

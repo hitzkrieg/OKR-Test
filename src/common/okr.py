@@ -569,4 +569,4 @@ def extract_sentences():
 # print(dict1)
 
 # okr_graph1 = load_graph_from_file('../../data/baseline/test/car_bomb.xml')
-# print(okr_graph1.prop_mentions_by_key.values())
+

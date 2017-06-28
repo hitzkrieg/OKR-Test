@@ -7,6 +7,7 @@ Author: Shyam Upadhyay
 
 import sys
 sys.path.append('../common')
+sys.path.append('../agreement')
 
 import numpy as np
 
