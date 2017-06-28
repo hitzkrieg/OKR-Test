@@ -1,0 +1,1074 @@
+###syria_bombs.xml
+
+Sentence:  Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold predicates:  government belonging to syria, warplanes belonging to syrian government, towns held by rebels, bombed, killing, town in the north, reducing to
+ 
+Sentence:  Syrian air strikes on rebel towns
+Gold predicates:  towns held by rebels, air strikes on
+ 
+Sentence:  At Least 40 Die as Planes Bomb Syrian Town Held by Rebels
+Gold predicates:  held by, bomb, die as
+ 
+Sentence:  Scores dead as Syrian jets bomb rebel-held town :
+Gold predicates:  warplanes belonging to syrian government, towns held by rebels, bomb, dead as
+ 
+Sentence:  Syrian Rebels Bogged Down in Aleppo
+Gold predicates:  bogged down in, rebels from syria
+ 
+Sentence:  Airstrike on Syrian city kills at least 30 civilians - Los Angeles Times
+Gold predicates:  airstrike on, kills, city in syria, -
+ 
+Sentence:  At least 44 killed in Syrian regime warplane strikes on Maaret al-Numan
+Gold predicates:  government belonging to syria, warplanes belonging to syrian government, strikes on, killed in
+ 
+Sentence:  Syrian airstrikes kill at least 43 - Oct 19 @ 6:59 AM ET
+Gold predicates:  airstrikes, kill
+ 
+Sentence:  News Syrian air strikes on rebel towns
+Gold predicates:  towns held by rebels, air strikes on
+ 
+Sentence:  At least 43 die in Syrian airstrikes - TheChronicleHerald.ca
+Gold predicates:  airstrikes, die in, -
+ 
+Sentence:  Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold predicates:  government belonging to syria, towns held by rebels, 's deadly bombing of, afp 's, aftermath that is immediate, aftermath of, captured by
+ 
+Sentence:  Syrian helicopter reportedly downed by rebels over Idlib
+Gold predicates:  downed by over, reportedly, helicopter belonging to military, helicopter belonging to syria
+ 
+Sentence:  Scores dead as Syria|n jets bomb rebel-held town
+Gold predicates:  towns held by rebels, bomb, dead as
+ 
+Sentence:  Divided Syrian rebels agree on joint leadership
+Gold predicates:  rebels from syria, divided, leadership that is joint, agree on
+ 
+Sentence:  Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air
+Gold predicates:  blow up in, rebels from syria, helicopter belonging to military
+ 
+Sentence:  Syrian Rebels Blow Up A Military Helicopter In Mid-Air [ vid 0:54 ]
+Gold predicates:  blow up in, rebels from syria, helicopter belonging to military
+ 
+Sentence:  Syrian rebels fight for key town of Maaret al-Numan
+Gold predicates:  rebels from syria, town that is important, town of, fight for
+ 
+Sentence:  Dozens Killed in Syrian Bombing of Rebel-Held Town
+Gold predicates:  towns held by rebels, bombing of, killed in
+ 
+Sentence:  Syrian man loses 18 relatives in airstrike
+Gold predicates:  airstrike, loses in, man from syria
+ 
+Sentence:  At Least 40 Die as Planes Bomb a Syrian Town Held by Rebels
+Gold predicates:  held by, bomb, die as, city in syria
+ 
+Sentence:  Rebels 'hit Syrian oil and gas pipelines'
+Gold predicates:  pipelines carrying oil, pipelines carrying gas, 'hit, 'hit
+ 
+Sentence:  Syria drops cluster bombs on Maaret al-Numan : rebels http : //t.co/l7jFkDGG
+Gold predicates:  drops cluster bombs on, :
+ 
+Sentence:  Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air @ Jalopnik
+Gold predicates:  blow up in, rebels from syria, helicopter belonging to military
+ 
+Sentence:  A Syrian air force pilot explains why he bombed civilians
+Gold predicates:  pilot in the air force, air force belonging to syria, bombed, explains why
+ 
+Sentence:  49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold predicates:  warplanes belonging to syrian government, towns held by rebels, attack, killed as, town that is important, -
+ 
+Sentence:  Syrian helicopter explodes in Idlib , via @ cjchivers .
+Gold predicates:  explodes in, helicopter belonging to syria
+ 
+Sentence:  At Least 40 Die as Planes Bomb a Syrian Town Held by Rebels . NYT
+Gold predicates:  held by, bomb, die as, city in syria, nyt
+ 
+Sentence:  Syrian planes strike key town
+Gold predicates:  warplanes belonging to syrian government, strike, town that is important
+ 
+Sentence:  'Airstrikes ' Pound Syrian Rebel Strongholds
+Gold predicates:  towns held by rebels, 'airstrikes, rebels from syria, pound
+ 
+Sentence:  Airstrikes in northern Syria kill at least 43
+Gold predicates:  airstrikes in, kill
+ 
+Sentence:  Seized by Rebels , Town Is Crushed by Syrian Forces
+Gold predicates:  seized by, is crushed by, military forces belonging to syria
+ 
+Sentence:  20 killed in Syrian airstrikes -
+Gold predicates:  airstrikes, killed in
+ 
+Sentence:  Syrian Regime Attacks on Rebel Areas Leave 90 Dead
+Gold predicates:  government belonging to syria, towns held by rebels, attacks on, leave dead
+ 
+Sentence:  90 dead in Syrian regime attacks on rebel areas
+Gold predicates:  government belonging to syria, towns held by rebels, attacks on, dead in
+ 
+Sentence:  Syria drops cluster bombs on Maaret al-Numan : rebels - AFP-
+Gold predicates:  drops cluster bombs on, :, -
+ 
+
+ The Gold clusters:
+cluster_id:  0 government belonging to syria, government belonging to syria, government belonging to syria, government belonging to syria, government belonging to syria
+cluster_id:  1 warplanes belonging to syrian government, warplanes belonging to syrian government, warplanes belonging to syrian government, warplanes belonging to syrian government, warplanes belonging to syrian government
+cluster_id:  2 towns held by rebels, towns held by rebels, held by, held by, held by, towns held by rebels, seized by, towns held by rebels, towns held by rebels, towns held by rebels, towns held by rebels, towns held by rebels, towns held by rebels, towns held by rebels, towns held by rebels
+cluster_id:  3 air strikes on, air strikes on, 'airstrikes, attacks on, attacks on
+cluster_id:  5 airstrike on, strikes on, airstrikes, airstrikes, bomb, airstrike, bomb, drops cluster bombs on, bomb, strike, airstrikes in, airstrikes, drops cluster bombs on, bombed, bomb, 's deadly bombing of, bomb, bombing of, attack
+cluster_id:  6 kills, killed in, kill, die in, die as, die as, die as, kill, killed in, killing, dead as, dead as, killed in, killed as
+cluster_id:  7 city in syria, city in syria, city in syria
+cluster_id:  12 downed by over, explodes in, blow up in, blow up in, blow up in
+cluster_id:  14 rebels from syria, rebels from syria, rebels from syria, rebels from syria, rebels from syria, rebels from syria, rebels from syria
+cluster_id:  17 helicopter belonging to military, helicopter belonging to military, helicopter belonging to military, helicopter belonging to military
+cluster_id:  18 town that is important, town that is important, town that is important
+cluster_id:  27 :, :
+cluster_id:  32 helicopter belonging to syria, helicopter belonging to syria
+cluster_id:  36 leave dead, dead in
+ 
+The predicted clusters:
+cluster_id:  1 held by(hold), held by(hold), -(hold)
+cluster_id:  3 air strikes on(strike), strike(strike), air strikes on(strike), strikes on(strike)
+cluster_id:  4 'airstrikes('), 'hit('), 'hit('), pound(')
+cluster_id:  5 attack(attack), attacks on(attack), attacks on(attack)
+cluster_id:  7 airstrikes in(airstrike), airstrikes(airstrike), airstrike(airstrike), airstrikes(airstrike), airstrike on(airstrike), airstrikes(airstrike)
+cluster_id:  8 bombed(bomb), bomb(bomb), bomb(bomb), bomb(bomb), bomb(bomb), bomb(bomb), bombed(bomb)
+cluster_id:  9 drops cluster bombs on(drop), drops cluster bombs on(drop)
+cluster_id:  10 bombing of(bombing), 's deadly bombing of(bombing)
+cluster_id:  11 killed as(kill), killed in(kill), killed in(kill), kill(kill), kill(kill), kills(kill), killed in(kill)
+cluster_id:  12 die as(die), die as(die), die in(die), die as(die)
+cluster_id:  13 town of(town), killing(town), captured by(town)
+cluster_id:  14 dead as(dead), dead in(dead), dead as(dead)
+cluster_id:  15 :(-), -(-), :(-), -(-)
+cluster_id:  19 blow up in(blow), blow up in(blow), blow up in(blow)
+ 
+**********
+###hurricane_sandy.xml
+
+Sentence:  Hurricane Sandy makes landfall on NJ coast | http : //t.co/ZFWYzGQx
+Gold predicates:  makes landfall on
+ 
+Sentence:  World_news Hurricane Sandy picks up speed ahead of mid-Atlantic landfall
+Gold predicates:  landfall, picks up speed ahead of
+ 
+Sentence:  NYC Hurricane Sandy Floods Subways
+Gold predicates:  floods
+ 
+Sentence:  Atlantic City Boardwalk Destroyed By Hurricane Sandy - YouTube
+Gold predicates:  boardwalk located in atlantic city, destroyed by
+ 
+Sentence:  Hurricane Sandy Pounds Into Atlantic City
+Gold predicates:  pounds into
+ 
+Sentence:  Hurricane Sandy Floods Towns : Hurricane Sandy Heading Toward United States
+Gold predicates:  floods, heading toward
+ 
+Sentence:  Former Hurricane Sandy officially makes landfall on New Jersey coast near Atlantic City .
+Gold predicates:  makes landfall on near, hurricane that is no longer a hurricane
+ 
+Sentence:  Hurricane Sandy already flooded the beach sheeeshh
+Gold predicates:  already flooded
+ 
+Sentence:  Atlantic City flooded by Hurricane Sandy -
+Gold predicates:  flooded by
+ 
+Sentence:  Shore Fellowship outside of Atlantic City , NJ is set up for relief in the aftermath of Hurricane Sandy .
+Gold predicates:  ,, outside of, is set up for in the aftermath of
+ 
+Sentence:  MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold predicates:  made landfall along near, hurricane that is no longer a hurricane, of, say, @
+ 
+Sentence:  Hurricane sandy flooded some parts of new Jersey area yesterday .
+Gold predicates:  flooded
+ 
+Sentence:  Hurricane Sandy 'largest storm recorded in Atlantic'
+Gold predicates:  'largest recorded in
+ 
+Sentence:  Hurricane Sandy is closing in on the Atlantic coastline .
+Gold predicates:  is closing in on
+ 
+Sentence:  Sandy makes landfall in southern New Jersey .
+Gold predicates:  makes landfall in
+ 
+Sentence:  Atlantic City is covered in flood waters that have swamped building
+Gold predicates:  flood waters, is covered in, that have swamped
+ 
+Sentence:  Superstorm Sandy causes major flooding on New Jersey 's Atlantic coast
+Gold predicates:  's, causes flooding on
+ 
+Sentence:  Hurricane Sandy in the City of Toronto
+Gold predicates:  of, in
+ 
+Sentence:  Flooding as Hurricane Sandy makes landfall
+Gold predicates:  makes landfall, flooding as
+ 
+Sentence:  Hurricane Sandy landfall : early this evening in southern NJ
+Gold predicates:  landfall in
+ 
+Sentence:  `` Hurricane Sandy moving toward coast at 28 mph . Storm is centered 40 miles south of Atlantic City , New Jersey . '' @ mix983
+Gold predicates:  ,, south of, is centered, moving toward at
+ 
+Sentence:  Up to one foot of water being reported in major roads in Atlantic City , New Jersey . Water levels rising , reports CNN .
+Gold predicates:  ,, levels of water, of being reported in, of being reported in, of being reported in, rising, reports
+ 
+Sentence:  State routes closed in northeastern Pennsylvania due to Hurricane Sandy..
+Gold predicates:  routes serving the state, closed in due to
+ 
+Sentence:  Hurricane sandy mess up NJ
+Gold predicates:  mess up
+ 
+Sentence:  The northeastern United States battled epic flood waters and lengthy power outages on Tuesday after ( cont )
+Gold predicates:  flood waters on, outages, battled on, battled on
+ 
+Sentence:  Sandy makes landfall near Atlantic City . Storm surge from 9 to 14 feet .
+Gold predicates:  makes landfall near, surge from to
+ 
+Sentence:  Hurricane Sandy damages Atlantic City boardwalk , floods NJ coast
+Gold predicates:  boardwalk located in atlantic city, damages, floods
+ 
+Sentence:  reports Atlantic City is flooding Sandy
+Gold predicates:  is flooding, reports
+ 
+Sentence:  Airlines cancel 3,000 flights as Hurricane Sandy nears landfall
+Gold predicates:  landfall, cancel as, nears
+ 
+Sentence:  Emergencies have been declared in 6 states as Hurricane Sandy wheels toward land.The monster storm is to make landfall in NJ this evening .
+Gold predicates:  is to make landfall in, have been declared in as, storm that is of monstrous proportions, wheels toward
+ 
+Sentence:  New Jersey newspapers suspend Tuesday delivery as Hurricane Sandy nears
+Gold predicates:  delivery, newspapers based in nj, suspend as, nears
+ 
+Sentence:  Hurricane Sandy speeds towards landfall - CBS News
+Gold predicates:  landfall, speeds towards, -
+ 
+Sentence:  Sandy makes landfall in New Jersey
+Gold predicates:  makes landfall in
+ 
+Sentence:  Hurricane Sandy expected to make landfall along or just south of southern NJ coast by early evening - @ NHC_Atlantic
+Gold predicates:  to make landfall along by, just south of, expected, -
+ 
+Sentence:  Hurricane Sandy Makes Landfall in New Jersey
+Gold predicates:  makes landfall in
+ 
+Sentence:  Hurricane Sandy causes at least 29 U.S . Deaths
+Gold predicates:  deaths, causes
+ 
+Sentence:  According to the National Hurricane Center , Sandy is located about 265 miles southeast of Atlantic City , New Jersey .
+Gold predicates:  ,, is located southeast of, according to
+ 
+Sentence:  Atlantic City Landfall
+Gold predicates:  landfall
+ 
+Sentence:  Hurricane Sandy floods New York
+Gold predicates:  floods
+ 
+Sentence:  Shark swimming through the streets of Atlantic City , NJ which is completely flooded from hurricane Sandy . CRAZY !
+Gold predicates:  ,, which is flooded from, of, swimming through
+ 
+Sentence:  AP now saying `` former '' Hurricane Sandy has made landfall along New Jersey coast .
+Gold predicates:  has made landfall along, hurricane that is no longer a hurricane, now saying
+ 
+Sentence:  Widespread Flooding Starts in Atlantic County , N.J .
+Gold predicates:  ,, flooding in, starts in
+ 
+Sentence:  Hurricane_Sandy About to make LandFall
+Gold predicates:  about to make landfall
+ 
+Sentence:  Atlantic City , New Jersey Sandy StaySafe
+Gold predicates:  ,, pounds into (atl city)
+ 
+
+ The Gold clusters:
+cluster_id:  1 makes landfall on, landfall, makes landfall in, landfall in, landfall, makes landfall on near, makes landfall, makes landfall near, landfall, landfall, makes landfall in, makes landfall in, has made landfall along, about to make landfall, is to make landfall in, to make landfall along by, made landfall along near
+cluster_id:  2 picks up speed ahead of, speeds towards
+cluster_id:  3 boardwalk located in atlantic city, boardwalk located in atlantic city
+cluster_id:  4 ,, ,, ,, ,, ,, ,
+cluster_id:  8 of being reported in, of being reported in, of being reported in
+cluster_id:  13 floods, floods
+cluster_id:  14 destroyed by, damages
+cluster_id:  15 pounds into, pounds into (atl city)
+cluster_id:  16 floods, flooding as
+cluster_id:  18 hurricane that is no longer a hurricane, hurricane that is no longer a hurricane, hurricane that is no longer a hurricane
+cluster_id:  20 flooded by, is flooding, which is flooded from, flooding in, flood waters
+cluster_id:  25 floods, flood waters on, flooded, causes flooding on
+cluster_id:  49 south of, is located southeast of
+cluster_id:  61 is closing in on, heading toward, moving toward at, wheels toward, nears, nears
+ 
+The predicted clusters:
+cluster_id:  1 makes landfall in(make), has made landfall along(make), makes landfall(make), makes landfall on(make), makes landfall in(make), to make landfall along by(make), makes landfall near(make), makes landfall in(make), made landfall along near(make), makes landfall on near(make)
+cluster_id:  2 -(-), landfall(-), -(-)
+cluster_id:  3 landfall in(landfall), landfall(landfall), landfall(landfall), landfall(landfall)
+cluster_id:  8 ,(,), ,(,), ,(,), ,(,), ,(,), ,(,), ,(,)
+cluster_id:  10 reports(report), of being reported in(report), of being reported in(report), reports(report), of being reported in(report)
+cluster_id:  12 floods(floods), floods(floods)
+cluster_id:  13 already flooded(flood), floods(flood), flooded by(flood), which is flooded from(flood), flooded(flood), is flooding(flood), floods(flood)
+cluster_id:  17 flooding as(flooding), flooding in(flooding)
+cluster_id:  18 flood waters(water), flood waters on(water)
+cluster_id:  20 of(of), of(of), of(of)
+cluster_id:  21 causes flooding on(cause), causes(cause)
+cluster_id:  24 closed in due to(close), is closing in on(close)
+cluster_id:  27 battled on(battle), battled on(battle)
+cluster_id:  33 say(say), now saying(say)
+cluster_id:  38 south of(south), just south of(south)
+cluster_id:  48 nears(near), nears(near)
+ 
+**********
+###prison_officer.xml
+
+Sentence:  NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold predicates:  to discuss, murder, monisters from jakarta, officer who works in prisson
+ 
+Sentence:  Duffy arrested in connection with prison officer murder :
+Gold predicates:  murder, officer who works in prison, arrested, in connection with
+ 
+Sentence:  Prison officer shot dead on M1 Eastbound , Irish registered car found burnt out in Inglewood with locals saying 2/3 men inside
+Gold predicates:  shot dead on, officer who works in prison, burnt out, found in with, saying, inside, registered, irish car
+ 
+Sentence:  Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold predicates:  murder in, officer who works in prison, arrest, in connection with, police from ireland, ?
+ 
+Sentence:  Prison officer murdered on M1
+Gold predicates:  murdered on, officer who works in prison
+ 
+Sentence:  Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold predicates:  murder, murder of, prison officer, officer, arrests, have been arrested, officer from nerthern ireland, in connection with
+ 
+Sentence:  Heart goes out to the prison officers family who was killed in n. Ireland yesterday . Lets not go back there again .
+Gold predicates:  who was killed in, prison officers, heart goes out to, family of officer
+ 
+Sentence:  [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold predicates:  murdered in by, officer from nerthern ireland, ambush, republicans who are dessident, long-serving
+ 
+Sentence:  Murdered prison officer is named -
+Gold predicates:  murdered, prison officer, is named
+ 
+Sentence:  Northern Ireland motorway crash victim 'ambushed ' by gunman
+Gold predicates:  'ambushed ' by, crash
+ 
+Sentence:  On MSN today - Prison officer shot dead in ambush
+Gold predicates:  prison officer, ambush, dead, shot in, ?
+ 
+Sentence:  Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold predicates:  prison officer, burnt-out, found in, attack on in, republicans who are dessident, linked to, stronghold of (dissident) republicn
+ 
+Sentence:  Gunman ambushes Northern Ireland prison officer
+Gold predicates:  prison officer, officer from nerthern ireland, ambushes
+ 
+Sentence:  Northern Ireland FM Peter Robinson and Deputy FM Martin McGuinness condemn `` brutal attack '' which killed prison officer
+Gold predicates:  killed, prison officer, attack which, fm is from ni, dfm from ni, condemn, condemn
+ 
+Sentence:  In shock ! horrific that poor prison officers family
+Gold predicates:  
+ 
+Sentence:  Republicans Behind Motorway Attack On Prison Officer
+Gold predicates:  attack on, behind
+ 
+Sentence:  Is there a connection between the incident at spruce field and the murder of Prison Officer ?
+Gold predicates:  
+ 
+Sentence:  Counting blessings that I 'm working remotely today , after prison officer assassinated driving on M1 when I 'd normally be going to Belfast .
+Gold predicates:  assassinated on, prison officer, driving on
+ 
+Sentence:  Prison officer 's murder condemned - The Ulster Herald
+Gold predicates:  murder, prison officer, condemned, -
+ 
+Sentence:  Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold predicates:  prison officer, northern ireland officer, ambush, fears of, war, prompts, -
+ 
+Sentence:  Prison officer gets stiffed
+Gold predicates:  prison officer, gets stiffed
+ 
+Sentence:  prisoner officer shot dead on M1 in Northern Ireland . what a waste of life and does not bode well
+Gold predicates:  shot dead on in, officer of prisoners, does not bode well
+ 
+Sentence:  Prison Officer Shot Dead On Motorway In NI - Sky News
+Gold predicates:  shot dead on in, prison officer, -
+ 
+Sentence:  Jail officer family 'devastated ' The family of a Northern Ireland prison officer murdered as he drove to work are `` ab
+Gold predicates:  murdered as, jail officer, prison officer, northern ireland officer, officer family, of a, drove to, 'devastated
+ 
+Sentence:  2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold predicates:  slaying of, prison guard, arrested over, northern ireland guard, suspected, militnts belong to ir
+ 
+Sentence:  Just commented on @ thejournal_ie : Prison officer killed in Armagh motorway shooting -
+Gold predicates:  killed in, prison officer, shooting
+ 
+Sentence:  Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold predicates:  murder, murder of, jail officer, prison officer, arrest, arrest, in connection with, irish police, northern ireland officer
+ 
+Sentence:  news Murdered prison officer is named
+Gold predicates:  murdered, prison officer, is named
+ 
+Sentence:  RIP to the prison officer shot dead while travelling to work ! Hope the scumbag gets caught justice
+Gold predicates:  shot dead while, prison officer, travelling to
+ 
+Sentence:  The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold predicates:  shot dead as, prison officer, drove to along the, father of, from
+ 
+
+ The Gold clusters:
+cluster_id:  1 murder, murder, shot dead on, murder in, murdered on, murder, murder of, who was killed in, murdered in by, murdered, killed, assassinated on, murder, shot dead on in, shot dead on in, murdered as, slaying of, killed in, murder, murder of, murdered, shot dead while, shot dead as
+cluster_id:  4 officer who works in prisson, officer who works in prison, officer who works in prison, officer who works in prison, officer who works in prison, prison officer, officer, prison officers, prison officer, prison officer, prison officer, prison officer, prison officer, prison officer, prison officer, prison officer, prison officer, prison officer, jail officer, prison officer, prison guard, prison officer, jail officer, prison officer, prison officer, prison officer, prison officer
+cluster_id:  7 burnt out, burnt-out
+cluster_id:  8 found in with, found in
+cluster_id:  13 arrest, arrest, arrest
+cluster_id:  14 in connection with, in connection with
+cluster_id:  15 police from ireland, irish police
+cluster_id:  20 arrests, have been arrested, arrested over
+cluster_id:  21 officer from nerthern ireland, officer from nerthern ireland, officer from nerthern ireland, northern ireland officer, northern ireland officer, northern ireland guard, northern ireland officer
+cluster_id:  24 family of officer, officer family, of a
+cluster_id:  25 ambush, 'ambushed ' by, ambush, attack on in, ambushes, attack which, attack on, ambush, gets stiffed, shooting
+cluster_id:  26 republicans who are dessident, republicans who are dessident
+cluster_id:  40 driving on, drove to, travelling to, drove to along the
+ 
+The predicted clusters:
+cluster_id:  1 murder(murder), murder of(murder), murdered on(murder), murder(murder), murdered(murder), murder(murder), murder(murder), murder of(murder), murdered(murder), murder(murder)
+cluster_id:  2 shot dead as(shoot), shot in(shoot), shot dead while(shoot), shot dead on(shoot), shot dead on in(shoot)
+cluster_id:  3 ambush(in), in connection with(in), in connection with(in), in connection with(in), murder in(in), in connection with(in)
+cluster_id:  4 who was killed in(kill), killed(kill), killed in(kill)
+cluster_id:  5 prison officer(officer), prison officer(officer), prison officer(officer), murdered in by(officer), prison officer(officer), prison officer(officer), prison officer(officer), prison officer(officer), officer(officer), prison officer(officer), prison officer(officer), prison officer(officer), prison officer(officer), prison officer(officer), murdered as(officer), prison officers(officer), northern ireland officer(officer), assassinated on(officer), prison officer(officer), prison officer(officer)
+cluster_id:  6 dead(dead), shot dead on in(dead)
+cluster_id:  8 prison officer(attack), attack on(attack), attack which(attack)
+cluster_id:  10 jail officer(jail), jail officer(jail)
+cluster_id:  11 found in(ireland), prison officer(ireland), northern ireland officer(ireland)
+cluster_id:  12 prison guard(guard), northern ireland guard(guard)
+cluster_id:  13 arrest(arrest), arrest(arrest), arrests(arrest), arrested(arrest), arrest(arrest), have been arrested(arrest), arrested over(arrest)
+cluster_id:  14 burnt-out(burn), burnt out(burn)
+cluster_id:  19 irish car(car), linked to(car)
+cluster_id:  23 officer family(family), of a(family)
+cluster_id:  24 'ambushed ' by('), 'devastated(')
+cluster_id:  25 ambushes(ambush), ambush(ambush), ambush(ambush)
+cluster_id:  30 is named(name), is named(name)
+cluster_id:  32 condemn(condemn), condemn(condemn), condemned(condemn)
+cluster_id:  35 drove to(drive), drove to along the(drive)
+cluster_id:  37 -(-), -(-), -(-)
+ 
+**********
+###fuel_tanker.xml
+
+Sentence:  A gas tanker exploded under the National Guard Bridge in Riyadh - around 14 ppl killed , and more than 60 injured
+Gold predicates:  truck carrying fuel, exploded under in, injured, killed
+ 
+Sentence:  At least 23 killed in Riyadh fuel truck blast - http : //t.co/ZajumhON via
+Gold predicates:  truck carrying fuel, blast, killed in
+ 
+Sentence:  Gas explosion eastern Riyadh
+Gold predicates:  explosion
+ 
+Sentence:  Saudi Arabia fuel tanker explosion kills at least 22
+Gold predicates:  truck carrying fuel, explosion, tanker belonging to saudi arabia, kills
+ 
+Sentence:  ( World ) At least 23 killed in Riyadh fuel truck blast : TV
+Gold predicates:  truck carrying fuel, blast, killed in
+ 
+Sentence:  Truck explodes in Saudi capital , killing at least 22 :
+Gold predicates:  explodes in, capital of saudi arabia, killing
+ 
+Sentence:  At least 22 killed in Riyadh fuel truck blast - World Updates | The Star Online
+Gold predicates:  truck carrying fuel, blast, killed in, |
+ 
+Sentence:  Saudi fuel truck crash kills 22
+Gold predicates:  truck carrying fuel, tanker belonging to saudi arabia, crash, kills
+ 
+Sentence:  Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold predicates:  truck carrying fuel, explosion, in, embassy belonging to philippines, was killed in, in, discharged, to check, continues, :, :, :
+ 
+Sentence:  Video at site of Riyadh Explosion
+Gold predicates:  
+ 
+Sentence:  At least 23 killed in Riyadh fuel truck blast | Reuters
+Gold predicates:  truck carrying fuel, blast, killed in, |
+ 
+Sentence:  Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold predicates:  truck carrying fuel, explosion, crash, that levels, killing, triggers
+ 
+Sentence:  world news Fuel tanker explosion kills 22 in Saudi capital
+Gold predicates:  truck carrying fuel, explosion, capital of saudi arabia, kills in
+ 
+Sentence:  The route from Riyadh to Damamm is morbidly dark .
+Gold predicates:  from to, morbidly dark route
+ 
+Sentence:  Egypt Jan25 Saudi fuel truck crash kills 22
+Gold predicates:  truck carrying fuel, crash, kills
+ 
+Sentence:  Saudi Arabia ( Security Rating : 3 ) - Fuel truck explodes in Saudi capital , killing at least 22 people |
+Gold predicates:  explodes in, capital of saudi arabia, killing
+ 
+Sentence:  Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold predicates:  truck carrying fuel, explosion, dead, in, wounded, rises to, rises to, -saudi state tv, -saudi state tv
+ 
+Sentence:  Saudi Arabia fuel truck crash kills 22 in Riyadh - BBC News
+Gold predicates:  truck carrying fuel, tanker belonging to saudi arabia, crash in, kills in, -
+ 
+Sentence:  UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold predicates:  truck carrying fuel, president of uae, fire in, accident in, of, of the, on, of, sends to
+ 
+Sentence:  Riyadh gas tanker mishap : Six malayalees include in injured
+Gold predicates:  truck carrying fuel, mishap, injured, include in
+ 
+Sentence:  Fuel tanker explosion kills 14 in Riyadh - The Hindu
+Gold predicates:  truck carrying fuel, explosion, kills in, -
+ 
+Sentence:  Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold predicates:  truck carrying fuel, explosion, capital of saudi arabia, kills in, :
+ 
+Sentence:  Explosion in Riyadh early today . 21 died and 123 are injured .
+Gold predicates:  explosion in, died, are injured
+ 
+Sentence:  First Reactions to the Riyadh Explosion
+Gold predicates:  
+ 
+Sentence:  Explosion rips through industrial building in Saudi Arabia 's capital
+Gold predicates:  explosion in, 's, rips through in, building for industrial use
+ 
+Sentence:  Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold predicates:  truck carrying fuel, explosion, tanker belonging to saudi arabia, kills in, fireball, aftermath of
+ 
+Sentence:  Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold predicates:  truck carrying fuel, explosion, explosion in, capital of saudi arabia, kills in, killed, injured
+ 
+Sentence:  bbcworld news Deaths in Saudi fuel truck crash
+Gold predicates:  truck carrying fuel, tanker belonging to saudi arabia, crash, deaths in, bbcworld news
+ 
+Sentence:  Fuel Truck Blast Kills 60 , Injures upto 200 in Riyadh on today
+Gold predicates:  truck carrying fuel, blast in on, kills in on, injures in on
+ 
+Sentence:  The New York Times - Saudi Arabia : Fuel Truck Explodes , Killing Many NYtimes KSA Saudi
+Gold predicates:  explodes, killing, -, -
+ 
+Sentence:  Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold predicates:  truck carrying fuel, explosion, crash, that levels, killing, triggers
+ 
+Sentence:  Fuel tanker explosion kills 14 people after it crashes into highway underpass in Saudi capital
+Gold predicates:  truck carrying fuel, explosion in, capital of saudi arabia, crashes into in, kills after
+ 
+
+ The Gold clusters:
+cluster_id:  0 truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel, truck carrying fuel
+cluster_id:  1 exploded under in, blast, explosion, explosion, blast, explodes in, blast, explosion, blast, explosion, explodes in, explosion, explosion, explosion, explosion in, explosion in, explosion, explosion, explosion in, explodes, explosion, explosion in, blast in on, explosion
+cluster_id:  5 tanker belonging to saudi arabia, tanker belonging to saudi arabia, tanker belonging to saudi arabia, tanker belonging to saudi arabia, tanker belonging to saudi arabia
+cluster_id:  6 capital of saudi arabia, capital of saudi arabia, capital of saudi arabia, capital of saudi arabia, capital of saudi arabia, capital of saudi arabia, 's
+cluster_id:  16 crash, crash, crash, crash, crash, crashes into in, crash in
+cluster_id:  18 that levels, that levels
+cluster_id:  19 killing, killing
+cluster_id:  20 triggers, triggers
+cluster_id:  21 kills, killing, killed in, kills in, kills in, died, kills in, kills in, killed, deaths in, killing, kills after, kills in on, kills in, killed, killed in, killed in, kills, killed in, kills in, kills, killing, dead
+cluster_id:  28 wounded, are injured, injured, injures in on
+cluster_id:  29 bbcworld news, -
+cluster_id:  32 fire in, fireball
+cluster_id:  33 accident in, mishap
+ 
+The predicted clusters:
+cluster_id:  0 exploded under in(explode), explodes in(explode), explodes in(explode)
+cluster_id:  1 blast(blast), blast(blast), blast(blast), blast in on(blast), blast(blast)
+cluster_id:  2 explosion in(explosion), explosion(explosion), explosion(explosion), explosion(explosion), explosion in(explosion), explosion(explosion), explosion in(explosion), explosion(explosion), explosion in(explosion), explosion(explosion), explosion(explosion), explosion(explosion), explosion(explosion), explosion(explosion), explosion(explosion)
+cluster_id:  4 injured(injure), injured(injure), are injured(injure), injures in on(injure), injured(injure)
+cluster_id:  6 in(in), in(in), in(in)
+cluster_id:  7 kills in(kill), kills(kill), kills(kill), kills in(kill), killed(kill), killed in(kill), killing(kill), kills after(kill), kills in(kill), kills in(kill), killed(kill), killed in(kill), kills in(kill), killing(kill), was killed in(kill), kills(kill), kills in(kill), killed in(kill), killed in(kill)
+cluster_id:  11 :(:), :(:), :(:), :(:)
+cluster_id:  12 crash(crash), crash(crash), crashes into in(crash), crash in(crash), crash(crash), crash(crash), crash(crash)
+cluster_id:  13 that levels(that), that levels(that)
+cluster_id:  14 killing(killing), killing(killing), killing(killing)
+cluster_id:  15 triggers(triggers), triggers(triggers)
+cluster_id:  23 -(-), -(-), -(-), -(-)
+cluster_id:  28 of the(of), of(of), of(of)
+cluster_id:  31 rises to(rise), rises to(rise)
+cluster_id:  32 -saudi state tv(-saudi), -saudi state tv(-saudi)
+cluster_id:  36 |(|), |(|)
+ 
+**********
+###syrian_plane.xml
+
+Sentence:  Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold predicates:  carried, was carrying, to land in, forced, was carrying, plane belonging to syria, plane belonging to syria, equipment made by russia
+ 
+Sentence:  Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold predicates:  grounded, plane belonging to syria, passengers from russia, angry at about, angry at about
+ 
+Sentence:  Turkey Escalates Confrontation with Syria , Forcing Syrian Plane to Land
+Gold predicates:  confrontation with, escalates, to land, forcing, plane belonging to syria
+ 
+Sentence:  Syrian passenger plane forced to land in Turkey
+Gold predicates:  to land in, forced, plane belonging to syria, plane carrying passengers
+ 
+Sentence:  Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold predicates:  was carrying from for, intercepted, was carrying from for, plane belonging to syria, plane carrying passengers, equipment for military purposes, ministry affiliated with syria, pm, :, :
+ 
+Sentence:  Syrian passenger plane forced to land in Turkey :
+Gold predicates:  to land in, forced, plane belonging to syria, plane carrying passengers
+ 
+Sentence:  Turkey forces down suspect Syrian plane
+Gold predicates:  forces down, plane belonging to syria, suspect
+ 
+Sentence:  Al Jazeera News : Turkey intercepts Syrian passenger
+Gold predicates:  intercepts, plane carrying passengers, :
+ 
+Sentence:  Turkish PM says plane from Moscow forced to land in Turkey was carrying ammunition for Syria government .
+Gold predicates:  from was carrying for, to land in, forced, ministry affiliated with syria, says, from
+ 
+Sentence:  Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold predicates:  land in, force, plane belonging to syria, plane carrying passengers, enroute from, f16s belonging to turkey
+ 
+Sentence:  Syrian plane was carrying ammunition
+Gold predicates:  was carrying
+ 
+Sentence:  Syria passenger plane forced to land in Turkey
+Gold predicates:  to land in, forced, plane belonging to syria, plane carrying passengers
+ 
+Sentence:  Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold predicates:  to land in, to force, plane carrying passengers, (plane) from (moscow), using, military belonging to turkey, endangering by, lives belonging to russians, accuses of
+ 
+Sentence:  Syrian plane was carrying ammunition .
+Gold predicates:  was carrying, plane belonging to syria
+ 
+Sentence:  Turkey forced a Syrian passenger plane coming from Moscow to land at Ankara
+Gold predicates:  to land at, forced, plane belonging to syria, plane carrying passengers, coming from
+ 
+Sentence:  Ankara sends note to Damascus over plane cargo
+Gold predicates:  cargo on plane, sends to over
+ 
+Sentence:  Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold predicates:  to land, to force, intercepting, plane belonging to syria, plane belonging to syria, plane carrying passengers, decision, defends, is defending
+ 
+Sentence:  Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold predicates:  tensions, escalate as, forces down, plane belonging to syria, plane carrying passengers
+ 
+Sentence:  Syrian plane was carrying ammunition
+Gold predicates:  was carrying, plane belonging to syria
+ 
+Sentence:  Syrian Bound Plane From Moscow Forced To Land In Turkey
+Gold predicates:  to land in, forced, bound from
+ 
+Sentence:  Turkey intercepts Syrian passenger plane
+Gold predicates:  intercepts, plane belonging to syria, plane carrying passengers
+ 
+Sentence:  Turkey Says Syrian Plane Carried Russian Munitions
+Gold predicates:  carried, plane belonging to syria, says, munitions belonging to russia
+ 
+Sentence:  Turkey forces Syria plane to land
+Gold predicates:  to land, forces, plane belonging to syria
+ 
+Sentence:  Syrian Plane Carried Ammunition
+Gold predicates:  carried, plane belonging to syria
+ 
+Sentence:  Turkey says Syrian plane carried Russian munitions | Reuters
+Gold predicates:  carried, plane belonging to syria, says, munitions belonging to russia, |
+ 
+Sentence:  Turkey forces Syria passenger plane to land in Ankara
+Gold predicates:  to land in, forces, plane belonging to syria, plane carrying passengers
+ 
+Sentence:  Turkey reportedly intercepts Syrian passenger plane
+Gold predicates:  intercepts, plane belonging to syria, plane carrying passengers, reportedly
+ 
+Sentence:  Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold predicates:  to land, forces over, plane belonging to syria, suspicious, en route from
+ 
+Sentence:  Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold predicates:  'carried, was carrying, to land in, forced, was carrying, plane belonging to syria, plane belonging to syria, equipment made by russia
+ 
+Sentence:  Turkey forces Syrian passenger plane to land
+Gold predicates:  to land, forces, plane belonging to syria, plane carrying passengers
+ 
+
+ The Gold clusters:
+cluster_id:  0 carried, was carrying from for, was carrying, from was carrying for, was carrying, was carrying, was carrying, carried, carried, carried, 'carried, was carrying
+cluster_id:  1 confrontation with, tensions
+cluster_id:  2 escalates, escalate as
+cluster_id:  3 to land, to land in, to land in, to land in, to land in, land in, to land in, to land in, to land at, to land, to land in, to land, to land in, to land, to land, to land in
+cluster_id:  4 forcing, forced, intercepted, forced, forced, intercepts, forced, force, forces down, grounded, forced, to force, forced, to force, intercepting, forces down, forced, intercepts, forces, forces, intercepts, forces, forces over, forced
+cluster_id:  5 was carrying from for, was carrying, was carrying
+cluster_id:  6 plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria, plane belonging to syria
+cluster_id:  7 equipment made by russia, equipment made by russia
+cluster_id:  9 plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers, plane carrying passengers
+cluster_id:  12 ministry affiliated with syria, ministry affiliated with syria
+cluster_id:  18 :, says, says, says
+cluster_id:  19 suspect, suspicious
+cluster_id:  22 from, enroute from, coming from, bound from, en route from, (plane) from (moscow)
+cluster_id:  32 defends, is defending
+cluster_id:  33 munitions belonging to russia, munitions belonging to russia
+ 
+The predicted clusters:
+cluster_id:  0 carried(carry), carried(carry), carried(carry), was carrying from for(carry), was carrying(carry), was carrying from for(carry), was carrying(carry), carried(carry), was carrying(carry), was carrying(carry), was carrying(carry)
+cluster_id:  1 from was carrying for(from), from(from)
+cluster_id:  3 was carrying(be), was carrying(be)
+cluster_id:  6 escalate as(escalate), escalates(escalate)
+cluster_id:  7 land in(land), to land in(land), to land in(land), to land(land), to land(land)
+cluster_id:  8 to land in(to), to land at(to), to land in(to), to land in(to), to land in(to), to land(to), to land(to), to land in(to), to land(to)
+cluster_id:  9 forced(plane), to land in(plane)
+cluster_id:  10 force(force), forces(force), to force(force), forces(force), forced(force), forced(force), to land in(force), forced(force), forced(force), to force(force), forces over(force), forced(force), forcing(force), forced(force), forces(force), forces down(force)
+cluster_id:  11 intercepting(intercept), intercepts(intercept), intercepts(intercept), intercepts(intercept), intercepted(intercept)
+cluster_id:  16 angry at about(angry), angry at about(angry)
+cluster_id:  17 :(:), :(:), :(:)
+cluster_id:  18 says(say), says(say), says(say)
+cluster_id:  30 defends(defend), is defending(defend)
+ 
+**********
+###armstrong_doping.xml
+
+Sentence:  Lance Armstrong 's repeated denials of doping claims
+Gold predicates:  doping, claims, 's denials of
+ 
+Sentence:  Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold predicates:  teammate named george hincapie, teammate who is of key value, 's, doping, admits to
+ 
+Sentence:  George Hincapie , who raced alongside Armstrong in his 7 Tour wins , apologizes for doping . Stopped using in 2006 .
+Gold predicates:  doping, 7 tour wins that armstrong had, stopped using in, apologizes for, who raced alongside in
+ 
+Sentence:  George Hincapie confesses to doping
+Gold predicates:  doping, confesses to
+ 
+Sentence:  `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold predicates:  detailing, to release, program that was at a sophisticated level, doping, program that entails doping, 's involvement in, --
+ 
+Sentence:  USADA Report on Allegations Against Lance Armstrong
+Gold predicates:  allegations against, report on
+ 
+Sentence:  Eleven Lance Armstrong Teammates Testified Against Him in Doping Case :
+Gold predicates:  11 teammates belonging to armstrong, testified against in, doping, case about doping (lance)
+ 
+Sentence:  U.S . anti-doping agency report says cyclist Armstrong cheated
+Gold predicates:  armstrong is a cyclist, report says, cheated
+ 
+Sentence:  Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold predicates:  cancer that armstrong had, 's, high levels of hcg, ( ), not detecting, doping, controllers who deal with doping, blamed for, ' to, states
+ 
+Sentence:  US anti-doping agency has called lance armstrong `` not only a drug user but alao a dealer '' bloodyhell
+Gold predicates:  user of drugs, has called not only, has called alao
+ 
+Sentence:  Lance Armstrong has flown into New York to deny doping claims . Be more convincing if he 'd used a plane .
+Gold predicates:  doping, claims, to deny, has flown into
+ 
+Sentence:  U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe . Cycling
+Gold predicates:  of 's, testified against in, says, probe
+ 
+Sentence:  USADA reveals evidence against Lance Armstrong
+Gold predicates:  against, reveals
+ 
+Sentence:  Lance Armstrong a real life dope peddlar @ upthealps
+Gold predicates:  peddler who sells dope, peddler in real life, a
+ 
+Sentence:  USADA releases Lance Armstrong evidence .
+Gold predicates:  against (evidence, armstrong), releases
+ 
+Sentence:  Lance Armstrong got doping BlameSuarez
+Gold predicates:  got doping
+ 
+Sentence:  Hincapie , Former Lance Armstrong Lieutenant , Admits Doping in Cycling
+Gold predicates:  's (teammate belonging to armstrong), doping in, admits, lieutenant from before
+ 
+Sentence:  ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold predicates:  against, details, doping, case about doping (lance), via
+ 
+Sentence:  11 Teammates Testified In Doping Case Against Lance Armstrong
+Gold predicates:  testified in against, doping, case about doping (lance)
+ 
+Sentence:  NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold predicates:  program that was at a sophisticated level, doping, program that entails doping, at center of, 's, `` ''
+ 
+Sentence:  A summing up of Lance 's USADA doping report
+Gold predicates:  's report, doping
+ 
+Sentence:  Lance Armstrong unfazed by doping maelstorm
+Gold predicates:  doping, maelstrom related to doping, unfazed by
+ 
+Sentence:  Doping Agency Says 11 Teammates Testified Against Lance Armstrong
+Gold predicates:  testified against, says
+ 
+Sentence:  Lance Armstrong 's Teammates Claim He Doped - KBOI
+Gold predicates:  's, doped, claim
+ 
+Sentence:  Teammates Say Lance Armstrong Doped
+Gold predicates:  doped, say
+ 
+Sentence:  Lance Armstrong Was Central Figure in Doping Ring , Officials Say
+Gold predicates:  doping, program that entails doping, was central figure in, say
+ 
+Sentence:  USADA Issues Bombshell on Lance Armstrong
+Gold predicates:  issues on
+ 
+Sentence:  U.S . Anti-Doping Agency : Evidence against Lance Armstrong is `` overwhelming ''
+Gold predicates:  against, is, :
+ 
+Sentence:  USADA to release file on Lance Armstrong and US Postal doping
+Gold predicates:  on, to release on, doping, doping, on, to release
+ 
+Sentence:  Antidoping Agency Expected to Detail Its Case Against Lance Armstrong
+Gold predicates:  against, to detail, case being advanced by usada, expected
+ 
+Sentence:  Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold predicates:  of 's, doping, teammates from a prior time, have received bans from, ( )
+ 
+Sentence:  Evidence From the Investigation Into Alleged Doping by Lance Armstrong
+Gold predicates:  doping by, alleged, investigation into, from
+ 
+Sentence:  Lance Armstrong was at center of doping program , USADA says
+Gold predicates:  doping, program that entails doping, was at center of, says
+ 
+Sentence:  US- Anti-doping agency strengthens case against Lance Armstrong Cycling legend Lance Armstrong s
+Gold predicates:  against, legend in cycling industry, armstrong is a legend, strengthens
+ 
+Sentence:  Lance Armstrong should be on Shameless
+Gold predicates:  
+ 
+Sentence:  ( AP ) -- U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe .
+Gold predicates:  of 's, testified against in, says, probe, ( ) --
+ 
+Sentence:  The Lance Armstrong Doping Report
+Gold predicates:  report, doping
+ 
+Sentence:  Looks like George Hincapie is solidifying the case against Lance Armstrong . Shame it 's true about lance.. But it will improve cycling
+Gold predicates:  against, is solidifying
+ 
+Sentence:  Armstrong Lieutenant Hincapie Admits to Doping :
+Gold predicates:  teammate named george hincapie, 's (teammate belonging to armstrong), doping, admits to
+ 
+Sentence:  Lance Armstrong finds support with some cyclists , desipite USADA doping report
+Gold predicates:  report, doping, finds support with desipite
+ 
+Sentence:  Atlanta ( GA ) WXIA : USADA issues scathing doping report on Lance Armstrong
+Gold predicates:  issues report on, doping, ( ), :
+ 
+Sentence:  USADA Releases Doping Evidence Against Lance Armstrong - http : //t.co/OSWAQJpv
+Gold predicates:  against, releases, doping
+ 
+
+ The Gold clusters:
+cluster_id:  0 teammate named george hincapie, teammate named george hincapie
+cluster_id:  2 's, 's (teammate belonging to armstrong), 's (teammate belonging to armstrong)
+cluster_id:  3 11 teammates belonging to armstrong, of 's, 's, of 's
+cluster_id:  7 report says, 's report, report, report, issues report on
+cluster_id:  9 against, against (evidence, armstrong), against, detailing, on, against, against, against, against, against
+cluster_id:  10 reveals, releases, issues on, to release, to release on, to detail, releases, details
+cluster_id:  12 testified against, testified against in, testified against in, testified in against, testified against in
+cluster_id:  13 doped, doped, doping, doping, doping, doping, got doping, doping, doping, doping, doping, doping, cheated, doping by, doping, doping, doping
+cluster_id:  14 claim, say
+cluster_id:  20 doping, doping, doping, doping, doping in
+cluster_id:  21 admits to, admits to, confesses to, admits
+cluster_id:  22 claims, claims, allegations against, alleged
+cluster_id:  23 's denials of, to deny
+cluster_id:  27 program that was at a sophisticated level, program that was at a sophisticated level
+cluster_id:  37 says, says, says
+cluster_id:  39 doping, doping, doping, doping, doping
+cluster_id:  40 program that entails doping, program that entails doping, program that entails doping, program that entails doping
+cluster_id:  42 case about doping (lance), case about doping (lance), case about doping (lance)
+cluster_id:  47 investigation into, probe, probe
+cluster_id:  51 's involvement in, at center of, was central figure in, was at center of
+cluster_id:  58 say, says
+ 
+The predicted clusters:
+cluster_id:  0 's('s), 's('s), 's('s), 's('s)
+cluster_id:  1 say(say), says(say), say(say), of 's(say), says(say), of 's(say)
+cluster_id:  2 doping(dope), doping(dope), strengthens(dope), doping(dope), doping(dope), doping in(dope), doping(dope), doping(dope), doping(dope), doping(dope), doping(dope), doping(dope), doping(dope), doping(dope), doping(dope), report says(dope)
+cluster_id:  3 report(report), 's report(report), report on(report), report(report)
+cluster_id:  4 issues report on(issue), issues on(issue)
+cluster_id:  5 against(against), testified against in(against), against(against), testified against in(against), against(against), against(against), against(against)
+cluster_id:  6 :(:), against(:)
+cluster_id:  7 to release on(release), to release(release), releases(release), detailing(release)
+cluster_id:  8 on(on), on(on)
+cluster_id:  11 has called not only(agency), to release(agency), has called alao(agency)
+cluster_id:  12 to detail(to), ' to(to)
+cluster_id:  15 testified against(testify), testified against in(testify)
+cluster_id:  17 doped(doped), doped(doped)
+cluster_id:  18 doping(doping), doping(doping), doping(doping), doping(doping), says(doping), doping(doping), says(doping), doping(doping), doping(doping), doping(doping), :(doping), doping by(doping)
+cluster_id:  21 claims(claim), claims(claim), claim(claim)
+cluster_id:  24 admits to(admits), admits to(admits)
+cluster_id:  33 ( )((), ( )((), ( ) --(()
+cluster_id:  41 probe(-PRON-), probe(-PRON-)
+ 
+**********
+###fresno_shooting.xml
+
+Sentence:  Mass shooting reported at a Central Fresno business
+Gold predicates:  business that's in fresno, shooting at a, reported
+ 
+Sentence:  2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold predicates:  business that's in fresno, shooting rampage at, plant that produces chicken, fresno is in california, dead after at, wounded after at
+ 
+Sentence:  At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold predicates:  shot at in, reportedly, fresno is in california, -ras
+ 
+Sentence:  Reports Of Mass Shooting In Fresno , California
+Gold predicates:  shooting in, reports of, fresno is in california
+ 
+Sentence:  Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold predicates:  business that's in fresno, shooting in, fresno is in california, may be dead at, sigh when will end ?
+ 
+Sentence:  Palin Says Gunman kills 2 co-workers , self at Calif . poultry plant
+Gold predicates:  plant that produces chicken, plant that's in california, kills at, kills at, kills at, kills at, says, says
+ 
+Sentence:  Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold predicates:  plant that's in california, plant that's in california, kills at, kills at, kills at, kills at, wounds at, wounds at, wounds at, wounds at, :, :, :, :
+ 
+Sentence:  How horrible . Terrible workplace shooting in Fresno this morning .
+Gold predicates:  shooting in, how horrible
+ 
+Sentence:  Xiii ! RT @ AP : BREAKING : At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold predicates:  shot at in, reportedly, fresno is in california, -ras
+ 
+Sentence:  Workplace shooting in central Fresno . What a horrible way to start Election Day . ) - :
+Gold predicates:  shooting in, to start, way that's horrible, what a horrible way
+ 
+Sentence:  Mass Shooting at California Meat Plant - ABC News
+Gold predicates:  shooting at, plant that produces chicken, plant that's in california, -
+ 
+Sentence:  Reports Of Mass Shooting At Apple Valley Farms Plant In Central California
+Gold predicates:  shooting at in, reports of, plant called apple valley farms
+ 
+Sentence:  Sacbee - Newspaper : 3 shot at Fresno , Calif. , workplace
+Gold predicates:  business that's in fresno, shot at, fresno is in california, :
+ 
+Sentence:  Reports Of Mass Shooting At Apple Valley Farms Premises In Central California
+Gold predicates:  shooting at in, reports of, plant called apple valley farms
+ 
+Sentence:  Compass Newspaper boss shot by unknown gunmen
+Gold predicates:  
+ 
+Sentence:  Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold predicates:  business that's in fresno, shooting, details that are new, injured, on, on, on, accounts
+ 
+Sentence:  Gunman kills one , wounds three at Fresno , California plant : police
+Gold predicates:  business that's in fresno, fresno is in california, kills at, kills at, wounds at, wounds at, :, :
+ 
+Sentence:  Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold predicates:  business that's in fresno, shooting, plant that produces chicken, history that was extensive (suspect's), in, (suspect) is a parolee, (suspect) has a history
+ 
+Sentence:  BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold predicates:  shooting, shot, fresno is in california, plant called apple valley farms, dead, processing, occurred at in, ., ., .
+ 
+Sentence:  Eight people shot , at least two dead , at Fresno plant - Los Angeles Times
+Gold predicates:  business that's in fresno, shot at, dead at, dead at, -, -
+ 
+Sentence:  Newspaper report : At least 3 people shot at workplace in Fresno , Calif . fox5atl
+Gold predicates:  shot at in, fresno is in california, report :, .
+ 
+Sentence:  3 people reportedly shot at the Apple Valley Farms plant in Fresno , California :
+Gold predicates:  shot at in, reportedly, fresno is in california, plant called apple valley farms
+ 
+Sentence:  Mass shooting reported at Fresno workplace
+Gold predicates:  business that's in fresno, shooting at, reported
+ 
+Sentence:  1 dead , 4 wounded as worker opens fire at Fresno plant , police say
+Gold predicates:  business that's in fresno, opens fire at, dead as at, dead at, wounded as at, wounded at, say, say
+ 
+Sentence:  Wordpress Developer needed ( Fresno )
+Gold predicates:  
+ 
+Sentence:  People in Fresno commit suicide . But catch a few bodies first
+Gold predicates:  
+ 
+Sentence:  Fresno police respond to workplace shooting
+Gold predicates:  shooting, police working for fresno, respond to
+ 
+Sentence:  We 're LIVE on @ ABC30 right NOW with the latest info on the fatal workplace shooting in Fresno .
+Gold predicates:  shooting in, details that are new, fatal, on
+ 
+Sentence:  The death toll from a workplace shooting in Fresno , California has risen to 3 Newsroom
+Gold predicates:  shooting in, fresno is in california, death toll from, has risen to
+ 
+Sentence:  More details on today 's report of a shooting in Fresno , California :
+Gold predicates:  shooting in, 's report of, fresno is in california, details that are additional, on
+ 
+Sentence:  3 shot at Fresno poultry processing plant - Nov 6 @ 4:15 PM ET
+Gold predicates:  business that's in fresno, shot at, processing
+ 
+Sentence:  Apple Might Kick Intel Chips Out of Macs :
+Gold predicates:  
+ 
+Sentence:  A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold predicates:  shooting at in, reports of, plant called apple valley farms, reality that is different, for :
+ 
+Sentence:  Death toll rises to three in Fresno chicken plant shooting
+Gold predicates:  business that's in fresno, shooting, plant that produces chicken, death toll in, rises to
+ 
+Sentence:  Reports of mass shooting in Fresno , California
+Gold predicates:  shooting in, reports of, fresno is in california
+ 
+Sentence:  Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold predicates:  shooting, fresno is in california, plant that's in california, dead in, wounded in, including, say, say, say, ( ) --, ( ) --, ( ) --
+ 
+Sentence:  Fresno Workplace shooting - Blackstone Avenue
+Gold predicates:  business that's in fresno, shooting
+ 
+Sentence:  Employee in Fresno , CA shoots 4 then himself
+Gold predicates:  in shoots, fresno is in california, in shoots
+ 
+Sentence:  Fresno gunman identified , in critical condition
+Gold predicates:  gunman from fresno, identified, in condition
+ 
+Sentence:  Reports Of Mass Shooting At Apple Valley Farms Plant In Central California , 8 shot
+Gold predicates:  shooting at in, shot, reports of, reports of, plant called apple valley farms
+ 
+Sentence:  1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold predicates:  business that's in fresno, shooting rampage at, plant that produces chicken, dead after, wounded after
+ 
+Sentence:  O_o RT @ HuffingtonPost BREAKING : Reports of mass shooting in Fresno , California
+Gold predicates:  shooting in, reports of, fresno is in california, :
+ 
+Sentence:  Gunman kills 1 , wounds 3 in workplace shooting in Fresno , CA
+Gold predicates:  shooting in, fresno is in california, kills in in, wounds in in
+ 
+Sentence:  Man Reported in Surgery After Being Shot Multiple Times
+Gold predicates:  being shot, in surgery after, reported
+ 
+Sentence:  Horrifying ! Mass shooting reported at Fresno workplace | The Lookout - Yahoo ! News
+Gold predicates:  business that's in fresno, shooting at, reported, horrifying, |, -
+ 
+Sentence:  8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold predicates:  shooting in, shot, reports of, fresno is in california, dead, :
+ 
+Sentence:  fresno 's mass shooter was driving kimmiescar
+Gold predicates:  's, one who does mass shootings, was driving
+ 
+Sentence:  Central East Chiropractic offers help with pain relief and wellness in Fresno
+Gold predicates:  
+ 
+Sentence:  As if on cue , reports of mass shooting in Fresno California .
+Gold predicates:  shooting in, reports of, fresno is in california, as if on cue
+ 
+Sentence:  Initial reports from the central Fresno workplace shooting are that the gunman killed himself .
+Gold predicates:  business that's in fresno, shooting, killed, reports from are that
+ 
+
+ The Gold clusters:
+cluster_id:  0 business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno, business that's in fresno
+cluster_id:  3 shooting at a, shot at in, shooting in, shot at in, shooting at, shooting at in, shot at, shooting at in, shooting rampage at, shooting in, shooting in, shooting, shooting in, shooting, shot, shot at in, shot at in, shooting at, opens fire at, shooting, shooting in, shooting in, shooting in, shot at, shooting at in, shooting, shooting in, shooting, shooting, in shoots, shooting at in, shot, shooting rampage at, shooting in, shooting, shooting in, shooting at, shooting in, shot, shooting in, shooting, shot at
+cluster_id:  4 reported, reportedly, reports of, reports of, reports of, reportedly, reportedly, reported, 's report of, reports of, reports of, reports of, reports of, reported, reports of, reports of, reports of
+cluster_id:  5 plant that produces chicken, plant that produces chicken, plant that produces chicken, plant that produces chicken, plant that produces chicken, plant that produces chicken
+cluster_id:  6 fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california, fresno is in california
+cluster_id:  7 -ras, -ras
+cluster_id:  8 plant that's in california, plant that's in california, plant that's in california, plant that's in california, plant that's in california
+cluster_id:  10 plant called apple valley farms, plant called apple valley farms, plant called apple valley farms, plant called apple valley farms, plant called apple valley farms, plant called apple valley farms
+cluster_id:  15 details that are new, details that are new
+cluster_id:  17 dead after at, dead, fatal, death toll from, death toll in, dead in, kills in in, dead, dead after, kills at, kills at, kills at, kills at, kills at, kills at, kills at, kills at, dead at, dead at, dead as at, dead at
+cluster_id:  18 wounded after at, wounded in, injured, wounds in in, wounded after, wounds at, wounds at, wounds at, wounds at, wounds at, wounds at, wounded as at, wounded at
+cluster_id:  19 may be dead at, killed, kills at, kills at
+cluster_id:  25 how horrible, horrifying
+cluster_id:  27 processing, processing
+cluster_id:  38 has risen to, rises to
+cluster_id:  40 on, on
+cluster_id:  44 say, :, :, :, say
+cluster_id:  45 say, :, :, :, say
+cluster_id:  51 gunman from fresno, 's
+cluster_id:  53 :, :
+ 
+The predicted clusters:
+cluster_id:  0 shooting at in(shooting), shooting(shooting), shooting in(shooting), shooting in(shooting), shooting at in(shooting), shooting at in(shooting), shooting(shooting), shooting in(shooting), shooting at(shooting), shooting(shooting), shooting in(shooting), shooting in(shooting), shooting at(shooting), shooting at a(shooting), shooting in(shooting), shooting in(shooting), shooting(shooting)
+cluster_id:  1 shot(shoot), shot at in(shoot), shooting in(shoot), shooting at(shoot), shot at in(shoot), shooting in(shoot), shooting rampage at(shoot), shooting(shoot), shooting in(shoot), shot at(shoot), shooting(shoot), shooting(shoot), shooting in(shoot), in shoots(shoot), in shoots(shoot), shooting(shoot), shooting rampage at(shoot), shooting in(shoot), shot(shoot), shot at in(shoot), shot at in(shoot)
+cluster_id:  2 shot at(shot), shot at(shot), shot(shot)
+cluster_id:  5 reports of(report), reports of(report), reports of(report), 's report of(report), reported(report), report :(report), reported(report), reports of(report), reports of(report), reported(report), reports of(report), reports of(report), reports of(report), reports of(report), reports of(report), reported(report)
+cluster_id:  6 reportedly(reportedly), reportedly(reportedly), reportedly(reportedly)
+cluster_id:  7 -ras(-ras), -ras(-ras)
+cluster_id:  8 kills at(-), kills at(-), -(-), -(-), -(-), -(-)
+cluster_id:  9 :(:), :(:), :(:), :(:), :(:), :(:), :(:)
+cluster_id:  10 dead(dead), dead in(dead), dead at(dead), dead at(dead), dead after(dead), dead at(dead), dead(dead), dead after at(dead), dead as at(dead)
+cluster_id:  12 death toll from(toll), death toll in(toll)
+cluster_id:  13 kills at(kill), kills at(kill), kills at(kill), kills at(kill), kills at(kill), kills in in(kill), kills at(kill), kills at(kill), kills at(kill), killed(kill)
+cluster_id:  14 wounded as at(wound), wounded after(wound), wounded in(wound), wounds at(wound), wounds at(wound), wounds at(wound), wounds in in(wound), wounds at(wound), wounded after at(wound), wounded at(wound)
+cluster_id:  16 wounds at(gunman), wounds at(gunman)
+cluster_id:  17 reports from are that(be), being shot(be), may be dead at(be)
+cluster_id:  22 in(in), in condition(in), in surgery after(in)
+cluster_id:  23 processing(processing), processing(processing)
+cluster_id:  25 .(.), .(.), .(.), .(.)
+cluster_id:  27 rises to(rise), has risen to(rise)
+cluster_id:  28 on(on), on(on), on(on), on(on), on(on)
+cluster_id:  31 say(say), say(say), says(say), say(say), says(say), say(say), say(say)
+cluster_id:  32 :(three), :(three)
+cluster_id:  33 ( ) --((), ( ) --((), ( ) --(()
+ 
+**********

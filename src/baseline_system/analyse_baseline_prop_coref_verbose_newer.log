@@ -1,0 +1,3201 @@
+###syria_bombs.xml
+
+Sentence:  1   Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold predicates:  government belonging to syria(0){1[0], 1[1]}, warplanes belonging to syrian government(1){1[1], 1[2]}, towns held by rebels(2){1[5], 1[7]}, bombed(5){1[2], 1[7]}, killing(6){1[10, 11], 1[3]}, town in the north(38){1[6], 1[7]}, reducing to(39){1[3], 1[14], 1[16]}
+Predicted predicates:  killing(4), bombed(5), reducing to(19)
+ 
+Sentence:  2   Syrian air strikes on rebel towns
+Gold predicates:  towns held by rebels(2){2[4], 2[5]}, air strikes on(3){2[5], 2[0]}
+Predicted predicates:  air strikes on(1)
+ 
+Sentence:  3   At Least 40 Die as Planes Bomb Syrian Town Held by Rebels
+Gold predicates:  held by(2){3[11], 3[8]}, bomb(5){3[5], 3[8]}, die as(6){3[0, 1, 2], 3[6]}
+Predicted predicates:  held by(0), die as(5), bomb(5)
+ 
+Sentence:  4   Scores dead as Syrian jets bomb rebel-held town :
+Gold predicates:  warplanes belonging to syrian government(1){4[3], 4[4]}, towns held by rebels(2){4[6], 4[7]}, bomb(5){4[4], 4[7]}, dead as(6){4[0], 4[5]}
+Predicted predicates:  bomb(5), dead as(7)
+ 
+Sentence:  5   Syrian Rebels Bogged Down in Aleppo
+Gold predicates:  bogged down in(4){5[5], 5[1]}, rebels from syria(14){5[0], 5[1]}
+Predicted predicates:  bogged down in(4)
+ 
+Sentence:  6   Airstrike on Syrian city kills at least 30 civilians - Los Angeles Times
+Gold predicates:  airstrike on(5){6[3]}, kills(6){6[5, 6, 7, 8], 6[0, 1]}, city in syria(7){6[2], 6[3]}, -(8){6[4], 6[10, 11, 12]}
+Predicted predicates:  airstrike on(2), kills(4), -(8)
+ 
+Sentence:  7   At least 44 killed in Syrian regime warplane strikes on Maaret al-Numan
+Gold predicates:  government belonging to syria(0){7[5], 7[6]}, warplanes belonging to syrian government(1){7[6], 7[7]}, strikes on(5){7[7], 7[10, 11]}, killed in(6){7[0, 1, 2], 7[8, 9], 7[10, 11]}
+Predicted predicates:  strikes on(1), killed in(6)
+ 
+Sentence:  8   Syrian airstrikes kill at least 43 - Oct 19 @ 6:59 AM ET
+Gold predicates:  airstrikes(5){8[0]}, kill(6){8[3, 4, 5], 8[1]}
+Predicted predicates:  airstrikes(2), kill(4)
+ 
+Sentence:  9   News Syrian air strikes on rebel towns
+Gold predicates:  towns held by rebels(2){9[5], 9[6]}, air strikes on(3){9[6], 9[1]}
+Predicted predicates:  air strikes on(1)
+ 
+Sentence:  10   At least 43 die in Syrian airstrikes - TheChronicleHerald.ca
+Gold predicates:  airstrikes(5){10[5]}, die in(6){10[0, 1, 2], 10[6], 10[5]}, -(10){10[3, 4], 10[8]}
+Predicted predicates:  airstrikes(2), die in(5), -(8)
+ 
+Sentence:  11   Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold predicates:  government belonging to syria(0){11[3], 11[4]}, towns held by rebels(2){11[9], 11[10]}, 's deadly bombing of(5){11[4], 11[10]}, afp 's(11){11[16, 17], 11[14]}, aftermath that is immediate(40){11[0], 11[1]}, aftermath of(41){11[5, 6, 7, 8], 11[1]}, captured by(42){11[16, 17], 11[1, 2]}
+Predicted predicates:  's deadly bombing of(5), afp 's(9), aftermath of(20), captured by(21)
+ 
+Sentence:  12   Syrian helicopter reportedly downed by rebels over Idlib
+Gold predicates:  downed by over(12){12[5], 12[1], 12[7]}, reportedly(13){12[3, 4, 6]}, helicopter belonging to military(17){12[0], 12[1]}, helicopter belonging to syria(32){12[0], 12[1]}
+Predicted predicates:  downed by over(4), reportedly(11)
+ 
+Sentence:  13   Scores dead as Syria|n jets bomb rebel-held town
+Gold predicates:  towns held by rebels(2){13[6], 13[7]}, bomb(5){13[4], 13[7]}, dead as(6){13[0], 13[5]}
+Predicted predicates:  bomb(5), dead as(7)
+ 
+Sentence:  14   Divided Syrian rebels agree on joint leadership
+Gold predicates:  rebels from syria(14){14[1], 14[2]}, divided(15){14[2]}, leadership that is joint(43){14[5], 14[6]}, agree on(44){14[6], 14[2]}
+Predicted predicates:  divided(12), agree on(22)
+ 
+Sentence:  15   Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air
+Gold predicates:  blow up in(12){15[2], 15[7], 15[9]}, rebels from syria(14){15[1], 15[2]}, helicopter belonging to military(17){15[6], 15[7]}
+Predicted predicates:  blow up in(3)
+ 
+Sentence:  16   Syrian Rebels Blow Up A Military Helicopter In Mid-Air [ vid 0:54 ]
+Gold predicates:  blow up in(12){16[1], 16[6], 16[8]}, rebels from syria(14){16[0], 16[1]}, helicopter belonging to military(17){16[5], 16[6]}
+Predicted predicates:  blow up in(3)
+ 
+Sentence:  17   Syrian rebels fight for key town of Maaret al-Numan
+Gold predicates:  rebels from syria(14){17[0], 17[1]}, town that is important(18){17[4], 17[5]}, town of(19){17[7, 8], 17[5]}, fight for(20){17[5, 6], 17[1]}
+Predicted predicates:  fight for(0), town of(13)
+ 
+Sentence:  18   Dozens Killed in Syrian Bombing of Rebel-Held Town
+Gold predicates:  towns held by rebels(2){18[6], 18[7]}, bombing of(5){18[3], 18[7]}, killed in(6){18[0], 18[4, 5]}
+Predicted predicates:  killed in(4), bombing of(5)
+ 
+Sentence:  19   Syrian man loses 18 relatives in airstrike
+Gold predicates:  airstrike(5){}, loses in(21){19[3, 4], 19[1], 19[6]}, man from syria(22){19[0], 19[1]}
+Predicted predicates:  airstrike(2), loses in(14)
+ 
+Sentence:  20   At Least 40 Die as Planes Bomb a Syrian Town Held by Rebels
+Gold predicates:  held by(2){20[12], 20[9]}, bomb(5){20[5], 20[9]}, die as(6){20[0, 1, 2], 20[6], 20[8]}, city in syria(7){20[8], 20[9]}
+Predicted predicates:  held by(0), bomb(5), die as(5)
+ 
+Sentence:  21   Rebels 'hit Syrian oil and gas pipelines'
+Gold predicates:  pipelines carrying oil(23){21[3], 21[6]}, pipelines carrying gas(24){21[5], 21[6]}, 'hit(25){21[-1], 21[0]}, 'hit(26){21[-1], 21[0]}
+Predicted predicates:  'hit(15), 'hit(15)
+ 
+Sentence:  22   Syria drops cluster bombs on Maaret al-Numan : rebels http : //t.co/l7jFkDGG
+Gold predicates:  drops cluster bombs on(5){22[0], 22[5, 6]}, :(27){22[1, 2, 3, 4], 22[8]}
+Predicted predicates:  drops cluster bombs on(0), :(16)
+ 
+Sentence:  23   Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air @ Jalopnik
+Gold predicates:  blow up in(12){23[2], 23[7], 23[9]}, rebels from syria(14){23[1], 23[2]}, helicopter belonging to military(17){23[6], 23[7]}
+Predicted predicates:  blow up in(3)
+ 
+Sentence:  24   A Syrian air force pilot explains why he bombed civilians
+Gold predicates:  pilot in the air force(28){24[2, 3], 24[4]}, air force belonging to syria(29){24[2, 3], 24[1]}, bombed(30){24[9], 24[7]}, explains why(31){24[8], 24[4]}
+Predicted predicates:  bombed(5), explains why(17)
+ 
+Sentence:  25   49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold predicates:  warplanes belonging to syrian government(1){25[3], 25[4]}, towns held by rebels(2){25[7], 25[8]}, attack(5){25[4], 25[8]}, killed as(6){25[0], 25[5]}, town that is important(18){25[6], 25[8]}, -(45){25[1, 2], 25[10]}
+Predicted predicates:  attack(3), killed as(4), -(8)
+ 
+Sentence:  26   Syrian helicopter explodes in Idlib , via @ cjchivers .
+Gold predicates:  explodes in(12){26[1], 26[4]}, helicopter belonging to syria(32){26[0], 26[1]}
+Predicted predicates:  explodes in(10)
+ 
+Sentence:  27   At Least 40 Die as Planes Bomb a Syrian Town Held by Rebels . NYT
+Gold predicates:  held by(2){27[12], 27[9]}, bomb(5){27[5], 27[9], 27[8]}, die as(6){27[0, 1, 2], 27[6], 27[8]}, city in syria(7){27[8], 27[9]}, nyt(33){27[3, 4], 27[14]}
+Predicted predicates:  held by(0), die as(5), bomb(5), nyt(18)
+ 
+Sentence:  28   Syrian planes strike key town
+Gold predicates:  warplanes belonging to syrian government(1){28[0], 28[1]}, strike(5){28[1], 28[4]}, town that is important(18){28[3], 28[4]}
+Predicted predicates:  strike(1)
+ 
+Sentence:  29   'Airstrikes ' Pound Syrian Rebel Strongholds
+Gold predicates:  towns held by rebels(2){12[5], 29[5]}, 'airstrikes(3){29[5], 29[3]}, rebels from syria(14){29[3], 29[4]}, pound(34){29[5], 29[0]}
+Predicted predicates:  'airstrikes(2), pound(7)
+ 
+Sentence:  30   Airstrikes in northern Syria kill at least 43
+Gold predicates:  airstrikes in(5){30[2, 3]}, kill(6){30[5, 6, 7], 30[0, 1], 30[2, 3]}
+Predicted predicates:  airstrikes in(2), kill(4)
+ 
+Sentence:  31   Seized by Rebels , Town Is Crushed by Syrian Forces
+Gold predicates:  seized by(2){31[2], 31[4]}, is crushed by(35){31[9], 31[4]}, military forces belonging to syria(46){31[8], 31[9]}
+Predicted predicates:  is crushed by(1), seized by(1)
+ 
+Sentence:  32   20 killed in Syrian airstrikes -
+Gold predicates:  airstrikes(5){32[3]}, killed in(6){32[0], 32[4], 32[3]}
+Predicted predicates:  airstrikes(2), killed in(4)
+ 
+Sentence:  33   Syrian Regime Attacks on Rebel Areas Leave 90 Dead
+Gold predicates:  government belonging to syria(0){33[0], 33[1]}, towns held by rebels(2){33[4], 33[5]}, attacks on(3){33[5], 33[1]}, leave dead(36){33[2, 3], 33[7]}
+Predicted predicates:  attacks on(3), leave dead(7)
+ 
+Sentence:  34   90 dead in Syrian regime attacks on rebel areas
+Gold predicates:  government belonging to syria(0){34[3], 34[4]}, towns held by rebels(2){34[7], 34[8]}, attacks on(3){34[8], 34[4]}, dead in(36){34[5, 6], 34[0]}
+Predicted predicates:  attacks on(3), dead in(7)
+ 
+Sentence:  35   Syria drops cluster bombs on Maaret al-Numan : rebels - AFP-
+Gold predicates:  drops cluster bombs on(5){35[0], 35[5, 6]}, :(27){35[1, 2, 3, 4], 35[8]}, -(37){35[7], 35[10]}
+Predicted predicates:  drops cluster bombs on(0), -(8), :(16)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: -1 : government belonging to syria(1), government belonging to syria(7), government belonging to syria(11), government belonging to syria(33), government belonging to syria(34)
+cluster_id:  1
+
+predicted id: -1 : warplanes belonging to syrian government(1), warplanes belonging to syrian government(4), warplanes belonging to syrian government(7), warplanes belonging to syrian government(25), warplanes belonging to syrian government(28)
+cluster_id:  2
+
+predicted id: 0 : held by(3), held by(20), held by(27)
+
+predicted id: 1 : seized by(31)
+
+predicted id: -1 : towns held by rebels(2), towns held by rebels(9), towns held by rebels(29), towns held by rebels(33), towns held by rebels(34), towns held by rebels(4), towns held by rebels(1), towns held by rebels(11), towns held by rebels(13), towns held by rebels(18), towns held by rebels(25)
+cluster_id:  3
+
+predicted id: 1 : air strikes on(2), air strikes on(9)
+
+predicted id: 2 : 'airstrikes(29)
+
+predicted id: 3 : attacks on(33), attacks on(34)
+cluster_id:  4
+
+predicted id: 4 : bogged down in(5)
+cluster_id:  5
+
+predicted id: 0 : drops cluster bombs on(22), drops cluster bombs on(35)
+
+predicted id: 1 : strikes on(7), strike(28)
+
+predicted id: 2 : airstrike on(6), airstrikes(8), airstrikes(10), airstrike(19), airstrikes in(30), airstrikes(32)
+
+predicted id: 3 : attack(25)
+
+predicted id: 5 : bomb(3), bomb(20), bomb(27), bombed(1), bomb(4), 's deadly bombing of(11), bomb(13), bombing of(18)
+cluster_id:  6
+
+predicted id: 4 : kills(6), kill(8), kill(30), killed in(32), killing(1), killed in(18), killed as(25)
+
+predicted id: 5 : die in(10), die as(3), die as(20), die as(27)
+
+predicted id: 6 : killed in(7)
+
+predicted id: 7 : dead as(4), dead as(13)
+cluster_id:  7
+
+predicted id: -1 : city in syria(6), city in syria(20), city in syria(27)
+cluster_id:  8
+
+predicted id: 8 : -(6)
+cluster_id:  10
+
+predicted id: 8 : -(10)
+cluster_id:  11
+
+predicted id: 9 : afp 's(11)
+cluster_id:  12
+
+predicted id: 10 : explodes in(26)
+
+predicted id: 3 : blow up in(15), blow up in(16), blow up in(23)
+
+predicted id: 4 : downed by over(12)
+cluster_id:  13
+
+predicted id: 11 : reportedly(12)
+cluster_id:  14
+
+predicted id: -1 : rebels from syria(14), rebels from syria(5), rebels from syria(15), rebels from syria(16), rebels from syria(17), rebels from syria(23), rebels from syria(29)
+cluster_id:  15
+
+predicted id: 12 : divided(14)
+cluster_id:  17
+
+predicted id: -1 : helicopter belonging to military(15), helicopter belonging to military(16), helicopter belonging to military(23), helicopter belonging to military(12)
+cluster_id:  18
+
+predicted id: -1 : town that is important(17), town that is important(28), town that is important(25)
+cluster_id:  19
+
+predicted id: 13 : town of(17)
+cluster_id:  20
+
+predicted id: 0 : fight for(17)
+cluster_id:  21
+
+predicted id: 14 : loses in(19)
+cluster_id:  22
+
+predicted id: -1 : man from syria(19)
+cluster_id:  23
+
+predicted id: -1 : pipelines carrying oil(21)
+cluster_id:  24
+
+predicted id: -1 : pipelines carrying gas(21)
+cluster_id:  25
+
+predicted id: 15 : 'hit(21)
+cluster_id:  26
+
+predicted id: 15 : 'hit(21)
+cluster_id:  27
+
+predicted id: 16 : :(22), :(35)
+cluster_id:  28
+
+predicted id: -1 : pilot in the air force(24)
+cluster_id:  29
+
+predicted id: -1 : air force belonging to syria(24)
+cluster_id:  30
+
+predicted id: 5 : bombed(24)
+cluster_id:  31
+
+predicted id: 17 : explains why(24)
+cluster_id:  32
+
+predicted id: -1 : helicopter belonging to syria(26), helicopter belonging to syria(12)
+cluster_id:  33
+
+predicted id: 18 : nyt(27)
+cluster_id:  34
+
+predicted id: 7 : pound(29)
+cluster_id:  35
+
+predicted id: 1 : is crushed by(31)
+cluster_id:  36
+
+predicted id: 7 : leave dead(33), dead in(34)
+cluster_id:  37
+
+predicted id: 8 : -(35)
+cluster_id:  38
+
+predicted id: -1 : town in the north(1)
+cluster_id:  39
+
+predicted id: 19 : reducing to(1)
+cluster_id:  40
+
+predicted id: -1 : aftermath that is immediate(11)
+cluster_id:  41
+
+predicted id: 20 : aftermath of(11)
+cluster_id:  42
+
+predicted id: 21 : captured by(11)
+cluster_id:  43
+
+predicted id: -1 : leadership that is joint(14)
+cluster_id:  44
+
+predicted id: 22 : agree on(14)
+cluster_id:  45
+
+predicted id: 8 : -(25)
+cluster_id:  46
+
+predicted id: -1 : military forces belonging to syria(31)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 2 : held by(hold, 20), held by(held, 3), held by(hold, 27)
+
+gold id: 20 : fight for(fight, 17)
+
+gold id: 5 : drops cluster bombs on(drop, 22), drops cluster bombs on(drop, 35)
+cluster_id:  1
+
+gold id: 3 : air strikes on(strike, 2), air strikes on(strike, 9)
+
+gold id: 2 : seized by(seize, 31)
+
+gold id: 35 : is crushed by(crush, 31)
+
+gold id: 5 : strike(strike, 28), strikes on(strike, 7)
+cluster_id:  2
+
+gold id: 3 : 'airstrikes(', 29)
+
+gold id: 5 : airstrikes(airstrike, 8), airstrikes(airstrike, 10), airstrikes(airstrike, 32), airstrikes in(airstrike, 30), airstrike on(airstrike, 6), airstrike(airstrike, 19)
+cluster_id:  3
+
+gold id: 3 : attacks on(attack, 34), attacks on(attack, 33)
+
+gold id: 12 : blow up in(blow, 23), blow up in(blow, 15), blow up in(blow, 16)
+
+gold id: 5 : attack(attack, 25)
+cluster_id:  4
+
+gold id: 12 : downed by over(down, 12)
+
+gold id: 4 : bogged down in(bogg, 5)
+
+gold id: 6 : killed in(kill, 32), killing(town, 1), killed in(kill, 18), kill(kill, 30), kill(kill, 8), kills(kill, 6), killed as(kill, 25)
+cluster_id:  5
+
+gold id: 30 : bombed(bomb, 24)
+
+gold id: 5 : bomb(bomb, 4), bomb(bomb, 20), bomb(bomb, 13), bomb(bomb, 3), bombed(bomb, 1), bomb(bomb, 27), 's deadly bombing of(bombing, 11), bombing of(bombing, 18)
+
+gold id: 6 : die as(die, 27), die as(die, 3), die as(die, 20), die in(die, 10)
+cluster_id:  6
+
+gold id: 6 : killed in(kill, 7)
+cluster_id:  7
+
+gold id: 34 : pound(', 29)
+
+gold id: 36 : dead in(dead, 34), leave dead(leave, 33)
+
+gold id: 6 : dead as(dead, 4), dead as(dead, 13)
+cluster_id:  8
+
+gold id: 8 : -(-, 6)
+
+gold id: 10 : -(-, 10)
+
+gold id: 45 : -(hold, 25)
+
+gold id: 37 : -(:, 35)
+cluster_id:  9
+
+gold id: 11 : afp 's(capture, 11)
+cluster_id:  10
+
+gold id: 12 : explodes in(explode, 26)
+cluster_id:  11
+
+gold id: 13 : reportedly(reportedly, 12)
+cluster_id:  12
+
+gold id: 15 : divided(divide, 14)
+cluster_id:  13
+
+gold id: 19 : town of(town, 17)
+cluster_id:  14
+
+gold id: 21 : loses in(lose, 19)
+cluster_id:  15
+
+gold id: 26 : 'hit(', 21), 'hit(', 21)
+cluster_id:  16
+
+gold id: 27 : :(-, 22), :(-, 35)
+cluster_id:  17
+
+gold id: 31 : explains why(explain, 24)
+cluster_id:  18
+
+gold id: 33 : nyt(nyt, 27)
+cluster_id:  19
+
+gold id: 39 : reducing to(people, 1)
+cluster_id:  20
+
+gold id: 41 : aftermath of(aftermath, 11)
+cluster_id:  21
+
+gold id: 42 : captured by(town, 11)
+cluster_id:  22
+
+gold id: 44 : agree on(agree, 14)
+**********
+###hurricane_sandy.xml
+
+Sentence:  1   Hurricane Sandy makes landfall on NJ coast | http : //t.co/ZFWYzGQx
+Gold predicates:  makes landfall on(1){1[5, 6], 1[0, 1]}
+Predicted predicates:  makes landfall on(1)
+ 
+Sentence:  2   World_news Hurricane Sandy picks up speed ahead of mid-Atlantic landfall
+Gold predicates:  landfall(1){2[8], 2[1, 2]}, picks up speed ahead of(2){2[9], 2[1, 2]}
+Predicted predicates:  landfall(1), picks up speed ahead of(2)
+ 
+Sentence:  3   NYC Hurricane Sandy Floods Subways
+Gold predicates:  floods(13){3[4], 3[1, 2], 3[0]}
+Predicted predicates:  floods(6)
+ 
+Sentence:  4   Atlantic City Boardwalk Destroyed By Hurricane Sandy - YouTube
+Gold predicates:  boardwalk located in atlantic city(3){4[0, 1], 4[2]}, destroyed by(14){4[2], 4[5, 6], 4[0, 1]}
+Predicted predicates:  destroyed by(4)
+ 
+Sentence:  5   Hurricane Sandy Pounds Into Atlantic City
+Gold predicates:  pounds into(15){5[4, 5], 5[0, 1]}
+Predicted predicates:  pounds into(8)
+ 
+Sentence:  6   Hurricane Sandy Floods Towns : Hurricane Sandy Heading Toward United States
+Gold predicates:  floods(16){6[3], 6[0, 1]}, heading toward(61){6[9, 10], 6[5, 6]}
+Predicted predicates:  floods(6), heading toward(27)
+ 
+Sentence:  7   Former Hurricane Sandy officially makes landfall on New Jersey coast near Atlantic City .
+Gold predicates:  makes landfall on near(1){7[7, 8, 9], 7[1, 2], 7[11, 12], 7[3]}, hurricane that is no longer a hurricane(18){7[0], 7[1, 2]}
+Predicted predicates:  makes landfall on near(1)
+ 
+Sentence:  8   Hurricane Sandy already flooded the beach sheeeshh
+Gold predicates:  already flooded(19){8[5], 8[0, 1]}
+Predicted predicates:  already flooded(6)
+ 
+Sentence:  9   Atlantic City flooded by Hurricane Sandy -
+Gold predicates:  flooded by(20){9[0, 1], 9[4, 5]}
+Predicted predicates:  flooded by(6)
+ 
+Sentence:  10   Shore Fellowship outside of Atlantic City , NJ is set up for relief in the aftermath of Hurricane Sandy .
+Gold predicates:  ,(4){10[7], 10[4, 5]}, outside of(5){10[4, 5], 10[0, 1]}, is set up for in the aftermath of(21){10[12], 10[0, 1], 10[17, 18]}
+Predicted predicates:  is set up for in the aftermath of(1), ,(3), outside of(4)
+ 
+Sentence:  11   MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold predicates:  made landfall along near(1){11[15, 16], 11[6], 11[18, 19]}, hurricane that is no longer a hurricane(18){11[8], 11[9, 10]}, of(22){11[9, 10], 11[6]}, say(59){11[11, 12, 13, 17], 11[3]}, @(60){11[4], 11[2]}
+Predicted predicates:  made landfall along near(1), of(9), say(22), @(26)
+ 
+Sentence:  12   Hurricane sandy flooded some parts of new Jersey area yesterday .
+Gold predicates:  flooded(25){12[0, 1], 12[3, 4, 5, 6, 7, 8], 12[9]}
+Predicted predicates:  flooded(6)
+ 
+Sentence:  13   Hurricane Sandy 'largest storm recorded in Atlantic'
+Gold predicates:  'largest recorded in(46){13[3], 13[0, 1], 13[6]}
+Predicted predicates:  'largest recorded in(22)
+ 
+Sentence:  14   Hurricane Sandy is closing in on the Atlantic coastline .
+Gold predicates:  is closing in on(61){14[7, 8], 14[0, 1]}
+Predicted predicates:  is closing in on(10)
+ 
+Sentence:  15   Sandy makes landfall in southern New Jersey .
+Gold predicates:  makes landfall in(1){15[4, 5, 6], 15[0]}
+Predicted predicates:  makes landfall in(1)
+ 
+Sentence:  16   Atlantic City is covered in flood waters that have swamped building
+Gold predicates:  flood waters(20){16[0, 1]}, is covered in(47){16[5, 6], 16[0, 1]}, that have swamped(48){16[10], 16[5, 6]}
+Predicted predicates:  flood waters(1), is covered in(1), that have swamped(1)
+ 
+Sentence:  17   Superstorm Sandy causes major flooding on New Jersey 's Atlantic coast
+Gold predicates:  's(0){17[6, 7], 17[9, 10]}, causes flooding on(25){17[0, 1], 17[9, 10], 17[3]}
+Predicted predicates:  's(0), causes flooding on(1)
+ 
+Sentence:  18   Hurricane Sandy in the City of Toronto
+Gold predicates:  of(26){18[6], 18[4]}, in(27){18[6], 18[0, 1]}
+Predicted predicates:  of(9), in(10)
+ 
+Sentence:  19   Flooding as Hurricane Sandy makes landfall
+Gold predicates:  makes landfall(1){19[2, 3]}, flooding as(16){19[4, 5]}
+Predicted predicates:  makes landfall(1), flooding as(6)
+ 
+Sentence:  20   Hurricane Sandy landfall : early this evening in southern NJ
+Gold predicates:  landfall in(1){20[8, 9], 20[0, 1], 20[4, 5, 6]}
+Predicted predicates:  landfall in(1)
+ 
+Sentence:  21   `` Hurricane Sandy moving toward coast at 28 mph . Storm is centered 40 miles south of Atlantic City , New Jersey . '' @ mix983
+Gold predicates:  ,(4){21[20, 21], 21[17, 18]}, south of(49){21[13, 14], 21[10], 21[17, 18]}, is centered(50){21[15, 16], 21[10]}, moving toward at(61){21[5], 21[1, 2], 21[7, 8]}
+Predicted predicates:  ,(3), south of(9), is centered(23), moving toward at(27)
+ 
+Sentence:  22   Up to one foot of water being reported in major roads in Atlantic City , New Jersey . Water levels rising , reports CNN .
+Gold predicates:  ,(4){22[15, 16], 22[12, 13]}, levels of water(7){22[19], 22[18]}, of being reported in(8){22[0, 1, 2, 3], 22[5], 22[10]}, of being reported in(8){22[12, 13]}, of being reported in(8){22[15, 16]}, rising(29){22[12, 13], 22[19]}, reports(30){22[20], 22[23]}
+Predicted predicates:  of being reported in(1), of being reported in(1), of being reported in(1), ,(3), rising(11), reports(12)
+ 
+Sentence:  23   State routes closed in northeastern Pennsylvania due to Hurricane Sandy..
+Gold predicates:  routes serving the state(9){23[0], 23[1]}, closed in due to(31){23[4, 5], 23[1], 23[8, 9]}
+Predicted predicates:  closed in due to(10)
+ 
+Sentence:  24   Hurricane sandy mess up NJ
+Gold predicates:  mess up(32){24[4], 24[0, 1]}
+Predicted predicates:  mess up(13)
+ 
+Sentence:  25   The northeastern United States battled epic flood waters and lengthy power outages on Tuesday after ( cont )
+Gold predicates:  flood waters on(25){25[1, 2, 3], 25[5], 25[13]}, outages(33){25[9], 25[10]}, battled on(34){25[11], 25[1, 2, 3], 25[13]}, battled on(51){25[6, 7, 12], 25[1, 2, 3], 25[13]}
+Predicted predicates:  flood waters on(1), outages(14), battled on(15), battled on(15)
+ 
+Sentence:  26   Sandy makes landfall near Atlantic City . Storm surge from 9 to 14 feet .
+Gold predicates:  makes landfall near(1){26[4, 5]}, surge from to(52){26[10], 26[7], 26[12, 13]}
+Predicted predicates:  makes landfall near(1), surge from to(2)
+ 
+Sentence:  27   Hurricane Sandy damages Atlantic City boardwalk , floods NJ coast
+Gold predicates:  boardwalk located in atlantic city(3){27[3, 4], 27[5]}, damages(14){27[5], 27[0, 1], 27[3, 4]}, floods(25){27[0, 1], 27[8, 9]}
+Predicted predicates:  floods(6), damages(7)
+ 
+Sentence:  28   reports Atlantic City is flooding Sandy
+Gold predicates:  is flooding(20){28[1, 2], 28[5]}, reports(35){28[3, 4]}
+Predicted predicates:  is flooding(1), reports(12)
+ 
+Sentence:  29   Airlines cancel 3,000 flights as Hurricane Sandy nears landfall
+Gold predicates:  landfall(1){29[5, 6]}, cancel as(36){29[2, 3], 29[0], 29[7]}, nears(61){29[8], 29[5, 6]}
+Predicted predicates:  landfall(1), cancel as(16), nears(28)
+ 
+Sentence:  30   Emergencies have been declared in 6 states as Hurricane Sandy wheels toward land.The monster storm is to make landfall in NJ this evening .
+Gold predicates:  is to make landfall in(1){30[20], 30[14], 30[21, 22]}, have been declared in as(37){30[5, 6], 30[0], 30[10, 11]}, storm that is of monstrous proportions(53){30[13], 30[14]}, wheels toward(61){30[12], 30[8, 9]}
+Predicted predicates:  is to make landfall in(1), have been declared in as(17), wheels toward(27)
+ 
+Sentence:  31   New Jersey newspapers suspend Tuesday delivery as Hurricane Sandy nears
+Gold predicates:  delivery(10){31[2], 31[4]}, newspapers based in nj(11){31[0, 1], 31[2]}, suspend as(38){31[5], 31[2], 31[9]}, nears(61){31[0, 1], 31[7, 8]}
+Predicted predicates:  delivery(5), suspend as(18), nears(28)
+ 
+Sentence:  32   Hurricane Sandy speeds towards landfall - CBS News
+Gold predicates:  landfall(1){32[0, 1]}, speeds towards(2){32[4], 32[0, 1]}, -(39){32[2, 3], 32[6, 7]}
+Predicted predicates:  landfall(1), speeds towards(2), -(19)
+ 
+Sentence:  33   Sandy makes landfall in New Jersey
+Gold predicates:  makes landfall in(1){33[4, 5], 33[0]}
+Predicted predicates:  makes landfall in(1)
+ 
+Sentence:  34   Hurricane Sandy expected to make landfall along or just south of southern NJ coast by early evening - @ NHC_Atlantic
+Gold predicates:  to make landfall along by(1){34[11, 12, 13], 34[0, 1], 34[15, 16]}, just south of(55){34[11, 12, 13], 34[3, 4, 5, 6, 14]}, expected(56){34[3, 4, 5, 6, 14], 34[0, 1]}, -(57){34[2], 34[19]}
+Predicted predicates:  to make landfall along by(1), just south of(9), -(19), expected(24)
+ 
+Sentence:  35   Hurricane Sandy Makes Landfall in New Jersey
+Gold predicates:  makes landfall in(1){35[5, 6], 35[0, 1]}
+Predicted predicates:  makes landfall in(1)
+ 
+Sentence:  36   Hurricane Sandy causes at least 29 U.S . Deaths
+Gold predicates:  deaths(40){36[6], 36[3, 4, 5]}, causes(41){36[8], 36[0, 1]}
+Predicted predicates:  causes(17), deaths(20)
+ 
+Sentence:  37   According to the National Hurricane Center , Sandy is located about 265 miles southeast of Atlantic City , New Jersey .
+Gold predicates:  ,(4){37[18, 19], 37[15, 16]}, is located southeast of(49){37[10, 11, 12], 37[7], 37[15, 16]}, according to(58){37[8, 9, 13, 14], 37[3, 4, 5]}
+Predicted predicates:  ,(3), is located southeast of(9), according to(25)
+ 
+Sentence:  38   Atlantic City Landfall
+Gold predicates:  landfall(1){38[0, 1]}
+Predicted predicates:  landfall(1)
+ 
+Sentence:  39   Hurricane Sandy floods New York
+Gold predicates:  floods(13){39[0, 1], 39[3, 4]}
+Predicted predicates:  floods(6)
+ 
+Sentence:  40   Shark swimming through the streets of Atlantic City , NJ which is completely flooded from hurricane Sandy . CRAZY !
+Gold predicates:  ,(4){40[9], 40[6, 7]}, which is flooded from(20){40[6, 7], 40[15, 16], 40[12]}, of(42){40[6, 7], 40[4]}, swimming through(43){40[4], 40[0], 40[6, 7]}
+Predicted predicates:  which is flooded from(1), ,(3), of(9), swimming through(21)
+ 
+Sentence:  41   AP now saying `` former '' Hurricane Sandy has made landfall along New Jersey coast .
+Gold predicates:  has made landfall along(1){41[12, 13, 14], 41[6, 7]}, hurricane that is no longer a hurricane(18){41[4], 41[6, 7]}, now saying(44){41[8, 9, 10, 11], 41[0]}
+Predicted predicates:  has made landfall along(1), now saying(22)
+ 
+Sentence:  42   Widespread Flooding Starts in Atlantic County , N.J .
+Gold predicates:  ,(12){42[7], 42[4, 5]}, flooding in(20){42[4, 5], 42[0]}, starts in(45){42[4, 5], 42[1, 3]}
+Predicted predicates:  ,(3), flooding in(6), starts in(11)
+ 
+Sentence:  43   Hurricane_Sandy About to make LandFall
+Gold predicates:  about to make landfall(1){43[0]}
+Predicted predicates:  about to make landfall(1)
+ 
+Sentence:  44   Atlantic City , New Jersey Sandy StaySafe
+Gold predicates:  ,(4){44[3, 4], 44[0, 1]}, pounds into (atl city)(15){44[0, 1], 44[5]}
+Predicted predicates:  ,(3)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: 0 : 's(17)
+cluster_id:  1
+
+predicted id: 1 : makes landfall on(1), landfall(2), makes landfall in(15), landfall in(20), landfall(38), makes landfall on near(7), makes landfall(19), makes landfall near(26), landfall(29), landfall(32), makes landfall in(33), makes landfall in(35), has made landfall along(41), about to make landfall(43), is to make landfall in(30), to make landfall along by(34), made landfall along near(11)
+cluster_id:  2
+
+predicted id: 2 : picks up speed ahead of(2), speeds towards(32)
+cluster_id:  3
+
+predicted id: -1 : boardwalk located in atlantic city(4), boardwalk located in atlantic city(27)
+cluster_id:  4
+
+predicted id: 3 : ,(10), ,(21), ,(22), ,(37), ,(40), ,(44)
+cluster_id:  5
+
+predicted id: 4 : outside of(10)
+cluster_id:  7
+
+predicted id: -1 : levels of water(22)
+cluster_id:  8
+
+predicted id: 1 : of being reported in(22), of being reported in(22), of being reported in(22)
+cluster_id:  9
+
+predicted id: -1 : routes serving the state(23)
+cluster_id:  10
+
+predicted id: 5 : delivery(31)
+cluster_id:  11
+
+predicted id: -1 : newspapers based in nj(31)
+cluster_id:  12
+
+predicted id: 3 : ,(42)
+cluster_id:  13
+
+predicted id: 6 : floods(3), floods(39)
+cluster_id:  14
+
+predicted id: 4 : destroyed by(4)
+
+predicted id: 7 : damages(27)
+cluster_id:  15
+
+predicted id: 8 : pounds into(5)
+
+predicted id: -1 : pounds into (atl city)(44)
+cluster_id:  16
+
+predicted id: 6 : floods(6), flooding as(19)
+cluster_id:  18
+
+predicted id: -1 : hurricane that is no longer a hurricane(7), hurricane that is no longer a hurricane(11), hurricane that is no longer a hurricane(41)
+cluster_id:  19
+
+predicted id: 6 : already flooded(8)
+cluster_id:  20
+
+predicted id: 1 : is flooding(28), which is flooded from(40), flood waters(16)
+
+predicted id: 6 : flooded by(9), flooding in(42)
+cluster_id:  21
+
+predicted id: 1 : is set up for in the aftermath of(10)
+cluster_id:  22
+
+predicted id: 9 : of(11)
+cluster_id:  25
+
+predicted id: 1 : flood waters on(25), causes flooding on(17)
+
+predicted id: 6 : floods(27), flooded(12)
+cluster_id:  26
+
+predicted id: 9 : of(18)
+cluster_id:  27
+
+predicted id: 10 : in(18)
+cluster_id:  29
+
+predicted id: 11 : rising(22)
+cluster_id:  30
+
+predicted id: 12 : reports(22)
+cluster_id:  31
+
+predicted id: 10 : closed in due to(23)
+cluster_id:  32
+
+predicted id: 13 : mess up(24)
+cluster_id:  33
+
+predicted id: 14 : outages(25)
+cluster_id:  34
+
+predicted id: 15 : battled on(25)
+cluster_id:  35
+
+predicted id: 12 : reports(28)
+cluster_id:  36
+
+predicted id: 16 : cancel as(29)
+cluster_id:  37
+
+predicted id: 17 : have been declared in as(30)
+cluster_id:  38
+
+predicted id: 18 : suspend as(31)
+cluster_id:  39
+
+predicted id: 19 : -(32)
+cluster_id:  40
+
+predicted id: 20 : deaths(36)
+cluster_id:  41
+
+predicted id: 17 : causes(36)
+cluster_id:  42
+
+predicted id: 9 : of(40)
+cluster_id:  43
+
+predicted id: 21 : swimming through(40)
+cluster_id:  44
+
+predicted id: 22 : now saying(41)
+cluster_id:  45
+
+predicted id: 11 : starts in(42)
+cluster_id:  46
+
+predicted id: 22 : 'largest recorded in(13)
+cluster_id:  47
+
+predicted id: 1 : is covered in(16)
+cluster_id:  48
+
+predicted id: 1 : that have swamped(16)
+cluster_id:  49
+
+predicted id: 9 : south of(21), is located southeast of(37)
+cluster_id:  50
+
+predicted id: 23 : is centered(21)
+cluster_id:  51
+
+predicted id: 15 : battled on(25)
+cluster_id:  52
+
+predicted id: 2 : surge from to(26)
+cluster_id:  53
+
+predicted id: -1 : storm that is of monstrous proportions(30)
+cluster_id:  55
+
+predicted id: 9 : just south of(34)
+cluster_id:  56
+
+predicted id: 24 : expected(34)
+cluster_id:  57
+
+predicted id: 19 : -(34)
+cluster_id:  58
+
+predicted id: 25 : according to(37)
+cluster_id:  59
+
+predicted id: 22 : say(11)
+cluster_id:  60
+
+predicted id: 26 : @(11)
+cluster_id:  61
+
+predicted id: 10 : is closing in on(14)
+
+predicted id: 27 : heading toward(6), moving toward at(21), wheels toward(30)
+
+predicted id: 28 : nears(31), nears(29)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 0 : 's('s, 17)
+cluster_id:  1
+
+gold id: 1 : has made landfall along(make, 41), landfall in(landfall, 20), makes landfall in(make, 15), to make landfall along by(make, 34), makes landfall(make, 19), makes landfall on near(make, 7), landfall(landfall, 29), makes landfall in(make, 35), makes landfall near(make, 26), makes landfall in(make, 33), landfall(landfall, 38), landfall(landfall, 32), makes landfall on(make, 1), made landfall along near(make, 11), landfall(-, 2), about to make landfall(about, 43), is to make landfall in(be, 30)
+
+gold id: 8 : of being reported in(report, 22), of being reported in(report, 22), of being reported in(report, 22)
+
+gold id: 47 : is covered in(cover, 16)
+
+gold id: 48 : that have swamped(swamp, 16)
+
+gold id: 20 : flood waters(water, 16), is flooding(flood, 28), which is flooded from(flood, 40)
+
+gold id: 21 : is set up for in the aftermath of(set, 10)
+
+gold id: 25 : flood waters on(water, 25), causes flooding on(cause, 17)
+cluster_id:  2
+
+gold id: 2 : picks up speed ahead of(pick, 2), speeds towards(speed, 32)
+
+gold id: 52 : surge from to(surge, 26)
+cluster_id:  3
+
+gold id: 12 : ,(,, 42)
+
+gold id: 4 : ,(,, 40), ,(,, 10), ,(,, 37), ,(,, 44), ,(,, 21), ,(,, 22)
+cluster_id:  4
+
+gold id: 5 : outside of(outside, 10)
+
+gold id: 14 : destroyed by(destroyed, 4)
+cluster_id:  5
+
+gold id: 10 : delivery(delivery, 31)
+cluster_id:  6
+
+gold id: 16 : flooding as(flooding, 19), floods(floods, 6)
+
+gold id: 25 : floods(flood, 27), flooded(flood, 12)
+
+gold id: 19 : already flooded(flood, 8)
+
+gold id: 20 : flooding in(flooding, 42), flooded by(flood, 9)
+
+gold id: 13 : floods(floods, 3), floods(flood, 39)
+cluster_id:  7
+
+gold id: 14 : damages(damage, 27)
+cluster_id:  8
+
+gold id: 15 : pounds into(pounds, 5)
+cluster_id:  9
+
+gold id: 49 : south of(south, 21), is located southeast of(locate, 37)
+
+gold id: 42 : of(of, 40)
+
+gold id: 26 : of(of, 18)
+
+gold id: 22 : of(of, 11)
+
+gold id: 55 : just south of(south, 34)
+cluster_id:  10
+
+gold id: 27 : in(in, 18)
+
+gold id: 61 : is closing in on(close, 14)
+
+gold id: 31 : closed in due to(close, 23)
+cluster_id:  11
+
+gold id: 45 : starts in(starts, 42)
+
+gold id: 29 : rising(rise, 22)
+cluster_id:  12
+
+gold id: 35 : reports(report, 28)
+
+gold id: 30 : reports(report, 22)
+cluster_id:  13
+
+gold id: 32 : mess up(mess, 24)
+cluster_id:  14
+
+gold id: 33 : outages(outage, 25)
+cluster_id:  15
+
+gold id: 51 : battled on(battle, 25), battled on(battle, 25)
+cluster_id:  16
+
+gold id: 36 : cancel as(cancel, 29)
+cluster_id:  17
+
+gold id: 41 : causes(cause, 36)
+
+gold id: 37 : have been declared in as(declare, 30)
+cluster_id:  18
+
+gold id: 38 : suspend as(suspend, 31)
+cluster_id:  19
+
+gold id: 57 : -(-, 34)
+
+gold id: 39 : -(-, 32)
+cluster_id:  20
+
+gold id: 40 : deaths(death, 36)
+cluster_id:  21
+
+gold id: 43 : swimming through(swimming, 40)
+cluster_id:  22
+
+gold id: 59 : say(say, 11)
+
+gold id: 44 : now saying(say, 41)
+
+gold id: 46 : 'largest recorded in(storm, 13)
+cluster_id:  23
+
+gold id: 50 : is centered(center, 21)
+cluster_id:  24
+
+gold id: 56 : expected(expect, 34)
+cluster_id:  25
+
+gold id: 58 : according to(accord, 37)
+cluster_id:  26
+
+gold id: 60 : @(@, 11)
+cluster_id:  27
+
+gold id: 61 : heading toward(heading, 6), wheels toward(wheel, 30), moving toward at(move, 21)
+cluster_id:  28
+
+gold id: 61 : nears(near, 29), nears(near, 31)
+**********
+###prison_officer.xml
+
+Sentence:  1   NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold predicates:  to discuss(0){1[9], 1[2]}, murder(1){1[5, 6], 1[8]}, monisters from jakarta(3){1[1], 1[2]}, officer who works in prisson(4){1[7], 1[8]}
+Predicted predicates:  to discuss(0), murder(1)
+ 
+Sentence:  2   Duffy arrested in connection with prison officer murder :
+Gold predicates:  murder(1){2[6]}, officer who works in prison(4){2[5], 2[6]}, arrested(5){2[0]}, in connection with(6){2[7], 2[1]}
+Predicted predicates:  murder(1), arrested(5), in connection with(6)
+ 
+Sentence:  3   Prison officer shot dead on M1 Eastbound , Irish registered car found burnt out in Inglewood with locals saying 2/3 men inside
+Gold predicates:  shot dead on(1){3[5, 6], 3[1]}, officer who works in prison(4){3[0], 3[1]}, burnt out(7){3[10]}, found in with(8){3[12, 13], 3[10], 3[18], 3[15]}, saying(9){3[21], 3[17]}, inside(10){3[10], 3[19, 20]}, registered(11){3[9]}, irish car(12){3[10], 3[8]}
+Predicted predicates:  shot dead on(1), burnt out(7), found in with(8), saying(9), registered(9), inside(10), irish car(11)
+ 
+Sentence:  4   Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold predicates:  murder in(1){4[15], 4[11], 4[13]}, officer who works in prison(4){4[10], 4[11]}, arrest(13){4[4, 5, 6], 4[2]}, in connection with(14){4[12, 14], 4[3]}, police from ireland(15){4[1], 4[2]}, ?(16){4[7, 8, 9], 4[0]}
+Predicted predicates:  murder in(1), arrest(5), in connection with(6)
+ 
+Sentence:  5   Prison officer murdered on M1
+Gold predicates:  murdered on(1){5[4], 5[1]}, officer who works in prison(4){5[0], 5[1]}
+Predicted predicates:  murdered on(1)
+ 
+Sentence:  6   Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold predicates:  murder(1){6[1]}, murder of(1){6[21, 22]}, prison officer(4){6[0], 6[1]}, officer(4){6[19]}, arrests(20){}, have been arrested(20){6[6, 7]}, officer from nerthern ireland(21){6[17, 18], 6[20]}, in connection with(22){6[15, 16], 6[8, 9, 10]}
+Predicted predicates:  murder of(1), murder(1), prison officer(4), officer(4), arrests(5), have been arrested(5), in connection with(6)
+ 
+Sentence:  7   Heart goes out to the prison officers family who was killed in n. Ireland yesterday . Lets not go back there again .
+Gold predicates:  who was killed in(1){7[12, 13], 7[6], 7[14]}, prison officers(4){7[5], 7[6]}, heart goes out to(23){7[7]}, family of officer(24){7[7], 7[6]}
+Predicted predicates:  who was killed in(2), prison officers(4), heart goes out to(12)
+ 
+Sentence:  8   [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold predicates:  murdered in by(1){8[9], 8[13], 8[16]}, officer from nerthern ireland(21){8[6, 7], 8[9]}, ambush(25){8[12]}, republicans who are dessident(26){8[15], 8[16]}, long-serving(27){8[9]}
+Predicted predicates:  murdered in by(1), ambush(14), long-serving(17)
+ 
+Sentence:  9   Murdered prison officer is named -
+Gold predicates:  murdered(1){9[2]}, prison officer(4){9[1], 9[2]}, is named(28){9[2]}
+Predicted predicates:  murdered(1), prison officer(4), is named(8)
+ 
+Sentence:  10   Northern Ireland motorway crash victim 'ambushed ' by gunman
+Gold predicates:  'ambushed ' by(25){10[4], 10[8]}, crash(29){10[2], 10[4], 10[0, 1]}
+Predicted predicates:  'ambushed ' by(15), crash(18)
+ 
+Sentence:  11   On MSN today - Prison officer shot dead in ambush
+Gold predicates:  prison officer(4){11[4], 11[5]}, ambush(25){}, dead(30){11[5]}, shot in(31){11[5], 11[7], 11[9]}, ?(32){11[6, 8], 11[1, 2]}
+Predicted predicates:  shot in(1), prison officer(4), ambush(14), dead(19)
+ 
+Sentence:  12   Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold predicates:  prison officer(4){12[6], 12[7]}, burnt-out(7){12[1]}, found in(8){12[1], 12[15]}, attack on in(25){12[7], 12[9, 10]}, republicans who are dessident(26){12[13], 12[14]}, linked to(33){12[4, 5, 8], 12[1]}, stronghold of (dissident) republicn(34){12[14], 12[15]}
+Predicted predicates:  prison officer(4), linked to(6), burnt-out(7), found in(8), attack on in(16)
+ 
+Sentence:  13   Gunman ambushes Northern Ireland prison officer
+Gold predicates:  prison officer(4){13[4], 13[5]}, officer from nerthern ireland(21){13[2, 3], 13[5]}, ambushes(25){13[5], 13[0]}
+Predicted predicates:  prison officer(4), ambushes(14)
+ 
+Sentence:  14   Northern Ireland FM Peter Robinson and Deputy FM Martin McGuinness condemn `` brutal attack '' which killed prison officer
+Gold predicates:  killed(1){14[18]}, prison officer(4){14[17], 14[18]}, attack which(25){14[12], 14[16]}, fm is from ni(35){14[0, 1], 14[2]}, dfm from ni(36){14[0, 1], 14[6, 7]}, condemn(37){14[13, 15], 14[8, 9]}, condemn(38){14[13, 15], 14[2]}
+Predicted predicates:  killed(2), prison officer(4), attack which(16), condemn(20), condemn(20)
+ 
+Sentence:  15   In shock ! horrific that poor prison officers family
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  16   Republicans Behind Motorway Attack On Prison Officer
+Gold predicates:  attack on(25){16[6], 16[2]}, behind(39){16[3, 4], 16[0]}
+Predicted predicates:  attack on(16), behind(21)
+ 
+Sentence:  17   Is there a connection between the incident at spruce field and the murder of Prison Officer ?
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  18   Counting blessings that I 'm working remotely today , after prison officer assassinated driving on M1 when I 'd normally be going to Belfast .
+Gold predicates:  assassinated on(1){18[15], 18[11], 18[13, 14]}, prison officer(4){18[10], 18[11]}, driving on(40){18[11], 18[15]}
+Predicted predicates:  assassinated on(3), prison officer(4), driving on(18)
+ 
+Sentence:  19   Prison officer 's murder condemned - The Ulster Herald
+Gold predicates:  murder(1){19[1]}, prison officer(4){19[0], 19[1]}, condemned(41){19[3]}, -(42){19[6, 7, 8], 19[4]}
+Predicted predicates:  murder(1), prison officer(4), condemned(20), -(22)
+ 
+Sentence:  20   Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold predicates:  prison officer(4){20[2], 20[3]}, northern ireland officer(21){20[0, 1], 20[3]}, ambush(25){20[3]}, fears of(43){20[10]}, war(44){20[8], 20[9]}, prompts(45){20[6, 7], 20[4]}, -(46){20[5], 20[12, 13]}
+Predicted predicates:  northern ireland officer(4), prison officer(4), ambush(14), -(22), fears of(23), war(24), prompts(25)
+ 
+Sentence:  21   Prison officer gets stiffed
+Gold predicates:  prison officer(4){21[0], 21[1]}, gets stiffed(25){21[1]}
+Predicted predicates:  prison officer(4), gets stiffed(5)
+ 
+Sentence:  22   prisoner officer shot dead on M1 in Northern Ireland . what a waste of life and does not bode well
+Gold predicates:  shot dead on in(1){22[7, 8], 22[1], 22[5]}, officer of prisoners(47){22[0], 22[1]}, does not bode well(48){22[2, 3, 4, 6]}
+Predicted predicates:  shot dead on in(1), does not bode well(26)
+ 
+Sentence:  23   Prison Officer Shot Dead On Motorway In NI - Sky News
+Gold predicates:  shot dead on in(1){23[7], 23[1], 23[5]}, prison officer(4){23[0], 23[1]}, -(49){23[2, 3, 4, 6], 23[9, 10]}
+Predicted predicates:  shot dead on in(1), prison officer(4), -(22)
+ 
+Sentence:  24   Jail officer family 'devastated ' The family of a Northern Ireland prison officer murdered as he drove to work are `` ab
+Gold predicates:  murdered as(1){24[16, 17]}, jail officer(4){24[0], 24[1]}, prison officer(4){24[11], 24[12]}, northern ireland officer(21){24[9, 10], 24[12]}, officer family(24){24[2], 24[1]}, of a(24){24[6], 24[12]}, drove to(40){24[15], 24[18]}, 'devastated(50){24[2]}
+Predicted predicates:  murdered as(1), officer family(4), northern ireland officer(4), jail officer(4), prison officer(4), of a(13), drove to(18), 'devastated(27)
+ 
+Sentence:  25   2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold predicates:  slaying of(1){25[11]}, prison guard(4){25[10], 25[11]}, arrested over(20){25[6, 7], 25[0, 3]}, northern ireland guard(21){25[11], 25[8, 9]}, suspected(51){25[0, 3]}, militnts belong to ir(52){25[0, 3], 25[2]}
+Predicted predicates:  slaying of(1), prison guard(4), arrested over(5), northern ireland guard(5), suspected(28)
+ 
+Sentence:  26   Just commented on @ thejournal_ie : Prison officer killed in Armagh motorway shooting -
+Gold predicates:  killed in(1){26[7], 26[12]}, prison officer(4){26[6], 26[7]}, shooting(25){26[10, 11]}
+Predicted predicates:  shooting(1), killed in(2), prison officer(4)
+ 
+Sentence:  27   Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold predicates:  murder(1){27[1]}, murder of(1){27[21]}, jail officer(4){27[0], 27[1]}, prison officer(4){27[20], 27[21]}, arrest(13){27[11], 27[8]}, arrest(13){27[4]}, in connection with(14){27[16, 17], 27[9]}, irish police(15){27[7], 27[8]}, northern ireland officer(21){27[18, 19], 27[21]}
+Predicted predicates:  murder of(1), murder(1), jail officer(4), northern ireland officer(4), prison officer(4), arrest(5), arrest(5), in connection with(6), irish police(11)
+ 
+Sentence:  28   news Murdered prison officer is named
+Gold predicates:  murdered(1){28[3]}, prison officer(4){28[2], 28[3]}, is named(53){28[3]}
+Predicted predicates:  murdered(1), prison officer(4), is named(8)
+ 
+Sentence:  29   RIP to the prison officer shot dead while travelling to work ! Hope the scumbag gets caught justice
+Gold predicates:  shot dead while(1){29[4], 29[8, 9]}, prison officer(4){29[3], 29[4]}, travelling to(40){1[8], 29[10]}
+Predicted predicates:  shot dead while(1), prison officer(4), travelling to(12)
+ 
+Sentence:  30   The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold predicates:  shot dead as(1){30[2], 30[7, 8, 10, 11]}, prison officer(4){30[1], 30[2]}, drove to along the(40){1[8], 30[9], 30[12]}, father of(54){30[14, 15], 30[20]}, from(55){30[23], 30[14, 15]}
+Predicted predicates:  shot dead as(1), prison officer(4), drove to along the(18), father of(29), from(30)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: 0 : to discuss(1)
+cluster_id:  1
+
+predicted id: 1 : murder(2), murder(1), shot dead on(3), murder in(4), murdered on(5), murder(6), murder of(6), murdered in by(8), murdered(9), murder(19), shot dead on in(22), shot dead on in(23), murdered as(24), slaying of(25), murder(27), murder of(27), murdered(28), shot dead while(29), shot dead as(30)
+
+predicted id: 2 : who was killed in(7), killed(14), killed in(26)
+
+predicted id: 3 : assassinated on(18)
+cluster_id:  3
+
+predicted id: -1 : monisters from jakarta(1)
+cluster_id:  4
+
+predicted id: 4 : prison officer(6), officer(6), prison officers(7), prison officer(9), prison officer(11), prison officer(12), prison officer(13), prison officer(14), prison officer(18), prison officer(19), prison officer(20), prison officer(21), prison officer(23), jail officer(24), prison officer(24), prison guard(25), prison officer(26), jail officer(27), prison officer(27), prison officer(28), prison officer(29), prison officer(30)
+
+predicted id: -1 : officer who works in prisson(1), officer who works in prison(2), officer who works in prison(3), officer who works in prison(4), officer who works in prison(5)
+cluster_id:  5
+
+predicted id: 5 : arrested(2)
+cluster_id:  6
+
+predicted id: 6 : in connection with(2)
+cluster_id:  7
+
+predicted id: 7 : burnt out(3), burnt-out(12)
+cluster_id:  8
+
+predicted id: 8 : found in with(3), found in(12)
+cluster_id:  9
+
+predicted id: 9 : saying(3)
+cluster_id:  10
+
+predicted id: 10 : inside(3)
+cluster_id:  11
+
+predicted id: 9 : registered(3)
+cluster_id:  12
+
+predicted id: 11 : irish car(3)
+cluster_id:  13
+
+predicted id: 5 : arrest(4), arrest(27), arrest(27)
+cluster_id:  14
+
+predicted id: 6 : in connection with(4), in connection with(27)
+cluster_id:  15
+
+predicted id: 11 : irish police(27)
+
+predicted id: -1 : police from ireland(4)
+cluster_id:  16
+
+predicted id: -1 : ?(4)
+cluster_id:  20
+
+predicted id: 5 : arrests(6), have been arrested(6), arrested over(25)
+cluster_id:  21
+
+predicted id: 4 : northern ireland officer(20), northern ireland officer(24), northern ireland officer(27)
+
+predicted id: 5 : northern ireland guard(25)
+
+predicted id: -1 : officer from nerthern ireland(6), officer from nerthern ireland(8), officer from nerthern ireland(13)
+cluster_id:  22
+
+predicted id: 6 : in connection with(6)
+cluster_id:  23
+
+predicted id: 12 : heart goes out to(7)
+cluster_id:  24
+
+predicted id: 4 : officer family(24)
+
+predicted id: 13 : of a(24)
+
+predicted id: -1 : family of officer(7)
+cluster_id:  25
+
+predicted id: 16 : attack on in(12), attack which(14), attack on(16)
+
+predicted id: 1 : shooting(26)
+
+predicted id: 5 : gets stiffed(21)
+
+predicted id: 14 : ambush(8), ambush(11), ambushes(13), ambush(20)
+
+predicted id: 15 : 'ambushed ' by(10)
+cluster_id:  26
+
+predicted id: -1 : republicans who are dessident(8), republicans who are dessident(12)
+cluster_id:  27
+
+predicted id: 17 : long-serving(8)
+cluster_id:  28
+
+predicted id: 8 : is named(9)
+cluster_id:  29
+
+predicted id: 18 : crash(10)
+cluster_id:  30
+
+predicted id: 19 : dead(11)
+cluster_id:  31
+
+predicted id: 1 : shot in(11)
+cluster_id:  32
+
+predicted id: -1 : ?(11)
+cluster_id:  33
+
+predicted id: 6 : linked to(12)
+cluster_id:  34
+
+predicted id: -1 : stronghold of (dissident) republicn(12)
+cluster_id:  35
+
+predicted id: -1 : fm is from ni(14)
+cluster_id:  36
+
+predicted id: -1 : dfm from ni(14)
+cluster_id:  37
+
+predicted id: 20 : condemn(14)
+cluster_id:  38
+
+predicted id: 20 : condemn(14)
+cluster_id:  39
+
+predicted id: 21 : behind(16)
+cluster_id:  40
+
+predicted id: 18 : driving on(18), drove to(24), drove to along the(30)
+
+predicted id: 12 : travelling to(29)
+cluster_id:  41
+
+predicted id: 20 : condemned(19)
+cluster_id:  42
+
+predicted id: 22 : -(19)
+cluster_id:  43
+
+predicted id: 23 : fears of(20)
+cluster_id:  44
+
+predicted id: 24 : war(20)
+cluster_id:  45
+
+predicted id: 25 : prompts(20)
+cluster_id:  46
+
+predicted id: 22 : -(20)
+cluster_id:  47
+
+predicted id: -1 : officer of prisoners(22)
+cluster_id:  48
+
+predicted id: 26 : does not bode well(22)
+cluster_id:  49
+
+predicted id: 22 : -(23)
+cluster_id:  50
+
+predicted id: 27 : 'devastated(24)
+cluster_id:  51
+
+predicted id: 28 : suspected(25)
+cluster_id:  52
+
+predicted id: -1 : militnts belong to ir(25)
+cluster_id:  53
+
+predicted id: 8 : is named(28)
+cluster_id:  54
+
+predicted id: 29 : father of(30)
+cluster_id:  55
+
+predicted id: 30 : from(30)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 0 : to discuss(discuss, 1)
+cluster_id:  1
+
+gold id: 1 : murder of(murder, 27), murder of(murder, 6), shot dead on in(dead, 23), murder(murder, 19), murder(murder, 1), murdered on(murder, 5), shot dead on(shoot, 3), murder in(in, 4), murdered in by(officer, 8), murdered(murder, 28), slaying of(slaying, 25), murdered as(officer, 24), shot dead as(shoot, 30), shot dead while(shoot, 29), shot dead on in(shoot, 22), murder(murder, 2), murder(murder, 27), murder(murder, 6), murdered(murder, 9)
+
+gold id: 25 : shooting(shooting, 26)
+
+gold id: 31 : shot in(shoot, 11)
+cluster_id:  2
+
+gold id: 1 : killed(kill, 14), who was killed in(kill, 7), killed in(kill, 26)
+cluster_id:  3
+
+gold id: 1 : assassinated on(officer, 18)
+cluster_id:  4
+
+gold id: 24 : officer family(family, 24)
+
+gold id: 4 : jail officer(jail, 27), prison officer(officer, 21), prison officer(after, 18), prison officers(officer, 7), prison officer(attack, 12), prison officer(officer, 14), prison officer(officer, 28), prison officer(officer, 11), prison officer(officer, 6), officer(officer, 6), prison officer(officer, 19), prison officer(officer, 9), prison guard(guard, 25), prison officer(officer, 30), prison officer(officer, 26), jail officer(jail, 24), prison officer(ireland, 24), prison officer(officer, 13), prison officer(officer, 20), prison officer(officer, 27), prison officer(officer, 29), prison officer(officer, 23)
+
+gold id: 21 : northern ireland officer(a, 24), northern ireland officer(ireland, 20), northern ireland officer(officer, 27)
+cluster_id:  5
+
+gold id: 25 : gets stiffed(stiff, 21)
+
+gold id: 21 : northern ireland guard(guard, 25)
+
+gold id: 20 : arrested over(arrest, 25), arrests(arrest, 6), have been arrested(arrest, 6)
+
+gold id: 13 : arrest(arrest, 27), arrest(arrest, 27), arrest(arrest, 4)
+
+gold id: 5 : arrested(arrest, 2)
+cluster_id:  6
+
+gold id: 33 : linked to(car, 12)
+
+gold id: 22 : in connection with(in, 6)
+
+gold id: 6 : in connection with(in, 2)
+
+gold id: 14 : in connection with(in, 4), in connection with(in, 27)
+cluster_id:  7
+
+gold id: 7 : burnt-out(burn, 12), burnt out(burn, 3)
+cluster_id:  8
+
+gold id: 8 : found in(ireland, 12), found in with(find, 3)
+
+gold id: 28 : is named(name, 9)
+
+gold id: 53 : is named(name, 28)
+cluster_id:  9
+
+gold id: 9 : saying(say, 3)
+
+gold id: 11 : registered(register, 3)
+cluster_id:  10
+
+gold id: 10 : inside(inside, 3)
+cluster_id:  11
+
+gold id: 12 : irish car(car, 3)
+
+gold id: 15 : irish police(police, 27)
+cluster_id:  12
+
+gold id: 40 : travelling to(travel, 29)
+
+gold id: 23 : heart goes out to(go, 7)
+cluster_id:  13
+
+gold id: 24 : of a(family, 24)
+cluster_id:  14
+
+gold id: 25 : ambush(in, 8), ambushes(ambush, 13), ambush(ambush, 11), ambush(ambush, 20)
+cluster_id:  15
+
+gold id: 25 : 'ambushed ' by(', 10)
+cluster_id:  16
+
+gold id: 25 : attack on(attack, 16), attack on in(link, 12), attack which(attack, 14)
+cluster_id:  17
+
+gold id: 27 : long-serving(long, 8)
+cluster_id:  18
+
+gold id: 40 : drove to(drive, 24), drove to along the(drive, 30), driving on(assassinate, 18)
+
+gold id: 29 : crash(crash, 10)
+cluster_id:  19
+
+gold id: 30 : dead(dead, 11)
+cluster_id:  20
+
+gold id: 41 : condemned(condemn, 19)
+
+gold id: 38 : condemn(condemn, 14), condemn(condemn, 14)
+cluster_id:  21
+
+gold id: 39 : behind(behind, 16)
+cluster_id:  22
+
+gold id: 49 : -(-, 23)
+
+gold id: 42 : -(-, 19)
+
+gold id: 46 : -(-, 20)
+cluster_id:  23
+
+gold id: 43 : fears of(fear, 20)
+cluster_id:  24
+
+gold id: 44 : war(war, 20)
+cluster_id:  25
+
+gold id: 45 : prompts(prompt, 20)
+cluster_id:  26
+
+gold id: 48 : does not bode well(do, 22)
+cluster_id:  27
+
+gold id: 50 : 'devastated(', 24)
+cluster_id:  28
+
+gold id: 51 : suspected(suspect, 25)
+cluster_id:  29
+
+gold id: 54 : father of(father, 30)
+cluster_id:  30
+
+gold id: 55 : from(from, 30)
+**********
+###fuel_tanker.xml
+
+Sentence:  1   A gas tanker exploded under the National Guard Bridge in Riyadh - around 14 ppl killed , and more than 60 injured
+Gold predicates:  truck carrying fuel(0){1[2], 1[1]}, exploded under in(1){1[6, 7, 8], 1[2], 1[10]}, injured(3){1[18, 19, 20]}, killed(21){1[12, 13, 14]}
+Predicted predicates:  exploded under in(0), injured(2), killed(4)
+ 
+Sentence:  2   At least 23 killed in Riyadh fuel truck blast - http : //t.co/ZajumhON via
+Gold predicates:  truck carrying fuel(0){2[7], 2[6]}, blast(1){2[7], 2[5]}, killed in(21){2[0, 1, 2], 2[8], 2[5]}
+Predicted predicates:  blast(1), killed in(4)
+ 
+Sentence:  3   Gas explosion eastern Riyadh
+Gold predicates:  explosion(1){3[0], 3[2, 3]}
+Predicted predicates:  explosion(0)
+ 
+Sentence:  4   Saudi Arabia fuel tanker explosion kills at least 22
+Gold predicates:  truck carrying fuel(0){4[3], 4[2]}, explosion(1){4[3]}, tanker belonging to saudi arabia(5){4[3], 4[0, 1]}, kills(21){4[6, 7, 8], 4[4]}
+Predicted predicates:  explosion(0), kills(8)
+ 
+Sentence:  5   ( World ) At least 23 killed in Riyadh fuel truck blast : TV
+Gold predicates:  truck carrying fuel(0){5[10], 5[9]}, blast(1){5[10], 5[8]}, killed in(21){5[3, 4, 5], 5[11], 5[8]}
+Predicted predicates:  blast(1), killed in(4)
+ 
+Sentence:  6   Truck explodes in Saudi capital , killing at least 22 :
+Gold predicates:  explodes in(1){6[0], 6[4]}, capital of saudi arabia(6){6[3], 6[4]}, killing(21){6[7, 8, 9], 6[1, 2]}
+Predicted predicates:  explodes in(0), killing(8)
+ 
+Sentence:  7   At least 22 killed in Riyadh fuel truck blast - World Updates | The Star Online
+Gold predicates:  truck carrying fuel(0){7[7], 7[6]}, blast(1){7[7], 7[5]}, killed in(21){7[0, 1, 2], 7[8]}, |(54){7[3, 4], 7[13, 14, 15]}
+Predicted predicates:  blast(1), killed in(4), |(24)
+ 
+Sentence:  8   Saudi fuel truck crash kills 22
+Gold predicates:  truck carrying fuel(0){8[2], 8[1]}, tanker belonging to saudi arabia(5){8[2], 8[0]}, crash(16){8[0], 8[2]}, kills(21){8[5], 8[3]}
+Predicted predicates:  crash(1), kills(4)
+ 
+Sentence:  9   Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold predicates:  truck carrying fuel(0){9[13], 9[12]}, explosion(1){9[13], 9[11]}, in(7){9[2], 9[4]}, embassy belonging to philippines(8){9[1], 9[2]}, was killed in(9){9[14], 9[6, 7], 9[11]}, in(10){9[16], 9[18]}, discharged(11){9[18], 9[20]}, to check(12){9[23]}, continues(13){9[23], 9[25, 26]}, :(14){9[8, 9, 10], 9[2]}, :(39){9[17], 9[2]}, :(40){9[21], 9[2]}
+Predicted predicates:  explosion(0), discharged(1), in(4), in(4), was killed in(4), continues(5), to check(5), :(6), :(6), :(6)
+ 
+Sentence:  10   Video at site of Riyadh Explosion
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  11   At least 23 killed in Riyadh fuel truck blast | Reuters
+Gold predicates:  truck carrying fuel(0){11[7], 11[6]}, blast(1){11[7], 11[5]}, killed in(21){11[0, 1, 2], 11[8], 11[5]}, |(55){11[3, 4], 11[10]}
+Predicted predicates:  blast(1), killed in(4), |(24)
+ 
+Sentence:  12   Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold predicates:  truck carrying fuel(0){12[4], 12[3]}, explosion(1){12[0, 1]}, crash(16){12[0, 1], 12[4]}, that levels(18){12[10], 12[7], 12[0, 1]}, killing(19){12[7], 12[13], 12[0, 1]}, triggers(20){12[7], 12[5], 12[0, 1]}
+Predicted predicates:  explosion(0), crash(1), that levels(7), killing(8), triggers(9)
+ 
+Sentence:  13   world news Fuel tanker explosion kills 22 in Saudi capital
+Gold predicates:  truck carrying fuel(0){13[3], 13[2]}, explosion(1){13[3], 13[9]}, capital of saudi arabia(6){13[8], 13[9]}, kills in(21){13[6], 13[4], 13[9]}
+Predicted predicates:  explosion(0), kills in(4)
+ 
+Sentence:  14   The route from Riyadh to Damamm is morbidly dark .
+Gold predicates:  from to(25){14[3], 14[1], 14[5]}, morbidly dark route(26){14[8], 14[1], 14[7]}
+Predicted predicates:  from to(12)
+ 
+Sentence:  15   Egypt Jan25 Saudi fuel truck crash kills 22
+Gold predicates:  truck carrying fuel(0){15[4], 15[3]}, crash(16){15[2], 15[4]}, kills(21){15[7], 15[5], 15[2]}
+Predicted predicates:  crash(1), kills(4)
+ 
+Sentence:  16   Saudi Arabia ( Security Rating : 3 ) - Fuel truck explodes in Saudi capital , killing at least 22 people |
+Gold predicates:  explodes in(1){16[10], 16[14]}, capital of saudi arabia(6){16[13], 16[14]}, killing(21){16[17, 18, 19, 20], 16[11, 12], 16[14]}
+Predicted predicates:  explodes in(0), killing(4)
+ 
+Sentence:  17   Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold predicates:  truck carrying fuel(0){17[4], 17[3]}, explosion(1){17[4], 17[2]}, dead(21){17[8], 17[5], 17[2]}, in(27){17[5], 17[0]}, wounded(28){17[5], 17[11]}, rises to(41){17[8], 17[0]}, rises to(42){17[11], 17[0]}, -saudi state tv(43){17[6, 7], 17[13, 14, 15]}, -saudi state tv(44){17[6, 7], 17[13, 14, 15]}
+Predicted predicates:  explosion(0), wounded(2), in(4), dead(11), rises to(15), rises to(15), -saudi state tv(21), -saudi state tv(21)
+ 
+Sentence:  18   Saudi Arabia fuel truck crash kills 22 in Riyadh - BBC News
+Gold predicates:  truck carrying fuel(0){18[3], 18[2]}, tanker belonging to saudi arabia(5){18[3], 18[0, 1]}, crash in(16){18[8], 18[3]}, kills in(21){18[6], 18[4, 7], 18[8]}, -(29){18[5, 7], 18[10, 11]}
+Predicted predicates:  crash in(1), kills in(4), -(14)
+ 
+Sentence:  19   UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold predicates:  truck carrying fuel(0){19[19], 19[18]}, president of uae(30){19[0], 19[1]}, fire in(32){19[23], 19[19]}, accident in(33){19[23], 19[20, 22]}, of(34){19[8, 9], 19[11, 12]}, of the(35){19[21, 22], 19[15]}, on(36){19[15], 19[6]}, of(37){19[6], 19[4]}, sends to(38){19[1], 19[5], 19[8, 9]}
+Predicted predicates:  sends to(7), fire in(15), accident in(17), of the(19), of(19), of(19), on(20)
+ 
+Sentence:  20   Riyadh gas tanker mishap : Six malayalees include in injured
+Gold predicates:  truck carrying fuel(0){20[2], 20[1]}, mishap(33){20[0], 20[2]}, injured(45){20[5, 6]}, include in(46){20[9], 20[5, 6]}
+Predicted predicates:  injured(2), mishap(18), include in(22)
+ 
+Sentence:  21   Fuel tanker explosion kills 14 in Riyadh - The Hindu
+Gold predicates:  truck carrying fuel(0){21[1], 21[0]}, explosion(1){21[1], 21[6]}, kills in(21){21[4], 21[2], 21[6]}, -(47){21[3, 5], 21[8, 9]}
+Predicted predicates:  explosion(0), kills in(4), -(14)
+ 
+Sentence:  22   Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold predicates:  truck carrying fuel(0){22[4], 22[3]}, explosion(1){22[4], 22[10]}, capital of saudi arabia(6){22[9], 22[10]}, kills in(21){22[7], 22[5], 22[10]}, :(48){22[6, 8], 22[0, 1]}
+Predicted predicates:  explosion(0), kills in(4), :(6)
+ 
+Sentence:  23   Explosion in Riyadh early today . 21 died and 123 are injured .
+Gold predicates:  explosion in(1){23[3, 4], 23[2]}, died(21){23[6]}, are injured(28){23[9]}
+Predicted predicates:  explosion in(0), are injured(2), died(10)
+ 
+Sentence:  24   First Reactions to the Riyadh Explosion
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  25   Explosion rips through industrial building in Saudi Arabia 's capital
+Gold predicates:  explosion in(1){25[9]}, 's(6){25[6, 7], 25[9]}, rips through in(49){25[4], 25[0, 5], 25[9]}, building for industrial use(50){25[3], 25[4]}
+Predicted predicates:  explosion in(0), 's(3), rips through in(23)
+ 
+Sentence:  26   Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold predicates:  truck carrying fuel(0){26[7], 26[6]}, explosion(1){26[7], 26[12, 13]}, tanker belonging to saudi arabia(5){26[3], 26[2]}, kills in(21){26[10], 26[8], 26[12, 13]}, fireball(32){26[2], 26[3]}, aftermath of(51){26[9, 11], 26[4]}
+Predicted predicates:  explosion(0), kills in(4), fireball(16), aftermath of(19)
+ 
+Sentence:  27   Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold predicates:  truck carrying fuel(0){27[1], 27[0]}, explosion(1){27[1], 27[7]}, explosion in(1){27[10], 27[13]}, capital of saudi arabia(6){27[6], 27[7]}, kills in(21){27[4], 27[2], 27[7]}, killed(21){27[15, 16, 17], 27[11, 12], 27[13]}, injured(28){27[11, 12], 27[20, 21, 22], 27[13]}
+Predicted predicates:  explosion(0), explosion in(0), injured(2), kills in(4), killed(4)
+ 
+Sentence:  28   bbcworld news Deaths in Saudi fuel truck crash
+Gold predicates:  truck carrying fuel(0){28[6], 28[5]}, tanker belonging to saudi arabia(5){28[6], 28[4]}, crash(16){28[4], 28[6]}, deaths in(21){28[7], 28[4]}, bbcworld news(29){28[2, 3], 28[0, 1]}
+Predicted predicates:  crash(1), deaths in(10), bbcworld news(13)
+ 
+Sentence:  29   Fuel Truck Blast Kills 60 , Injures upto 200 in Riyadh on today
+Gold predicates:  truck carrying fuel(0){29[1], 29[0]}, blast in on(1){29[1], 29[12], 29[10]}, kills in on(21){29[4], 29[2, 9, 11], 29[12], 29[10]}, injures in on(28){29[2, 9, 11], 29[7, 8], 29[12], 29[10]}
+Predicted predicates:  blast in on(1), injures in on(2), kills in on(4)
+ 
+Sentence:  30   The New York Times - Saudi Arabia : Fuel Truck Explodes , Killing Many NYtimes KSA Saudi
+Gold predicates:  explodes(1){30[9], 30[5, 6]}, killing(21){30[13], 30[10], 30[5, 6]}, -(52){30[10], 30[0, 1, 2, 3]}, -(53){30[12], 30[0, 1, 2, 3]}
+Predicted predicates:  explodes(0), killing(4), -(14), -(14)
+ 
+Sentence:  31   Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold predicates:  truck carrying fuel(0){31[1], 31[0]}, explosion(1){}, crash(16){31[1]}, that levels(18){31[7], 31[4]}, killing(19){31[4], 31[10]}, triggers(20){31[4], 31[2]}
+Predicted predicates:  explosion(0), crash(1), that levels(7), killing(8), triggers(9)
+ 
+Sentence:  32   Fuel tanker explosion kills 14 people after it crashes into highway underpass in Saudi capital
+Gold predicates:  truck carrying fuel(0){32[1], 32[0]}, explosion in(1){32[1], 32[14]}, capital of saudi arabia(6){32[13], 32[14]}, crashes into in(16){32[14], 32[7], 32[10, 11]}, kills after(21){32[4, 5], 32[2, 12], 32[14], 32[8, 9, 12]}
+Predicted predicates:  explosion in(0), crashes into in(1), kills after(4)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: -1 : truck carrying fuel(2), truck carrying fuel(5), truck carrying fuel(7), truck carrying fuel(8), truck carrying fuel(9), truck carrying fuel(11), truck carrying fuel(15), truck carrying fuel(18), truck carrying fuel(19), truck carrying fuel(28), truck carrying fuel(1), truck carrying fuel(4), truck carrying fuel(12), truck carrying fuel(13), truck carrying fuel(17), truck carrying fuel(20), truck carrying fuel(21), truck carrying fuel(22), truck carrying fuel(26), truck carrying fuel(27), truck carrying fuel(29), truck carrying fuel(31), truck carrying fuel(32)
+cluster_id:  1
+
+predicted id: 0 : exploded under in(1), explosion(3), explosion(4), explodes in(6), explosion(9), explosion(13), explodes in(16), explosion(17), explosion(21), explosion(22), explosion in(23), explosion in(25), explosion(26), explosion(27), explosion in(27), explodes(30), explosion(31), explosion in(32), explosion(12)
+
+predicted id: 1 : blast(2), blast(5), blast(7), blast(11), blast in on(29)
+cluster_id:  3
+
+predicted id: 2 : injured(1)
+cluster_id:  5
+
+predicted id: -1 : tanker belonging to saudi arabia(4), tanker belonging to saudi arabia(8), tanker belonging to saudi arabia(26), tanker belonging to saudi arabia(28), tanker belonging to saudi arabia(18)
+cluster_id:  6
+
+predicted id: 3 : 's(25)
+
+predicted id: -1 : capital of saudi arabia(6), capital of saudi arabia(13), capital of saudi arabia(16), capital of saudi arabia(22), capital of saudi arabia(27), capital of saudi arabia(32)
+cluster_id:  7
+
+predicted id: 4 : in(9)
+cluster_id:  8
+
+predicted id: -1 : embassy belonging to philippines(9)
+cluster_id:  9
+
+predicted id: 4 : was killed in(9)
+cluster_id:  10
+
+predicted id: 4 : in(9)
+cluster_id:  11
+
+predicted id: 1 : discharged(9)
+cluster_id:  12
+
+predicted id: 5 : to check(9)
+cluster_id:  13
+
+predicted id: 5 : continues(9)
+cluster_id:  14
+
+predicted id: 6 : :(9)
+cluster_id:  16
+
+predicted id: 1 : crash(12), crash(8), crash(15), crash(28), crash(31), crashes into in(32), crash in(18)
+cluster_id:  18
+
+predicted id: 7 : that levels(31), that levels(12)
+cluster_id:  19
+
+predicted id: 8 : killing(31), killing(12)
+cluster_id:  20
+
+predicted id: 9 : triggers(31), triggers(12)
+cluster_id:  21
+
+predicted id: 8 : kills(4), killing(6)
+
+predicted id: 10 : died(23), deaths in(28)
+
+predicted id: 11 : dead(17)
+
+predicted id: 4 : killed in(7), kills in(21), kills in(22), kills in(26), kills in(27), killed(27), killing(30), kills after(32), kills in on(29), kills in(18), killed(1), killed in(2), killed in(5), kills(8), killed in(11), kills in(13), kills(15), killing(16)
+cluster_id:  25
+
+predicted id: 12 : from to(14)
+cluster_id:  26
+
+predicted id: -1 : morbidly dark route(14)
+cluster_id:  27
+
+predicted id: 4 : in(17)
+cluster_id:  28
+
+predicted id: 2 : wounded(17), are injured(23), injured(27), injures in on(29)
+cluster_id:  29
+
+predicted id: 13 : bbcworld news(28)
+
+predicted id: 14 : -(18)
+cluster_id:  30
+
+predicted id: -1 : president of uae(19)
+cluster_id:  32
+
+predicted id: 16 : fireball(26)
+
+predicted id: 15 : fire in(19)
+cluster_id:  33
+
+predicted id: 17 : accident in(19)
+
+predicted id: 18 : mishap(20)
+cluster_id:  34
+
+predicted id: 19 : of(19)
+cluster_id:  35
+
+predicted id: 19 : of the(19)
+cluster_id:  36
+
+predicted id: 20 : on(19)
+cluster_id:  37
+
+predicted id: 19 : of(19)
+cluster_id:  38
+
+predicted id: 7 : sends to(19)
+cluster_id:  39
+
+predicted id: 6 : :(9)
+cluster_id:  40
+
+predicted id: 6 : :(9)
+cluster_id:  41
+
+predicted id: 15 : rises to(17)
+cluster_id:  42
+
+predicted id: 15 : rises to(17)
+cluster_id:  43
+
+predicted id: 21 : -saudi state tv(17)
+cluster_id:  44
+
+predicted id: 21 : -saudi state tv(17)
+cluster_id:  45
+
+predicted id: 2 : injured(20)
+cluster_id:  46
+
+predicted id: 22 : include in(20)
+cluster_id:  47
+
+predicted id: 14 : -(21)
+cluster_id:  48
+
+predicted id: 6 : :(22)
+cluster_id:  49
+
+predicted id: 23 : rips through in(25)
+cluster_id:  50
+
+predicted id: -1 : building for industrial use(25)
+cluster_id:  51
+
+predicted id: 19 : aftermath of(26)
+cluster_id:  52
+
+predicted id: 14 : -(30)
+cluster_id:  53
+
+predicted id: 14 : -(30)
+cluster_id:  54
+
+predicted id: 24 : |(7)
+cluster_id:  55
+
+predicted id: 24 : |(11)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 1 : explosion(explosion, 12), explosion(explosion, 3), explosion(explosion, 27), explodes(explodes, 30), explodes in(explode, 6), explosion(explosion, 22), explosion(explosion, 26), explosion in(explosion, 25), explodes in(explode, 16), explosion in(explosion, 23), explosion(explosion, 13), explosion in(explosion, 27), explosion(explosion, 17), explosion(explosion, 31), explosion in(explosion, 32), explosion(explosion, 21), exploded under in(explode, 1), explosion(explosion, 9), explosion(explosion, 4)
+cluster_id:  1
+
+gold id: 16 : crash(crash, 15), crashes into in(crash, 32), crash(crash, 12), crash(crash, 28), crash(crash, 31), crash in(crash, 18), crash(crash, 8)
+
+gold id: 1 : blast in on(blast, 29), blast(blast, 5), blast(blast, 7), blast(blast, 2), blast(blast, 11)
+
+gold id: 11 : discharged(discharge, 9)
+cluster_id:  2
+
+gold id: 3 : injured(injure, 1)
+
+gold id: 28 : wounded(wound, 17), injures in on(injure, 29), injured(injure, 27), are injured(injure, 23)
+
+gold id: 45 : injured(injure, 20)
+cluster_id:  3
+
+gold id: 6 : 's('s, 25)
+cluster_id:  4
+
+gold id: 9 : was killed in(kill, 9)
+
+gold id: 10 : in(in, 9)
+
+gold id: 27 : in(in, 17)
+
+gold id: 21 : kills(kill, 8), killed in(kill, 11), killed in(kill, 5), killed in(kill, 2), killed in(kill, 7), killed(kill, 1), kills in(kill, 21), killing(killing, 30), kills in on(kills, 29), kills in(kill, 27), kills in(kill, 22), kills in(kill, 18), killing(kill, 16), kills in(kill, 26), kills in(kill, 13), killed(kill, 27), kills after(kill, 32), kills(kill, 15)
+
+gold id: 7 : in(in, 9)
+cluster_id:  5
+
+gold id: 12 : to check(check, 9)
+
+gold id: 13 : continues(continue, 9)
+cluster_id:  6
+
+gold id: 48 : :(:, 22)
+
+gold id: 40 : :(:, 9), :(:, 9), :(:, 9)
+cluster_id:  7
+
+gold id: 18 : that levels(that, 12), that levels(that, 31)
+
+gold id: 38 : sends to(send, 19)
+cluster_id:  8
+
+gold id: 19 : killing(killing, 31), killing(killing, 12)
+
+gold id: 21 : kills(kill, 4), killing(kill, 6)
+cluster_id:  9
+
+gold id: 20 : triggers(triggers, 12), triggers(triggers, 31)
+cluster_id:  10
+
+gold id: 21 : died(die, 23), deaths in(death, 28)
+cluster_id:  11
+
+gold id: 21 : dead(dead, 17)
+cluster_id:  12
+
+gold id: 25 : from to(from, 14)
+cluster_id:  13
+
+gold id: 29 : bbcworld news(bbcworld, 28)
+cluster_id:  14
+
+gold id: 29 : -(-, 18)
+
+gold id: 53 : -(-, 30), -(-, 30)
+
+gold id: 47 : -(-, 21)
+cluster_id:  15
+
+gold id: 32 : fire in(fire, 19)
+
+gold id: 42 : rises to(rise, 17), rises to(rise, 17)
+cluster_id:  16
+
+gold id: 32 : fireball(fireball, 26)
+cluster_id:  17
+
+gold id: 33 : accident in(accident, 19)
+cluster_id:  18
+
+gold id: 33 : mishap(mishap, 20)
+cluster_id:  19
+
+gold id: 51 : aftermath of(aftermath, 26)
+
+gold id: 34 : of(of, 19)
+
+gold id: 35 : of the(of, 19)
+
+gold id: 37 : of(of, 19)
+cluster_id:  20
+
+gold id: 36 : on(on, 19)
+cluster_id:  21
+
+gold id: 44 : -saudi state tv(-saudi, 17), -saudi state tv(-saudi, 17)
+cluster_id:  22
+
+gold id: 46 : include in(include, 20)
+cluster_id:  23
+
+gold id: 49 : rips through in(rip, 25)
+cluster_id:  24
+
+gold id: 54 : |(|, 7)
+
+gold id: 55 : |(|, 11)
+**********
+###syrian_plane.xml
+
+Sentence:  1   Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold predicates:  carried(0){1[3], 1[1]}, was carrying(0){1[18], 1[7]}, to land in(3){1[12], 1[7]}, forced(4){1[7], 1[9, 10, 11]}, was carrying(5){1[16], 1[7], 1[15]}, plane belonging to syria(6){1[1], 1[0]}, plane belonging to syria(6){1[7], 1[6]}, equipment made by russia(7){1[16], 1[15]}
+Predicted predicates:  carried(0), was carrying(0), was carrying(0), to land in(5), forced(6)
+ 
+Sentence:  2   Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold predicates:  grounded(4){2[7], 2[3]}, plane belonging to syria(6){2[7], 2[6]}, passengers from russia(8){2[10], 2[9]}, angry at about(15){2[3], 2[0], 2[5]}, angry at about(16){2[3], 2[0], 2[10]}
+Predicted predicates:  grounded(5), angry at about(9), angry at about(9)
+ 
+Sentence:  3   Turkey Escalates Confrontation with Syria , Forcing Syrian Plane to Land
+Gold predicates:  confrontation with(1){3[0], 3[4]}, escalates(2){3[2, 3], 3[0]}, to land(3){3[8]}, forcing(4){3[8], 3[0], 3[9, 10]}, plane belonging to syria(6){3[8], 3[7]}
+Predicted predicates:  confrontation with(2), escalates(4), to land(5), forcing(6)
+ 
+Sentence:  4   Syrian passenger plane forced to land in Turkey
+Gold predicates:  to land in(3){4[7], 4[2]}, forced(4){4[2], 4[4, 5, 6]}, plane belonging to syria(6){4[2], 4[0]}, plane carrying passengers(9){4[2], 4[1]}
+Predicted predicates:  to land in(5), forced(6)
+ 
+Sentence:  5   Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold predicates:  was carrying from for(0){5[13], 5[7], 5[18, 19], 5[15]}, intercepted(4){5[7]}, was carrying from for(5){5[11], 5[7], 5[18, 19], 5[15]}, plane belonging to syria(6){5[7], 5[5]}, plane carrying passengers(9){5[7], 5[6]}, equipment for military purposes(11){5[11], 5[10]}, ministry affiliated with syria(12){5[18, 19], 5[17]}, pm(13){5[2], 5[0]}, :(17){5[8, 9, 14, 16], 5[2]}, :(18){5[8, 9, 14, 16], 5[2]}
+Predicted predicates:  was carrying from for(0), was carrying from for(0), intercepted(7), pm(8), :(10), :(10)
+ 
+Sentence:  6   Syrian passenger plane forced to land in Turkey :
+Gold predicates:  to land in(3){6[7], 6[2]}, forced(4){6[2], 6[4, 5, 6]}, plane belonging to syria(6){6[2], 6[0]}, plane carrying passengers(9){6[2], 6[1]}
+Predicted predicates:  to land in(5), forced(6)
+ 
+Sentence:  7   Turkey forces down suspect Syrian plane
+Gold predicates:  forces down(4){7[5], 7[0]}, plane belonging to syria(6){7[5], 7[4]}, suspect(19){7[5]}
+Predicted predicates:  forces down(5), suspect(11)
+ 
+Sentence:  8   Al Jazeera News : Turkey intercepts Syrian passenger
+Gold predicates:  intercepts(4){8[7], 8[4]}, plane carrying passengers(9){8[7]}, :(21){8[5], 8[0, 1, 2]}
+Predicted predicates:  intercepts(7), :(10)
+ 
+Sentence:  9   Turkish PM says plane from Moscow forced to land in Turkey was carrying ammunition for Syria government .
+Gold predicates:  from was carrying for(0){9[13], 9[3], 9[16], 9[5]}, to land in(3){9[10], 9[3]}, forced(4){9[3], 9[7, 8, 9]}, ministry affiliated with syria(12){9[16], 9[15]}, says(18){9[4, 11, 12, 14], 9[1]}, from(22){9[5], 9[3]}
+Predicted predicates:  from was carrying for(0), to land in(5), says(5), forced(6), from(12)
+ 
+Sentence:  10   Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold predicates:  land in(3){10[11], 10[5]}, force(4){10[5], 10[1], 10[9, 10]}, plane belonging to syria(6){10[5], 10[3]}, plane carrying passengers(9){10[5], 10[4]}, enroute from(22){10[8], 10[5]}, f16s belonging to turkey(23){10[0], 10[1]}
+Predicted predicates:  land in(5), force(6), enroute from(12)
+ 
+Sentence:  11   Syrian plane was carrying ammunition
+Gold predicates:  was carrying(0){11[4], 11[1]}
+Predicted predicates:  was carrying(0)
+ 
+Sentence:  12   Syria passenger plane forced to land in Turkey
+Gold predicates:  to land in(3){12[7], 12[2]}, forced(4){12[2], 12[4, 5, 6]}, plane belonging to syria(6){12[2], 12[0]}, plane carrying passengers(9){12[2], 12[1]}
+Predicted predicates:  to land in(5), forced(6)
+ 
+Sentence:  13   Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold predicates:  to land in(3){13[20], 13[16]}, to force(4){13[16], 13[10], 13[17, 18, 19]}, plane carrying passengers(9){13[16], 13[15]}, (plane) from (moscow)(22){13[16], 13[14]}, using(24){13[10], 13[2], 13[11, 12]}, military belonging to turkey(25){13[9], 13[10]}, endangering by(26){13[6], 13[2], 13[8]}, lives belonging to russians(27){13[5], 13[6]}, accuses of(28){13[2], 13[0], 13[4, 7]}
+Predicted predicates:  to land in(5), to force(6), using(15), endangering by(16), accuses of(17)
+ 
+Sentence:  14   Syrian plane was carrying ammunition .
+Gold predicates:  was carrying(0){14[4], 14[1]}, plane belonging to syria(6){14[1], 14[0]}
+Predicted predicates:  was carrying(0)
+ 
+Sentence:  15   Turkey forced a Syrian passenger plane coming from Moscow to land at Ankara
+Gold predicates:  to land at(3){15[12], 15[5]}, forced(4){15[5], 15[0], 15[9, 10, 11]}, plane belonging to syria(6){15[5], 15[3]}, plane carrying passengers(9){15[5], 15[4]}, coming from(22){15[8], 15[5]}
+Predicted predicates:  to land at(5), forced(6), coming from(13)
+ 
+Sentence:  16   Ankara sends note to Damascus over plane cargo
+Gold predicates:  cargo on plane(29){16[6], 16[7]}, sends to over(30){16[2], 16[0], 16[7], 16[4]}
+Predicted predicates:  sends to over(0)
+ 
+Sentence:  17   Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold predicates:  to land(3){17[16]}, to force(4){17[16], 17[6], 17[17, 18]}, intercepting(4){17[4], 17[0]}, plane belonging to syria(6){17[4], 17[3]}, plane belonging to syria(6){17[16], 17[14]}, plane carrying passengers(9){17[16], 17[15]}, decision(31){17[11, 12], 17[6]}, defends(32){17[2], 17[0]}, is defending(32){17[10], 17[6]}
+Predicted predicates:  defends(0), is defending(0), to land(5), to force(6), intercepting(7), decision(18)
+ 
+Sentence:  18   Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold predicates:  tensions(1){18[3]}, escalate as(2){18[0], 18[4, 5]}, forces down(4){18[8], 18[3]}, plane belonging to syria(6){18[8], 18[6]}, plane carrying passengers(9){18[8], 18[7]}
+Predicted predicates:  tensions(3), escalate as(4), forces down(5)
+ 
+Sentence:  19   Syrian plane was carrying ammunition
+Gold predicates:  was carrying(0){19[4], 19[1]}, plane belonging to syria(6){19[1], 19[0]}
+Predicted predicates:  was carrying(0)
+ 
+Sentence:  20   Syrian Bound Plane From Moscow Forced To Land In Turkey
+Gold predicates:  to land in(3){20[9], 20[2]}, forced(4){20[2], 20[6, 7, 8]}, bound from(22){20[4], 20[2], 20[0]}
+Predicted predicates:  bound from(0), to land in(5), forced(6)
+ 
+Sentence:  21   Turkey intercepts Syrian passenger plane
+Gold predicates:  intercepts(4){21[4], 21[0]}, plane belonging to syria(6){21[4], 21[2]}, plane carrying passengers(9){21[4], 21[3]}
+Predicted predicates:  intercepts(7)
+ 
+Sentence:  22   Turkey Says Syrian Plane Carried Russian Munitions
+Gold predicates:  carried(0){22[6], 22[3]}, plane belonging to syria(6){22[3], 22[2]}, says(18){22[4], 22[0]}, munitions belonging to russia(33){22[5], 22[6]}
+Predicted predicates:  carried(0), says(5)
+ 
+Sentence:  23   Turkey forces Syria plane to land
+Gold predicates:  to land(3){23[3]}, forces(4){23[3], 23[0], 23[4, 5]}, plane belonging to syria(6){23[3], 23[2]}
+Predicted predicates:  to land(5), forces(6)
+ 
+Sentence:  24   Syrian Plane Carried Ammunition
+Gold predicates:  carried(0){24[3], 24[1]}, plane belonging to syria(6){24[1], 24[0]}
+Predicted predicates:  carried(0)
+ 
+Sentence:  25   Turkey says Syrian plane carried Russian munitions | Reuters
+Gold predicates:  carried(0){25[6], 25[3]}, plane belonging to syria(6){25[3], 25[2]}, says(18){25[4], 25[0]}, munitions belonging to russia(33){25[5], 25[6]}, |(34){25[1], 25[8]}
+Predicted predicates:  carried(0), says(5), |(19)
+ 
+Sentence:  26   Turkey forces Syria passenger plane to land in Ankara
+Gold predicates:  to land in(3){26[8], 26[4]}, forces(4){26[4], 26[0], 26[5, 6, 7]}, plane belonging to syria(6){26[4], 26[2]}, plane carrying passengers(9){26[4], 26[3]}
+Predicted predicates:  to land in(5), forces(6)
+ 
+Sentence:  27   Turkey reportedly intercepts Syrian passenger plane
+Gold predicates:  intercepts(4){27[5], 27[0]}, plane belonging to syria(6){27[5], 27[3]}, plane carrying passengers(9){27[5], 27[4]}, reportedly(35){27[2]}
+Predicted predicates:  intercepts(7), reportedly(20)
+ 
+Sentence:  28   Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold predicates:  to land(3){28[3]}, forces over(4){28[3], 28[0], 28[11], 28[8, 9]}, plane belonging to syria(6){28[3], 28[2]}, suspicious(19){28[12]}, en route from(22){28[7], 28[3]}
+Predicted predicates:  to land(5), forces over(6), suspicious(11), en route from(14)
+ 
+Sentence:  29   Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold predicates:  'carried(0){29[3], 29[1]}, was carrying(0){29[18], 29[7]}, to land in(3){29[12], 29[7]}, forced(4){29[7], 29[9, 10, 11]}, was carrying(5){29[16], 29[7]}, plane belonging to syria(6){29[1], 29[0]}, plane belonging to syria(6){29[7], 29[6]}, equipment made by russia(7){29[16], 29[15]}
+Predicted predicates:  was carrying(0), was carrying(0), 'carried(1), to land in(5), forced(6)
+ 
+Sentence:  30   Turkey forces Syrian passenger plane to land
+Gold predicates:  to land(3){30[4]}, forces(4){30[4], 30[0], 30[5, 6]}, plane belonging to syria(6){30[4], 30[2]}, plane carrying passengers(9){30[4], 30[3]}
+Predicted predicates:  to land(5), forces(6)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: 0 : carried(1), was carrying from for(5), was carrying(1), from was carrying for(9), was carrying(11), was carrying(14), was carrying(19), carried(22), carried(24), carried(25), was carrying(29)
+
+predicted id: 1 : 'carried(29)
+cluster_id:  1
+
+predicted id: 2 : confrontation with(3)
+
+predicted id: 3 : tensions(18)
+cluster_id:  2
+
+predicted id: 4 : escalates(3), escalate as(18)
+cluster_id:  3
+
+predicted id: 5 : to land(3), to land in(4), to land in(1), to land in(6), to land in(9), land in(10), to land in(12), to land in(13), to land at(15), to land(17), to land in(20), to land(23), to land in(26), to land(30), to land(28), to land in(29)
+cluster_id:  4
+
+predicted id: 5 : forces down(7), grounded(2), forces down(18)
+
+predicted id: 6 : forcing(3), forced(4), forced(1), forced(6), forced(9), force(10), forced(12), to force(13), forced(15), to force(17), forced(20), forces(23), forces(26), forces(30), forces over(28), forced(29)
+
+predicted id: 7 : intercepted(5), intercepts(8), intercepting(17), intercepts(21), intercepts(27)
+cluster_id:  5
+
+predicted id: 0 : was carrying from for(5), was carrying(1), was carrying(29)
+cluster_id:  6
+
+predicted id: -1 : plane belonging to syria(1), plane belonging to syria(23), plane belonging to syria(29), plane belonging to syria(1), plane belonging to syria(2), plane belonging to syria(3), plane belonging to syria(4), plane belonging to syria(5), plane belonging to syria(6), plane belonging to syria(7), plane belonging to syria(10), plane belonging to syria(12), plane belonging to syria(14), plane belonging to syria(15), plane belonging to syria(17), plane belonging to syria(17), plane belonging to syria(18), plane belonging to syria(19), plane belonging to syria(22), plane belonging to syria(21), plane belonging to syria(24), plane belonging to syria(25), plane belonging to syria(26), plane belonging to syria(27), plane belonging to syria(30), plane belonging to syria(28), plane belonging to syria(29)
+cluster_id:  7
+
+predicted id: -1 : equipment made by russia(1), equipment made by russia(29)
+cluster_id:  8
+
+predicted id: -1 : passengers from russia(2)
+cluster_id:  9
+
+predicted id: -1 : plane carrying passengers(4), plane carrying passengers(5), plane carrying passengers(6), plane carrying passengers(10), plane carrying passengers(12), plane carrying passengers(13), plane carrying passengers(15), plane carrying passengers(17), plane carrying passengers(21), plane carrying passengers(26), plane carrying passengers(27), plane carrying passengers(30), plane carrying passengers(8), plane carrying passengers(18)
+cluster_id:  11
+
+predicted id: -1 : equipment for military purposes(5)
+cluster_id:  12
+
+predicted id: -1 : ministry affiliated with syria(5), ministry affiliated with syria(9)
+cluster_id:  13
+
+predicted id: 8 : pm(5)
+cluster_id:  15
+
+predicted id: 9 : angry at about(2)
+cluster_id:  16
+
+predicted id: 9 : angry at about(2)
+cluster_id:  17
+
+predicted id: 10 : :(5)
+cluster_id:  18
+
+predicted id: 10 : :(5)
+
+predicted id: 5 : says(9), says(22), says(25)
+cluster_id:  19
+
+predicted id: 11 : suspect(7), suspicious(28)
+cluster_id:  21
+
+predicted id: 10 : :(8)
+cluster_id:  22
+
+predicted id: 0 : bound from(20)
+
+predicted id: -1 : (plane) from (moscow)(13)
+
+predicted id: 12 : from(9), enroute from(10)
+
+predicted id: 13 : coming from(15)
+
+predicted id: 14 : en route from(28)
+cluster_id:  23
+
+predicted id: -1 : f16s belonging to turkey(10)
+cluster_id:  24
+
+predicted id: 15 : using(13)
+cluster_id:  25
+
+predicted id: -1 : military belonging to turkey(13)
+cluster_id:  26
+
+predicted id: 16 : endangering by(13)
+cluster_id:  27
+
+predicted id: -1 : lives belonging to russians(13)
+cluster_id:  28
+
+predicted id: 17 : accuses of(13)
+cluster_id:  29
+
+predicted id: -1 : cargo on plane(16)
+cluster_id:  30
+
+predicted id: 0 : sends to over(16)
+cluster_id:  31
+
+predicted id: 18 : decision(17)
+cluster_id:  32
+
+predicted id: 0 : defends(17), is defending(17)
+cluster_id:  33
+
+predicted id: -1 : munitions belonging to russia(22), munitions belonging to russia(25)
+cluster_id:  34
+
+predicted id: 19 : |(25)
+cluster_id:  35
+
+predicted id: 20 : reportedly(27)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 0 : was carrying(carry, 11), carried(carry, 1), carried(carry, 25), was carrying(carry, 14), from was carrying for(from, 9), carried(carry, 24), was carrying(carry, 19), carried(carry, 22)
+
+gold id: 32 : defends(defend, 17), is defending(defend, 17)
+
+gold id: 30 : sends to over(send, 16)
+
+gold id: 5 : was carrying(be, 29), was carrying(carry, 1), was carrying(carry, 1), was carrying from for(carry, 5), was carrying from for(carry, 5), was carrying(be, 29)
+
+gold id: 22 : bound from(bound, 20)
+cluster_id:  1
+
+gold id: 0 : 'carried(', 29)
+cluster_id:  2
+
+gold id: 1 : confrontation with(confrontation, 3)
+cluster_id:  3
+
+gold id: 1 : tensions(tension, 18)
+cluster_id:  4
+
+gold id: 2 : escalate as(escalate, 18), escalates(escalate, 3)
+cluster_id:  5
+
+gold id: 18 : says(say, 25), says(say, 22), says(say, 9)
+
+gold id: 3 : to land(land, 3), to land in(to, 9), to land at(to, 15), to land in(plane, 13), to land in(land, 26), to land in(force, 29), to land(to, 17), to land in(to, 6), to land in(to, 1), to land(to, 30), to land(to, 28), to land in(to, 4), to land in(to, 12), to land in(land, 20), land in(land, 10), to land(land, 23)
+
+gold id: 4 : grounded(ground, 2), forces down(force, 7), forces down(forces, 18)
+cluster_id:  6
+
+gold id: 4 : force(force, 10), forced(force, 6), forces(force, 26), forces over(force, 28), forced(force, 9), to force(force, 17), forced(force, 15), forced(force, 4), forced(force, 1), forced(forced, 20), forced(force, 12), forces(force, 30), forced(plane, 29), forcing(force, 3), to force(force, 13), forces(force, 23)
+cluster_id:  7
+
+gold id: 4 : intercepts(intercept, 27), intercepts(intercept, 8), intercepts(intercept, 21), intercepted(intercept, 5), intercepting(intercept, 17)
+cluster_id:  8
+
+gold id: 13 : pm(pm, 5)
+cluster_id:  9
+
+gold id: 16 : angry at about(angry, 2), angry at about(angry, 2)
+cluster_id:  10
+
+gold id: 18 : :(:, 5), :(:, 5)
+
+gold id: 21 : :(:, 8)
+cluster_id:  11
+
+gold id: 19 : suspect(suspect, 7), suspicious(suspicious, 28)
+cluster_id:  12
+
+gold id: 22 : from(from, 9), enroute from(enroute, 10)
+cluster_id:  13
+
+gold id: 22 : coming from(come, 15)
+cluster_id:  14
+
+gold id: 22 : en route from(en, 28)
+cluster_id:  15
+
+gold id: 24 : using(use, 13)
+cluster_id:  16
+
+gold id: 26 : endangering by(endanger, 13)
+cluster_id:  17
+
+gold id: 28 : accuses of(accuse, 13)
+cluster_id:  18
+
+gold id: 31 : decision(decision, 17)
+cluster_id:  19
+
+gold id: 34 : |(|, 25)
+cluster_id:  20
+
+gold id: 35 : reportedly(reportedly, 27)
+**********
+###armstrong_doping.xml
+
+Sentence:  1   Lance Armstrong 's repeated denials of doping claims
+Gold predicates:  doping(13){1[0, 1]}, claims(22){1[6]}, 's denials of(23){1[7], 1[0, 1], 1[3]}
+Predicted predicates:  's denials of(0), doping(6), claims(8)
+ 
+Sentence:  2   Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold predicates:  teammate named george hincapie(0){2[5, 6], 2[4]}, teammate who is of key value(1){2[3], 2[4]}, 's(2){2[0, 1], 2[4]}, doping(20){2[5, 6]}, admits to(21){2[9], 2[5, 6]}
+Predicted predicates:  's(0), doping(6), admits to(12)
+ 
+Sentence:  3   George Hincapie , who raced alongside Armstrong in his 7 Tour wins , apologizes for doping . Stopped using in 2006 .
+Gold predicates:  doping(20){3[0, 1]}, 7 tour wins that armstrong had(24){3[9, 10, 11], 3[8]}, stopped using in(25){3[20], 3[0, 1]}, apologizes for(26){3[15], 3[0, 1]}, who raced alongside in(38){3[6], 3[0, 1], 3[9, 10, 11]}
+Predicted predicates:  stopped using in(5), doping(6), apologizes for(15), who raced alongside in(18)
+ 
+Sentence:  4   George Hincapie confesses to doping
+Gold predicates:  doping(20){4[0, 1]}, confesses to(21){4[4], 4[0, 1]}
+Predicted predicates:  doping(6), confesses to(13)
+ 
+Sentence:  5   `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold predicates:  detailing(9){5[9, 10], 5[7], 5[11, 12, 13]}, to release(10){5[7], 5[1, 3, 4], 5[9, 10]}, program that was at a sophisticated level(27){5[15], 5[18]}, doping(39){}, program that entails doping(40){5[17], 5[18]}, 's involvement in(51){5[18], 5[9, 10]}, --(52){5[5, 6], 5[22]}
+Predicted predicates:  's involvement in(0), detailing(3), to release(5), doping(6), --(24)
+ 
+Sentence:  6   USADA Report on Allegations Against Lance Armstrong
+Gold predicates:  allegations against(22){6[5, 6]}, report on(41){6[3, 4], 6[0]}
+Predicted predicates:  report on(1), allegations against(2)
+ 
+Sentence:  7   Eleven Lance Armstrong Teammates Testified Against Him in Doping Case :
+Gold predicates:  11 teammates belonging to armstrong(3){7[0, 3], 7[1, 2]}, testified against in(12){7[6], 7[0, 3], 7[9]}, doping(13){7[1, 2]}, case about doping (lance)(42){7[8], 7[9]}
+Predicted predicates:  testified against in(2), doping(6)
+ 
+Sentence:  8   U.S . anti-doping agency report says cyclist Armstrong cheated
+Gold predicates:  armstrong is a cyclist(4){8[6], 8[7]}, report says(7){8[8], 8[0, 2, 3]}, cheated(13){8[7]}
+Predicted predicates:  report says(1), cheated(7)
+ 
+Sentence:  9   Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold predicates:  cancer that armstrong had(8){9[18], 9[17]}, 's(28){9[13], 9[10]}, high levels of hcg(29){9[20], 9[21]}, ( )(30){9[18], 9[-1]}, not detecting(31){9[18], 9[13], 9[23]}, doping(39){}, controllers who deal with doping(43){9[12], 9[13]}, blamed for(44){9[13], 9[7, 8], 9[15, 16]}, ' to(45){9[3], 9[0, 1], 9[5]}, states(46){9[9, 14], 9[3]}
+Predicted predicates:  's(0), doping(6), states(9), ( )(16), not detecting(17), blamed for(19), ' to(20)
+ 
+Sentence:  10   US anti-doping agency has called lance armstrong `` not only a drug user but alao a dealer '' bloodyhell
+Gold predicates:  user of drugs(32){10[11], 10[12]}, has called not only(33){10[5, 6], 10[0, 1, 2], 10[-1]}, has called alao(34){10[5, 6], 10[0, 1, 2], 10[16]}
+Predicted predicates:  has called alao(12), has called not only(12)
+ 
+Sentence:  11   Lance Armstrong has flown into New York to deny doping claims . Be more convincing if he 'd used a plane .
+Gold predicates:  doping(13){11[0, 1]}, claims(22){11[9]}, to deny(23){11[10], 11[0, 1]}, has flown into(35){11[5, 6], 11[0, 1], 11[7, 8]}
+Predicted predicates:  doping(6), claims(8), has flown into(12), to deny(14)
+ 
+Sentence:  12   U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe . Cycling
+Gold predicates:  of 's(3){12[5, 10], 12[7, 8]}, testified against in(12){12[13], 12[5, 10], 12[15]}, says(37){12[11, 12, 14], 12[0, 2, 3]}, probe(47){}
+Predicted predicates:  of 's(0), testified against in(2), says(9), probe(21)
+ 
+Sentence:  13   USADA reveals evidence against Lance Armstrong
+Gold predicates:  against(9){13[4, 5], 13[2]}, reveals(10){13[2], 13[0]}
+Predicted predicates:  against(2), reveals(5)
+ 
+Sentence:  14   Lance Armstrong a real life dope peddlar @ upthealps
+Gold predicates:  peddler who sells dope(11){14[6], 14[5]}, peddler in real life(50){14[3, 4], 14[6]}, a(53){14[6], 14[0, 1]}
+Predicted predicates:  a(25)
+ 
+Sentence:  15   USADA releases Lance Armstrong evidence .
+Gold predicates:  against (evidence, armstrong)(9){15[2, 3], 15[4]}, releases(10){15[4], 15[0]}
+Predicted predicates:  releases(5)
+ 
+Sentence:  16   Lance Armstrong got doping BlameSuarez
+Gold predicates:  got doping(13){16[0, 1]}
+Predicted predicates:  got doping(6)
+ 
+Sentence:  17   Hincapie , Former Lance Armstrong Lieutenant , Admits Doping in Cycling
+Gold predicates:  's (teammate belonging to armstrong)(2){17[3, 4], 17[5]}, doping in(20){17[10], 17[0]}, admits(21){17[8, 9], 17[0]}, lieutenant from before(36){17[2], 17[5]}
+Predicted predicates:  doping in(6), admits(12)
+ 
+Sentence:  18   ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold predicates:  against(9){18[10, 11], 18[8], 18[7]}, details(10){18[8], 18[4, 5], 18[10, 11]}, doping(13){18[10, 11]}, case about doping (lance)(42){18[7], 18[8]}, via(73){18[6], 18[14]}
+Predicted predicates:  against(2), details(3), doping(6), via(31)
+ 
+Sentence:  19   11 Teammates Testified In Doping Case Against Lance Armstrong
+Gold predicates:  testified in against(12){19[7, 8], 19[0, 1], 19[5]}, doping(13){19[7, 8]}, case about doping (lance)(42){19[4], 19[5]}
+Predicted predicates:  testified in against(2), doping(6)
+ 
+Sentence:  20   NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold predicates:  program that was at a sophisticated level(27){20[9, 10], 20[12]}, doping(39){}, program that entails doping(40){20[11], 20[12]}, at center of(51){20[12], 20[2, 3]}, 's(54){20[12], 20[7]}, `` ''(55){20[4, 5, 6], 20[0]}
+Predicted predicates:  's(0), doping(6), at center of(23), `` ''(26)
+ 
+Sentence:  21   A summing up of Lance 's USADA doping report
+Gold predicates:  's report(7){21[7], 21[6]}, doping(13){21[4]}
+Predicted predicates:  's report(0), doping(6)
+ 
+Sentence:  22   Lance Armstrong unfazed by doping maelstorm
+Gold predicates:  doping(13){22[0, 1]}, maelstrom related to doping(56){22[4], 22[5]}, unfazed by(57){22[5], 22[0, 1]}
+Predicted predicates:  doping(6), unfazed by(27)
+ 
+Sentence:  23   Doping Agency Says 11 Teammates Testified Against Lance Armstrong
+Gold predicates:  testified against(12){23[7, 8], 23[3, 4]}, says(37){23[5, 6], 23[0, 1]}
+Predicted predicates:  testified against(2), says(9)
+ 
+Sentence:  24   Lance Armstrong 's Teammates Claim He Doped - KBOI
+Gold predicates:  's(3){24[3], 24[0, 1]}, doped(13){24[5]}, claim(14){24[6], 24[3]}
+Predicted predicates:  's(0), doped(6), claim(8)
+ 
+Sentence:  25   Teammates Say Lance Armstrong Doped
+Gold predicates:  doped(13){25[2, 3]}, say(14){25[4], 25[0]}
+Predicted predicates:  doped(6), say(9)
+ 
+Sentence:  26   Lance Armstrong Was Central Figure in Doping Ring , Officials Say
+Gold predicates:  doping(39){}, program that entails doping(40){26[6], 26[7]}, was central figure in(51){26[7], 26[0, 1]}, say(58){26[2, 3, 4, 5], 26[9]}
+Predicted predicates:  doping(6), say(9), was central figure in(10)
+ 
+Sentence:  27   USADA Issues Bombshell on Lance Armstrong
+Gold predicates:  issues on(10){27[2], 27[0], 27[4, 5]}
+Predicted predicates:  issues on(4)
+ 
+Sentence:  28   U.S . Anti-Doping Agency : Evidence against Lance Armstrong is `` overwhelming ''
+Gold predicates:  against(9){28[7, 8], 28[5]}, is(16){28[11], 28[6]}, :(17){28[9], 28[0, 2, 3]}
+Predicted predicates:  against(2), is(10), :(11)
+ 
+Sentence:  29   USADA to release file on Lance Armstrong and US Postal doping
+Gold predicates:  on(9){29[5, 6], 29[3], 29[10]}, to release on(10){29[3], 29[0], 29[5, 6]}, doping(13){29[5, 6]}, doping(59){29[8, 9]}, on(60){29[10], 29[3]}, to release(61){29[3], 29[0]}
+Predicted predicates:  to release on(4), on(4), to release(4), on(4), doping(6), doping(6)
+ 
+Sentence:  30   Antidoping Agency Expected to Detail Its Case Against Lance Armstrong
+Gold predicates:  against(9){30[8, 9], 30[6]}, to detail(10){30[6], 30[0, 1], 30[8, 9]}, case being advanced by usada(18){30[5], 30[6]}, expected(62){30[3, 4], 30[0, 1]}
+Predicted predicates:  against(2), to detail(3), expected(28)
+ 
+Sentence:  31   Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold predicates:  of 's(19){31[2, 3], 31[0, 6]}, doping(63){31[0, 6]}, teammates from a prior time(64){31[5], 31[0, 6]}, have received bans from(65){31[9], 31[0, 6], 31[10], 31[14, 15, 16, 17]}, ( )(66){31[14, 15, 16, 17], 31[19]}
+Predicted predicates:  of 's(0), doping(6), ( )(16), have received bans from(17)
+ 
+Sentence:  32   Evidence From the Investigation Into Alleged Doping by Lance Armstrong
+Gold predicates:  doping by(13){32[8, 9]}, alleged(22){32[8, 9], 32[6, 7]}, investigation into(47){32[5]}, from(48){32[3, 4], 32[0]}
+Predicted predicates:  doping by(6), alleged(9), investigation into(21), from(22)
+ 
+Sentence:  33   Lance Armstrong was at center of doping program , USADA says
+Gold predicates:  doping(39){}, program that entails doping(40){33[6], 33[7]}, was at center of(51){33[7], 33[0, 1]}, says(58){33[2, 3, 4, 5], 33[9]}
+Predicted predicates:  doping(6), says(9), was at center of(23)
+ 
+Sentence:  34   US- Anti-doping agency strengthens case against Lance Armstrong Cycling legend Lance Armstrong s
+Gold predicates:  against(9){34[6], 34[4]}, legend in cycling industry(67){34[8], 34[9]}, armstrong is a legend(68){34[9], 34[10, 11]}, strengthens(69){34[4], 34[0, 1, 2]}
+Predicted predicates:  against(2), strengthens(29)
+ 
+Sentence:  35   Lance Armstrong should be on Shameless
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  36   ( AP ) -- U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe .
+Gold predicates:  of 's(3){36[9, 14], 36[11, 12]}, testified against in(12){36[17], 36[9, 14], 36[19]}, says(37){36[15, 16, 18], 36[4, 6, 7]}, probe(47){}, ( ) --(70){36[8], 36[1]}
+Predicted predicates:  of 's(0), testified against in(2), says(9), ( ) --(16), probe(21)
+ 
+Sentence:  37   The Lance Armstrong Doping Report
+Gold predicates:  report(7){37[3]}, doping(13){37[1, 2]}
+Predicted predicates:  report(1), doping(6)
+ 
+Sentence:  38   Looks like George Hincapie is solidifying the case against Lance Armstrong . Shame it 's true about lance.. But it will improve cycling
+Gold predicates:  against(9){38[9, 10], 38[7]}, is solidifying(71){38[7], 38[2, 3]}
+Predicted predicates:  against(2), is solidifying(30)
+ 
+Sentence:  39   Armstrong Lieutenant Hincapie Admits to Doping :
+Gold predicates:  teammate named george hincapie(0){39[2], 39[1]}, 's (teammate belonging to armstrong)(2){39[0], 39[1]}, doping(20){39[2]}, admits to(21){39[5], 39[2]}
+Predicted predicates:  doping(6), admits to(12)
+ 
+Sentence:  40   Lance Armstrong finds support with some cyclists , desipite USADA doping report
+Gold predicates:  report(7){40[10], 40[9]}, doping(13){40[0, 1]}, finds support with desipite(72){40[5, 6], 40[0, 1], 40[11]}
+Predicted predicates:  report(1), doping(6), finds support with desipite(17)
+ 
+Sentence:  41   Atlanta ( GA ) WXIA : USADA issues scathing doping report on Lance Armstrong
+Gold predicates:  issues report on(7){41[9], 41[1, 6], 41[8]}, doping(13){41[12, 13]}, ( )(74){41[2], 41[0]}, :(75){41[7, 10, 11], 41[4], 41[0]}
+Predicted predicates:  issues report on(1), doping(6), :(11), ( )(16)
+ 
+Sentence:  42   USADA Releases Doping Evidence Against Lance Armstrong - http : //t.co/OSWAQJpv
+Gold predicates:  against(9){42[5, 6], 42[3], 42[2]}, releases(10){42[3], 42[0]}, doping(13){42[5, 6]}
+Predicted predicates:  against(2), releases(4), doping(6)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: -1 : teammate named george hincapie(2), teammate named george hincapie(39)
+cluster_id:  1
+
+predicted id: -1 : teammate who is of key value(2)
+cluster_id:  2
+
+predicted id: 0 : 's(2)
+
+predicted id: -1 : 's (teammate belonging to armstrong)(17), 's (teammate belonging to armstrong)(39)
+cluster_id:  3
+
+predicted id: 0 : of 's(12), 's(24), of 's(36)
+
+predicted id: -1 : 11 teammates belonging to armstrong(7)
+cluster_id:  4
+
+predicted id: -1 : armstrong is a cyclist(8)
+cluster_id:  7
+
+predicted id: 0 : 's report(21)
+
+predicted id: 1 : report says(8), report(37), report(40), issues report on(41)
+cluster_id:  8
+
+predicted id: -1 : cancer that armstrong had(9)
+cluster_id:  9
+
+predicted id: 2 : against(13), against(28), against(30), against(34), against(38), against(42), against(18)
+
+predicted id: 3 : detailing(5)
+
+predicted id: 4 : on(29)
+
+predicted id: -1 : against (evidence, armstrong)(15)
+cluster_id:  10
+
+predicted id: 3 : to detail(30), details(18)
+
+predicted id: 4 : issues on(27), to release on(29), releases(42)
+
+predicted id: 5 : reveals(13), releases(15), to release(5)
+cluster_id:  11
+
+predicted id: -1 : peddler who sells dope(14)
+cluster_id:  12
+
+predicted id: 2 : testified against(23), testified against in(7), testified against in(12), testified in against(19), testified against in(36)
+cluster_id:  13
+
+predicted id: 6 : doped(24), doped(25), doping(29), doping(37), doping(1), doping(11), got doping(16), doping(21), doping(22), doping(7), doping(18), doping(19), doping by(32), doping(40), doping(41), doping(42)
+
+predicted id: 7 : cheated(8)
+cluster_id:  14
+
+predicted id: 8 : claim(24)
+
+predicted id: 9 : say(25)
+cluster_id:  16
+
+predicted id: 10 : is(28)
+cluster_id:  17
+
+predicted id: 11 : :(28)
+cluster_id:  18
+
+predicted id: -1 : case being advanced by usada(30)
+cluster_id:  19
+
+predicted id: 0 : of 's(31)
+cluster_id:  20
+
+predicted id: 6 : doping(39), doping(2), doping(3), doping(4), doping in(17)
+cluster_id:  21
+
+predicted id: 12 : admits to(39), admits to(2), admits(17)
+
+predicted id: 13 : confesses to(4)
+cluster_id:  22
+
+predicted id: 8 : claims(1), claims(11)
+
+predicted id: 9 : alleged(32)
+
+predicted id: 2 : allegations against(6)
+cluster_id:  23
+
+predicted id: 0 : 's denials of(1)
+
+predicted id: 14 : to deny(11)
+cluster_id:  24
+
+predicted id: -1 : 7 tour wins that armstrong had(3)
+cluster_id:  25
+
+predicted id: 5 : stopped using in(3)
+cluster_id:  26
+
+predicted id: 15 : apologizes for(3)
+cluster_id:  27
+
+predicted id: -1 : program that was at a sophisticated level(5), program that was at a sophisticated level(20)
+cluster_id:  28
+
+predicted id: 0 : 's(9)
+cluster_id:  29
+
+predicted id: -1 : high levels of hcg(9)
+cluster_id:  30
+
+predicted id: 16 : ( )(9)
+cluster_id:  31
+
+predicted id: 17 : not detecting(9)
+cluster_id:  32
+
+predicted id: -1 : user of drugs(10)
+cluster_id:  33
+
+predicted id: 12 : has called not only(10)
+cluster_id:  34
+
+predicted id: 12 : has called alao(10)
+cluster_id:  35
+
+predicted id: 12 : has flown into(11)
+cluster_id:  36
+
+predicted id: -1 : lieutenant from before(17)
+cluster_id:  37
+
+predicted id: 9 : says(23), says(12), says(36)
+cluster_id:  38
+
+predicted id: 18 : who raced alongside in(3)
+cluster_id:  39
+
+predicted id: 6 : doping(5), doping(20), doping(33), doping(9), doping(26)
+cluster_id:  40
+
+predicted id: -1 : program that entails doping(5), program that entails doping(20), program that entails doping(33), program that entails doping(26)
+cluster_id:  41
+
+predicted id: 1 : report on(6)
+cluster_id:  42
+
+predicted id: -1 : case about doping (lance)(7), case about doping (lance)(18), case about doping (lance)(19)
+cluster_id:  43
+
+predicted id: -1 : controllers who deal with doping(9)
+cluster_id:  44
+
+predicted id: 19 : blamed for(9)
+cluster_id:  45
+
+predicted id: 20 : ' to(9)
+cluster_id:  46
+
+predicted id: 9 : states(9)
+cluster_id:  47
+
+predicted id: 21 : investigation into(32), probe(12), probe(36)
+cluster_id:  48
+
+predicted id: 22 : from(32)
+cluster_id:  50
+
+predicted id: -1 : peddler in real life(14)
+cluster_id:  51
+
+predicted id: 0 : 's involvement in(5)
+
+predicted id: 10 : was central figure in(26)
+
+predicted id: 23 : at center of(20), was at center of(33)
+cluster_id:  52
+
+predicted id: 24 : --(5)
+cluster_id:  53
+
+predicted id: 25 : a(14)
+cluster_id:  54
+
+predicted id: 0 : 's(20)
+cluster_id:  55
+
+predicted id: 26 : `` ''(20)
+cluster_id:  56
+
+predicted id: -1 : maelstrom related to doping(22)
+cluster_id:  57
+
+predicted id: 27 : unfazed by(22)
+cluster_id:  58
+
+predicted id: 9 : say(26), says(33)
+cluster_id:  59
+
+predicted id: 6 : doping(29)
+cluster_id:  60
+
+predicted id: 4 : on(29)
+cluster_id:  61
+
+predicted id: 4 : to release(29)
+cluster_id:  62
+
+predicted id: 28 : expected(30)
+cluster_id:  63
+
+predicted id: 6 : doping(31)
+cluster_id:  64
+
+predicted id: -1 : teammates from a prior time(31)
+cluster_id:  65
+
+predicted id: 17 : have received bans from(31)
+cluster_id:  66
+
+predicted id: 16 : ( )(31)
+cluster_id:  67
+
+predicted id: -1 : legend in cycling industry(34)
+cluster_id:  68
+
+predicted id: -1 : armstrong is a legend(34)
+cluster_id:  69
+
+predicted id: 29 : strengthens(34)
+cluster_id:  70
+
+predicted id: 16 : ( ) --(36)
+cluster_id:  71
+
+predicted id: 30 : is solidifying(38)
+cluster_id:  72
+
+predicted id: 17 : finds support with desipite(40)
+cluster_id:  73
+
+predicted id: 31 : via(18)
+cluster_id:  74
+
+predicted id: 16 : ( )(41)
+cluster_id:  75
+
+predicted id: 11 : :(41)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 51 : 's involvement in(armstrong, 5)
+
+gold id: 2 : 's('s, 2)
+
+gold id: 3 : of 's(say, 12), 's('s, 24), of 's(say, 36)
+
+gold id: 7 : 's report(report, 21)
+
+gold id: 19 : of 's(of, 31)
+
+gold id: 54 : 's('s, 20)
+
+gold id: 23 : 's denials of(denial, 1)
+
+gold id: 28 : 's('s, 9)
+cluster_id:  1
+
+gold id: 41 : report on(report, 6)
+
+gold id: 7 : report says(dope, 8), report(report, 40), report(report, 37), issues report on(issue, 41)
+cluster_id:  2
+
+gold id: 9 : against(:, 28), against(against, 18), against(against, 13), against(strengthen, 34), against(against, 30), against(against, 42), against(against, 38)
+
+gold id: 12 : testified in against(testified, 19), testified against(testify, 23), testified against in(testify, 7), testified against in(against, 12), testified against in(against, 36)
+
+gold id: 22 : allegations against(allegations, 6)
+cluster_id:  3
+
+gold id: 9 : detailing(release, 5)
+
+gold id: 10 : details(details, 18), to detail(to, 30)
+cluster_id:  4
+
+gold id: 10 : to release on(release, 29), releases(releases, 42), issues on(issue, 27)
+
+gold id: 60 : on(on, 29), on(on, 29)
+
+gold id: 61 : to release(release, 29)
+cluster_id:  5
+
+gold id: 25 : stopped using in(stop, 3)
+
+gold id: 10 : reveals(reveal, 13), releases(release, 15), to release(agency, 5)
+cluster_id:  6
+
+gold id: 59 : doping(dope, 29), doping(dope, 29)
+
+gold id: 63 : doping(receive, 31)
+
+gold id: 20 : doping in(dope, 17), doping(doping, 3), doping(dope, 4), doping(doping, 39), doping(dope, 2)
+
+gold id: 13 : doped(doped, 24), doping(doping, 37), doping(dope, 7), got doping(get, 16), doping(dope, 11), doping(dope, 42), doping(dope, 1), doped(doped, 25), doping(dope, 21), doping(doping, 18), doping(dope, 41), doping(dope, 22), doping by(doping, 32), doping(doping, 19), doping(dope, 40)
+
+gold id: 39 : doping(sophisticated, 5), doping(doping, 33), doping(doping, 20), doping(dope, 9), doping(doping, 26)
+cluster_id:  7
+
+gold id: 13 : cheated(cyclist, 8)
+cluster_id:  8
+
+gold id: 14 : claim(claim, 24)
+
+gold id: 22 : claims(claim, 1), claims(claim, 11)
+cluster_id:  9
+
+gold id: 14 : say(say, 25)
+
+gold id: 58 : says(say, 33), say(say, 26)
+
+gold id: 22 : alleged(allege, 32)
+
+gold id: 37 : says(doping, 36), says(doping, 12), says(say, 23)
+
+gold id: 46 : states(state, 9)
+cluster_id:  10
+
+gold id: 16 : is(lance, 28)
+
+gold id: 51 : was central figure in(figure, 26)
+cluster_id:  11
+
+gold id: 17 : :(doping, 28)
+
+gold id: 75 : :(:, 41)
+cluster_id:  12
+
+gold id: 34 : has called alao(agency, 10), has called not only(agency, 10)
+
+gold id: 35 : has flown into(fly, 11)
+
+gold id: 21 : admits to(admits, 39), admits to(admits, 2), admits(admit, 17)
+cluster_id:  13
+
+gold id: 21 : confesses to(confess, 4)
+cluster_id:  14
+
+gold id: 23 : to deny(deny, 11)
+cluster_id:  15
+
+gold id: 26 : apologizes for(apologize, 3)
+cluster_id:  16
+
+gold id: 66 : ( )(united, 31)
+
+gold id: 74 : ( )((, 41)
+
+gold id: 70 : ( ) --((, 36)
+
+gold id: 30 : ( )((, 9)
+cluster_id:  17
+
+gold id: 72 : finds support with desipite(find, 40)
+
+gold id: 65 : have received bans from(mate, 31)
+
+gold id: 31 : not detecting(detect, 9)
+cluster_id:  18
+
+gold id: 38 : who raced alongside in(race, 3)
+cluster_id:  19
+
+gold id: 44 : blamed for(blame, 9)
+cluster_id:  20
+
+gold id: 45 : ' to(to, 9)
+cluster_id:  21
+
+gold id: 47 : investigation into(investigation, 32), probe(-PRON-, 12), probe(-PRON-, 36)
+cluster_id:  22
+
+gold id: 48 : from(from, 32)
+cluster_id:  23
+
+gold id: 51 : at center of(at, 20), was at center of(be, 33)
+cluster_id:  24
+
+gold id: 52 : --(., 5)
+cluster_id:  25
+
+gold id: 53 : a(a, 14)
+cluster_id:  26
+
+gold id: 55 : `` ''(``, 20)
+cluster_id:  27
+
+gold id: 57 : unfazed by(unfazed, 22)
+cluster_id:  28
+
+gold id: 62 : expected(expect, 30)
+cluster_id:  29
+
+gold id: 69 : strengthens(dope, 34)
+cluster_id:  30
+
+gold id: 71 : is solidifying(solidify, 38)
+cluster_id:  31
+
+gold id: 73 : via(via, 18)
+**********
+###fresno_shooting.xml
+
+Sentence:  1   Mass shooting reported at a Central Fresno business
+Gold predicates:  business that's in fresno(0){1[5, 6], 1[7]}, shooting at a(3){1[7], 1[0], 1[5, 6]}, reported(4){1[1, 3, 4]}
+Predicted predicates:  shooting at a(0), reported(1)
+ 
+Sentence:  2   2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold predicates:  business that's in fresno(0){2[9], 2[12]}, shooting rampage at(3){2[12], 2[9]}, plant that produces chicken(5){2[11], 2[12]}, fresno is in california(6){2[10], 2[9]}, dead after at(17){2[6, 7, 8], 2[0], 2[9]}, wounded after at(18){2[6, 7, 8], 2[3], 2[9]}
+Predicted predicates:  shooting rampage at(0), dead after at(6), wounded after at(9)
+ 
+Sentence:  3   At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold predicates:  shot at in(3){3[7], 3[0, 1, 2, 3], 3[9]}, reportedly(4){3[5, 6, 8]}, fresno is in california(6){3[11], 3[9]}, -ras(7){3[4], 3[13]}
+Predicted predicates:  shot at in(0), reportedly(1), -ras(3)
+ 
+Sentence:  4   Reports Of Mass Shooting In Fresno , California
+Gold predicates:  shooting in(3){4[2], 4[5]}, reports of(4){4[3, 4]}, fresno is in california(6){4[7], 4[5]}
+Predicted predicates:  shooting in(0), reports of(2)
+ 
+Sentence:  5   Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold predicates:  business that's in fresno(0){5[3], 5[6]}, shooting in(3){5[6], 5[0], 5[3]}, fresno is in california(6){5[5], 5[3]}, may be dead at(19){5[13], 5[8]}, sigh when will end ?(70){5[1, 2], 5[19]}
+Predicted predicates:  shooting in(0), may be dead at(6), sigh when will end ?(8)
+ 
+Sentence:  6   Palin Says Gunman kills 2 co-workers , self at Calif . poultry plant
+Gold predicates:  plant that produces chicken(5){6[11], 6[12]}, plant that's in california(8){6[9], 6[12]}, kills at(17){6[4, 5], 6[2], 6[12]}, kills at(17){6[9]}, kills at(19){6[12], 6[7], 6[2]}, kills at(19){6[9]}, says(71){6[3, 8], 6[0]}, says(72){6[3, 8], 6[0]}
+Predicted predicates:  kills at(0), kills at(0), kills at(0), kills at(0), says(18), says(18)
+ 
+Sentence:  7   Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold predicates:  plant that's in california(8){7[7], 7[8]}, plant that's in california(8){7[21], 7[22]}, kills at(17){7[2], 7[0], 7[8]}, kills at(17){7[7]}, kills at(17){7[16], 7[14], 7[22]}, kills at(17){7[21]}, wounds at(18){7[5], 7[0], 7[8]}, wounds at(18){7[7]}, wounds at(18){7[19], 7[14], 7[22]}, wounds at(18){7[21]}, :(44){7[1, 6], 7[10]}, :(44){7[15, 20], 7[24]}, :(45){7[4, 6], 7[10]}, :(45){7[18, 20], 7[24]}
+Predicted predicates:  kills at(0), kills at(0), kills at(0), kills at(0), :(5), :(5), :(5), :(5), wounds at(9), wounds at(9), wounds at(9), wounds at(9)
+ 
+Sentence:  8   How horrible . Terrible workplace shooting in Fresno this morning .
+Gold predicates:  shooting in(3){8[4], 8[7], 8[3], 8[8, 9]}, how horrible(25){8[5, 6]}
+Predicted predicates:  shooting in(0), how horrible(11)
+ 
+Sentence:  9   Xiii ! RT @ AP : BREAKING : At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold predicates:  shot at in(3){9[15], 9[8, 9, 10, 11], 9[17]}, reportedly(4){9[13, 14, 16]}, fresno is in california(6){9[19], 9[17]}, -ras(7){9[12], 9[21]}
+Predicted predicates:  shot at in(0), reportedly(1), -ras(3)
+ 
+Sentence:  10   Workplace shooting in central Fresno . What a horrible way to start Election Day . ) - :
+Gold predicates:  shooting in(3){10[0], 10[3, 4]}, to start(22){10[1, 2], 10[12, 13]}, way that's horrible(23){10[8], 10[9]}, what a horrible way(24){10[10, 11], 10[1, 2]}
+Predicted predicates:  shooting in(0), to start(10), what a horrible way(11)
+ 
+Sentence:  11   Mass Shooting at California Meat Plant - ABC News
+Gold predicates:  shooting at(3){11[5], 11[0], 11[3]}, plant that produces chicken(5){11[4], 11[5]}, plant that's in california(8){11[3], 11[5]}, -(9){11[1, 2], 11[7, 8]}
+Predicted predicates:  shooting at(0), -(4)
+ 
+Sentence:  12   Reports Of Mass Shooting At Apple Valley Farms Plant In Central California
+Gold predicates:  shooting at in(3){12[8], 12[2], 12[10, 11]}, reports of(4){12[3, 4, 9]}, plant called apple valley farms(10){12[5, 6, 7], 12[8]}
+Predicted predicates:  shooting at in(0), reports of(2)
+ 
+Sentence:  13   Sacbee - Newspaper : 3 shot at Fresno , Calif. , workplace
+Gold predicates:  business that's in fresno(0){13[7], 13[11]}, shot at(3){13[11], 13[4], 13[7]}, fresno is in california(6){13[9], 13[7]}, :(11){13[5, 6], 13[0, 2]}
+Predicted predicates:  shot at(0), :(5)
+ 
+Sentence:  14   Reports Of Mass Shooting At Apple Valley Farms Premises In Central California
+Gold predicates:  shooting at in(3){14[8], 14[2], 14[10, 11]}, reports of(4){14[3, 4, 9]}, plant called apple valley farms(10){14[5, 6, 7], 14[8]}
+Predicted predicates:  shooting at in(0), reports of(2)
+ 
+Sentence:  15   Compass Newspaper boss shot by unknown gunmen
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  16   Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold predicates:  business that's in fresno(0){16[0, 1], 16[2]}, shooting(3){16[2], 16[0, 1]}, details that are new(15){16[5], 16[6]}, injured(18){16[3], 16[0, 1]}, on(56){16[8], 16[6]}, on(57){16[10], 16[6]}, on(58){16[12], 16[6]}, accounts(59){16[3], 16[14]}
+Predicted predicates:  shooting(0), accounts(2), injured(9), on(16), on(16), on(16)
+ 
+Sentence:  17   Gunman kills one , wounds three at Fresno , California plant : police
+Gold predicates:  business that's in fresno(0){17[7], 17[10]}, fresno is in california(6){17[9], 17[7]}, kills at(17){17[2], 17[0], 17[10]}, kills at(17){17[7]}, wounds at(18){17[5], 17[0], 17[10]}, wounds at(18){17[7]}, :(44){17[1, 6], 17[12]}, :(45){17[4, 6], 17[12]}
+Predicted predicates:  kills at(0), kills at(0), :(5), :(5), wounds at(9), wounds at(9)
+ 
+Sentence:  18   Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold predicates:  business that's in fresno(0){18[2], 18[4]}, shooting(3){18[4], 18[2]}, plant that produces chicken(5){18[3], 18[4]}, history that was extensive (suspect's)(21){18[11], 18[9]}, in(26){18[5], 18[0]}, (suspect) is a parolee(54){18[0], 18[7]}, (suspect) has a history(55){18[0], 18[11]}
+Predicted predicates:  shooting(0), in(12)
+ 
+Sentence:  19   BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold predicates:  shooting(3){19[1]}, shot(3){19[10], 19[16], 19[12]}, fresno is in california(6){19[14], 19[12]}, plant called apple valley farms(10){19[6, 7, 8], 19[10]}, dead(17){19[2], 19[19], 19[12]}, processing(27){19[10]}, occurred at in(28){19[10], 19[2], 19[12]}, .(29){19[3, 4, 11], 19[22, 23]}, .(30){19[17], 19[22, 23]}, .(31){19[20], 19[22, 23]}
+Predicted predicates:  shooting(0), shot(0), dead(6), occurred at in(12), processing(13), .(14), .(14), .(14)
+ 
+Sentence:  20   Eight people shot , at least two dead , at Fresno plant - Los Angeles Times
+Gold predicates:  business that's in fresno(0){20[10], 20[11]}, shot at(3){20[11], 20[0, 1], 20[10]}, dead at(17){20[4, 5, 6], 20[11]}, dead at(17){20[10]}, -(73){20[2, 9], 20[13, 14, 15]}, -(74){20[7, 9], 20[13, 14, 15]}
+Predicted predicates:  shot at(0), -(4), -(4), dead at(6), dead at(6)
+ 
+Sentence:  21   Newspaper report : At least 3 people shot at workplace in Fresno , Calif . fox5atl
+Gold predicates:  shot at in(3){21[9], 21[3, 4, 5, 6], 21[11]}, fresno is in california(6){21[13], 21[11]}, report :(32){21[7, 8, 10], 21[0]}, .(33){21[1, 2], 21[15]}
+Predicted predicates:  shot at in(0), report :(2), .(14)
+ 
+Sentence:  22   3 people reportedly shot at the Apple Valley Farms plant in Fresno , California :
+Gold predicates:  shot at in(3){22[9], 22[0, 1], 22[11]}, reportedly(4){22[3, 4, 10]}, fresno is in california(6){22[13], 22[11]}, plant called apple valley farms(10){22[6, 7, 8], 22[9]}
+Predicted predicates:  shot at in(0), reportedly(1)
+ 
+Sentence:  23   Mass shooting reported at Fresno workplace
+Gold predicates:  business that's in fresno(0){23[4], 23[5]}, shooting at(3){23[5], 23[0], 23[4]}, reported(4){23[1, 3]}
+Predicted predicates:  shooting at(0), reported(1)
+ 
+Sentence:  24   1 dead , 4 wounded as worker opens fire at Fresno plant , police say
+Gold predicates:  business that's in fresno(0){24[10], 24[11]}, opens fire at(3){24[11], 24[10], 24[6]}, dead as at(17){24[7, 8, 9], 24[0], 24[6], 24[11]}, dead at(17){24[10]}, wounded as at(18){24[7, 8, 9], 24[3], 24[6], 24[11]}, wounded at(18){24[10]}, say(44){24[1, 5, 9], 24[13]}, say(45){24[4, 5, 9], 24[13]}
+Predicted predicates:  opens fire at(0), dead at(6), dead as at(6), wounded as at(9), wounded at(9), say(18), say(18)
+ 
+Sentence:  25   Wordpress Developer needed ( Fresno )
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  26   People in Fresno commit suicide . But catch a few bodies first
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  27   Fresno police respond to workplace shooting
+Gold predicates:  shooting(3){27[4], 27[0]}, police working for fresno(36){27[1], 27[0]}, respond to(37){27[5], 27[1]}
+Predicted predicates:  shooting(0), respond to(15)
+ 
+Sentence:  28   We 're LIVE on @ ABC30 right NOW with the latest info on the fatal workplace shooting in Fresno .
+Gold predicates:  shooting in(3){28[15], 28[18]}, details that are new(15){28[10], 28[11]}, fatal(17){28[16, 17], 28[18]}, on(40){28[16, 17], 28[11]}
+Predicted predicates:  shooting in(0), fatal(7), on(16)
+ 
+Sentence:  29   The death toll from a workplace shooting in Fresno , California has risen to 3 Newsroom
+Gold predicates:  shooting in(3){29[5], 29[8]}, fresno is in california(6){29[10], 29[8]}, death toll from(17){29[6, 7], 29[14], 29[8]}, has risen to(38){29[14], 29[1, 2, 3]}
+Predicted predicates:  shooting in(0), death toll from(8), has risen to(10)
+ 
+Sentence:  30   More details on today 's report of a shooting in Fresno , California :
+Gold predicates:  shooting in(3){30[10]}, 's report of(4){30[3], 30[8, 9]}, fresno is in california(6){30[12], 30[10]}, details that are additional(39){30[0], 30[1]}, on(40){30[4, 5, 6], 30[1]}
+Predicted predicates:  shooting in(0), 's report of(2), on(16)
+ 
+Sentence:  31   3 shot at Fresno poultry processing plant - Nov 6 @ 4:15 PM ET
+Gold predicates:  business that's in fresno(0){31[3], 31[6]}, shot at(3){31[6], 31[0], 31[3]}, processing(27){31[4], 31[6]}
+Predicted predicates:  shot at(0), processing(13)
+ 
+Sentence:  32   Apple Might Kick Intel Chips Out of Macs :
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  33   A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold predicates:  shooting at in(3){33[15], 33[9], 33[17]}, reports of(4){33[10, 11, 16]}, plant called apple valley farms(10){33[12, 13, 14], 33[15]}, reality that is different(41){33[1], 33[2]}, for :(42){33[2], 33[5], 33[7, 8], 33[3]}
+Predicted predicates:  shooting at in(0), reports of(2), for :(5)
+ 
+Sentence:  34   Death toll rises to three in Fresno chicken plant shooting
+Gold predicates:  business that's in fresno(0){34[6], 34[8]}, shooting(3){34[8], 34[6]}, plant that produces chicken(5){34[7], 34[8]}, death toll in(17){34[9], 34[4], 34[6]}, rises to(38){34[4], 34[0, 1, 5]}
+Predicted predicates:  shooting(0), death toll in(8), rises to(10)
+ 
+Sentence:  35   Reports of mass shooting in Fresno , California
+Gold predicates:  shooting in(3){35[2], 35[5]}, reports of(4){35[3, 4]}, fresno is in california(6){35[7], 35[5]}
+Predicted predicates:  shooting in(0), reports of(2)
+ 
+Sentence:  36   Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold predicates:  shooting(3){36[22], 36[21]}, fresno is in california(6){36[3], 36[1]}, plant that's in california(8){36[21], 36[22]}, dead in(17){36[23], 36[11], 36[21]}, wounded in(18){36[23], 36[14], 36[21]}, including(43){36[18], 36[15, 20]}, say(44){36[12, 20], 36[9]}, say(45){36[15, 20], 36[9]}, say(46){36[17], 36[9]}, ( ) --(47){36[10], 36[6], 36[1]}, ( ) --(48){36[10], 36[6], 36[1]}, ( ) --(49){36[10], 36[6], 36[1]}
+Predicted predicates:  shooting(0), dead in(6), wounded in(9), including(17), say(18), say(18), say(18), ( ) --(19), ( ) --(19), ( ) --(19)
+ 
+Sentence:  37   Fresno Workplace shooting - Blackstone Avenue
+Gold predicates:  business that's in fresno(0){37[0], 37[1]}, shooting(3){37[1], 37[0]}
+Predicted predicates:  shooting(0)
+ 
+Sentence:  38   Employee in Fresno , CA shoots 4 then himself
+Gold predicates:  in shoots(3){38[6], 38[2], 38[0]}, fresno is in california(6){38[4], 38[2]}, in shoots(50){38[2], 38[0], 38[7], 38[8]}
+Predicted predicates:  in shoots(0), in shoots(0)
+ 
+Sentence:  39   Fresno gunman identified , in critical condition
+Gold predicates:  gunman from fresno(51){39[0], 39[1]}, identified(52){39[1]}, in condition(60){39[1], 39[5]}
+Predicted predicates:  identified(2), in condition(21)
+ 
+Sentence:  40   Reports Of Mass Shooting At Apple Valley Farms Plant In Central California , 8 shot
+Gold predicates:  shooting at in(3){40[8], 40[2], 40[10, 11]}, shot(3){40[8], 40[13], 40[10, 11]}, reports of(4){40[3, 4, 9]}, reports of(4){40[14]}, plant called apple valley farms(10){40[5, 6, 7], 40[8]}
+Predicted predicates:  shot(0), shooting at in(0), reports of(2), reports of(2)
+ 
+Sentence:  41   1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold predicates:  business that's in fresno(0){41[9], 41[11]}, shooting rampage at(3){41[11], 41[9]}, plant that produces chicken(5){41[10], 41[11]}, dead after(17){41[6, 7, 8], 41[0]}, wounded after(18){41[6, 7, 8], 41[3]}
+Predicted predicates:  shooting rampage at(0), dead after(6), wounded after(9)
+ 
+Sentence:  42   O_o RT @ HuffingtonPost BREAKING : Reports of mass shooting in Fresno , California
+Gold predicates:  shooting in(3){42[8], 42[11]}, reports of(4){42[9, 10]}, fresno is in california(6){42[13], 42[11]}, :(53){42[6, 7], 42[3]}
+Predicted predicates:  shooting in(0), reports of(2), :(5)
+ 
+Sentence:  43   Gunman kills 1 , wounds 3 in workplace shooting in Fresno , CA
+Gold predicates:  shooting in(3){43[7], 43[10]}, fresno is in california(6){43[12], 43[10]}, kills in in(17){43[8, 9], 43[2], 43[0], 43[10]}, wounds in in(18){43[8, 9], 43[5], 43[0], 43[10]}
+Predicted predicates:  shooting in(0), kills in in(0), wounds in in(9)
+ 
+Sentence:  44   Man Reported in Surgery After Being Shot Multiple Times
+Gold predicates:  being shot(61){44[7, 8], 44[0]}, in surgery after(62){44[5, 6], 44[0]}, reported(63){44[2, 3, 4]}
+Predicted predicates:  being shot(0), reported(1), in surgery after(22)
+ 
+Sentence:  45   Horrifying ! Mass shooting reported at Fresno workplace | The Lookout - Yahoo ! News
+Gold predicates:  business that's in fresno(0){45[6], 45[7]}, shooting at(3){45[7], 45[2], 45[6]}, reported(4){45[3, 5]}, horrifying(25){45[3, 5]}, |(64){45[4], 45[9, 10]}, -(65){45[8], 45[12, 13, 14]}
+Predicted predicates:  shooting at(0), reported(1), -(4), horrifying(11), |(23)
+ 
+Sentence:  46   8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold predicates:  shooting in(3){46[9], 46[12]}, shot(3){46[0, 1]}, reports of(4){46[10, 11]}, fresno is in california(6){46[14], 46[12]}, dead(17){46[2], 46[4]}, :(53){46[7, 8], 46[19]}
+Predicted predicates:  shooting in(0), shot(0), reports of(2), :(5), dead(6)
+ 
+Sentence:  47   fresno 's mass shooter was driving kimmiescar
+Gold predicates:  's(51){47[0], 47[3]}, one who does mass shootings(66){47[3], 47[2]}, was driving(67){47[6], 47[3]}
+Predicted predicates:  was driving(8), 's(20)
+ 
+Sentence:  48   Central East Chiropractic offers help with pain relief and wellness in Fresno
+Gold predicates:  
+Predicted predicates:  
+ 
+Sentence:  49   As if on cue , reports of mass shooting in Fresno California .
+Gold predicates:  shooting in(3){49[7], 49[10]}, reports of(4){49[8, 9]}, fresno is in california(6){49[11], 49[10]}, as if on cue(68){49[5, 6]}
+Predicted predicates:  shooting in(0), reports of(2), as if on cue(16)
+ 
+Sentence:  50   Initial reports from the central Fresno workplace shooting are that the gunman killed himself .
+Gold predicates:  business that's in fresno(0){50[4, 5], 50[6]}, shooting(3){50[6], 50[4, 5]}, killed(19){50[13], 50[11]}, reports from are that(69){50[7], 50[0], 50[12]}
+Predicted predicates:  killed(0), shooting(0), reports from are that(1)
+ 
+
+ The Gold clusters:
+cluster_id:  0
+
+predicted id: -1 : business that's in fresno(1), business that's in fresno(2), business that's in fresno(5), business that's in fresno(13), business that's in fresno(17), business that's in fresno(18), business that's in fresno(20), business that's in fresno(23), business that's in fresno(24), business that's in fresno(34), business that's in fresno(37), business that's in fresno(31), business that's in fresno(41), business that's in fresno(16), business that's in fresno(45), business that's in fresno(50)
+cluster_id:  3
+
+predicted id: 0 : shooting at a(1), shot at in(3), shooting in(8), shot at in(9), shooting at(11), shooting at in(12), shot at(13), shooting at in(14), shooting rampage at(2), shooting in(4), shooting in(5), shooting(18), shooting in(10), shooting(19), shot(19), shot at in(21), shot at in(22), shooting at(23), opens fire at(24), shooting(27), shooting in(28), shooting in(29), shooting in(30), shot at(31), shooting at in(33), shooting(34), shooting in(35), shooting(36), shooting(37), in shoots(38), shooting at in(40), shot(40), shooting rampage at(41), shooting in(42), shooting(16), shooting in(43), shooting at(45), shooting in(46), shot(46), shooting in(49), shooting(50), shot at(20)
+cluster_id:  4
+
+predicted id: 1 : reported(1), reportedly(3), reportedly(9), reportedly(22), reported(23), reported(45)
+
+predicted id: 2 : reports of(12), reports of(14), reports of(4), 's report of(30), reports of(33), reports of(35), reports of(40), reports of(42), reports of(46), reports of(49), reports of(40)
+cluster_id:  5
+
+predicted id: -1 : plant that produces chicken(2), plant that produces chicken(18), plant that produces chicken(34), plant that produces chicken(41), plant that produces chicken(6), plant that produces chicken(11)
+cluster_id:  6
+
+predicted id: -1 : fresno is in california(3), fresno is in california(2), fresno is in california(4), fresno is in california(5), fresno is in california(9), fresno is in california(13), fresno is in california(17), fresno is in california(19), fresno is in california(21), fresno is in california(22), fresno is in california(29), fresno is in california(30), fresno is in california(35), fresno is in california(36), fresno is in california(38), fresno is in california(42), fresno is in california(43), fresno is in california(46), fresno is in california(49)
+cluster_id:  7
+
+predicted id: 3 : -ras(3), -ras(9)
+cluster_id:  8
+
+predicted id: -1 : plant that's in california(11), plant that's in california(7), plant that's in california(7), plant that's in california(6), plant that's in california(36)
+cluster_id:  9
+
+predicted id: 4 : -(11)
+cluster_id:  10
+
+predicted id: -1 : plant called apple valley farms(12), plant called apple valley farms(22), plant called apple valley farms(33), plant called apple valley farms(40), plant called apple valley farms(14), plant called apple valley farms(19)
+cluster_id:  11
+
+predicted id: 5 : :(13)
+cluster_id:  15
+
+predicted id: -1 : details that are new(16), details that are new(28)
+cluster_id:  17
+
+predicted id: 8 : death toll from(29), death toll in(34)
+
+predicted id: 0 : kills in in(43), kills at(6), kills at(6), kills at(7), kills at(7), kills at(7), kills at(7), kills at(17), kills at(17)
+
+predicted id: 6 : dead after at(2), dead(19), dead in(36), dead(46), dead after(41), dead at(20), dead at(20), dead as at(24), dead at(24)
+
+predicted id: 7 : fatal(28)
+cluster_id:  18
+
+predicted id: 9 : wounded after at(2), wounded in(36), injured(16), wounds in in(43), wounded after(41), wounds at(7), wounds at(7), wounds at(7), wounds at(7), wounds at(17), wounds at(17), wounded as at(24), wounded at(24)
+cluster_id:  19
+
+predicted id: 0 : killed(50), kills at(6), kills at(6)
+
+predicted id: 6 : may be dead at(5)
+cluster_id:  21
+
+predicted id: -1 : history that was extensive (suspect's)(18)
+cluster_id:  22
+
+predicted id: 10 : to start(10)
+cluster_id:  23
+
+predicted id: -1 : way that's horrible(10)
+cluster_id:  24
+
+predicted id: 11 : what a horrible way(10)
+cluster_id:  25
+
+predicted id: 11 : how horrible(8), horrifying(45)
+cluster_id:  26
+
+predicted id: 12 : in(18)
+cluster_id:  27
+
+predicted id: 13 : processing(19), processing(31)
+cluster_id:  28
+
+predicted id: 12 : occurred at in(19)
+cluster_id:  29
+
+predicted id: 14 : .(19)
+cluster_id:  30
+
+predicted id: 14 : .(19)
+cluster_id:  31
+
+predicted id: 14 : .(19)
+cluster_id:  32
+
+predicted id: 2 : report :(21)
+cluster_id:  33
+
+predicted id: 14 : .(21)
+cluster_id:  36
+
+predicted id: -1 : police working for fresno(27)
+cluster_id:  37
+
+predicted id: 15 : respond to(27)
+cluster_id:  38
+
+predicted id: 10 : has risen to(29), rises to(34)
+cluster_id:  39
+
+predicted id: -1 : details that are additional(30)
+cluster_id:  40
+
+predicted id: 16 : on(30), on(28)
+cluster_id:  41
+
+predicted id: -1 : reality that is different(33)
+cluster_id:  42
+
+predicted id: 5 : for :(33)
+cluster_id:  43
+
+predicted id: 17 : including(36)
+cluster_id:  44
+
+predicted id: 18 : say(36), say(24)
+
+predicted id: 5 : :(7), :(7), :(17)
+cluster_id:  45
+
+predicted id: 18 : say(36), say(24)
+
+predicted id: 5 : :(7), :(7), :(17)
+cluster_id:  46
+
+predicted id: 18 : say(36)
+cluster_id:  47
+
+predicted id: 19 : ( ) --(36)
+cluster_id:  48
+
+predicted id: 19 : ( ) --(36)
+cluster_id:  49
+
+predicted id: 19 : ( ) --(36)
+cluster_id:  50
+
+predicted id: 0 : in shoots(38)
+cluster_id:  51
+
+predicted id: 20 : 's(47)
+
+predicted id: -1 : gunman from fresno(39)
+cluster_id:  52
+
+predicted id: 2 : identified(39)
+cluster_id:  53
+
+predicted id: 5 : :(42), :(46)
+cluster_id:  54
+
+predicted id: -1 : (suspect) is a parolee(18)
+cluster_id:  55
+
+predicted id: -1 : (suspect) has a history(18)
+cluster_id:  56
+
+predicted id: 16 : on(16)
+cluster_id:  57
+
+predicted id: 16 : on(16)
+cluster_id:  58
+
+predicted id: 16 : on(16)
+cluster_id:  59
+
+predicted id: 2 : accounts(16)
+cluster_id:  60
+
+predicted id: 21 : in condition(39)
+cluster_id:  61
+
+predicted id: 0 : being shot(44)
+cluster_id:  62
+
+predicted id: 22 : in surgery after(44)
+cluster_id:  63
+
+predicted id: 1 : reported(44)
+cluster_id:  64
+
+predicted id: 23 : |(45)
+cluster_id:  65
+
+predicted id: 4 : -(45)
+cluster_id:  66
+
+predicted id: -1 : one who does mass shootings(47)
+cluster_id:  67
+
+predicted id: 8 : was driving(47)
+cluster_id:  68
+
+predicted id: 16 : as if on cue(49)
+cluster_id:  69
+
+predicted id: 1 : reports from are that(50)
+cluster_id:  70
+
+predicted id: 8 : sigh when will end ?(5)
+cluster_id:  71
+
+predicted id: 18 : says(6)
+cluster_id:  72
+
+predicted id: 18 : says(6)
+cluster_id:  73
+
+predicted id: 4 : -(20)
+cluster_id:  74
+
+predicted id: 4 : -(20)
+The predicted clusters:
+cluster_id:  0
+
+gold id: 19 : kills at(kill, 6), killed(kill, 50), kills at(kill, 6), kills at(kill, 6), kills at(kill, 6)
+
+gold id: 17 : kills at(-, 7), kills at(kill, 7), kills at(kill, 17), kills at(kill, 17), kills in in(kill, 43), kills at(kill, 7), kills at(-, 7)
+
+gold id: 50 : in shoots(shoot, 38), in shoots(shoot, 38)
+
+gold id: 3 : shooting at in(shooting, 33), shooting in(shooting, 42), shooting in(shooting, 30), shooting at(shooting, 23), shooting in(shooting, 43), shooting in(shoot, 8), opens fire at(open, 24), shot(shoot, 40), shooting rampage at(shoot, 41), shot at in(shoot, 3), shooting(shooting, 34), shooting in(shooting, 35), shooting rampage at(shoot, 2), shooting in(shooting, 46), shooting in(shooting, 5), shot at(shoot, 20), shot at(shot, 13), shot(shoot, 46), shooting in(shoot, 4), shooting(shoot, 18), shooting at in(at, 40), shooting at(shooting, 45), shot at in(shoot, 21), shooting in(shoot, 29), shooting(shooting, 50), shooting at(shoot, 11), shot at(shot, 31), shot at in(shoot, 9), shooting at a(shooting, 1), shooting(shoot, 19), shooting at in(shooting, 12), shooting in(shooting, 49), shooting(shooting, 16), shot at in(shoot, 22), shooting in(shoot, 10), shot(shot, 19), shooting in(shoot, 28), shooting(shoot, 27), shooting(shooting, 36), shooting(shoot, 37), shooting at in(shooting, 14)
+
+gold id: 61 : being shot(be, 44)
+cluster_id:  1
+
+gold id: 4 : reportedly(reportedly, 9), reportedly(reportedly, 3), reported(report, 23), reported(report, 45), reported(report, 1), reportedly(reportedly, 22)
+
+gold id: 69 : reports from are that(be, 50)
+
+gold id: 63 : reported(report, 44)
+cluster_id:  2
+
+gold id: 32 : report :(report, 21)
+
+gold id: 52 : identified(identify, 39)
+
+gold id: 59 : accounts(account, 16)
+
+gold id: 4 : reports of(report, 4), reports of(report, 42), reports of(report, 35), reports of(report, 40), 's report of(report, 30), reports of(report, 14), reports of(report, 46), reports of(report, 12), reports of(report, 40), reports of(report, 33), reports of(report, 49)
+cluster_id:  3
+
+gold id: 7 : -ras(-ras, 3), -ras(-ras, 9)
+cluster_id:  4
+
+gold id: 9 : -(-, 11)
+
+gold id: 74 : -(-, 20), -(-, 20)
+
+gold id: 65 : -(-, 45)
+cluster_id:  5
+
+gold id: 42 : for :(for, 33)
+
+gold id: 11 : :(:, 13)
+
+gold id: 45 : :(three, 7), :(:, 7), :(:, 17), :(:, 7), :(three, 7), :(:, 17)
+
+gold id: 53 : :(:, 42), :(:, 46)
+cluster_id:  6
+
+gold id: 17 : dead(dead, 46), dead(dead, 19), dead after at(dead, 2), dead at(dead, 20), dead in(dead, 36), dead at(dead, 24), dead at(dead, 20), dead as at(dead, 24), dead after(dead, 41)
+
+gold id: 19 : may be dead at(be, 5)
+cluster_id:  7
+
+gold id: 17 : fatal(fatal, 28)
+cluster_id:  8
+
+gold id: 17 : death toll from(toll, 29), death toll in(toll, 34)
+
+gold id: 67 : was driving(drive, 47)
+
+gold id: 70 : sigh when will end ?(sigh, 5)
+cluster_id:  9
+
+gold id: 18 : wounded in(wound, 36), wounds at(gunman, 7), wounds at(wound, 7), wounded as at(wound, 24), wounded after at(wound, 2), wounds at(wound, 7), wounds in in(wound, 43), wounds at(wound, 17), wounded at(wound, 24), wounds at(wound, 17), injured(injure, 16), wounded after(wound, 41), wounds at(gunman, 7)
+cluster_id:  10
+
+gold id: 38 : has risen to(rise, 29), rises to(rise, 34)
+
+gold id: 22 : to start(start, 10)
+cluster_id:  11
+
+gold id: 24 : what a horrible way(way, 10)
+
+gold id: 25 : horrifying(horrifying, 45), how horrible(horrible, 8)
+cluster_id:  12
+
+gold id: 26 : in(in, 18)
+
+gold id: 28 : occurred at in(occur, 19)
+cluster_id:  13
+
+gold id: 27 : processing(processing, 19), processing(processing, 31)
+cluster_id:  14
+
+gold id: 33 : .(., 21)
+
+gold id: 31 : .(., 19), .(., 19), .(., 19)
+cluster_id:  15
+
+gold id: 37 : respond to(respond, 27)
+cluster_id:  16
+
+gold id: 40 : on(on, 30), on(on, 28)
+
+gold id: 58 : on(on, 16), on(on, 16), on(on, 16)
+
+gold id: 68 : as if on cue(as, 49)
+cluster_id:  17
+
+gold id: 43 : including(include, 36)
+cluster_id:  18
+
+gold id: 72 : says(say, 6), says(say, 6)
+
+gold id: 45 : say(say, 24), say(say, 24)
+
+gold id: 46 : say(say, 36), say(say, 36), say(say, 36)
+cluster_id:  19
+
+gold id: 49 : ( ) --((, 36), ( ) --((, 36), ( ) --((, 36)
+cluster_id:  20
+
+gold id: 51 : 's('s, 47)
+cluster_id:  21
+
+gold id: 60 : in condition(in, 39)
+cluster_id:  22
+
+gold id: 62 : in surgery after(in, 44)
+cluster_id:  23
+
+gold id: 64 : |(|, 45)
+**********

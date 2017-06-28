@@ -1,0 +1,276 @@
+###syria_bombs.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  2
+held by(3){Rebels, Town}, seized by(31){Rebels, Town}, towns held by rebels(2){rebel, towns}
+gold_cluster_id:  3
+air strikes on(2){towns, Syrian}, 'airstrikes(29){Strongholds, Syrian}, attacks on(33){Areas, Regime}
+gold_cluster_id:  5
+drops cluster bombs on(22){Syria, Maaret al-Numan}, strikes on(7){warplane, Maaret al-Numan}, airstrike on(6){city}, attack(25){jets, town}, bomb(3){Planes, Town}
+gold_cluster_id:  6
+kills(6){at least 30 civilians, Airstrike on}, die in(10){At least 43, airstrikes, Syrian}, killed in(7){At least 44, strikes on, Maaret al-Numan}, dead as(4){Scores, bomb}
+gold_cluster_id:  12
+explodes in(26){helicopter, Idlib}, blow up in(15){Rebels, Helicopter, Mid-Air}, downed by over(12){rebels, helicopter, Idlib}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+held by(3){Rebels, Town}, fight for(17){town of, rebels}, drops cluster bombs on(22){Syria, Maaret al-Numan}
+predicted_cluster_id:  1
+air strikes on(2){towns, Syrian}, seized by(31){Rebels, Town}, is crushed by(31){Forces, Town}, strike(28){planes, town}
+predicted_cluster_id:  2
+'airstrikes(29){Strongholds, Syrian}, airstrikes(8){Syrian}
+predicted_cluster_id:  3
+attacks on(34){areas, regime}, blow up in(23){Rebels, Helicopter, Mid-Air}, attack(25){jets, town}
+predicted_cluster_id:  4
+downed by over(12){rebels, helicopter, Idlib}, bogged down in(5){Aleppo, Rebels}, killed in(32){20, airstrikes, Syrian}
+predicted_cluster_id:  5
+bombed(24){civilians, he}, bomb(13){jets, town}, die as(27){At Least 40, Bomb, Syrian}
+predicted_cluster_id:  7
+pound(29){Strongholds, 'Airstrikes}, dead in(34){attacks on, 90}, dead as(4){Scores, bomb}
+predicted_cluster_id:  8
+-(6){kills, Los Angeles Times}, -(10){die in, TheChronicleHerald.ca}, -(25){killed as, Oneindia.in}, -(35){:, AFP-}
+**********
+###hurricane_sandy.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  14
+destroyed by(4){Boardwalk, Hurricane Sandy, Atlantic City}, damages(27){boardwalk, Hurricane Sandy, Atlantic City}
+gold_cluster_id:  15
+pounds into(5){Atlantic City, Hurricane Sandy}, pounds into (atl city)(44){Atlantic City, Sandy}
+gold_cluster_id:  20
+is flooding(28){Atlantic City, Sandy}, flooded by(9){Atlantic City, Hurricane Sandy}
+gold_cluster_id:  25
+flood waters on(25){northeastern United States, epic, Tuesday}, floods(27){Hurricane Sandy, NJ coast}
+gold_cluster_id:  61
+is closing in on(14){Atlantic coastline, Hurricane Sandy}, heading toward(6){United States, Hurricane Sandy}, nears(31){New Jersey, Hurricane Sandy}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  1
+makes landfall near(26){Atlantic City}, of being reported in(22){New Jersey}, is covered in(16){flood waters, Atlantic City}, that have swamped(16){building, flood waters}, flood waters(16){Atlantic City}, is set up for in the aftermath of(10){relief, Shore Fellowship, Hurricane Sandy}, flood waters on(25){northeastern United States, epic, Tuesday}
+predicted_cluster_id:  2
+picks up speed ahead of(2){landfall, Hurricane Sandy}, surge from to(26){9, Storm, 14 feet}
+predicted_cluster_id:  3
+,(42){N.J, Atlantic County}, ,(22){New Jersey, Atlantic City}
+predicted_cluster_id:  4
+outside of(10){Atlantic City, Shore Fellowship}, destroyed by(4){Boardwalk, Hurricane Sandy, Atlantic City}
+predicted_cluster_id:  6
+floods(6){Towns, Hurricane Sandy}, flooded(12){Hurricane sandy, some parts of new Jersey area, yesterday}, already flooded(8){beach, Hurricane Sandy}, flooding in(42){Atlantic County, Widespread}, floods(39){Hurricane Sandy, New York}
+predicted_cluster_id:  9
+is located southeast of(37){about 265 miles, Sandy, Atlantic City}, of(18){Toronto, City}, of(40){Atlantic City, streets}, of(11){Hurricane Sandy, center}, just south of(34){southern NJ coast, to make landfall along by}
+predicted_cluster_id:  10
+in(18){Toronto, Hurricane Sandy}, is closing in on(14){Atlantic coastline, Hurricane Sandy}, closed in due to(23){northeastern Pennsylvania, routes, Hurricane Sandy..}
+predicted_cluster_id:  11
+starts in(42){Atlantic County, Flooding in}, rising(22){Atlantic City, levels}
+predicted_cluster_id:  12
+reports(28){is flooding}, reports(22){rising, CNN}
+predicted_cluster_id:  17
+causes(36){Deaths, Hurricane Sandy}, have been declared in as(30){6 states, Emergencies, wheels toward}
+predicted_cluster_id:  19
+-(34){expected, NHC_Atlantic}, -(32){speeds towards, CBS News}
+predicted_cluster_id:  22
+say(11){made landfall along near, Forecasters}, now saying(41){has made landfall along, AP}, 'largest recorded in(13){storm, Hurricane Sandy, Atlantic'}
+**********
+###prison_officer.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  1
+murder(2){officer}, who was killed in(7){n. Ireland, officers, yesterday}, assassinated on(18){M1, officer, driving on}
+gold_cluster_id:  4
+prison officer(6){Prison, officer}, officer who works in prisson(1){prison, officer}
+gold_cluster_id:  15
+irish police(27){Irish, police}, police from ireland(4){Irish, police}
+gold_cluster_id:  21
+northern ireland officer(20){Northern Ireland, officer}, northern ireland guard(25){guard, Northern Ireland}, officer from nerthern ireland(6){Northern Ireland, officer}
+gold_cluster_id:  24
+officer family(24){family, officer}, of a(24){family, officer}, family of officer(7){family, officers}
+gold_cluster_id:  25
+attack on in(12){officer, Northern Ireland}, shooting(26){Armagh motorway}, gets stiffed(21){officer}, ambush(8){motorway}, 'ambushed ' by(10){victim, gunman}
+gold_cluster_id:  40
+driving on(18){officer, M1}, travelling to(29){travelling, work}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  1
+murder(19){officer}, shot in(11){officer, dead, ambush}, shooting(26){Armagh motorway}
+predicted_cluster_id:  4
+officer family(24){family, officer}, prison officer(30){prison, officer}, northern ireland officer(27){Northern Ireland, officer}
+predicted_cluster_id:  5
+gets stiffed(21){officer}, northern ireland guard(25){guard, Northern Ireland}, arrests(6){}, arrest(27){Irish}, arrested(2){Duffy}
+predicted_cluster_id:  6
+linked to(12){attack on in, car}, in connection with(2){murder, arrested}, in connection with(27){murder of, arrest}, in connection with(6){murder of, have been arrested}
+predicted_cluster_id:  8
+found in with(3){burnt out, car, saying, Inglewood}, is named(9){officer}, is named(28){officer}
+predicted_cluster_id:  9
+saying(3){inside, locals}, registered(3){registered}
+predicted_cluster_id:  11
+irish car(3){car, Irish}, irish police(27){Irish, police}
+predicted_cluster_id:  12
+travelling to(29){travelling, work}, heart goes out to(7){family}
+predicted_cluster_id:  18
+drove to along the(30){to, work, MI}, crash(10){motorway, victim, Northern Ireland}
+predicted_cluster_id:  20
+condemned(19){murder}, condemn(14){attack which, FM}
+predicted_cluster_id:  22
+-(23){Shot Dead On In, Sky News}, -(19){The Ulster Herald, condemned}, -(20){prompts, The Guardian}
+**********
+###fuel_tanker.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  1
+exploded under in(1){National Guard Bridge, tanker, Riyadh}, blast(2){truck, Riyadh}
+gold_cluster_id:  6
+'s(25){Saudi Arabia, capital}, capital of saudi arabia(6){Saudi, capital}
+gold_cluster_id:  21
+kills(4){at least 22, explosion}, died(23){21}, dead(17){22, explosion, Riyadh}, killed in(7){At least 22, blast}
+gold_cluster_id:  29
+bbcworld news(28){Deaths in, bbcworld news}, -(18){kills in, BBC News}
+gold_cluster_id:  32
+fireball(26){Saudi, truck}, fire in(19){Riyadh, truck}
+gold_cluster_id:  33
+accident in(19){Riyadh, fire in}, mishap(20){Riyadh, tanker}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  1
+crash(31){Truck}, blast(11){truck, Riyadh}, discharged(9){hospitals, 3}
+predicted_cluster_id:  2
+injured(1){more than 60}, wounded(17){explosion, 111}, injured(20){Six malayalees}
+predicted_cluster_id:  4
+was killed in(9){explosion, 1 Filipino, Riyadh}, in(9){9, hospitals}, in(17){explosion, Toll}, kills in(26){22, explosion, Saudi Arabia}, in(9){Embassy, Saudi}
+predicted_cluster_id:  5
+to check(9){Embassy}, continues(9){Embassy, to check}
+predicted_cluster_id:  6
+:(9){in, Embassy}, :(22){kills in, Yahoo News}
+predicted_cluster_id:  7
+that levels(12){Building, Explosion, Saudi Arabia}, sends to(19){President, of, King Abdullah}
+predicted_cluster_id:  8
+killing(12){Explosion, 10, Saudi Arabia}, kills(4){at least 22, explosion}
+predicted_cluster_id:  14
+-(21){kills in, The Hindu}, -(30){Explodes, The New York Times}, -(18){kills in, BBC News}
+predicted_cluster_id:  15
+fire in(19){Riyadh, truck}, rises to(17){22, Toll}
+predicted_cluster_id:  19
+aftermath of(26){kills in, fireball}, of(19){King Abdullah, Saudi Arabia}, of the(19){accident in, victims}, of(19){condolences, cable}
+predicted_cluster_id:  24
+|(7){killed in, The Star Online}, |(11){killed in, Reuters}
+**********
+###syrian_plane.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  0
+carried(1){munitions, plane}, 'carried(29){ammunition, plane}
+gold_cluster_id:  1
+confrontation with(3){Turkey, Syria}, tensions(18){Turkey}
+gold_cluster_id:  4
+forces down(7){plane, Turkey}, forcing(3){Plane, Turkey, to Land}, intercepted(5){plane}
+gold_cluster_id:  18
+:(5){was carrying from for, PM}, says(9){from was carrying for, PM}
+gold_cluster_id:  22
+bound from(20){Moscow, Plane, Syrian}, (plane) from (moscow)(13){plane, Syria-bound}, from(9){Moscow, plane}, coming from(15){Moscow, plane}, en route from(28){Moscow, plane}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+from was carrying for(9){ammunition, plane, government, Moscow}, defends(17){intercepting, Turkey}, sends to over(16){note, Ankara, cargo, Damascus}, was carrying from for(5){equipment, plane, defence ministry, Russia}, bound from(20){Moscow, Plane, Syrian}
+predicted_cluster_id:  5
+says(22){Carried, Turkey}, to land in(6){Turkey, plane}, grounded(2){Jet, Turkey}
+predicted_cluster_id:  10
+:(5){was carrying from for, PM}, :(8){intercepts, Al Jazeera News}
+**********
+###armstrong_doping.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  2
+'s(2){Lance Armstrong, Teammate}, 's (teammate belonging to armstrong)(17){Lance Armstrong, Lieutenant}
+gold_cluster_id:  3
+of 's(12){11 teammates, Lance Armstrong}, 11 teammates belonging to armstrong(7){Eleven Teammates, Lance Armstrong}
+gold_cluster_id:  7
+'s report(21){doping, USADA}, report says(8){cheated, U.S anti-doping agency}
+gold_cluster_id:  9
+against(13){Lance Armstrong, evidence}, detailing(5){Lance Armstrong, evidence, 's involvement in}, on(29){Lance Armstrong, file, doping}, against (evidence, armstrong)(15){Lance Armstrong, evidence}
+gold_cluster_id:  10
+to detail(30){Case, Antidoping Agency, Lance Armstrong}, issues on(27){Bombshell, USADA, Lance Armstrong}, reveals(13){evidence, USADA}
+gold_cluster_id:  13
+doped(24){He}, cheated(8){Armstrong}
+gold_cluster_id:  14
+claim(24){Doped, Teammates}, say(25){Doped, Teammates}
+gold_cluster_id:  21
+admits to(39){Doping, Hincapie}, confesses to(4){doping, George Hincapie}
+gold_cluster_id:  22
+claims(1){doping}, alleged(32){Lance Armstrong, Doping by}, allegations against(6){Lance Armstrong}
+gold_cluster_id:  23
+'s denials of(1){claims, Lance Armstrong, repeated}, to deny(11){claims, Lance Armstrong}
+gold_cluster_id:  51
+'s involvement in(5){program, Lance Armstrong}, was central figure in(26){Ring, Lance Armstrong}, at center of(20){Program, Lance Armstrong}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+of 's(31){Lance Armstrong, Five team-mates}, 's(2){Lance Armstrong, Teammate}, 's(24){Teammates, Lance Armstrong}, 's report(21){doping, USADA}, 's involvement in(5){program, Lance Armstrong}, 's(20){Program, Cycling}, 's denials of(1){claims, Lance Armstrong, repeated}, 's(9){controllers, UCI}
+predicted_cluster_id:  1
+report on(6){Allegations Against, USADA}, issues report on(41){doping, ( USADA, scathing}
+predicted_cluster_id:  2
+against(30){Lance Armstrong, Case}, testified against in(7){Him, Eleven Teammates, Case}, allegations against(6){Lance Armstrong}
+predicted_cluster_id:  3
+detailing(5){Lance Armstrong, evidence, 's involvement in}, to detail(30){Case, Antidoping Agency, Lance Armstrong}
+predicted_cluster_id:  4
+to release on(29){file, USADA, Lance Armstrong}, on(29){Lance Armstrong, file, doping}, to release(29){file, USADA}
+predicted_cluster_id:  5
+stopped using in(3){2006, George Hincapie}, reveals(13){evidence, USADA}
+predicted_cluster_id:  6
+doping(29){Lance Armstrong}, doping(31){Five team-mates}, doping(3){George Hincapie}, doped(24){He}, doping(9){}
+predicted_cluster_id:  8
+claims(11){doping}, claim(24){Doped, Teammates}
+predicted_cluster_id:  9
+alleged(32){Lance Armstrong, Doping by}, says(33){was at center of, USADA}, states(9){blamed for, affidavit}, says(12){testified against in, U.S Anti-Doping Agency}, say(25){Doped, Teammates}
+predicted_cluster_id:  10
+is(28){overwhelming, against}, was central figure in(26){Ring, Lance Armstrong}
+predicted_cluster_id:  11
+:(28){is, U.S Anti-Doping Agency}, :(41){issues report on, WXIA, Atlanta}
+predicted_cluster_id:  12
+has called not only(10){lance armstrong, US anti-doping agency, bloodyhell}, has flown into(11){New York, Lance Armstrong, to deny}, admits to(2){Doping, George Hincapie}
+predicted_cluster_id:  16
+( )(31){United States Anti-Doping Agency, Usada}, ( )(41){GA, Atlanta}, ( ) --(36){says, AP}, ( )(9){cancer, .}
+predicted_cluster_id:  17
+finds support with desipite(40){some cyclists, Lance Armstrong, report}, have received bans from(31){six-month, Five team-mates, doping, United States Anti-Doping Agency}, not detecting(9){cancer, controllers, earlier}
+**********
+###fresno_shooting.xml
+
+Mentions which should have been clustered: 
+gold_cluster_id:  4
+reported(1){shooting at a}, reports of(12){Shooting At In}
+gold_cluster_id:  17
+death toll from(29){shooting in, 3, Fresno}, kills in in(43){shooting in, 1, Gunman, Fresno}, dead after at(2){shooting rampage at, 2, Fresno}, fatal(28){shooting in, Fresno}
+gold_cluster_id:  19
+killed(50){himself, gunman}, may be dead at(5){scene, gunman}
+gold_cluster_id:  44
+say(36){dead in, Police}, :(7){kills at, police}
+gold_cluster_id:  45
+say(36){wounded in, Police}, :(7){wounds at, police}
+gold_cluster_id:  51
+'s(47){fresno, shooter}, gunman from fresno(39){Fresno, gunman}
+
+Mentions which should not have been clustered: 
+predicted_cluster_id:  0
+kills at(6){Calif}, kills at(7){one, Gunman, plant}, in shoots(38){Fresno, Employee, then, himself}, shot at(20){plant, Eight people, Fresno}, being shot(44){Multiple Times, Man}
+predicted_cluster_id:  1
+reportedly(9){shot at in}, reports from are that(50){shooting, Initial, killed}, reported(44){in Surgery After}
+predicted_cluster_id:  2
+report :(21){shot at in, Newspaper}, identified(39){gunman}, accounts(16){shooting, witness}, reports of(33){Shooting At In}
+predicted_cluster_id:  4
+-(45){|, Yahoo ! News}, -(20){shot at, Los Angeles Times}, -(11){Shooting at, ABC News}
+predicted_cluster_id:  5
+for :(33){reality, many, Reports Of, today}, :(13){shot at, Sacbee Newspaper}, :(46){Reports of, HuffingtonPost}, :(17){kills at, police}
+predicted_cluster_id:  6
+dead(46){shot, 2}, may be dead at(5){scene, gunman}
+predicted_cluster_id:  8
+death toll in(34){shooting, three, Fresno}, was driving(47){kimmiescar, shooter}, sigh when will end ?(5){shooting in, it}
+predicted_cluster_id:  10
+rises to(34){three, Death toll in}, to start(10){shooting in, Election Day}
+predicted_cluster_id:  11
+what a horrible way(10){to start, shooting in}, horrifying(45){shooting at}
+predicted_cluster_id:  12
+in(18){shooting, Suspect}, occurred at in(19){plant, shooting, Fresno}
+predicted_cluster_id:  14
+.(21){report :, fox5atl}, .(19){dead, FOX News}
+predicted_cluster_id:  16
+on(30){'s report of, details}, on(16){business, details}, as if on cue(49){reports of}
+predicted_cluster_id:  18
+says(6){kills at, Palin}, say(24){dead as at, police}, say(36){dead in, Police}
+**********
