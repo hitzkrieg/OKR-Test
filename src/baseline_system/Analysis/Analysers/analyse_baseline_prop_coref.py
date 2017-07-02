@@ -2,7 +2,8 @@ import os
 import re
 from collections import defaultdict
 import sys
-sys.path.append('../common')
+sys.path.append('../../../common')
+sys.path.append('../..')
 
 from eval_predicate_coref_changed import *
 from okr import *

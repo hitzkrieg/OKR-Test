@@ -3,8 +3,8 @@ import re
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 import sys
-sys.path.append('../common')
-
+sys.path.append('../../common')
+sys.path.append('..')
 from eval_entity_coref import *
 from okr import *
 """
@@ -48,7 +48,7 @@ def parse_corenlp_coref_xml_doc(input_dir = 'CoreNLP_coref_anno/dev'):
 		out_file.write("\n".join([e["filename"]+"\t"+str(e["s_num"])+"\t"+e["EP"]+"\t"+str(e["coref"])+"\t"+str(e["indices"])[1:-1] for e in mentions]))
 
 
-def parse_and_evaluate_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_annotations_folder = '../../data/baseline/dev'): 
+def parse_and_evaluate_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_annotations_folder = '../../../data/baseline/dev'): 
 	"""
 	Parse the output xml file annotated by coreNLP and evaluate the accuracy of mentions and coreference resolution with 
 	gold annotations.
@@ -91,7 +91,7 @@ def parse_and_evaluate_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_
 	print(scores)
 
 
-def parse_and_analyse_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_annotations_folder = '../../data/baseline/dev'):
+def parse_and_analyse_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_annotations_folder = '../../../data/baseline/dev'):
 	"""
 	Sample examples, look and evaluate qualitatively where we are making mistakes for CoreNLP
 	"""

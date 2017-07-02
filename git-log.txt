@@ -1,0 +1,260 @@
+commit 3c500f3eb8d244a6c0f315a4b193bc742408a56f
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Mon Jun 26 12:39:24 2017 +0300
+
+    Removed corenlp folder from .gitignore
+
+commit 8da81dcff8188394c2dd6852a1b65db89e096ef6
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 20 16:02:28 2017 +0300
+
+    Added method to automatically generate the report on errors in coreference
+
+commit af5a4826067e6f841e16884e9906fb9b0e452fef
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 20 14:52:00 2017 +0300
+
+    Made changes to see the gold ditribution of predicted props and predicted distribution of gold props
+
+commit 9187b63b9aeb7a7fc1fb93c776ce2d2e4901bbe1
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Mon Jun 19 14:55:21 2017 +0300
+
+    Added python code to visually check predicate coreference
+
+commit 4bbffe40f5c977da1a2ad76e26fa37f2f053d50c
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 14 22:38:48 2017 +0300
+
+    Code to qulitatively analyse from baseline for predicate coreference system
+
+commit 77c99e3cd06283326bee940425a18f8aef80298f
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 14 21:52:33 2017 +0300
+
+    Added agreement folder to the system path
+
+commit d82f4a3e6cfb4d3471774147b335e11ce8a395f4
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 14 17:07:56 2017 +0300
+
+    Moved files to analysis folder
+
+commit f2a4b020a742b7365bb82d15f7d9962f4431aaaa
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 14 17:04:18 2017 +0300
+
+    Output of qualitative analysis of entity coreference using Stanford's CoreNLP system
+
+commit 03fd83240e268b8cc6d0bdd780cf432da7783a61
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 14 17:01:27 2017 +0300
+
+    Analysis output from analyse_entity_coreference.py
+
+commit 02ff657d402461b86bf6eec73428610700155042
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 14 17:00:11 2017 +0300
+
+    Qualitatively analyse the output from baseline for entity coreference system
+
+commit ccf9a0007fc5d639be587d3b037cb65696b8c223
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 18:48:50 2017 +0300
+
+    Corrected the predicted indices and added analysis method
+
+commit 48997d4ffea26cf7fa93217b727dc2d948d365a1
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:30:45 2017 +0300
+
+    Removing stanford-corenlp folder because of large size
+
+commit 5e493e707ad56a4ed6daaae9c2cb74f8e89ef69c
+Merge: d8d1a2b f8d5760
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:22:01 2017 +0300
+
+    Merge branch 'master' of https://github.com/hitzkrieg/OKR-Test
+
+commit f8d576062adc16a1f3916d3d8c5fa8ef33f4dba1
+Author: Hitesh Golchha <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:18:39 2017 +0300
+
+    Create .gitignore
+
+commit d8d1a2bb8bb285063517c7c43578765c417806b0
+Merge: eca201a 42ff187
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:15:42 2017 +0300
+
+    Merge branch 'master' of https://github.com/hitzkrieg/OKR-Test
+
+commit 42ff187dc0b048d4e77db6cce7cd6c7117697fbd
+Author: Hitesh Golchha <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:10:12 2017 +0300
+
+    Create .gitignore
+
+commit eca201aacfb5eb99c9bf4f0547fd4f0218c82687
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:02:52 2017 +0300
+
+    Added functions to evaluate the coreNLP annotations
+
+commit d978a765f66711d88b3700e65ca3e4116a88116a
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Tue Jun 13 11:01:23 2017 +0300
+
+    Input and Output for coreNLP annotator for coreference resolution
+
+commit 68dbc8833a48af15a6a8a2a42053f7a072df5a34
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Thu Jun 8 12:22:11 2017 +0300
+
+    Added Stanford CoreNLP to resources
+
+commit e1dccad37fbf79ce1b36f129307346fa652c2f46
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:48:15 2017 +0300
+
+    Deleted files manually
+
+commit 03eba0f1851bb0f42a4df19b0f3c19ac85318054
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:47:42 2017 +0300
+
+    File to understand entity clusters. Initial Commit.
+
+commit dd3362a8fed8496eac4e4b6ba7be4278a391c1e0
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:44:29 2017 +0300
+
+    Changes for changing location
+
+commit 7de83ee61750054dfcbfa8dca51adc14a097e91c
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:35:23 2017 +0300
+
+    Added the output files from OpenIE 4, running on our dataset
+
+commit 4c54ccaf2ccbd2702cfb94c71fc70597377cdc0e
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:33:24 2017 +0300
+
+    Added file to parse the output format of OpenIE 4 and also evaluate the accuracy of the extractions
+
+commit 2165572b564ba183cc068ba5328b1dc902df7db4
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:28:33 2017 +0300
+
+    Added dev and test sentences for Openie 4 to use for proposition extraction.
+
+commit 0eb1422e48ed86a19621a55ba97c06c811425313
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:26:45 2017 +0300
+
+    Added file to use the baseline system's entity coref module to produce output in ECB+ like format. (Inspired by Rachel's light_dataset.py)
+
+commit 513a367208ae344e31337d2be91d12fced22cec6
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:24:43 2017 +0300
+
+    Scripting file to use openIE 4 to extract propositions
+
+commit 16273db686c5ca7e8b4c1214f84f8bba6802c5ab
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:22:46 2017 +0300
+
+    added method for extracting sentences and few test examples in comments
+
+commit cb4ffdd18ba089d6f4fe2c77ec0cbd5e67496bc2
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:21:20 2017 +0300
+
+    Added changes to see arguments while analysing proposition extractions
+
+commit a0f0e92c56466906b9170ec1dc433408602ac9a3
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Wed Jun 7 15:17:43 2017 +0300
+
+    Added files from Rachel for ECB+ like annotations
+
+commit 99b41fb4e7f0af2426a5f6fffdc324fce68005e8
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Sun Jun 4 08:57:58 2017 +0300
+
+    Backup
+
+commit dadd061f9771342ed55c7f864c0d69b8620cd959
+Author: hitz-blitz <hitesh1994golchha@gmail.com>
+Date:   Sun May 14 16:00:13 2017 +0530
+
+    test commit
+
+commit 976910c227e8f40b800b5e63e61adfcdbe0ce8e9
+Author: Rachel Wities <rachelvov@gmail.com>
+Date:   Fri May 12 19:17:44 2017 -0700
+
+    added v2 conversion and readme
+
+commit 389ba419fb3e0c07d8396325998cd63b8af31bac
+Author: Rachel Wities <rachelvov@gmail.com>
+Date:   Thu Mar 9 23:29:08 2017 +0200
+
+    added option to restore old entity mention score
+
+commit c348a60ac4b28fb689f2efc88bd7d5757aaa8a2c
+Author: OriShapira <obspp18@gmail.com>
+Date:   Tue Mar 7 14:52:42 2017 +0200
+
+    - Adding __init__.py file to the parsers folder.
+    - Fixing the usage example paths in the README.
+
+commit 2615b9218ee60c92ba861838a7241169572b989a
+Author: Rachel Wities <rachelvov@gmail.com>
+Date:   Tue Mar 7 14:48:52 2017 +0200
+
+    changes in nlp library
+
+commit d75d304a76b53430fbd8ee223b249104b964d22e
+Author: Rachel Wities <rachelvov@gmail.com>
+Date:   Tue Feb 21 14:01:22 2017 +0200
+
+    adding annotation tool and release notes
+
+commit 7c5ec06e712b366b89e9b2745afa59e7e9ea8fc4
+Author: Vered Shwartz <vered1986@gmail.com>
+Date:   Wed Feb 15 17:25:21 2017 +0200
+
+    Ignore pyc files
+
+commit 8d3a1822d8d2432b7f908220d98851642dc8e6ce
+Author: Vered Shwartz <vered1986@gmail.com>
+Date:   Wed Feb 15 17:23:32 2017 +0200
+
+    Ignore pyc files
+
+commit 3afc4ee722b2b48cc25a35bff7ebba127e807792
+Author: Vered Shwartz <vered1986@gmail.com>
+Date:   Wed Feb 15 17:06:05 2017 +0200
+
+    Update README.md
+
+commit 8bb750c8006ccd4244f50c2c72a7f6ead5060dae
+Author: Vered Shwartz <vered1986@gmail.com>
+Date:   Wed Feb 15 17:05:41 2017 +0200
+
+    Update LICENSE
+
+commit 8e6fba12a6c9c999dfabd1897dc07121298ffc3f
+Author: Vered Shwartz <vered1986@gmail.com>
+Date:   Wed Feb 15 23:56:16 2017 +0900
+
+    Initial commit
+
+commit 9a63d0a5650c159d69a867aead5fd856ea09abf0
+Author: Vered Shwartz <vered1986@gmail.com>
+Date:   Wed Feb 15 16:51:23 2017 +0200
+
+    Initial commit

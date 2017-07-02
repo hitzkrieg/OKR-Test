@@ -3,6 +3,7 @@ Usage:
     extract_sentences --in=INPUT_FOLDER --out=OUTPUT_FOLDER
 
 Extract sentences from all xml filesin the input folder, output is produced in individual files in OUTPUT_FOLDER.
+(requires some minor debugging I think)
 
 
 Options:
@@ -26,12 +27,12 @@ def main():
 
 
 def extract_sentences_from_folder(input_folder, output_folder):
-    print('Hi')
+    # print('Hi')
 	for f in os.listdir(input_folder):
 		extract_sentences_from_file(input_folder + "/" + f, output_folder) 
 
 def extract_sentences_from_file(input_file, output_folder):
-        print('Hi')
+        # print('Hi')
 
     # Load the xml to a tree object
     tree = ET.parse(input_file)

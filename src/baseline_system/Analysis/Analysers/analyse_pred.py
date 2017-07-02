@@ -1,20 +1,14 @@
 """
-compute_baseline_subtasks
-Author: Vered Shwartz
+analyse_pred
+Author: Hitesh Golchha
 
-    Receives the validation set and the test set, runs the baseline systems,
-    and computes the task-level evaluation metrics:
-    1) Entity mentions
-    2) Entity coreference
-    3) Predicate mentions
-    4) Predicate coreference
-    5) Argument mention within predicate chains
-    6) Entailment graph
 """
 
 import sys
 
-sys.path.append('../common')
+sys.path.append('../../../common')
+sys.path.append('../..')
+
 
 
 from okr import *
@@ -29,16 +23,11 @@ def main():
     and prints analysis logs of propositions
     """
     args = docopt("""Receives the validation set and the test set, runs the baseline systems,
-    and computes the task-level evaluation metrics:
-    1) Entity mentions
-    2) Entity coreference
-    3) Predicate mentions
-    4) Predicate coreference
-    5) Argument mention within predicate chains
-    6) Entailment graph
+    and prints analysis logs of propositions
+    
 
     Usage:
-        compute_baseline_subtasks.py <val_set_folder> <test_set_folder>
+        analyse_pred.py <val_set_folder> <test_set_folder>
 
         <val_set_folder> = the validation set file
         <test_set_folder> = the test set file
@@ -55,6 +44,7 @@ def main():
     logging.debug('Loading proposition extraction module')
     prop_ex = prop_extraction()
 
+    logging.debug('Running analysis of predicates')
     # Run the predicate mentions component and evaluate them
     analyse_predicate_mentions(test_graphs, prop_ex, './nominalizations/nominalizations.reuters.txt')
 

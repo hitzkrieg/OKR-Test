@@ -3,7 +3,8 @@ import os
 import sys
 
 
-sys.path.append('../common')
+sys.path.append('../../common')
+sys.path.append('..')
 from okr import *
 from filter_propositions import*
 
@@ -39,7 +40,7 @@ def character_indices_to_word_indices(character_indices, sentence):
 	return word_indices	
 
 
-def parse_and_evaluate_openie(openie_extractions_folder = './openie_extractions/test', okr_graphs = load_graphs_from_folder('../../data/baseline/test')):
+def parse_and_evaluate_openie(openie_extractions_folder = './openie_extractions/test', okr_graphs = load_graphs_from_folder('../../../data/baseline/test')):
 
 	"""
 	Convert the output format of extractions from openIE into a form that can be used by the evaluation pipeline 
@@ -234,7 +235,7 @@ def evaluate_accuracy_from_graphs(gold_graph_mentions, predicate_mentions):
 
 
 def main():
-	parse_and_evaluate_openie(openie_extractions_folder = './openie_extractions/testing/prop', okr_graphs = load_graphs_from_folder('./openie_extractions/testing/anno')) 
+	parse_and_evaluate_openie()) 
 
 
 

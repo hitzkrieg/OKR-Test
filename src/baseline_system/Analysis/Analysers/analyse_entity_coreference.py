@@ -2,7 +2,9 @@ import os
 import re
 from collections import defaultdict
 import sys
-sys.path.append('../common')
+sys.path.append('../../../common')
+sys.path.append('../..')
+
 
 from eval_entity_coref import *
 from okr import *
