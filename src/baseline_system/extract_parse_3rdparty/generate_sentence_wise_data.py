@@ -10,8 +10,8 @@ Generate sentence wise files to be given to coreNLP for coreference considering 
 
 
 
-def generate_sentence_wise_data(input_dir = '../../common/sentences/dev', output_dir = '../../common/sentence_wise_files'):
-	with open('filelist.txt', 'w') as filelist:
+def generate_sentence_wise_data(input_dir = '../../common/sentences/test', output_dir = '../../common/sentence_wise_files/test'):
+	with open('filelist2.txt', 'w') as filelist:
 		for file in os.listdir(input_dir):
 			cover_directory = input_dir.split('/')[-1]
 			os.system('mkdir {}'.format(output_dir + '/' + cover_directory))
@@ -25,7 +25,7 @@ def generate_sentence_wise_data(input_dir = '../../common/sentences/dev', output
 					with open(output_dir + '/' + cover_directory + '/' + file + '/'+ file+ '.'+'sent' + str(lineno) + '.txt', 'w') as output_file:
 						output_file.write(line)
 					# edit in file: /src/common  	
-					filelist.write(output_dir + '/' + cover_directory + '/' + file + '/'+ file+ '.'+ 'sent' + str(lineno) + '.txt'+'\n')	
+					filelist.write('../../src/common/sentence_wise_files/'  + cover_directory + '/' + file + '/'+ file+ '.'+ 'sent' + str(lineno) + '.txt'+'\n')	
 
 
 
