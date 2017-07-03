@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>At</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>least</word>
+            <lemma>least</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>43</word>
+            <lemma>43</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;=43.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>die</word>
+            <lemma>die</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>airstrikes</word>
+            <lemma>airstrike</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>TheChronicleHerald.ca</word>
+            <lemma>thechronicleherald.ca</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (QP (IN At) (JJS least) (CD 43)) (NN die)) (PP (IN in) (NP (JJ Syrian) (NNS airstrikes)))) (: -) (NP (NN TheChronicleHerald.ca)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">die</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">least</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="3">43</governor>
+            <dependent idx="2">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">die</governor>
+            <dependent idx="3">43</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="6">Syrian</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">die</governor>
+            <dependent idx="7">airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">die</governor>
+            <dependent idx="9">TheChronicleHerald.ca</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">die</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">least</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="3">43</governor>
+            <dependent idx="2">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">die</governor>
+            <dependent idx="3">43</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="6">Syrian</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">die</governor>
+            <dependent idx="7">airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">die</governor>
+            <dependent idx="9">TheChronicleHerald.ca</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">die</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">least</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="3">43</governor>
+            <dependent idx="2">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">die</governor>
+            <dependent idx="3">43</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="6">Syrian</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">die</governor>
+            <dependent idx="7">airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">die</governor>
+            <dependent idx="9">TheChronicleHerald.ca</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">die</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">least</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="3">43</governor>
+            <dependent idx="2">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">die</governor>
+            <dependent idx="3">43</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="6">Syrian</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">die</governor>
+            <dependent idx="7">airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">die</governor>
+            <dependent idx="9">TheChronicleHerald.ca</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">die</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">least</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="3">43</governor>
+            <dependent idx="2">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">die</governor>
+            <dependent idx="3">43</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">airstrikes</governor>
+            <dependent idx="6">Syrian</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">die</governor>
+            <dependent idx="7">airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">die</governor>
+            <dependent idx="9">TheChronicleHerald.ca</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">die</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

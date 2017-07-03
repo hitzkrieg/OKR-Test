@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>George</word>
+            <lemma>George</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Hincapie</word>
+            <lemma>Hincapie</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>confesses</word>
+            <lemma>confess</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>doping</word>
+            <lemma>doping</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP George) (NNP Hincapie)) (VP (VBZ confesses) (PP (TO to) (NP (NN doping)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">confesses</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">confesses</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">doping</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">confesses</governor>
+            <dependent idx="5">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">confesses</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">confesses</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">confesses</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">doping</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">confesses</governor>
+            <dependent idx="5">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">confesses</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">confesses</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">confesses</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">doping</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">confesses</governor>
+            <dependent idx="5">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">confesses</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">confesses</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">confesses</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">doping</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">confesses</governor>
+            <dependent idx="5">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">confesses</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">confesses</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">confesses</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">doping</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">confesses</governor>
+            <dependent idx="5">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">confesses</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

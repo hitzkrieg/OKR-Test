@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>center</word>
+            <lemma>center</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>doping</word>
+            <lemma>doping</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>program</word>
+            <lemma>program</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>USADA</word>
+            <lemma>USADA</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>says</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNP Lance) (NNP Armstrong)) (VP (VBD was) (PP (IN at) (NP (NP (NN center)) (PP (IN of) (NP (NN doping) (NN program))))))) (, ,) (NP (NNP USADA)) (VP (VBZ says)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">center</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">center</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">center</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">says</governor>
+            <dependent idx="5">center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">program</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">program</governor>
+            <dependent idx="7">doping</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">center</governor>
+            <dependent idx="8">program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">says</governor>
+            <dependent idx="10">USADA</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">center</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">center</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">center</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">says</governor>
+            <dependent idx="5">center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">program</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">program</governor>
+            <dependent idx="7">doping</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">center</governor>
+            <dependent idx="8">program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">says</governor>
+            <dependent idx="10">USADA</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">center</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">center</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">center</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">says</governor>
+            <dependent idx="5">center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">program</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">program</governor>
+            <dependent idx="7">doping</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">center</governor>
+            <dependent idx="8">program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">says</governor>
+            <dependent idx="10">USADA</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">center</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">center</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">center</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">says</governor>
+            <dependent idx="5">center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">program</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">program</governor>
+            <dependent idx="7">doping</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">center</governor>
+            <dependent idx="8">program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">says</governor>
+            <dependent idx="10">USADA</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">center</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">center</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">center</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">says</governor>
+            <dependent idx="5">center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">program</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">program</governor>
+            <dependent idx="7">doping</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">center</governor>
+            <dependent idx="8">program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">says</governor>
+            <dependent idx="10">USADA</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">says</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>U.S</word>
+            <lemma>U.S</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP U.S)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Anti-Doping</word>
+            <lemma>Anti-Doping</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Agency</word>
+            <lemma>Agency</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>says</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>11</word>
+            <lemma>11</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>11.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>teammates</word>
+            <lemma>teammate</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>testified</word>
+            <lemma>testify</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>against</word>
+            <lemma>against</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>him</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>probe</word>
+            <lemma>probe</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Anti-Doping) (NNP Agency)) (VP (VBZ says) (SBAR (S (NP (NP (CD 11)) (PP (IN of) (NP (NP (NNP Lance) (NNP Armstrong) (POS 's)) (NNS teammates)))) (VP (VBD testified) (PP (IN against) (NP (PRP him))) (PP (IN in) (NP (NN probe))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Anti-Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">testified</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">teammates</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">teammates</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">11</governor>
+            <dependent idx="9">teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">says</governor>
+            <dependent idx="10">testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">testified</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">probe</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">testified</governor>
+            <dependent idx="14">probe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">says</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Anti-Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">testified</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">teammates</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">teammates</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">11</governor>
+            <dependent idx="9">teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">says</governor>
+            <dependent idx="10">testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="10">testified</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">probe</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">testified</governor>
+            <dependent idx="14">probe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">says</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Anti-Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">testified</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">teammates</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">teammates</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">11</governor>
+            <dependent idx="9">teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">says</governor>
+            <dependent idx="10">testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="10">testified</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">probe</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">testified</governor>
+            <dependent idx="14">probe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">says</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Anti-Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">testified</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">teammates</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">teammates</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">11</governor>
+            <dependent idx="9">teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">says</governor>
+            <dependent idx="10">testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="10">testified</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">probe</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">testified</governor>
+            <dependent idx="14">probe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">says</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Anti-Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">testified</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">teammates</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">teammates</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">11</governor>
+            <dependent idx="9">teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">says</governor>
+            <dependent idx="10">testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="10">testified</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">probe</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">testified</governor>
+            <dependent idx="14">probe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">says</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Cycling</word>
+            <lemma>Cycling</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP Cycling)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Cycling</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Cycling</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Cycling</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Cycling</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Cycling</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Cycling</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Cycling</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Cycling</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Cycling</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Cycling</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>4</start>
+          <end>10</end>
+          <head>4</head>
+          <text>11 of Lance Armstrong 's teammates</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>12</start>
+          <end>13</end>
+          <head>12</head>
+          <text>him</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

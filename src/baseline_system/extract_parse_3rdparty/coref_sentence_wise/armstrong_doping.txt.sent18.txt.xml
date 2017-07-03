@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>ChrisG</word>
+            <lemma>chrisg</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>comment</word>
+            <lemma>comment</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Antidoping</word>
+            <lemma>Antidoping</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Agency</word>
+            <lemma>Agency</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Details</word>
+            <lemma>Details</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Doping</word>
+            <lemma>Doping</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Case</word>
+            <lemma>Case</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Against</word>
+            <lemma>against</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>via</word>
+            <lemma>via</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>nytimes</word>
+            <lemma>nytime</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NP (NN ChrisG) (POS 's)) (NN comment)) (PP (IN on) (NP (NNP Antidoping) (NNP Agency)))) (NP (NP (NNP Details) (NNP Doping) (NNP Case)) (PP (IN Against) (NP (NP (NNP Lance) (NNP Armstrong)) (PP (IN via) (X (X (SYM @)) (NP (NNS nytimes))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">comment</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">comment</governor>
+            <dependent idx="1">ChrisG</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">ChrisG</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Agency</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Agency</governor>
+            <dependent idx="5">Antidoping</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">comment</governor>
+            <dependent idx="6">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="7">Details</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="8">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">comment</governor>
+            <dependent idx="9">Case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">Case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="13">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="14">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="15">nytimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">comment</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">comment</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">comment</governor>
+            <dependent idx="1">ChrisG</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">ChrisG</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Agency</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Agency</governor>
+            <dependent idx="5">Antidoping</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">comment</governor>
+            <dependent idx="6">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="7">Details</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="8">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">comment</governor>
+            <dependent idx="9">Case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="9">Case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="13">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="14">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="15">nytimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">comment</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">comment</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">comment</governor>
+            <dependent idx="1">ChrisG</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">ChrisG</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Agency</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Agency</governor>
+            <dependent idx="5">Antidoping</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">comment</governor>
+            <dependent idx="6">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="7">Details</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="8">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">comment</governor>
+            <dependent idx="9">Case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="9">Case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="13">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="14">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="15">nytimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">comment</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">comment</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">comment</governor>
+            <dependent idx="1">ChrisG</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">ChrisG</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Agency</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Agency</governor>
+            <dependent idx="5">Antidoping</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">comment</governor>
+            <dependent idx="6">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="7">Details</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="8">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">comment</governor>
+            <dependent idx="9">Case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="9">Case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="13">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="14">@</dependent>
+          </dep>
+          <dep type="acl:via">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="15">nytimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">comment</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">comment</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">comment</governor>
+            <dependent idx="1">ChrisG</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">ChrisG</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Agency</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Agency</governor>
+            <dependent idx="5">Antidoping</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">comment</governor>
+            <dependent idx="6">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="7">Details</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Case</governor>
+            <dependent idx="8">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">comment</governor>
+            <dependent idx="9">Case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="9">Case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="13">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">nytimes</governor>
+            <dependent idx="14">@</dependent>
+          </dep>
+          <dep type="acl:via">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="15">nytimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">comment</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

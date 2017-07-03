@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>world</word>
+            <lemma>world</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>news</word>
+            <lemma>news</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>tanker</word>
+            <lemma>tanker</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>explosion</word>
+            <lemma>explosion</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>22</word>
+            <lemma>22</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>22.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Saudi</word>
+            <lemma>saudi</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>capital</word>
+            <lemma>capital</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN world) (NN news)) (NP (NN Fuel) (NN tanker) (NN explosion))) (VP (VBZ kills) (NP (NP (CD 22)) (PP (IN in) (NP (JJ Saudi) (NN capital))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">news</governor>
+            <dependent idx="1">world</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="3">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="4">tanker</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">news</governor>
+            <dependent idx="5">explosion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">22</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">capital</governor>
+            <dependent idx="9">Saudi</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">22</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">kills</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">news</governor>
+            <dependent idx="1">world</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="3">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="4">tanker</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">news</governor>
+            <dependent idx="5">explosion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">22</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">capital</governor>
+            <dependent idx="9">Saudi</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">22</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">kills</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">news</governor>
+            <dependent idx="1">world</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="3">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="4">tanker</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">news</governor>
+            <dependent idx="5">explosion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">22</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">capital</governor>
+            <dependent idx="9">Saudi</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">22</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">kills</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">news</governor>
+            <dependent idx="1">world</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="3">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="4">tanker</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">news</governor>
+            <dependent idx="5">explosion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">22</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">capital</governor>
+            <dependent idx="9">Saudi</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">22</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">kills</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">news</governor>
+            <dependent idx="1">world</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="2">news</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="3">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">explosion</governor>
+            <dependent idx="4">tanker</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">news</governor>
+            <dependent idx="5">explosion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">22</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">capital</governor>
+            <dependent idx="9">Saudi</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">22</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">kills</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

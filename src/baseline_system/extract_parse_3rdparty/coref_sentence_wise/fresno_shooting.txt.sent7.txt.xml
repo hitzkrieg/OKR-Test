@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Gunman</word>
+            <lemma>gunman</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>one</word>
+            <lemma>one</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>wounds</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>three</word>
+            <lemma>three</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>California</word>
+            <lemma>California</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>police</word>
+            <lemma>police</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>USA-SHOOTING-FRESNO</word>
+            <lemma>usa-shooting-fresno</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Gunman</word>
+            <lemma>gunman</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>one</word>
+            <lemma>one</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>wounds</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>three</word>
+            <lemma>three</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>California</word>
+            <lemma>California</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>police</word>
+            <lemma>police</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (S (NP (NN Gunman)) (VP (VBZ kills) (NP (NP (CD one)) (, ,) (NP (NP (NNS wounds) (CD three)) (PP (IN at) (NP (NP (NNP California) (NN plant)) (: :) (NP (NNS police)) (: :) (NP (NN USA-SHOOTING-FRESNO)) (: :) (NP (NN Gunman)))))))) (VP (VBZ kills)) (NP (NP (CD one)) (, ,) (NP (NP (NP (NNS wounds) (CD three)) (PP (IN at) (NP (NNP California) (NN plant)))) (: :) (NP (NNS police)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">kills</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">kills</governor>
+            <dependent idx="1">Gunman</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">kills</governor>
+            <dependent idx="2">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">kills</governor>
+            <dependent idx="3">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">one</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">one</governor>
+            <dependent idx="5">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">wounds</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">plant</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">plant</governor>
+            <dependent idx="8">California</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">wounds</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="11">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="12">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="13">USA-SHOOTING-FRESNO</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="14">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="15">Gunman</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">kills</governor>
+            <dependent idx="17">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">one</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">one</governor>
+            <dependent idx="19">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">wounds</governor>
+            <dependent idx="20">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">plant</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">plant</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="19">wounds</governor>
+            <dependent idx="23">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">wounds</governor>
+            <dependent idx="24">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">wounds</governor>
+            <dependent idx="25">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">kills</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">kills</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">kills</governor>
+            <dependent idx="1">Gunman</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">kills</governor>
+            <dependent idx="2">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">kills</governor>
+            <dependent idx="3">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">one</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">one</governor>
+            <dependent idx="5">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">wounds</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">plant</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">plant</governor>
+            <dependent idx="8">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="5">wounds</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="11">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="12">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="13">USA-SHOOTING-FRESNO</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="14">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="15">Gunman</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">kills</governor>
+            <dependent idx="17">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">one</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">one</governor>
+            <dependent idx="19">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">wounds</governor>
+            <dependent idx="20">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">plant</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">plant</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="19">wounds</governor>
+            <dependent idx="23">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">wounds</governor>
+            <dependent idx="24">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">wounds</governor>
+            <dependent idx="25">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">kills</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">kills</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">kills</governor>
+            <dependent idx="1">Gunman</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">kills</governor>
+            <dependent idx="2">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">kills</governor>
+            <dependent idx="3">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">one</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">one</governor>
+            <dependent idx="5">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">wounds</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">plant</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">plant</governor>
+            <dependent idx="8">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="5">wounds</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="11">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="12">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="13">USA-SHOOTING-FRESNO</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="14">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="15">Gunman</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">kills</governor>
+            <dependent idx="17">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">one</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">one</governor>
+            <dependent idx="19">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">wounds</governor>
+            <dependent idx="20">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">plant</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">plant</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="19">wounds</governor>
+            <dependent idx="23">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">wounds</governor>
+            <dependent idx="24">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">wounds</governor>
+            <dependent idx="25">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">kills</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">kills</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">kills</governor>
+            <dependent idx="1">Gunman</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">kills</governor>
+            <dependent idx="2">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">kills</governor>
+            <dependent idx="3">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">one</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">one</governor>
+            <dependent idx="5">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">wounds</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">plant</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">plant</governor>
+            <dependent idx="8">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="5">wounds</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="11">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="12">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="13">USA-SHOOTING-FRESNO</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="14">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="15">Gunman</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">kills</governor>
+            <dependent idx="17">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">one</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">one</governor>
+            <dependent idx="19">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">wounds</governor>
+            <dependent idx="20">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">plant</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">plant</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="19">wounds</governor>
+            <dependent idx="23">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">wounds</governor>
+            <dependent idx="24">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">wounds</governor>
+            <dependent idx="25">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">kills</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">kills</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">kills</governor>
+            <dependent idx="1">Gunman</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">kills</governor>
+            <dependent idx="2">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">kills</governor>
+            <dependent idx="3">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">one</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">one</governor>
+            <dependent idx="5">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">wounds</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">plant</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">plant</governor>
+            <dependent idx="8">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="5">wounds</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="11">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="12">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="13">USA-SHOOTING-FRESNO</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">plant</governor>
+            <dependent idx="14">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">plant</governor>
+            <dependent idx="15">Gunman</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">kills</governor>
+            <dependent idx="17">one</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">one</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">one</governor>
+            <dependent idx="19">wounds</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">wounds</governor>
+            <dependent idx="20">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="23">plant</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="23">plant</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="19">wounds</governor>
+            <dependent idx="23">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">wounds</governor>
+            <dependent idx="24">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">wounds</governor>
+            <dependent idx="25">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">kills</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>California</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>22</start>
+          <end>23</end>
+          <head>22</head>
+          <text>California</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

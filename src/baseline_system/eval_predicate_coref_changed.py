@@ -15,8 +15,9 @@ from okr import *
 from entity_coref import *
 from clustering_common import cluster_mentions
 from parsers.spacy_wrapper import spacy_wrapper
+from sematch.semantic.similarity import WordNetSimilarity
 
-
+wns = WordNetSimilarity()
 
 
 import spacy
@@ -25,6 +26,7 @@ from fuzzywuzzy import fuzz
 from spacy.en import English
 from num2words import num2words
 from nltk.corpus import wordnet as wn
+
 
 # Don't use spacy tokenizer, because we originally used NLTK to tokenize the files and they are already tokenized
 nlp = spacy.load('en')
@@ -98,7 +100,7 @@ def some_word_match(string1, string2):
 
     if(len(words_list1)!=1 and len(words_list2)!=1):
         intersection = [a for a in intersection if a not in STOP_WORDS]
-    return len(intersection)>0
+    return len(intersection)>0 
 
 def eval_clusters(clusters, graph):
     """
@@ -184,7 +186,7 @@ def similar_words(x, y):
     :param y: the second mention
     :return: whether x and y are similar
     """
-    return same_synset(x, y) or fuzzy_fit(x, y) or partial_match(x, y)
+    return same_synset(x, y) or fuzzy_fit(x, y) or partial_match(x, y) or (wns.word_similarity(x, y)>0.5)
 
 
 def same_synset(x, y):

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>U.S</word>
+            <lemma>U.S</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP U.S)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">U.S</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>anti-doping</word>
+            <lemma>anti-doping</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>agency</word>
+            <lemma>agency</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>report</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>says</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>cyclist</word>
+            <lemma>cyclist</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cheated</word>
+            <lemma>cheat</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ anti-doping) (NN agency) (NN report)) (VP (VBZ says) (NP (NP (NN cyclist)) (SBAR (S (NP (NNP Armstrong)) (VP (VBD cheated)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">says</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">report</governor>
+            <dependent idx="1">anti-doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">report</governor>
+            <dependent idx="2">agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">says</governor>
+            <dependent idx="3">report</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">says</governor>
+            <dependent idx="5">cyclist</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">cheated</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">cyclist</governor>
+            <dependent idx="7">cheated</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">says</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">report</governor>
+            <dependent idx="1">anti-doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">report</governor>
+            <dependent idx="2">agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">says</governor>
+            <dependent idx="3">report</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">says</governor>
+            <dependent idx="5">cyclist</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">cheated</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">cyclist</governor>
+            <dependent idx="7">cheated</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">says</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">report</governor>
+            <dependent idx="1">anti-doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">report</governor>
+            <dependent idx="2">agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">says</governor>
+            <dependent idx="3">report</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">says</governor>
+            <dependent idx="5">cyclist</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">cheated</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">cyclist</governor>
+            <dependent idx="7">cheated</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">says</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">report</governor>
+            <dependent idx="1">anti-doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">report</governor>
+            <dependent idx="2">agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">says</governor>
+            <dependent idx="3">report</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">says</governor>
+            <dependent idx="5">cyclist</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">cheated</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">cyclist</governor>
+            <dependent idx="7">cheated</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">says</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">report</governor>
+            <dependent idx="1">anti-doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">report</governor>
+            <dependent idx="2">agency</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">says</governor>
+            <dependent idx="3">report</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">says</governor>
+            <dependent idx="5">cyclist</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">cheated</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">cyclist</governor>
+            <dependent idx="7">cheated</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

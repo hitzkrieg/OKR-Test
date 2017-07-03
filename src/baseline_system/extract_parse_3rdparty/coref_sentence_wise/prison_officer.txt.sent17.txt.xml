@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>there</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>EX</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>connection</word>
+            <lemma>connection</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>between</word>
+            <lemma>between</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>incident</word>
+            <lemma>incident</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>spruce</word>
+            <lemma>spruce</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>field</word>
+            <lemma>field</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>murder</word>
+            <lemma>murder</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Prison</word>
+            <lemma>Prison</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Officer</word>
+            <lemma>Officer</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SQ (VBZ Is) (NP (EX there)) (NP (NP (DT a) (NN connection)) (PP (IN between) (NP (NP (DT the) (NN incident)) (PP (IN at) (NP (NP (VB spruce) (NN field)) (CC and) (NP (NP (DT the) (NN murder)) (PP (IN of) (NP (NNP Prison) (NNP Officer))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="1">Is</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">connection</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">Is</governor>
+            <dependent idx="4">connection</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">incident</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">incident</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">connection</governor>
+            <dependent idx="7">incident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">field</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">field</governor>
+            <dependent idx="9">spruce</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">incident</governor>
+            <dependent idx="10">field</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">field</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">murder</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">field</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Officer</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Officer</governor>
+            <dependent idx="15">Prison</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">murder</governor>
+            <dependent idx="16">Officer</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Is</governor>
+            <dependent idx="17">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="1">Is</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">connection</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">Is</governor>
+            <dependent idx="4">connection</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">incident</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">incident</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">connection</governor>
+            <dependent idx="7">incident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">field</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">field</governor>
+            <dependent idx="9">spruce</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">incident</governor>
+            <dependent idx="10">field</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">field</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">murder</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">field</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Officer</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Officer</governor>
+            <dependent idx="15">Prison</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">murder</governor>
+            <dependent idx="16">Officer</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Is</governor>
+            <dependent idx="17">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="1">Is</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">connection</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">Is</governor>
+            <dependent idx="4">connection</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">incident</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">incident</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">connection</governor>
+            <dependent idx="7">incident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">field</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">field</governor>
+            <dependent idx="9">spruce</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">incident</governor>
+            <dependent idx="10">field</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">field</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">murder</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:at" extra="true">
+            <governor idx="7">incident</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">field</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Officer</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Officer</governor>
+            <dependent idx="15">Prison</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">murder</governor>
+            <dependent idx="16">Officer</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Is</governor>
+            <dependent idx="17">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="1">Is</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">connection</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">Is</governor>
+            <dependent idx="4">connection</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">incident</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">incident</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">connection</governor>
+            <dependent idx="7">incident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">field</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">field</governor>
+            <dependent idx="9">spruce</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">incident</governor>
+            <dependent idx="10">field</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">field</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">murder</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:at" extra="true">
+            <governor idx="7">incident</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">field</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Officer</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Officer</governor>
+            <dependent idx="15">Prison</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">murder</governor>
+            <dependent idx="16">Officer</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Is</governor>
+            <dependent idx="17">?</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="1">Is</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">connection</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">Is</governor>
+            <dependent idx="4">connection</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">incident</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">incident</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">connection</governor>
+            <dependent idx="7">incident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">field</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">field</governor>
+            <dependent idx="9">spruce</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">incident</governor>
+            <dependent idx="10">field</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">field</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">murder</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:at" extra="true">
+            <governor idx="7">incident</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">field</governor>
+            <dependent idx="13">murder</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Officer</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Officer</governor>
+            <dependent idx="15">Prison</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">murder</governor>
+            <dependent idx="16">Officer</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Is</governor>
+            <dependent idx="17">?</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

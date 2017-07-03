@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>gas</word>
+            <lemma>gas</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>tanker</word>
+            <lemma>tanker</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>exploded</word>
+            <lemma>explode</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>under</word>
+            <lemma>under</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>National</word>
+            <lemma>National</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Guard</word>
+            <lemma>Guard</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Bridge</word>
+            <lemma>Bridge</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>around</word>
+            <lemma>around</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>14</word>
+            <lemma>14</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>~14.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>ppl</word>
+            <lemma>ppl</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>killed</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>60</word>
+            <lemma>60</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;60.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>injured</word>
+            <lemma>injure</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (NN gas) (NN tanker)) (VP (VBD exploded) (PP (IN under) (NP (DT the) (NNP National) (NNP Guard) (NNP Bridge))) (PP (IN in) (NP (NP (NNP Riyadh)) (: -) (NP (IN around) (NP (NP (CD 14) (NN ppl)) (VP (VBN killed))) (, ,) (CC and) (NP (NP (QP (JJR more) (IN than) (CD 60))) (VP (VBN injured))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">exploded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">tanker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">tanker</governor>
+            <dependent idx="2">gas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">exploded</governor>
+            <dependent idx="3">tanker</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="5">under</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="7">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="8">Guard</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">exploded</governor>
+            <dependent idx="9">Bridge</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">exploded</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="13">around</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="14">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="15">ppl</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="15">ppl</governor>
+            <dependent idx="16">killed</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">ppl</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">ppl</governor>
+            <dependent idx="18">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">60</governor>
+            <dependent idx="19">more</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="19">more</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">ppl</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="21">60</governor>
+            <dependent idx="22">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">exploded</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">exploded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">tanker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">tanker</governor>
+            <dependent idx="2">gas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">exploded</governor>
+            <dependent idx="3">tanker</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="5">under</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="7">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="8">Guard</dependent>
+          </dep>
+          <dep type="nmod:under">
+            <governor idx="4">exploded</governor>
+            <dependent idx="9">Bridge</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">exploded</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="13">around</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="14">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="15">ppl</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="15">ppl</governor>
+            <dependent idx="16">killed</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">ppl</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">ppl</governor>
+            <dependent idx="18">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">60</governor>
+            <dependent idx="19">more</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="19">more</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="15">ppl</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="21">60</governor>
+            <dependent idx="22">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">exploded</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">exploded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">tanker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">tanker</governor>
+            <dependent idx="2">gas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">exploded</governor>
+            <dependent idx="3">tanker</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="5">under</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="7">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="8">Guard</dependent>
+          </dep>
+          <dep type="nmod:under">
+            <governor idx="4">exploded</governor>
+            <dependent idx="9">Bridge</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">exploded</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="13">around</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="14">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="15">ppl</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="15">ppl</governor>
+            <dependent idx="16">killed</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">ppl</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">ppl</governor>
+            <dependent idx="18">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">60</governor>
+            <dependent idx="19">more</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="19">more</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="15">ppl</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="21">60</governor>
+            <dependent idx="22">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">exploded</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">exploded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">tanker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">tanker</governor>
+            <dependent idx="2">gas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">exploded</governor>
+            <dependent idx="3">tanker</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="5">under</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="7">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="8">Guard</dependent>
+          </dep>
+          <dep type="nmod:under">
+            <governor idx="4">exploded</governor>
+            <dependent idx="9">Bridge</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">exploded</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="13">around</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="14">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="15">ppl</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="15">ppl</governor>
+            <dependent idx="16">killed</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">ppl</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">ppl</governor>
+            <dependent idx="18">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">60</governor>
+            <dependent idx="19">more</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="19">more</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="15">ppl</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="21">60</governor>
+            <dependent idx="22">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">exploded</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">exploded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">tanker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">tanker</governor>
+            <dependent idx="2">gas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">exploded</governor>
+            <dependent idx="3">tanker</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="5">under</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="7">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bridge</governor>
+            <dependent idx="8">Guard</dependent>
+          </dep>
+          <dep type="nmod:under">
+            <governor idx="4">exploded</governor>
+            <dependent idx="9">Bridge</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">exploded</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="13">around</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">ppl</governor>
+            <dependent idx="14">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="15">ppl</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="15">ppl</governor>
+            <dependent idx="16">killed</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">ppl</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">ppl</governor>
+            <dependent idx="18">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">60</governor>
+            <dependent idx="19">more</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="19">more</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="15">ppl</governor>
+            <dependent idx="21">60</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="21">60</governor>
+            <dependent idx="22">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">exploded</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

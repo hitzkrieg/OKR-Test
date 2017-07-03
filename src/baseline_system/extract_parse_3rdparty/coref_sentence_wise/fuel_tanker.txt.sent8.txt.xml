@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Saudi</word>
+            <lemma>saudi</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>crash</word>
+            <lemma>crash</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>22</word>
+            <lemma>22</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>22.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Saudi) (NN fuel) (NN truck) (NN crash)) (VP (VBZ kills) (NP (CD 22))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">crash</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="2">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="6">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">crash</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="2">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="6">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">crash</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="2">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="6">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">crash</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="2">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="6">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">crash</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="2">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">crash</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="6">22</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

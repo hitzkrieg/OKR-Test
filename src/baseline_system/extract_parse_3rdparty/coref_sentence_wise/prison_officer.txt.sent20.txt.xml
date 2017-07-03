@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Northern</word>
+            <lemma>northern</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Ireland</word>
+            <lemma>Ireland</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>officer</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>ambush</word>
+            <lemma>ambush</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>prompts</word>
+            <lemma>prompt</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>fears</word>
+            <lemma>fear</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>sectarian</word>
+            <lemma>sectarian</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>shooting</word>
+            <lemma>shooting</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>war</word>
+            <lemma>war</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Guardian</word>
+            <lemma>Guardian</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (JJ Northern) (NNP Ireland) (NN prison)) (NP (NN officer) (NN ambush))) (VP (VBZ prompts) (NP (NP (NP (NNS fears)) (PP (IN of) (NP (JJ sectarian) (JJ shooting) (NN war)))) (: -) (NP (DT The) (NNP Guardian)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">prompts</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prison</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">prison</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">ambush</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">prison</governor>
+            <dependent idx="5">ambush</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="7">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">war</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="9">sectarian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">fears</governor>
+            <dependent idx="11">war</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">fears</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Guardian</governor>
+            <dependent idx="13">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">fears</governor>
+            <dependent idx="14">Guardian</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">prompts</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">prompts</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prison</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">prison</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">ambush</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">prison</governor>
+            <dependent idx="5">ambush</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="7">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">war</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="9">sectarian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fears</governor>
+            <dependent idx="11">war</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">fears</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Guardian</governor>
+            <dependent idx="13">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">fears</governor>
+            <dependent idx="14">Guardian</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">prompts</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">prompts</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prison</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">prison</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">ambush</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">prison</governor>
+            <dependent idx="5">ambush</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="7">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">war</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="9">sectarian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fears</governor>
+            <dependent idx="11">war</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">fears</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Guardian</governor>
+            <dependent idx="13">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">fears</governor>
+            <dependent idx="14">Guardian</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">prompts</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">prompts</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prison</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">prison</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">ambush</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">prison</governor>
+            <dependent idx="5">ambush</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="7">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">war</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="9">sectarian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fears</governor>
+            <dependent idx="11">war</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">fears</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Guardian</governor>
+            <dependent idx="13">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">fears</governor>
+            <dependent idx="14">Guardian</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">prompts</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">prompts</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prison</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">prison</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">ambush</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">prison</governor>
+            <dependent idx="5">ambush</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">prompts</governor>
+            <dependent idx="7">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">war</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="9">sectarian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">war</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fears</governor>
+            <dependent idx="11">war</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">fears</governor>
+            <dependent idx="12">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Guardian</governor>
+            <dependent idx="13">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">fears</governor>
+            <dependent idx="14">Guardian</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">prompts</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

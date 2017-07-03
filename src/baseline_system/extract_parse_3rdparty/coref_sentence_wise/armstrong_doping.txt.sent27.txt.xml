@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>USADA</word>
+            <lemma>USADA</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Issues</word>
+            <lemma>Issues</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Bombshell</word>
+            <lemma>bombshell</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP USADA) (NNP Issues)) (NP (NP (NN Bombshell)) (PP (IN on) (NP (NNP Lance) (NNP Armstrong)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Issues</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Issues</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Issues</governor>
+            <dependent idx="3">Bombshell</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="5">Lance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">Bombshell</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Issues</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Issues</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Issues</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Issues</governor>
+            <dependent idx="3">Bombshell</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="5">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">Bombshell</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Issues</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Issues</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Issues</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Issues</governor>
+            <dependent idx="3">Bombshell</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="5">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">Bombshell</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Issues</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Issues</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Issues</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Issues</governor>
+            <dependent idx="3">Bombshell</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="5">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">Bombshell</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Issues</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Issues</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Issues</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Issues</governor>
+            <dependent idx="3">Bombshell</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Armstrong</governor>
+            <dependent idx="5">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">Bombshell</governor>
+            <dependent idx="6">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Issues</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

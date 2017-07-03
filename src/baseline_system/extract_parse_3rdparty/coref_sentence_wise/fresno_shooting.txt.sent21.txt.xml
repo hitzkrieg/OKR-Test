@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Newspaper</word>
+            <lemma>Newspaper</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>report</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>At</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>least</word>
+            <lemma>least</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>3</word>
+            <lemma>3</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;=3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>shot</word>
+            <lemma>shoot</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>workplace</word>
+            <lemma>workplace</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Calif</word>
+            <lemma>Calif</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Newspaper) (NN report)) (: :) (NP (NP (QP (IN At) (JJS least) (CD 3)) (NNS people)) (VP (VBN shot) (PP (IN at) (NP (NP (NN workplace)) (PP (IN in) (NP (NNP Fresno) (, ,) (NNP Calif))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">report</governor>
+            <dependent idx="1">Newspaper</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">3</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">people</governor>
+            <dependent idx="6">3</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">report</governor>
+            <dependent idx="7">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">people</governor>
+            <dependent idx="8">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">workplace</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">shot</governor>
+            <dependent idx="10">workplace</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Calif</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Calif</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Calif</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">workplace</governor>
+            <dependent idx="14">Calif</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">report</governor>
+            <dependent idx="1">Newspaper</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">3</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">people</governor>
+            <dependent idx="6">3</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">report</governor>
+            <dependent idx="7">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">people</governor>
+            <dependent idx="8">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">workplace</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">shot</governor>
+            <dependent idx="10">workplace</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Calif</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Calif</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Calif</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">workplace</governor>
+            <dependent idx="14">Calif</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">report</governor>
+            <dependent idx="1">Newspaper</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">3</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">people</governor>
+            <dependent idx="6">3</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">report</governor>
+            <dependent idx="7">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">people</governor>
+            <dependent idx="8">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">workplace</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">shot</governor>
+            <dependent idx="10">workplace</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Calif</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Calif</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Calif</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">workplace</governor>
+            <dependent idx="14">Calif</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">report</governor>
+            <dependent idx="1">Newspaper</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">3</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">people</governor>
+            <dependent idx="6">3</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">report</governor>
+            <dependent idx="7">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">people</governor>
+            <dependent idx="8">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">workplace</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">shot</governor>
+            <dependent idx="10">workplace</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Calif</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Calif</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Calif</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">workplace</governor>
+            <dependent idx="14">Calif</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">report</governor>
+            <dependent idx="1">Newspaper</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">3</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">people</governor>
+            <dependent idx="6">3</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">report</governor>
+            <dependent idx="7">people</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">people</governor>
+            <dependent idx="8">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">workplace</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">shot</governor>
+            <dependent idx="10">workplace</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Calif</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Calif</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Calif</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">workplace</governor>
+            <dependent idx="14">Calif</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">report</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>fox5atl</word>
+            <lemma>fox5atl</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NN fox5atl) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">fox5atl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">fox5atl</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">fox5atl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">fox5atl</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">fox5atl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">fox5atl</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">fox5atl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">fox5atl</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">fox5atl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">fox5atl</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

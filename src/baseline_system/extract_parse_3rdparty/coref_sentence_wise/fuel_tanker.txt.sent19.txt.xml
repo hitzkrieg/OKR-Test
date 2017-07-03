@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>UAE</word>
+            <lemma>UAE</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>President</word>
+            <lemma>President</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>sends</word>
+            <lemma>send</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>cable</word>
+            <lemma>cable</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>condolences</word>
+            <lemma>condolence</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>King</word>
+            <lemma>King</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Abdullah</word>
+            <lemma>Abdullah</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Saudi</word>
+            <lemma>Saudi</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Arabia</word>
+            <lemma>Arabia</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>victims</word>
+            <lemma>victim</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>fire</word>
+            <lemma>fire</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>accident</word>
+            <lemma>accident</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP UAE) (NNP President)) (VP (VBZ sends) (NP (NP (DT a) (NN cable)) (PP (IN of) (NP (NNS condolences)))) (PP (TO to) (NP (NP (NNP King) (NNP Abdullah)) (PP (IN of) (NP (NP (NNP Saudi) (NNP Arabia)) (PP (IN on) (NP (NP (DT the) (NNS victims)) (PP (IN of) (NP (NP (DT the) (NN fuel) (NN truck) (NN fire) (NN accident)) (PP (IN in) (NP (NNP Riyadh)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">sends</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">President</governor>
+            <dependent idx="1">UAE</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sends</governor>
+            <dependent idx="2">President</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">cable</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sends</governor>
+            <dependent idx="5">cable</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">condolences</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">cable</governor>
+            <dependent idx="7">condolences</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="9">King</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">sends</governor>
+            <dependent idx="10">Abdullah</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="12">Saudi</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="13">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">victims</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victims</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="16">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">accident</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">accident</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="19">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="20">truck</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="21">fire</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="16">victims</governor>
+            <dependent idx="22">accident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Riyadh</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="22">accident</governor>
+            <dependent idx="24">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">sends</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">sends</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">President</governor>
+            <dependent idx="1">UAE</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sends</governor>
+            <dependent idx="2">President</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">cable</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sends</governor>
+            <dependent idx="5">cable</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">condolences</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">cable</governor>
+            <dependent idx="7">condolences</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="9">King</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">sends</governor>
+            <dependent idx="10">Abdullah</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="12">Saudi</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="13">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">victims</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victims</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="16">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">accident</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">accident</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="19">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="20">truck</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="21">fire</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="16">victims</governor>
+            <dependent idx="22">accident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Riyadh</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="22">accident</governor>
+            <dependent idx="24">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">sends</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">sends</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">President</governor>
+            <dependent idx="1">UAE</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sends</governor>
+            <dependent idx="2">President</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">cable</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sends</governor>
+            <dependent idx="5">cable</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">condolences</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">cable</governor>
+            <dependent idx="7">condolences</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="9">King</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">sends</governor>
+            <dependent idx="10">Abdullah</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="12">Saudi</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="13">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">victims</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victims</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="16">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">accident</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">accident</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="19">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="20">truck</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="21">fire</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="16">victims</governor>
+            <dependent idx="22">accident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Riyadh</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="22">accident</governor>
+            <dependent idx="24">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">sends</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">sends</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">President</governor>
+            <dependent idx="1">UAE</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sends</governor>
+            <dependent idx="2">President</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">cable</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sends</governor>
+            <dependent idx="5">cable</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">condolences</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">cable</governor>
+            <dependent idx="7">condolences</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="9">King</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">sends</governor>
+            <dependent idx="10">Abdullah</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="12">Saudi</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="13">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">victims</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victims</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="16">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">accident</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">accident</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="19">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="20">truck</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="21">fire</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="16">victims</governor>
+            <dependent idx="22">accident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Riyadh</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="22">accident</governor>
+            <dependent idx="24">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">sends</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">sends</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">President</governor>
+            <dependent idx="1">UAE</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sends</governor>
+            <dependent idx="2">President</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">cable</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sends</governor>
+            <dependent idx="5">cable</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">condolences</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">cable</governor>
+            <dependent idx="7">condolences</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="9">King</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">sends</governor>
+            <dependent idx="10">Abdullah</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="12">Saudi</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">Abdullah</governor>
+            <dependent idx="13">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">victims</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victims</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">Arabia</governor>
+            <dependent idx="16">victims</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">accident</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">accident</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="19">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="20">truck</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="22">accident</governor>
+            <dependent idx="21">fire</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="16">victims</governor>
+            <dependent idx="22">accident</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">Riyadh</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="22">accident</governor>
+            <dependent idx="24">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">sends</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>According</word>
+            <lemma>accord</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>National</word>
+            <lemma>National</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Hurricane</word>
+            <lemma>Hurricane</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Center</word>
+            <lemma>Center</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Sandy</word>
+            <lemma>Sandy</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>located</word>
+            <lemma>located</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>about</word>
+            <lemma>about</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>265</word>
+            <lemma>265</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>~265.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>miles</word>
+            <lemma>mile</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>southeast</word>
+            <lemma>southeast</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Atlantic</word>
+            <lemma>Atlantic</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>City</word>
+            <lemma>City</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>Jersey</word>
+            <lemma>Jersey</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (VBG According) (PP (TO to) (NP (DT the) (NNP National) (NNP Hurricane) (NNP Center)))) (, ,) (NP (NNP Sandy)) (VP (VBZ is) (NP (NP (ADJP (JJ located) (PP (IN about) (NP (CD 265) (NNS miles)))) (NN southeast)) (PP (IN of) (NP (NP (NNP Atlantic) (NNP City)) (, ,) (NP (NNP New) (NNP Jersey)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">southeast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Center</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="4">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">Hurricane</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">southeast</governor>
+            <dependent idx="8">Sandy</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">southeast</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="10">located</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">miles</governor>
+            <dependent idx="11">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">miles</governor>
+            <dependent idx="12">265</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">located</governor>
+            <dependent idx="13">miles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">City</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">City</governor>
+            <dependent idx="16">Atlantic</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="17">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">City</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Jersey</governor>
+            <dependent idx="19">New</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">City</governor>
+            <dependent idx="20">Jersey</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">southeast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Center</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="4">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">Hurricane</dependent>
+          </dep>
+          <dep type="nmod:according_to">
+            <governor idx="14">southeast</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">southeast</governor>
+            <dependent idx="8">Sandy</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">southeast</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="10">located</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">miles</governor>
+            <dependent idx="11">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">miles</governor>
+            <dependent idx="12">265</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="10">located</governor>
+            <dependent idx="13">miles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">City</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">City</governor>
+            <dependent idx="16">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">southeast</governor>
+            <dependent idx="17">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">City</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Jersey</governor>
+            <dependent idx="19">New</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">City</governor>
+            <dependent idx="20">Jersey</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">southeast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Center</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="4">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">Hurricane</dependent>
+          </dep>
+          <dep type="nmod:according_to">
+            <governor idx="14">southeast</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">southeast</governor>
+            <dependent idx="8">Sandy</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">southeast</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="10">located</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">miles</governor>
+            <dependent idx="11">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">miles</governor>
+            <dependent idx="12">265</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="10">located</governor>
+            <dependent idx="13">miles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">City</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">City</governor>
+            <dependent idx="16">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">southeast</governor>
+            <dependent idx="17">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">City</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Jersey</governor>
+            <dependent idx="19">New</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">City</governor>
+            <dependent idx="20">Jersey</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">southeast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Center</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="4">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">Hurricane</dependent>
+          </dep>
+          <dep type="nmod:according_to">
+            <governor idx="14">southeast</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">southeast</governor>
+            <dependent idx="8">Sandy</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">southeast</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="10">located</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">miles</governor>
+            <dependent idx="11">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">miles</governor>
+            <dependent idx="12">265</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="10">located</governor>
+            <dependent idx="13">miles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">City</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">City</governor>
+            <dependent idx="16">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">southeast</governor>
+            <dependent idx="17">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">City</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Jersey</governor>
+            <dependent idx="19">New</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">City</governor>
+            <dependent idx="20">Jersey</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">southeast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Center</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="4">National</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">Hurricane</dependent>
+          </dep>
+          <dep type="nmod:according_to">
+            <governor idx="14">southeast</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">southeast</governor>
+            <dependent idx="8">Sandy</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">southeast</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">southeast</governor>
+            <dependent idx="10">located</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">miles</governor>
+            <dependent idx="11">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">miles</governor>
+            <dependent idx="12">265</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="10">located</governor>
+            <dependent idx="13">miles</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">City</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">City</governor>
+            <dependent idx="16">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">southeast</governor>
+            <dependent idx="17">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="17">City</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Jersey</governor>
+            <dependent idx="19">New</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">City</governor>
+            <dependent idx="20">Jersey</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">southeast</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

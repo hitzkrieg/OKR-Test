@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Jersey</word>
+            <lemma>Jersey</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>newspapers</word>
+            <lemma>newspaper</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>suspend</word>
+            <lemma>suspend</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Tuesday</word>
+            <lemma>Tuesday</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-WXX-2</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-WXX-2</Timex>
+          </token>
+          <token id="6">
+            <word>delivery</word>
+            <lemma>delivery</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Hurricane</word>
+            <lemma>Hurricane</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Sandy</word>
+            <lemma>Sandy</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>nears</word>
+            <lemma>near</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP New) (NNP Jersey) (NNS newspapers)) (VP (VB suspend) (NP (NNP Tuesday) (NN delivery)) (SBAR (IN as) (S (NP (NNP Hurricane) (NNP Sandy)) (VP (VBZ nears))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">suspend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="2">Jersey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="3">newspapers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">delivery</governor>
+            <dependent idx="5">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="6">delivery</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">nears</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Sandy</governor>
+            <dependent idx="8">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nears</governor>
+            <dependent idx="9">Sandy</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">suspend</governor>
+            <dependent idx="10">nears</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">suspend</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">suspend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="2">Jersey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="3">newspapers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">delivery</governor>
+            <dependent idx="5">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="6">delivery</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">nears</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Sandy</governor>
+            <dependent idx="8">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nears</governor>
+            <dependent idx="9">Sandy</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">suspend</governor>
+            <dependent idx="10">nears</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">suspend</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">suspend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="2">Jersey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="3">newspapers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">delivery</governor>
+            <dependent idx="5">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="6">delivery</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">nears</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Sandy</governor>
+            <dependent idx="8">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nears</governor>
+            <dependent idx="9">Sandy</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">suspend</governor>
+            <dependent idx="10">nears</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">suspend</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">suspend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="2">Jersey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="3">newspapers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">delivery</governor>
+            <dependent idx="5">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="6">delivery</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">nears</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Sandy</governor>
+            <dependent idx="8">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nears</governor>
+            <dependent idx="9">Sandy</dependent>
+          </dep>
+          <dep type="advcl:as">
+            <governor idx="4">suspend</governor>
+            <dependent idx="10">nears</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">suspend</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">suspend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">newspapers</governor>
+            <dependent idx="2">Jersey</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="3">newspapers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">delivery</governor>
+            <dependent idx="5">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">suspend</governor>
+            <dependent idx="6">delivery</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">nears</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Sandy</governor>
+            <dependent idx="8">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nears</governor>
+            <dependent idx="9">Sandy</dependent>
+          </dep>
+          <dep type="advcl:as">
+            <governor idx="4">suspend</governor>
+            <dependent idx="10">nears</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">suspend</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

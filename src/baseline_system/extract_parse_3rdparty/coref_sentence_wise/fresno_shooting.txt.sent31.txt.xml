@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>3</word>
+            <lemma>3</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>shot</word>
+            <lemma>shot</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>poultry</word>
+            <lemma>poultry</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>processing</word>
+            <lemma>processing</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Nov</word>
+            <lemma>Nov</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-11-06</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-11-06</Timex>
+          </token>
+          <token id="10">
+            <word>6</word>
+            <lemma>6</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-11-06</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-11-06</Timex>
+          </token>
+          <token id="11">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>4:15</word>
+            <lemma>4:15</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T16:15</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="TIME">T16:15</Timex>
+          </token>
+          <token id="13">
+            <word>PM</word>
+            <lemma>PM</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T16:15</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="TIME">T16:15</Timex>
+          </token>
+          <token id="14">
+            <word>ET</word>
+            <lemma>ET</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (CD 3) (NN shot)) (PP (IN at) (NP (NP (NNP Fresno) (NN poultry) (NN processing) (NN plant)) (: -) (NP (NNP Nov) (CD 6)))) (X (SYM @))) (NP (NP (CD 4:15)) (NP (NNP PM) (NNP ET))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">3</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">plant</governor>
+            <dependent idx="3">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="4">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="5">poultry</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="6">processing</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">shot</governor>
+            <dependent idx="7">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">plant</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plant</governor>
+            <dependent idx="9">Nov</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">Nov</governor>
+            <dependent idx="10">6</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="11">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="12">4:15</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">ET</governor>
+            <dependent idx="13">PM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">4:15</governor>
+            <dependent idx="14">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shot</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">3</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">plant</governor>
+            <dependent idx="3">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="4">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="5">poultry</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="6">processing</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="2">shot</governor>
+            <dependent idx="7">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">plant</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plant</governor>
+            <dependent idx="9">Nov</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">Nov</governor>
+            <dependent idx="10">6</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="11">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="12">4:15</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">ET</governor>
+            <dependent idx="13">PM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">4:15</governor>
+            <dependent idx="14">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shot</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">3</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">plant</governor>
+            <dependent idx="3">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="4">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="5">poultry</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="6">processing</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="2">shot</governor>
+            <dependent idx="7">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">plant</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plant</governor>
+            <dependent idx="9">Nov</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">Nov</governor>
+            <dependent idx="10">6</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="11">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="12">4:15</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">ET</governor>
+            <dependent idx="13">PM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">4:15</governor>
+            <dependent idx="14">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shot</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">3</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">plant</governor>
+            <dependent idx="3">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="4">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="5">poultry</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="6">processing</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="2">shot</governor>
+            <dependent idx="7">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">plant</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plant</governor>
+            <dependent idx="9">Nov</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">Nov</governor>
+            <dependent idx="10">6</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="11">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="12">4:15</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">ET</governor>
+            <dependent idx="13">PM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">4:15</governor>
+            <dependent idx="14">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shot</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">3</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">plant</governor>
+            <dependent idx="3">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="4">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="5">poultry</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">plant</governor>
+            <dependent idx="6">processing</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="2">shot</governor>
+            <dependent idx="7">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">plant</governor>
+            <dependent idx="8">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plant</governor>
+            <dependent idx="9">Nov</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="9">Nov</governor>
+            <dependent idx="10">6</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="11">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">shot</governor>
+            <dependent idx="12">4:15</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">ET</governor>
+            <dependent idx="13">PM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">4:15</governor>
+            <dependent idx="14">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shot</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

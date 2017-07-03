@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Hurricane</word>
+            <lemma>Hurricane</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Sandy</word>
+            <lemma>Sandy</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>causes</word>
+            <lemma>cause</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>least</word>
+            <lemma>least</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>29</word>
+            <lemma>29</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;=29.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>U.S</word>
+            <lemma>U.S</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Hurricane) (NNP Sandy)) (VP (VBZ causes) (NP (QP (IN at) (JJS least) (CD 29)) (NNP U.S))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">causes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Sandy</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">causes</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">29</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">U.S</governor>
+            <dependent idx="6">29</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">causes</governor>
+            <dependent idx="7">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">causes</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">causes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Sandy</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">causes</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">29</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">U.S</governor>
+            <dependent idx="6">29</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">causes</governor>
+            <dependent idx="7">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">causes</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">causes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Sandy</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">causes</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">29</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">U.S</governor>
+            <dependent idx="6">29</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">causes</governor>
+            <dependent idx="7">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">causes</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">causes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Sandy</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">causes</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">29</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">U.S</governor>
+            <dependent idx="6">29</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">causes</governor>
+            <dependent idx="7">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">causes</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">causes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Sandy</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">causes</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">29</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">U.S</governor>
+            <dependent idx="6">29</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">causes</governor>
+            <dependent idx="7">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">causes</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Deaths</word>
+            <lemma>death</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NNS Deaths) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Deaths</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Deaths</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Deaths</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Deaths</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Deaths</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Deaths</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Deaths</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Deaths</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Deaths</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Deaths</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

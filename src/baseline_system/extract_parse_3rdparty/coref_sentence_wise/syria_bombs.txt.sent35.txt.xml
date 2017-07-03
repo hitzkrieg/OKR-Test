@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Syria</word>
+            <lemma>Syria</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>drops</word>
+            <lemma>drop</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>cluster</word>
+            <lemma>cluster</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>bombs</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Maaret</word>
+            <lemma>Maaret</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>al-Numan</word>
+            <lemma>al-Numan</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>rebels</word>
+            <lemma>rebel</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>AFP-</word>
+            <lemma>afp-</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Syria)) (VP (VBZ drops) (NP (NN cluster) (NNS bombs)) (PP (IN on) (NP (NP (NNP Maaret) (NNP al-Numan)) (: :) (NP (NNS rebels)) (: -) (NP (NN AFP-))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">drops</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">drops</governor>
+            <dependent idx="1">Syria</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">bombs</governor>
+            <dependent idx="3">cluster</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">drops</governor>
+            <dependent idx="4">bombs</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="6">Maaret</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">drops</governor>
+            <dependent idx="7">al-Numan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="9">rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="11">AFP-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">drops</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">drops</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">drops</governor>
+            <dependent idx="1">Syria</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">bombs</governor>
+            <dependent idx="3">cluster</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">drops</governor>
+            <dependent idx="4">bombs</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="6">Maaret</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">drops</governor>
+            <dependent idx="7">al-Numan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="9">rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="11">AFP-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">drops</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">drops</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">drops</governor>
+            <dependent idx="1">Syria</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">bombs</governor>
+            <dependent idx="3">cluster</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">drops</governor>
+            <dependent idx="4">bombs</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="6">Maaret</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">drops</governor>
+            <dependent idx="7">al-Numan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="9">rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="11">AFP-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">drops</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">drops</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">drops</governor>
+            <dependent idx="1">Syria</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">bombs</governor>
+            <dependent idx="3">cluster</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">drops</governor>
+            <dependent idx="4">bombs</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="6">Maaret</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">drops</governor>
+            <dependent idx="7">al-Numan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="9">rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="11">AFP-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">drops</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">drops</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">drops</governor>
+            <dependent idx="1">Syria</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">bombs</governor>
+            <dependent idx="3">cluster</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">drops</governor>
+            <dependent idx="4">bombs</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="6">Maaret</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">drops</governor>
+            <dependent idx="7">al-Numan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="9">rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">al-Numan</governor>
+            <dependent idx="11">AFP-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">drops</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

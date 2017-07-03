@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Explosion</word>
+            <lemma>explosion</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>rips</word>
+            <lemma>rip</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>through</word>
+            <lemma>through</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>industrial</word>
+            <lemma>industrial</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>building</word>
+            <lemma>building</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Saudi</word>
+            <lemma>Saudi</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Arabia</word>
+            <lemma>Arabia</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>capital</word>
+            <lemma>capital</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NN Explosion) (NNS rips)) (PP (IN through) (NP (JJ industrial) (NN building))) (PP (IN in) (NP (NP (NNP Saudi) (NNP Arabia) (POS 's)) (NN capital))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">rips</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">rips</governor>
+            <dependent idx="1">Explosion</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">building</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">building</governor>
+            <dependent idx="4">industrial</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">rips</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="7">Saudi</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">rips</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">rips</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">rips</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">rips</governor>
+            <dependent idx="1">Explosion</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">building</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">building</governor>
+            <dependent idx="4">industrial</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">rips</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="7">Saudi</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">rips</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">rips</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">rips</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">rips</governor>
+            <dependent idx="1">Explosion</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">building</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">building</governor>
+            <dependent idx="4">industrial</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">rips</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="7">Saudi</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">rips</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">rips</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">rips</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">rips</governor>
+            <dependent idx="1">Explosion</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">building</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">building</governor>
+            <dependent idx="4">industrial</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">rips</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="7">Saudi</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">rips</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">rips</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">rips</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">rips</governor>
+            <dependent idx="1">Explosion</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">building</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">building</governor>
+            <dependent idx="4">industrial</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">rips</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">capital</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="7">Saudi</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">capital</governor>
+            <dependent idx="8">Arabia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Arabia</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">rips</governor>
+            <dependent idx="10">capital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">rips</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

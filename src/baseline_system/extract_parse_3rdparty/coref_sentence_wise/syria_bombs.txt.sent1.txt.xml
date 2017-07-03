@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>government</word>
+            <lemma>government</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>warplanes</word>
+            <lemma>warplane</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>bombed</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>rebel-held</word>
+            <lemma>rebel-held</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>northern</word>
+            <lemma>northern</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>town</word>
+            <lemma>town</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>killing</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>44</word>
+            <lemma>44</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>44.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>reducing</word>
+            <lemma>reduce</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>homes</word>
+            <lemma>home</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>rubble</word>
+            <lemma>rubble</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Syrian) (NN government) (NNS warplanes)) (VP (VBD bombed) (NP (NP (DT a) (JJ rebel-held) (JJ northern) (NN town)) (, ,) (VP (VP (VBG killing) (NP (CD 44) (NNS people))) (CC and) (VP (VBG reducing) (NP (NNS homes)) (PP (TO to) (NP (NN rubble))))) (, ,))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bombed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="2">government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="3">warplanes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">town</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="6">rebel-held</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="7">northern</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="8">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">town</governor>
+            <dependent idx="10">killing</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">people</governor>
+            <dependent idx="11">44</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">killing</governor>
+            <dependent idx="12">people</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">killing</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">killing</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">reducing</governor>
+            <dependent idx="15">homes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">rubble</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">reducing</governor>
+            <dependent idx="17">rubble</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bombed</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bombed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="2">government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="3">warplanes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">town</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="6">rebel-held</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="7">northern</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="8">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">town</governor>
+            <dependent idx="10">killing</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">people</governor>
+            <dependent idx="11">44</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">killing</governor>
+            <dependent idx="12">people</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">killing</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">killing</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">reducing</governor>
+            <dependent idx="15">homes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">rubble</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="14">reducing</governor>
+            <dependent idx="17">rubble</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bombed</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bombed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="2">government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="3">warplanes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">town</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="6">rebel-held</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="7">northern</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="8">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">town</governor>
+            <dependent idx="10">killing</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">people</governor>
+            <dependent idx="11">44</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">killing</governor>
+            <dependent idx="12">people</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">killing</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="8">town</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">killing</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">reducing</governor>
+            <dependent idx="15">homes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">rubble</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="14">reducing</governor>
+            <dependent idx="17">rubble</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bombed</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bombed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="2">government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="3">warplanes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">town</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="6">rebel-held</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="7">northern</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="8">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">town</governor>
+            <dependent idx="10">killing</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">people</governor>
+            <dependent idx="11">44</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">killing</governor>
+            <dependent idx="12">people</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">killing</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="8">town</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">killing</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">reducing</governor>
+            <dependent idx="15">homes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">rubble</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="14">reducing</governor>
+            <dependent idx="17">rubble</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bombed</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bombed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">warplanes</governor>
+            <dependent idx="2">government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="3">warplanes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">town</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="6">rebel-held</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">town</governor>
+            <dependent idx="7">northern</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">bombed</governor>
+            <dependent idx="8">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">town</governor>
+            <dependent idx="10">killing</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">people</governor>
+            <dependent idx="11">44</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">killing</governor>
+            <dependent idx="12">people</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">killing</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="8">town</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">killing</governor>
+            <dependent idx="14">reducing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">reducing</governor>
+            <dependent idx="15">homes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">rubble</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="14">reducing</governor>
+            <dependent idx="17">rubble</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">town</governor>
+            <dependent idx="18">,</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bombed</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

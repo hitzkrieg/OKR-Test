@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>1</word>
+            <lemma>1</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>dead</word>
+            <lemma>dead</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>4</word>
+            <lemma>4</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>wounded</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>worker</word>
+            <lemma>worker</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>opens</word>
+            <lemma>open</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>fire</word>
+            <lemma>fire</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>police</word>
+            <lemma>police</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>say</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (ADJP (CD 1) (JJ dead)) (, ,) (NP (NP (CD 4)) (VP (VBN wounded) (PP (IN as) (NP (NN worker))))) (VP (VBZ opens) (NP (NN fire)) (PP (IN at) (NP (NNP Fresno) (NN plant))))) (, ,) (NP (NNS police)) (VP (VBP say)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">opens</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">opens</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">opens</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">worker</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">worker</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">say</governor>
+            <dependent idx="8">opens</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">opens</governor>
+            <dependent idx="9">fire</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">plant</governor>
+            <dependent idx="10">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plant</governor>
+            <dependent idx="11">Fresno</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">opens</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">say</governor>
+            <dependent idx="14">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">opens</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">opens</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">opens</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">worker</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">worker</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">say</governor>
+            <dependent idx="8">opens</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">opens</governor>
+            <dependent idx="9">fire</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">plant</governor>
+            <dependent idx="10">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plant</governor>
+            <dependent idx="11">Fresno</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">opens</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">say</governor>
+            <dependent idx="14">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">opens</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">opens</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">opens</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">worker</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">worker</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">say</governor>
+            <dependent idx="8">opens</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">opens</governor>
+            <dependent idx="9">fire</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">plant</governor>
+            <dependent idx="10">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plant</governor>
+            <dependent idx="11">Fresno</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">opens</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">say</governor>
+            <dependent idx="14">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">opens</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">opens</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">opens</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">worker</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">worker</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">say</governor>
+            <dependent idx="8">opens</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">opens</governor>
+            <dependent idx="9">fire</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">plant</governor>
+            <dependent idx="10">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plant</governor>
+            <dependent idx="11">Fresno</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">opens</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">say</governor>
+            <dependent idx="14">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">opens</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">opens</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">opens</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">worker</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">worker</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">say</governor>
+            <dependent idx="8">opens</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">opens</governor>
+            <dependent idx="9">fire</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">plant</governor>
+            <dependent idx="10">at</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plant</governor>
+            <dependent idx="11">Fresno</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">opens</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">say</governor>
+            <dependent idx="14">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="15">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

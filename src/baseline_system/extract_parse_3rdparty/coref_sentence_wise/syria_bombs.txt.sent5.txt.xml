@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Rebels</word>
+            <lemma>Rebels</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Bogged</word>
+            <lemma>bog</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Down</word>
+            <lemma>down</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Aleppo</word>
+            <lemma>Aleppo</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Syrian) (NNPS Rebels)) (VP (VBD Bogged) (NP (NN Down)) (PP (IN in) (NP (NNP Aleppo)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Bogged</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rebels</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="2">Rebels</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="4">Down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Aleppo</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="6">Aleppo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Bogged</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rebels</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="2">Rebels</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="4">Down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Aleppo</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="6">Aleppo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Bogged</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rebels</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="2">Rebels</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="4">Down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Aleppo</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="6">Aleppo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Bogged</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rebels</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="2">Rebels</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="4">Down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Aleppo</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="6">Aleppo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Bogged</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rebels</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="2">Rebels</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="4">Down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Aleppo</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="6">Aleppo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Bogged</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

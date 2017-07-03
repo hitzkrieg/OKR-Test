@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Turkey</word>
+            <lemma>Turkey</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>forced</word>
+            <lemma>force</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>passenger</word>
+            <lemma>passenger</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>plane</word>
+            <lemma>plane</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>coming</word>
+            <lemma>come</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Moscow</word>
+            <lemma>Moscow</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>land</word>
+            <lemma>land</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Ankara</word>
+            <lemma>Ankara</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Turkey)) (VP (VBD forced) (NP (NP (DT a) (JJ Syrian) (NN passenger) (NN plane)) (VP (VBG coming) (PP (IN from) (NP (NNP Moscow))) (S (VP (TO to) (VP (VB land) (PP (IN at) (NP (NNP Ankara))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">forced</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">forced</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">plane</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">plane</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">plane</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">forced</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">plane</governor>
+            <dependent idx="7">coming</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Moscow</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">coming</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">coming</governor>
+            <dependent idx="11">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Ankara</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">land</governor>
+            <dependent idx="13">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">forced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">forced</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">forced</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">plane</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">plane</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">plane</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">forced</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">plane</governor>
+            <dependent idx="7">coming</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Moscow</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">coming</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">coming</governor>
+            <dependent idx="11">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Ankara</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="11">land</governor>
+            <dependent idx="13">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">forced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">forced</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">forced</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">plane</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">plane</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">plane</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">forced</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">plane</governor>
+            <dependent idx="7">coming</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Moscow</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">coming</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">coming</governor>
+            <dependent idx="11">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Ankara</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="11">land</governor>
+            <dependent idx="13">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">forced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">forced</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">forced</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">plane</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">plane</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">plane</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">forced</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">plane</governor>
+            <dependent idx="7">coming</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Moscow</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">coming</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">coming</governor>
+            <dependent idx="11">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Ankara</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="11">land</governor>
+            <dependent idx="13">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">forced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">forced</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">forced</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">plane</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">plane</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">plane</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">forced</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">plane</governor>
+            <dependent idx="7">coming</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Moscow</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">coming</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">coming</governor>
+            <dependent idx="11">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Ankara</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="11">land</governor>
+            <dependent idx="13">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">forced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>George</word>
+            <lemma>George</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Hincapie</word>
+            <lemma>Hincapie</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>raced</word>
+            <lemma>race</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>alongside</word>
+            <lemma>alongside</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>7</word>
+            <lemma>7</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>7.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Tour</word>
+            <lemma>tour</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>wins</word>
+            <lemma>win</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>apologizes</word>
+            <lemma>apologize</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>doping</word>
+            <lemma>doping</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP George) (NNP Hincapie)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD raced) (PP (IN alongside) (NP (NNP Armstrong))) (PP (IN in) (NP (PRP$ his) (CD 7) (NN Tour) (NNS wins)))))) (, ,)) (VP (VBZ apologizes) (PP (IN for) (NP (NN doping)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">apologizes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">raced</governor>
+            <dependent idx="4">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="5">raced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">alongside</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">raced</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">wins</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">wins</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">wins</governor>
+            <dependent idx="10">7</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">wins</governor>
+            <dependent idx="11">Tour</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">raced</governor>
+            <dependent idx="12">wins</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">doping</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="16">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">apologizes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">raced</governor>
+            <dependent idx="4">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="5">raced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">alongside</dependent>
+          </dep>
+          <dep type="nmod:alongside">
+            <governor idx="5">raced</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">wins</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">wins</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">wins</governor>
+            <dependent idx="10">7</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">wins</governor>
+            <dependent idx="11">Tour</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">raced</governor>
+            <dependent idx="12">wins</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">doping</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="16">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">apologizes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">raced</governor>
+            <dependent idx="4">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="5">raced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">alongside</dependent>
+          </dep>
+          <dep type="nmod:alongside">
+            <governor idx="5">raced</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">wins</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">wins</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">wins</governor>
+            <dependent idx="10">7</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">wins</governor>
+            <dependent idx="11">Tour</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">raced</governor>
+            <dependent idx="12">wins</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">doping</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="16">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">apologizes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="5">raced</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="4">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="5">raced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">alongside</dependent>
+          </dep>
+          <dep type="nmod:alongside">
+            <governor idx="5">raced</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">wins</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">wins</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">wins</governor>
+            <dependent idx="10">7</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">wins</governor>
+            <dependent idx="11">Tour</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">raced</governor>
+            <dependent idx="12">wins</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">doping</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="16">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">apologizes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="1">George</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="5">raced</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="2">Hincapie</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="4">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="5">raced</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">alongside</dependent>
+          </dep>
+          <dep type="nmod:alongside">
+            <governor idx="5">raced</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">wins</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">wins</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">wins</governor>
+            <dependent idx="10">7</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">wins</governor>
+            <dependent idx="11">Tour</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">raced</governor>
+            <dependent idx="12">wins</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Hincapie</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">doping</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="16">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">apologizes</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Stopped</word>
+            <lemma>stop</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>using</word>
+            <lemma>use</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>2006</word>
+            <lemma>2006</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2006</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2006</Timex>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VBN Stopped) (S (VP (VBG using) (PP (IN in) (NP (CD 2006)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Stopped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="2">using</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">2006</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">using</governor>
+            <dependent idx="4">2006</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Stopped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="2">using</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">2006</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">using</governor>
+            <dependent idx="4">2006</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Stopped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="2">using</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">2006</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">using</governor>
+            <dependent idx="4">2006</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Stopped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="2">using</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">2006</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">using</governor>
+            <dependent idx="4">2006</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Stopped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="2">using</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">2006</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">using</governor>
+            <dependent idx="4">2006</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Stopped</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>14</end>
+          <head>2</head>
+          <text>George Hincapie , who raced alongside Armstrong in his 7 Tour wins ,</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

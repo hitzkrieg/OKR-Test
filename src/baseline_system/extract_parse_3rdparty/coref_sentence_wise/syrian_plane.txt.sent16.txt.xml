@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Ankara</word>
+            <lemma>Ankara</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>sends</word>
+            <lemma>send</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>note</word>
+            <lemma>note</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Damascus</word>
+            <lemma>Damascus</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>plane</word>
+            <lemma>plane</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>cargo</word>
+            <lemma>cargo</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Ankara)) (VP (VBZ sends) (NP (NN note)) (PP (TO to) (NP (NP (NNP Damascus)) (PP (IN over) (NP (NN plane) (NN cargo)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">sends</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">sends</governor>
+            <dependent idx="1">Ankara</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sends</governor>
+            <dependent idx="3">note</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">sends</governor>
+            <dependent idx="5">Damascus</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cargo</governor>
+            <dependent idx="6">over</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">cargo</governor>
+            <dependent idx="7">plane</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="8">cargo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">sends</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">sends</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">sends</governor>
+            <dependent idx="1">Ankara</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sends</governor>
+            <dependent idx="3">note</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">sends</governor>
+            <dependent idx="5">Damascus</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cargo</governor>
+            <dependent idx="6">over</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">cargo</governor>
+            <dependent idx="7">plane</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="8">cargo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">sends</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">sends</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">sends</governor>
+            <dependent idx="1">Ankara</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sends</governor>
+            <dependent idx="3">note</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">sends</governor>
+            <dependent idx="5">Damascus</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cargo</governor>
+            <dependent idx="6">over</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">cargo</governor>
+            <dependent idx="7">plane</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="8">cargo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">sends</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">sends</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">sends</governor>
+            <dependent idx="1">Ankara</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sends</governor>
+            <dependent idx="3">note</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">sends</governor>
+            <dependent idx="5">Damascus</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cargo</governor>
+            <dependent idx="6">over</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">cargo</governor>
+            <dependent idx="7">plane</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="8">cargo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">sends</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">sends</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">sends</governor>
+            <dependent idx="1">Ankara</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sends</governor>
+            <dependent idx="3">note</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">sends</governor>
+            <dependent idx="5">Damascus</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cargo</governor>
+            <dependent idx="6">over</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">cargo</governor>
+            <dependent idx="7">plane</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="5">Damascus</governor>
+            <dependent idx="8">cargo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">sends</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

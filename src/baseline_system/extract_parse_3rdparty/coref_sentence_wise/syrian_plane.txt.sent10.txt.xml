@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Turkish</word>
+            <lemma>turkish</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>F16s</word>
+            <lemma>f16</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>force</word>
+            <lemma>force</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>passenger</word>
+            <lemma>passenger</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>plane</word>
+            <lemma>plane</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>enroute</word>
+            <lemma>enroute</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Moscow</word>
+            <lemma>Moscow</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>land</word>
+            <lemma>land</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Ankara</word>
+            <lemma>Ankara</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Turkish) (NNS F16s)) (VP (VBP force) (NP (NP (JJ Syrian) (NN passenger) (NN plane) (NN enroute)) (PP (IN from) (NP (NNP Moscow) (NN land)))) (PP (IN in) (NP (NNP Ankara)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">F16s</governor>
+            <dependent idx="1">Turkish</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">force</governor>
+            <dependent idx="2">F16s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">enroute</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">force</governor>
+            <dependent idx="7">enroute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">land</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">land</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">enroute</governor>
+            <dependent idx="10">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Ankara</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">force</governor>
+            <dependent idx="12">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">force</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">F16s</governor>
+            <dependent idx="1">Turkish</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">force</governor>
+            <dependent idx="2">F16s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">enroute</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">force</governor>
+            <dependent idx="7">enroute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">land</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">land</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">enroute</governor>
+            <dependent idx="10">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Ankara</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">force</governor>
+            <dependent idx="12">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">force</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">F16s</governor>
+            <dependent idx="1">Turkish</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">force</governor>
+            <dependent idx="2">F16s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">enroute</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">force</governor>
+            <dependent idx="7">enroute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">land</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">land</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">enroute</governor>
+            <dependent idx="10">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Ankara</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">force</governor>
+            <dependent idx="12">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">force</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">F16s</governor>
+            <dependent idx="1">Turkish</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">force</governor>
+            <dependent idx="2">F16s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">enroute</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">force</governor>
+            <dependent idx="7">enroute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">land</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">land</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">enroute</governor>
+            <dependent idx="10">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Ankara</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">force</governor>
+            <dependent idx="12">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">force</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">F16s</governor>
+            <dependent idx="1">Turkish</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">force</governor>
+            <dependent idx="2">F16s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">enroute</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="5">passenger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">enroute</governor>
+            <dependent idx="6">plane</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">force</governor>
+            <dependent idx="7">enroute</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">land</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">land</governor>
+            <dependent idx="9">Moscow</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="7">enroute</governor>
+            <dependent idx="10">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Ankara</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">force</governor>
+            <dependent idx="12">Ankara</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">force</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

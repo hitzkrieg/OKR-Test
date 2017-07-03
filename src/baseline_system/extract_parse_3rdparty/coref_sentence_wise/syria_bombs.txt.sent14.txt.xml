@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Divided</word>
+            <lemma>divide</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>rebels</word>
+            <lemma>rebel</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>agree</word>
+            <lemma>agree</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>joint</word>
+            <lemma>joint</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>leadership</word>
+            <lemma>leadership</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBN Divided) (NP (JJ Syrian) (NNS rebels)))) (VP (VBP agree) (PP (IN on) (NP (JJ joint) (NN leadership)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">agree</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="4">agree</governor>
+            <dependent idx="1">Divided</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">rebels</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Divided</governor>
+            <dependent idx="3">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">leadership</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">leadership</governor>
+            <dependent idx="6">joint</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">agree</governor>
+            <dependent idx="7">leadership</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">agree</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">agree</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="4">agree</governor>
+            <dependent idx="1">Divided</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">rebels</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Divided</governor>
+            <dependent idx="3">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">leadership</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">leadership</governor>
+            <dependent idx="6">joint</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">agree</governor>
+            <dependent idx="7">leadership</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">agree</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">agree</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="4">agree</governor>
+            <dependent idx="1">Divided</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">rebels</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Divided</governor>
+            <dependent idx="3">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">leadership</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">leadership</governor>
+            <dependent idx="6">joint</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">agree</governor>
+            <dependent idx="7">leadership</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">agree</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">agree</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="4">agree</governor>
+            <dependent idx="1">Divided</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">rebels</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Divided</governor>
+            <dependent idx="3">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">leadership</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">leadership</governor>
+            <dependent idx="6">joint</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">agree</governor>
+            <dependent idx="7">leadership</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">agree</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">agree</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="4">agree</governor>
+            <dependent idx="1">Divided</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">rebels</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Divided</governor>
+            <dependent idx="3">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">leadership</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">leadership</governor>
+            <dependent idx="6">joint</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">agree</governor>
+            <dependent idx="7">leadership</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">agree</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

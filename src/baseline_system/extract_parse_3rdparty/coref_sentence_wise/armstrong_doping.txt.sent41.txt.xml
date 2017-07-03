@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Atlanta</word>
+            <lemma>Atlanta</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>GA</word>
+            <lemma>ga</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>WXIA</word>
+            <lemma>WXIA</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>USADA</word>
+            <lemma>USADA</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>issues</word>
+            <lemma>issue</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>scathing</word>
+            <lemma>scathing</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>doping</word>
+            <lemma>doping</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>report</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (NNP Atlanta)) (RRC (ADVP (RB ()) (NP (NN GA) (CD ))))) (NP (NNP WXIA))) (: :) (S (NP (NNP USADA) (NNS issues)) (NP (NP (JJ scathing) (NN doping) (NN report)) (PP (IN on) (NP (NNP Lance) (NNP Armstrong))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">WXIA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="1">Atlanta</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">GA</governor>
+            <dependent idx="2">(</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="1">Atlanta</governor>
+            <dependent idx="3">GA</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="3">GA</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">issues</governor>
+            <dependent idx="7">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">report</governor>
+            <dependent idx="8">issues</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">report</governor>
+            <dependent idx="9">scathing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">report</governor>
+            <dependent idx="10">doping</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="11">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="13">Lance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">report</governor>
+            <dependent idx="14">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">WXIA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="1">Atlanta</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">GA</governor>
+            <dependent idx="2">(</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="1">Atlanta</governor>
+            <dependent idx="3">GA</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="3">GA</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">issues</governor>
+            <dependent idx="7">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">report</governor>
+            <dependent idx="8">issues</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">report</governor>
+            <dependent idx="9">scathing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">report</governor>
+            <dependent idx="10">doping</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="11">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="13">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="11">report</governor>
+            <dependent idx="14">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">WXIA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="1">Atlanta</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">GA</governor>
+            <dependent idx="2">(</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="1">Atlanta</governor>
+            <dependent idx="3">GA</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="3">GA</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">issues</governor>
+            <dependent idx="7">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">report</governor>
+            <dependent idx="8">issues</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">report</governor>
+            <dependent idx="9">scathing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">report</governor>
+            <dependent idx="10">doping</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="11">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="13">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="11">report</governor>
+            <dependent idx="14">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">WXIA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="1">Atlanta</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">GA</governor>
+            <dependent idx="2">(</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="1">Atlanta</governor>
+            <dependent idx="3">GA</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="3">GA</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">issues</governor>
+            <dependent idx="7">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">report</governor>
+            <dependent idx="8">issues</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">report</governor>
+            <dependent idx="9">scathing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">report</governor>
+            <dependent idx="10">doping</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="11">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="13">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="11">report</governor>
+            <dependent idx="14">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">WXIA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="1">Atlanta</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">GA</governor>
+            <dependent idx="2">(</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="1">Atlanta</governor>
+            <dependent idx="3">GA</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="3">GA</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">issues</governor>
+            <dependent idx="7">USADA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">report</governor>
+            <dependent idx="8">issues</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">report</governor>
+            <dependent idx="9">scathing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">report</governor>
+            <dependent idx="10">doping</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="11">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Armstrong</governor>
+            <dependent idx="13">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="11">report</governor>
+            <dependent idx="14">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">WXIA</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

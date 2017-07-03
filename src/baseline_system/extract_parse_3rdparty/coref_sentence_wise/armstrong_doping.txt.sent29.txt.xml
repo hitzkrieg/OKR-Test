@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>USADA</word>
+            <lemma>USADA</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>release</word>
+            <lemma>release</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>file</word>
+            <lemma>file</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>US</word>
+            <lemma>US</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Postal</word>
+            <lemma>postal</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>doping</word>
+            <lemma>doping</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP USADA)) (VP (TO to) (VP (VB release) (NP (NN file)) (PP (IN on) (NP (NP (NNP Lance) (NNP Armstrong)) (CC and) (NP (NNP US) (JJ Postal) (NN doping)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">release</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">release</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">release</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">release</governor>
+            <dependent idx="4">file</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">release</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">doping</governor>
+            <dependent idx="9">US</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">doping</governor>
+            <dependent idx="10">Postal</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">release</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">release</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">release</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">release</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">release</governor>
+            <dependent idx="4">file</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">release</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">doping</governor>
+            <dependent idx="9">US</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">doping</governor>
+            <dependent idx="10">Postal</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">release</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">release</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">release</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">release</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">release</governor>
+            <dependent idx="4">file</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">release</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">doping</governor>
+            <dependent idx="9">US</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">doping</governor>
+            <dependent idx="10">Postal</dependent>
+          </dep>
+          <dep type="nmod:on" extra="true">
+            <governor idx="3">release</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">release</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">release</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">release</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">release</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">release</governor>
+            <dependent idx="4">file</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">release</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">doping</governor>
+            <dependent idx="9">US</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">doping</governor>
+            <dependent idx="10">Postal</dependent>
+          </dep>
+          <dep type="nmod:on" extra="true">
+            <governor idx="3">release</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">release</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">release</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">release</governor>
+            <dependent idx="1">USADA</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">release</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">release</governor>
+            <dependent idx="4">file</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="6">Lance</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="3">release</governor>
+            <dependent idx="7">Armstrong</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">doping</governor>
+            <dependent idx="9">US</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">doping</governor>
+            <dependent idx="10">Postal</dependent>
+          </dep>
+          <dep type="nmod:on" extra="true">
+            <governor idx="3">release</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">Armstrong</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">release</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

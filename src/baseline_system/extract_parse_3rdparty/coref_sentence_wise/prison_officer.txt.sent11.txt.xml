@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>MSN</word>
+            <lemma>MSN</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>today</word>
+            <lemma>today</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="4">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>officer</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>shot</word>
+            <lemma>shot</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>dead</word>
+            <lemma>dead</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>ambush</word>
+            <lemma>ambush</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (PP (IN On) (NP (NNP MSN) (NN today))) (: -) (NP (NP (NN Prison) (NN officer) (NN shot)) (ADJP (JJ dead)) (PP (IN in) (NP (NN ambush)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">today</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">today</governor>
+            <dependent idx="2">MSN</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">shot</governor>
+            <dependent idx="3">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="4">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="5">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="6">officer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">shot</governor>
+            <dependent idx="8">dead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">ambush</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">shot</governor>
+            <dependent idx="10">ambush</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">today</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">today</governor>
+            <dependent idx="2">MSN</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">shot</governor>
+            <dependent idx="3">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="4">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="5">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="6">officer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">shot</governor>
+            <dependent idx="8">dead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">ambush</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">shot</governor>
+            <dependent idx="10">ambush</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">today</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">today</governor>
+            <dependent idx="2">MSN</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">shot</governor>
+            <dependent idx="3">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="4">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="5">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="6">officer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">shot</governor>
+            <dependent idx="8">dead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">ambush</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">shot</governor>
+            <dependent idx="10">ambush</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">today</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">today</governor>
+            <dependent idx="2">MSN</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">shot</governor>
+            <dependent idx="3">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="4">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="5">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="6">officer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">shot</governor>
+            <dependent idx="8">dead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">ambush</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">shot</governor>
+            <dependent idx="10">ambush</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">today</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">today</governor>
+            <dependent idx="2">MSN</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">shot</governor>
+            <dependent idx="3">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="4">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="5">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">shot</governor>
+            <dependent idx="6">officer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">shot</governor>
+            <dependent idx="8">dead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">ambush</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">shot</governor>
+            <dependent idx="10">ambush</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">shot</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

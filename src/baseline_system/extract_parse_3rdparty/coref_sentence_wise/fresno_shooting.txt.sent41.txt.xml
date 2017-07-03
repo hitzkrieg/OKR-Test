@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>1</word>
+            <lemma>1</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>dead</word>
+            <lemma>dead</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>4</word>
+            <lemma>4</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>wounded</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>after</word>
+            <lemma>after</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>shooting</word>
+            <lemma>shoot</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>rampage</word>
+            <lemma>rampage</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>chicken</word>
+            <lemma>chicken</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>|</word>
+            <lemma>|</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (CD 1)) (ADJP (JJ dead))) (, ,) (NP (NP (CD 4)) (VP (VBN wounded) (PP (IN after) (S (VP (VBG shooting) (NP (NN rampage)) (PP (IN at) (NP (NP (NNP Fresno)) (NP (NN chicken) (NN plant) (NN |))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">1</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">1</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">shooting</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">shooting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">shooting</governor>
+            <dependent idx="8">rampage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">shooting</governor>
+            <dependent idx="10">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="11">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="13">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">1</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">1</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">shooting</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">shooting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">shooting</governor>
+            <dependent idx="8">rampage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">shooting</governor>
+            <dependent idx="10">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="11">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="13">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">1</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">1</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">shooting</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">shooting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">shooting</governor>
+            <dependent idx="8">rampage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">shooting</governor>
+            <dependent idx="10">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="11">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="13">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">1</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">1</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">shooting</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="advcl:after">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">shooting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">shooting</governor>
+            <dependent idx="8">rampage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">shooting</governor>
+            <dependent idx="10">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="11">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="13">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">1</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">1</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">1</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">4</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">shooting</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="advcl:after">
+            <governor idx="5">wounded</governor>
+            <dependent idx="7">shooting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">shooting</governor>
+            <dependent idx="8">rampage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">shooting</governor>
+            <dependent idx="10">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="11">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">|</governor>
+            <dependent idx="12">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Fresno</governor>
+            <dependent idx="13">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">1</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

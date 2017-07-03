@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>US-</word>
+            <lemma>us-</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Anti-doping</word>
+            <lemma>anti-doping</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>agency</word>
+            <lemma>agency</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>strengthens</word>
+            <lemma>strengthen</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>case</word>
+            <lemma>case</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>against</word>
+            <lemma>against</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Cycling</word>
+            <lemma>Cycling</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>legend</word>
+            <lemma>legend</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>s</word>
+            <lemma>s</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ US-) (NN Anti-doping) (NN agency)) (VP (VBZ strengthens) (NP (NP (NN case)) (PP (IN against) (NP (NP (NNP Lance) (NNP Armstrong) (NNP Cycling) (NN legend) (NNP Lance) (NNP Armstrong)) (NP (NNS s)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">strengthens</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">agency</governor>
+            <dependent idx="1">US-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">agency</governor>
+            <dependent idx="2">Anti-doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="3">agency</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="5">case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="6">against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="7">Lance</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="8">Armstrong</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="9">Cycling</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">legend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="13">s</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">strengthens</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">agency</governor>
+            <dependent idx="1">US-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">agency</governor>
+            <dependent idx="2">Anti-doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="3">agency</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="5">case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="6">against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="7">Lance</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="8">Armstrong</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="9">Cycling</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">legend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="5">case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="13">s</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">strengthens</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">agency</governor>
+            <dependent idx="1">US-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">agency</governor>
+            <dependent idx="2">Anti-doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="3">agency</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="5">case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="6">against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="7">Lance</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="8">Armstrong</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="9">Cycling</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">legend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="5">case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="13">s</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">strengthens</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">agency</governor>
+            <dependent idx="1">US-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">agency</governor>
+            <dependent idx="2">Anti-doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="3">agency</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="5">case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="6">against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="7">Lance</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="8">Armstrong</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="9">Cycling</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">legend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="5">case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="13">s</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">strengthens</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">agency</governor>
+            <dependent idx="1">US-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">agency</governor>
+            <dependent idx="2">Anti-doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="3">agency</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="5">case</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="6">against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="7">Lance</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="8">Armstrong</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="9">Cycling</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="10">legend</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="11">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="5">case</governor>
+            <dependent idx="12">Armstrong</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Armstrong</governor>
+            <dependent idx="13">s</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">strengthens</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

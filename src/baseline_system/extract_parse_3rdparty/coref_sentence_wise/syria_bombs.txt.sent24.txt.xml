@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>air</word>
+            <lemma>air</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>force</word>
+            <lemma>force</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>pilot</word>
+            <lemma>pilot</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>explains</word>
+            <lemma>explain</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>why</word>
+            <lemma>why</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>bombed</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>civilians</word>
+            <lemma>civilian</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (JJ Syrian) (NN air) (NN force) (NN pilot)) (VP (VBZ explains) (SBAR (WHADVP (WRB why)) (S (NP (PRP he)) (VP (VBD bombed) (NP (NNS civilians)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">explains</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">pilot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pilot</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="3">air</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="4">force</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">explains</governor>
+            <dependent idx="5">pilot</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">bombed</governor>
+            <dependent idx="7">why</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">explains</governor>
+            <dependent idx="9">bombed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="10">civilians</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">explains</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">explains</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">pilot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pilot</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="3">air</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="4">force</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">explains</governor>
+            <dependent idx="5">pilot</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">bombed</governor>
+            <dependent idx="7">why</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">explains</governor>
+            <dependent idx="9">bombed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="10">civilians</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">explains</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">explains</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">pilot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pilot</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="3">air</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="4">force</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">explains</governor>
+            <dependent idx="5">pilot</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">bombed</governor>
+            <dependent idx="7">why</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">explains</governor>
+            <dependent idx="9">bombed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="10">civilians</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">explains</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">explains</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">pilot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pilot</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="3">air</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="4">force</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">explains</governor>
+            <dependent idx="5">pilot</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">bombed</governor>
+            <dependent idx="7">why</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">explains</governor>
+            <dependent idx="9">bombed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="10">civilians</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">explains</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">explains</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">pilot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pilot</governor>
+            <dependent idx="2">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="3">air</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pilot</governor>
+            <dependent idx="4">force</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">explains</governor>
+            <dependent idx="5">pilot</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">bombed</governor>
+            <dependent idx="7">why</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">explains</governor>
+            <dependent idx="9">bombed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">bombed</governor>
+            <dependent idx="10">civilians</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">explains</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>6</end>
+          <head>5</head>
+          <text>A Syrian air force pilot</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

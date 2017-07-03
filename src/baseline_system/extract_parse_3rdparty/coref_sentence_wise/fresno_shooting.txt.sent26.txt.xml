@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>People</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>commit</word>
+            <lemma>commit</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>suicide</word>
+            <lemma>suicide</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS People)) (PP (IN in) (NP (NNP Fresno)))) (VP (VB commit) (NP (NN suicide))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">commit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">commit</governor>
+            <dependent idx="1">People</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Fresno</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">People</governor>
+            <dependent idx="3">Fresno</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">commit</governor>
+            <dependent idx="5">suicide</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">commit</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">commit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">commit</governor>
+            <dependent idx="1">People</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Fresno</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">People</governor>
+            <dependent idx="3">Fresno</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">commit</governor>
+            <dependent idx="5">suicide</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">commit</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">commit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">commit</governor>
+            <dependent idx="1">People</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Fresno</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">People</governor>
+            <dependent idx="3">Fresno</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">commit</governor>
+            <dependent idx="5">suicide</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">commit</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">commit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">commit</governor>
+            <dependent idx="1">People</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Fresno</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">People</governor>
+            <dependent idx="3">Fresno</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">commit</governor>
+            <dependent idx="5">suicide</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">commit</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">commit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">commit</governor>
+            <dependent idx="1">People</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Fresno</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">People</governor>
+            <dependent idx="3">Fresno</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">commit</governor>
+            <dependent idx="5">suicide</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">commit</governor>
+            <dependent idx="6">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>catch</word>
+            <lemma>catch</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>few</word>
+            <lemma>few</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>bodies</word>
+            <lemma>body</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>first</word>
+            <lemma>first</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (VP (VB catch) (NP (DT a) (JJ few) (NNS bodies)) (ADVP (RB first))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">catch</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">catch</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">bodies</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">catch</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">catch</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">catch</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">catch</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">catch</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">bodies</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">catch</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">catch</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">catch</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">catch</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">catch</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">bodies</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">catch</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">catch</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">catch</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">catch</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">catch</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">bodies</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">catch</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">catch</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">catch</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">catch</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">catch</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">bodies</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">catch</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">catch</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">catch</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

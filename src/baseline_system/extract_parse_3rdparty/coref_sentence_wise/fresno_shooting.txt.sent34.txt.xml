@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Death</word>
+            <lemma>death</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>toll</word>
+            <lemma>toll</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>rises</word>
+            <lemma>rise</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>three</word>
+            <lemma>three</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>chicken</word>
+            <lemma>chicken</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>shooting</word>
+            <lemma>shooting</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN Death) (NN toll)) (VP (VBZ rises) (PP (TO to) (NP (CD three))) (PP (IN in) (NP (NP (NNP Fresno)) (NP (NN chicken) (NN plant) (NN shooting))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rises</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">toll</governor>
+            <dependent idx="1">Death</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rises</governor>
+            <dependent idx="2">toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">three</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">rises</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">rises</governor>
+            <dependent idx="7">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rises</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rises</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">toll</governor>
+            <dependent idx="1">Death</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rises</governor>
+            <dependent idx="2">toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">three</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">rises</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">rises</governor>
+            <dependent idx="7">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rises</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rises</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">toll</governor>
+            <dependent idx="1">Death</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rises</governor>
+            <dependent idx="2">toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">three</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">rises</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">rises</governor>
+            <dependent idx="7">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rises</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rises</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">toll</governor>
+            <dependent idx="1">Death</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rises</governor>
+            <dependent idx="2">toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">three</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">rises</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">rises</governor>
+            <dependent idx="7">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rises</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rises</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">toll</governor>
+            <dependent idx="1">Death</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rises</governor>
+            <dependent idx="2">toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">three</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">rises</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">rises</governor>
+            <dependent idx="7">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">chicken</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">plant</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Fresno</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rises</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

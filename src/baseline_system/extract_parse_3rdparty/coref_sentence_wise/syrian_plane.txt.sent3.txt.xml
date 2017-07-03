@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Turkey</word>
+            <lemma>Turkey</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Escalates</word>
+            <lemma>escalate</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Confrontation</word>
+            <lemma>confrontation</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Syria</word>
+            <lemma>Syria</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Forcing</word>
+            <lemma>Forcing</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Plane</word>
+            <lemma>plane</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Land</word>
+            <lemma>Land</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Turkey)) (VP (VBZ Escalates) (NP (NN Confrontation)) (PP (IN with) (NP (NP (NNP Syria)) (, ,) (NP (NP (NNP Forcing) (JJ Syrian) (NN Plane)) (PP (TO to) (NP (NNP Land))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalates</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="3">Confrontation</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Syria</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="5">Syria</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Syria</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Plane</governor>
+            <dependent idx="7">Forcing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Plane</governor>
+            <dependent idx="8">Syrian</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Syria</governor>
+            <dependent idx="9">Plane</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">Plane</governor>
+            <dependent idx="11">Land</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalates</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="3">Confrontation</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Syria</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="5">Syria</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Syria</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Plane</governor>
+            <dependent idx="7">Forcing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Plane</governor>
+            <dependent idx="8">Syrian</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Syria</governor>
+            <dependent idx="9">Plane</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">Plane</governor>
+            <dependent idx="11">Land</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalates</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="3">Confrontation</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Syria</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="5">Syria</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Syria</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Plane</governor>
+            <dependent idx="7">Forcing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Plane</governor>
+            <dependent idx="8">Syrian</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Syria</governor>
+            <dependent idx="9">Plane</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">Plane</governor>
+            <dependent idx="11">Land</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalates</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="3">Confrontation</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Syria</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="5">Syria</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Syria</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Plane</governor>
+            <dependent idx="7">Forcing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Plane</governor>
+            <dependent idx="8">Syrian</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Syria</governor>
+            <dependent idx="9">Plane</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">Plane</governor>
+            <dependent idx="11">Land</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalates</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="3">Confrontation</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Syria</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="5">Syria</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Syria</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Plane</governor>
+            <dependent idx="7">Forcing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Plane</governor>
+            <dependent idx="8">Syrian</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Syria</governor>
+            <dependent idx="9">Plane</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Land</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">Plane</governor>
+            <dependent idx="11">Land</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalates</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

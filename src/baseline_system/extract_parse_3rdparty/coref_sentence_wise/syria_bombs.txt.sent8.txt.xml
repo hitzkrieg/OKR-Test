@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>airstrikes</word>
+            <lemma>airstrike</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>kill</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>least</word>
+            <lemma>least</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>43</word>
+            <lemma>43</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;=43.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Oct</word>
+            <lemma>oct</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-10-19</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-10-19</Timex>
+          </token>
+          <token id="9">
+            <word>19</word>
+            <lemma>19</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-10-19</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-10-19</Timex>
+          </token>
+          <token id="10">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>6:59</word>
+            <lemma>6:59</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T06:59</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="TIME">T06:59</Timex>
+          </token>
+          <token id="12">
+            <word>AM</word>
+            <lemma>AM</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T06:59</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="TIME">T06:59</Timex>
+          </token>
+          <token id="13">
+            <word>ET</word>
+            <lemma>ET</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Syrian) (NNS airstrikes)) (VP (VBP kill) (NP (NP (QP (IN at) (JJS least) (CD 43))) (: -) (NP (NP (NN Oct)) (NP (CD 19)))) (FRAG (X (X (SYM @)) (NP (CD 6:59))) (NP (NNP AM) (NNP ET)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">kill</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">airstrikes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">kill</governor>
+            <dependent idx="2">airstrikes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">43</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">kill</governor>
+            <dependent idx="6">43</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">43</governor>
+            <dependent idx="7">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">43</governor>
+            <dependent idx="8">Oct</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Oct</governor>
+            <dependent idx="9">19</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">6:59</governor>
+            <dependent idx="10">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ET</governor>
+            <dependent idx="11">6:59</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">ET</governor>
+            <dependent idx="12">AM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">kill</governor>
+            <dependent idx="13">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">kill</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">kill</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">airstrikes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">kill</governor>
+            <dependent idx="2">airstrikes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">43</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">kill</governor>
+            <dependent idx="6">43</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">43</governor>
+            <dependent idx="7">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">43</governor>
+            <dependent idx="8">Oct</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Oct</governor>
+            <dependent idx="9">19</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">6:59</governor>
+            <dependent idx="10">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ET</governor>
+            <dependent idx="11">6:59</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">ET</governor>
+            <dependent idx="12">AM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">kill</governor>
+            <dependent idx="13">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">kill</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">kill</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">airstrikes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">kill</governor>
+            <dependent idx="2">airstrikes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">43</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">kill</governor>
+            <dependent idx="6">43</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">43</governor>
+            <dependent idx="7">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">43</governor>
+            <dependent idx="8">Oct</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Oct</governor>
+            <dependent idx="9">19</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">6:59</governor>
+            <dependent idx="10">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ET</governor>
+            <dependent idx="11">6:59</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">ET</governor>
+            <dependent idx="12">AM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">kill</governor>
+            <dependent idx="13">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">kill</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">kill</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">airstrikes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">kill</governor>
+            <dependent idx="2">airstrikes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">43</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">kill</governor>
+            <dependent idx="6">43</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">43</governor>
+            <dependent idx="7">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">43</governor>
+            <dependent idx="8">Oct</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Oct</governor>
+            <dependent idx="9">19</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">6:59</governor>
+            <dependent idx="10">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ET</governor>
+            <dependent idx="11">6:59</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">ET</governor>
+            <dependent idx="12">AM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">kill</governor>
+            <dependent idx="13">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">kill</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">kill</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">airstrikes</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">kill</governor>
+            <dependent idx="2">airstrikes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">43</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">kill</governor>
+            <dependent idx="6">43</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">43</governor>
+            <dependent idx="7">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">43</governor>
+            <dependent idx="8">Oct</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Oct</governor>
+            <dependent idx="9">19</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">6:59</governor>
+            <dependent idx="10">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ET</governor>
+            <dependent idx="11">6:59</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">ET</governor>
+            <dependent idx="12">AM</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">kill</governor>
+            <dependent idx="13">ET</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">kill</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

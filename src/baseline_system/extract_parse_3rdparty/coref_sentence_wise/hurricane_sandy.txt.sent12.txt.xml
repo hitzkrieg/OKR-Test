@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Hurricane</word>
+            <lemma>Hurricane</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>sandy</word>
+            <lemma>sandy</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>flooded</word>
+            <lemma>flood</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>some</word>
+            <lemma>some</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>parts</word>
+            <lemma>part</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Jersey</word>
+            <lemma>Jersey</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>area</word>
+            <lemma>area</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>yesterday</word>
+            <lemma>yesterday</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P-1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Hurricane) (JJ sandy)) (VP (VBD flooded) (NP (NP (DT some) (NNS parts)) (PP (IN of) (NP (JJ new) (NNP Jersey) (NN area)))) (NP-TMP (NN yesterday))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">flooded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Hurricane</governor>
+            <dependent idx="2">sandy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">parts</governor>
+            <dependent idx="4">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="5">parts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">area</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">area</governor>
+            <dependent idx="7">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">area</governor>
+            <dependent idx="8">Jersey</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">parts</governor>
+            <dependent idx="9">area</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="3">flooded</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">flooded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">flooded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Hurricane</governor>
+            <dependent idx="2">sandy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">parts</governor>
+            <dependent idx="4">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="5">parts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">area</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">area</governor>
+            <dependent idx="7">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">area</governor>
+            <dependent idx="8">Jersey</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">parts</governor>
+            <dependent idx="9">area</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="3">flooded</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">flooded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">flooded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Hurricane</governor>
+            <dependent idx="2">sandy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">parts</governor>
+            <dependent idx="4">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="5">parts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">area</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">area</governor>
+            <dependent idx="7">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">area</governor>
+            <dependent idx="8">Jersey</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">parts</governor>
+            <dependent idx="9">area</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="3">flooded</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">flooded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">flooded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Hurricane</governor>
+            <dependent idx="2">sandy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">parts</governor>
+            <dependent idx="4">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="5">parts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">area</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">area</governor>
+            <dependent idx="7">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">area</governor>
+            <dependent idx="8">Jersey</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">parts</governor>
+            <dependent idx="9">area</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="3">flooded</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">flooded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">flooded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Hurricane</governor>
+            <dependent idx="2">sandy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">parts</governor>
+            <dependent idx="4">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">flooded</governor>
+            <dependent idx="5">parts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">area</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">area</governor>
+            <dependent idx="7">new</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">area</governor>
+            <dependent idx="8">Jersey</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">parts</governor>
+            <dependent idx="9">area</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="3">flooded</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">flooded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

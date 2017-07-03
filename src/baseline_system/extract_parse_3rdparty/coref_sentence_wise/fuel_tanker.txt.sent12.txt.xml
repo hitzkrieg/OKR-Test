@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Saudi</word>
+            <lemma>Saudi</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Arabia</word>
+            <lemma>Arabia</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Truck</word>
+            <lemma>Truck</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Crash</word>
+            <lemma>Crash</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Triggers</word>
+            <lemma>trigger</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Explosion</word>
+            <lemma>Explosion</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>That</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Levels</word>
+            <lemma>level</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Building</word>
+            <lemma>building</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Killing</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>10</word>
+            <lemma>10</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>10.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>VIDEO</word>
+            <lemma>video</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Saudi) (NNP Arabia)) (: :) (S (NP (NN Fuel) (NNP Truck) (NNP Crash)) (VP (VBZ Triggers) (S (NP (NNP Explosion)) (NP (DT That) (NNS Levels) (NN Building))) (, ,) (S (VP (VBG Killing) (NP (QP (CD 10) (CD ()) (NN VIDEO) (NN ))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Arabia</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="4">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="5">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="6">Crash</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="7">Triggers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Building</governor>
+            <dependent idx="8">Explosion</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Building</governor>
+            <dependent idx="9">That</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Building</governor>
+            <dependent idx="10">Levels</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="11">Building</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">(</governor>
+            <dependent idx="14">10</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="17">)</governor>
+            <dependent idx="15">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">)</governor>
+            <dependent idx="16">VIDEO</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">Killing</governor>
+            <dependent idx="17">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Arabia</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="4">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="5">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="6">Crash</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="7">Triggers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Building</governor>
+            <dependent idx="8">Explosion</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Building</governor>
+            <dependent idx="9">That</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Building</governor>
+            <dependent idx="10">Levels</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="11">Building</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">(</governor>
+            <dependent idx="14">10</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="17">)</governor>
+            <dependent idx="15">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">)</governor>
+            <dependent idx="16">VIDEO</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">Killing</governor>
+            <dependent idx="17">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Arabia</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="4">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="5">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="6">Crash</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="7">Triggers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Building</governor>
+            <dependent idx="8">Explosion</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Building</governor>
+            <dependent idx="9">That</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Building</governor>
+            <dependent idx="10">Levels</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="11">Building</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">(</governor>
+            <dependent idx="14">10</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="17">)</governor>
+            <dependent idx="15">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">)</governor>
+            <dependent idx="16">VIDEO</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">Killing</governor>
+            <dependent idx="17">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Arabia</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="4">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="5">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="6">Crash</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="7">Triggers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Building</governor>
+            <dependent idx="8">Explosion</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Building</governor>
+            <dependent idx="9">That</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Building</governor>
+            <dependent idx="10">Levels</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="11">Building</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">(</governor>
+            <dependent idx="14">10</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="17">)</governor>
+            <dependent idx="15">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">)</governor>
+            <dependent idx="16">VIDEO</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">Killing</governor>
+            <dependent idx="17">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Arabia</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="1">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="4">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Crash</governor>
+            <dependent idx="5">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="6">Crash</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="7">Triggers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Building</governor>
+            <dependent idx="8">Explosion</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Building</governor>
+            <dependent idx="9">That</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Building</governor>
+            <dependent idx="10">Levels</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="11">Building</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">Triggers</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">(</governor>
+            <dependent idx="14">10</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="17">)</governor>
+            <dependent idx="15">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">)</governor>
+            <dependent idx="16">VIDEO</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">Killing</governor>
+            <dependent idx="17">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Arabia</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

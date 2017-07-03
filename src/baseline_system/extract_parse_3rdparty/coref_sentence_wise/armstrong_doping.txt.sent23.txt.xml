@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Doping</word>
+            <lemma>Doping</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Agency</word>
+            <lemma>Agency</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Says</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>11</word>
+            <lemma>11</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Teammates</word>
+            <lemma>teammate</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Testified</word>
+            <lemma>testify</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Against</word>
+            <lemma>against</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Doping) (NNP Agency)) (VP (VBZ Says) (SBAR (S (NP (CD 11) (NNS Teammates)) (VP (VBD Testified) (PP (IN Against) (NP (NNP Lance) (NNP Armstrong))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">Teammates</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Testified</governor>
+            <dependent idx="5">Teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Says</governor>
+            <dependent idx="6">Testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="7">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="8">Lance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">Testified</governor>
+            <dependent idx="9">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Says</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">Teammates</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Testified</governor>
+            <dependent idx="5">Teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Says</governor>
+            <dependent idx="6">Testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="7">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="8">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="6">Testified</governor>
+            <dependent idx="9">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Says</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">Teammates</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Testified</governor>
+            <dependent idx="5">Teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Says</governor>
+            <dependent idx="6">Testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="7">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="8">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="6">Testified</governor>
+            <dependent idx="9">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Says</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">Teammates</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Testified</governor>
+            <dependent idx="5">Teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Says</governor>
+            <dependent idx="6">Testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="7">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="8">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="6">Testified</governor>
+            <dependent idx="9">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Says</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Says</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Agency</governor>
+            <dependent idx="1">Doping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Says</governor>
+            <dependent idx="2">Agency</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">Teammates</governor>
+            <dependent idx="4">11</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Testified</governor>
+            <dependent idx="5">Teammates</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Says</governor>
+            <dependent idx="6">Testified</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="7">Against</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Armstrong</governor>
+            <dependent idx="8">Lance</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="6">Testified</governor>
+            <dependent idx="9">Armstrong</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Says</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

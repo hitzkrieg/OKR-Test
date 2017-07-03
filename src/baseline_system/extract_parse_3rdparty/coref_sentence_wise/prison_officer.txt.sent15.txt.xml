@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>shock</word>
+            <lemma>shock</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>!</word>
+            <lemma>!</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (PP (IN In) (NP (NN shock))) (. !))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shock</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">shock</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shock</governor>
+            <dependent idx="3">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shock</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">shock</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shock</governor>
+            <dependent idx="3">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shock</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">shock</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shock</governor>
+            <dependent idx="3">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shock</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">shock</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shock</governor>
+            <dependent idx="3">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shock</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">shock</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">shock</governor>
+            <dependent idx="3">!</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>horrific</word>
+            <lemma>horrific</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>poor</word>
+            <lemma>poor</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>officers</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>family</word>
+            <lemma>family</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (JJ horrific)) (PP (IN that) (NP (JJ poor) (NN prison) (NNS officers) (NN family))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">horrific</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">family</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">family</governor>
+            <dependent idx="3">poor</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="4">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="5">officers</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">horrific</governor>
+            <dependent idx="6">family</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">horrific</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">horrific</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">family</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">family</governor>
+            <dependent idx="3">poor</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="4">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="5">officers</dependent>
+          </dep>
+          <dep type="nmod:that">
+            <governor idx="1">horrific</governor>
+            <dependent idx="6">family</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">horrific</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">horrific</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">family</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">family</governor>
+            <dependent idx="3">poor</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="4">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="5">officers</dependent>
+          </dep>
+          <dep type="nmod:that">
+            <governor idx="1">horrific</governor>
+            <dependent idx="6">family</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">horrific</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">horrific</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">family</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">family</governor>
+            <dependent idx="3">poor</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="4">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="5">officers</dependent>
+          </dep>
+          <dep type="nmod:that">
+            <governor idx="1">horrific</governor>
+            <dependent idx="6">family</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">horrific</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">horrific</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">family</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">family</governor>
+            <dependent idx="3">poor</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="4">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">family</governor>
+            <dependent idx="5">officers</dependent>
+          </dep>
+          <dep type="nmod:that">
+            <governor idx="1">horrific</governor>
+            <dependent idx="6">family</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">horrific</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

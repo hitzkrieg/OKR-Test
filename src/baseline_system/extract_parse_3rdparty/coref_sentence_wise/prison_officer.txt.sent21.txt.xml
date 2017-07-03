@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>officer</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>gets</word>
+            <lemma>get</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>stiffed</word>
+            <lemma>stiff</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN Prison) (NN officer)) (VP (VBZ gets) (VP (VBN stiffed))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">stiffed</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">stiffed</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">stiffed</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">stiffed</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">stiffed</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">stiffed</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

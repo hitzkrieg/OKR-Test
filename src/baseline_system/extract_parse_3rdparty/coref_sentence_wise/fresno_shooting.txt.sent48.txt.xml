@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Central</word>
+            <lemma>Central</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>East</word>
+            <lemma>East</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Chiropractic</word>
+            <lemma>Chiropractic</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>offers</word>
+            <lemma>offer</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>help</word>
+            <lemma>help</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>pain</word>
+            <lemma>pain</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>relief</word>
+            <lemma>relief</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>wellness</word>
+            <lemma>wellness</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Central) (NNP East) (NNP Chiropractic)) (VP (VBZ offers) (NP (NP (NN help)) (PP (IN with) (NP (NN pain) (NN relief) (CC and) (NN wellness)))) (PP (IN in) (NP (NNP Fresno)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">offers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="2">East</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">offers</governor>
+            <dependent idx="3">Chiropractic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offers</governor>
+            <dependent idx="5">help</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">relief</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">relief</governor>
+            <dependent idx="7">pain</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">help</governor>
+            <dependent idx="8">relief</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">relief</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">relief</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Fresno</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">offers</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">offers</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">offers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="2">East</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">offers</governor>
+            <dependent idx="3">Chiropractic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offers</governor>
+            <dependent idx="5">help</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">relief</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">relief</governor>
+            <dependent idx="7">pain</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="5">help</governor>
+            <dependent idx="8">relief</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">relief</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">relief</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Fresno</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">offers</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">offers</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">offers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="2">East</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">offers</governor>
+            <dependent idx="3">Chiropractic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offers</governor>
+            <dependent idx="5">help</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">relief</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">relief</governor>
+            <dependent idx="7">pain</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="5">help</governor>
+            <dependent idx="8">relief</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">relief</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:with" extra="true">
+            <governor idx="5">help</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">relief</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Fresno</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">offers</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">offers</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">offers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="2">East</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">offers</governor>
+            <dependent idx="3">Chiropractic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offers</governor>
+            <dependent idx="5">help</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">relief</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">relief</governor>
+            <dependent idx="7">pain</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="5">help</governor>
+            <dependent idx="8">relief</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">relief</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:with" extra="true">
+            <governor idx="5">help</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">relief</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Fresno</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">offers</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">offers</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">offers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Chiropractic</governor>
+            <dependent idx="2">East</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">offers</governor>
+            <dependent idx="3">Chiropractic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offers</governor>
+            <dependent idx="5">help</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">relief</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">relief</governor>
+            <dependent idx="7">pain</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="5">help</governor>
+            <dependent idx="8">relief</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">relief</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:with" extra="true">
+            <governor idx="5">help</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">relief</governor>
+            <dependent idx="10">wellness</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Fresno</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">offers</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">offers</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

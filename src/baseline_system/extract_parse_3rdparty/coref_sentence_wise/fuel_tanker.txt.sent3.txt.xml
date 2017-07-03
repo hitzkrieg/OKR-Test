@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Gas</word>
+            <lemma>gas</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>explosion</word>
+            <lemma>explosion</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>eastern</word>
+            <lemma>eastern</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NN Gas) (NN explosion)) (NP (JJ eastern) (NNP Riyadh)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explosion</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">explosion</governor>
+            <dependent idx="1">Gas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">eastern</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">explosion</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explosion</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explosion</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">explosion</governor>
+            <dependent idx="1">Gas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">eastern</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">explosion</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explosion</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explosion</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">explosion</governor>
+            <dependent idx="1">Gas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">eastern</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">explosion</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explosion</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explosion</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">explosion</governor>
+            <dependent idx="1">Gas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">eastern</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">explosion</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explosion</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explosion</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">explosion</governor>
+            <dependent idx="1">Gas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">eastern</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">explosion</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explosion</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>route</word>
+            <lemma>route</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Damamm</word>
+            <lemma>Damamm</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>morbidly</word>
+            <lemma>morbidly</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>dark</word>
+            <lemma>dark</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN route)) (PP (IN from) (NP (NP (NNP Riyadh)) (PP (TO to) (NP (NNP Damamm)))))) (VP (VBZ is) (ADJP (RB morbidly) (JJ dark))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">dark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">route</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">dark</governor>
+            <dependent idx="2">route</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">route</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Damamm</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="6">Damamm</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">dark</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">dark</governor>
+            <dependent idx="8">morbidly</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">dark</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">dark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">route</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">dark</governor>
+            <dependent idx="2">route</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="2">route</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Damamm</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="6">Damamm</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">dark</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">dark</governor>
+            <dependent idx="8">morbidly</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">dark</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">dark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">route</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">dark</governor>
+            <dependent idx="2">route</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="2">route</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Damamm</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="6">Damamm</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">dark</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">dark</governor>
+            <dependent idx="8">morbidly</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">dark</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">dark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">route</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">dark</governor>
+            <dependent idx="2">route</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="2">route</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Damamm</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="6">Damamm</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">dark</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">dark</governor>
+            <dependent idx="8">morbidly</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">dark</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">dark</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">route</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">dark</governor>
+            <dependent idx="2">route</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="2">route</governor>
+            <dependent idx="4">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Damamm</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="4">Riyadh</governor>
+            <dependent idx="6">Damamm</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">dark</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">dark</governor>
+            <dependent idx="8">morbidly</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">dark</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

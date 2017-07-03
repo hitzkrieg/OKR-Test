@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Central</word>
+            <lemma>Central</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Figure</word>
+            <lemma>Figure</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Doping</word>
+            <lemma>Doping</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Ring</word>
+            <lemma>Ring</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Officials</word>
+            <lemma>Officials</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Say</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Lance) (NNP Armstrong)) (VP (VBD Was) (NP (NP (NNP Central) (NNP Figure)) (PP (IN in) (NP (NNP Doping) (NNP Ring)))) (, ,) (S (NP (NNP Officials)) (VP (VB Say)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Figure</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Figure</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">Figure</governor>
+            <dependent idx="3">Was</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Figure</governor>
+            <dependent idx="4">Central</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Ring</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Ring</governor>
+            <dependent idx="7">Doping</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">Figure</governor>
+            <dependent idx="8">Ring</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Say</governor>
+            <dependent idx="10">Officials</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Figure</governor>
+            <dependent idx="11">Say</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Figure</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Figure</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">Figure</governor>
+            <dependent idx="3">Was</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Figure</governor>
+            <dependent idx="4">Central</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Ring</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Ring</governor>
+            <dependent idx="7">Doping</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">Figure</governor>
+            <dependent idx="8">Ring</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Say</governor>
+            <dependent idx="10">Officials</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Figure</governor>
+            <dependent idx="11">Say</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Figure</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Figure</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">Figure</governor>
+            <dependent idx="3">Was</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Figure</governor>
+            <dependent idx="4">Central</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Ring</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Ring</governor>
+            <dependent idx="7">Doping</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">Figure</governor>
+            <dependent idx="8">Ring</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Say</governor>
+            <dependent idx="10">Officials</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Figure</governor>
+            <dependent idx="11">Say</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Figure</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Figure</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">Figure</governor>
+            <dependent idx="3">Was</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Figure</governor>
+            <dependent idx="4">Central</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Ring</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Ring</governor>
+            <dependent idx="7">Doping</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">Figure</governor>
+            <dependent idx="8">Ring</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Say</governor>
+            <dependent idx="10">Officials</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Figure</governor>
+            <dependent idx="11">Say</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Figure</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Armstrong</governor>
+            <dependent idx="1">Lance</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Figure</governor>
+            <dependent idx="2">Armstrong</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">Figure</governor>
+            <dependent idx="3">Was</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Figure</governor>
+            <dependent idx="4">Central</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Ring</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Ring</governor>
+            <dependent idx="7">Doping</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">Figure</governor>
+            <dependent idx="8">Ring</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">Say</governor>
+            <dependent idx="10">Officials</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Figure</governor>
+            <dependent idx="11">Say</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Figure</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

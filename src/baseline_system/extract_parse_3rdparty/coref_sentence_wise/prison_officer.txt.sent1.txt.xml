@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>NewsUpdate</word>
+            <lemma>NewsUpdate</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Jakarta</word>
+            <lemma>Jakarta</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Ministers</word>
+            <lemma>Ministers</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>discuss</word>
+            <lemma>discuss</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Northern</word>
+            <lemma>northern</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Ireland</word>
+            <lemma>Ireland</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>officer</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>murder</word>
+            <lemma>murder</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP NewsUpdate) (NNP Jakarta) (NNPS Ministers)) (S (VP (TO to) (VP (VB discuss) (NP (JJ Northern) (NNP Ireland) (NN prison)) (NP (NN officer) (NN murder))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Ministers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="1">NewsUpdate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="2">Jakarta</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">discuss</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="5">discuss</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">prison</governor>
+            <dependent idx="6">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">prison</governor>
+            <dependent idx="7">Ireland</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="8">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">murder</governor>
+            <dependent idx="9">officer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="10">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Ministers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="1">NewsUpdate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="2">Jakarta</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">discuss</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="5">discuss</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">prison</governor>
+            <dependent idx="6">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">prison</governor>
+            <dependent idx="7">Ireland</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="8">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">murder</governor>
+            <dependent idx="9">officer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="10">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Ministers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="1">NewsUpdate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="2">Jakarta</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">discuss</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="5">discuss</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">prison</governor>
+            <dependent idx="6">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">prison</governor>
+            <dependent idx="7">Ireland</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="8">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">murder</governor>
+            <dependent idx="9">officer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="10">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Ministers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="1">NewsUpdate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="2">Jakarta</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">discuss</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="5">discuss</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">prison</governor>
+            <dependent idx="6">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">prison</governor>
+            <dependent idx="7">Ireland</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="8">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">murder</governor>
+            <dependent idx="9">officer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="10">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Ministers</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="1">NewsUpdate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="2">Jakarta</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">discuss</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="5">discuss</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">prison</governor>
+            <dependent idx="6">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">prison</governor>
+            <dependent idx="7">Ireland</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="8">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">murder</governor>
+            <dependent idx="9">officer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">discuss</governor>
+            <dependent idx="10">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Ministers</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

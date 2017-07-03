@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>officer</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>murder</word>
+            <lemma>murder</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>condemned</word>
+            <lemma>condemn</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Ulster</word>
+            <lemma>Ulster</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Herald</word>
+            <lemma>Herald</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (NN Prison) (NN officer) (POS 's)) (NN murder)) (VP (VBD condemned))) (: -) (S (NP (DT The) (NNP Ulster)) (NP (NNP Herald))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">condemned</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">murder</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">officer</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">condemned</governor>
+            <dependent idx="4">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Ulster</governor>
+            <dependent idx="7">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Herald</governor>
+            <dependent idx="8">Ulster</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">condemned</governor>
+            <dependent idx="9">Herald</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">condemned</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">murder</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">officer</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">condemned</governor>
+            <dependent idx="4">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Ulster</governor>
+            <dependent idx="7">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Herald</governor>
+            <dependent idx="8">Ulster</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">condemned</governor>
+            <dependent idx="9">Herald</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">condemned</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">murder</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">officer</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">condemned</governor>
+            <dependent idx="4">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Ulster</governor>
+            <dependent idx="7">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Herald</governor>
+            <dependent idx="8">Ulster</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">condemned</governor>
+            <dependent idx="9">Herald</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">condemned</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">murder</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">officer</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">condemned</governor>
+            <dependent idx="4">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Ulster</governor>
+            <dependent idx="7">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Herald</governor>
+            <dependent idx="8">Ulster</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">condemned</governor>
+            <dependent idx="9">Herald</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">condemned</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">officer</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">murder</governor>
+            <dependent idx="2">officer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">officer</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">condemned</governor>
+            <dependent idx="4">murder</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Ulster</governor>
+            <dependent idx="7">The</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Herald</governor>
+            <dependent idx="8">Ulster</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">condemned</governor>
+            <dependent idx="9">Herald</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">condemned</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Turkey</word>
+            <lemma>Turkey</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Says</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Plane</word>
+            <lemma>plane</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Carried</word>
+            <lemma>carry</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Russian</word>
+            <lemma>russian</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Munitions</word>
+            <lemma>munitions</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Turkey)) (VP (VBZ Says) (SBAR (S (NP (JJ Syrian) (NN Plane)) (VP (VBD Carried) (NP (JJ Russian) (NNS Munitions)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Says</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Says</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Plane</governor>
+            <dependent idx="3">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="4">Plane</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">Says</governor>
+            <dependent idx="5">Carried</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Munitions</governor>
+            <dependent idx="6">Russian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="7">Munitions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Says</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Says</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Plane</governor>
+            <dependent idx="3">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="4">Plane</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">Says</governor>
+            <dependent idx="5">Carried</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Munitions</governor>
+            <dependent idx="6">Russian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="7">Munitions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Says</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Says</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Plane</governor>
+            <dependent idx="3">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="4">Plane</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">Says</governor>
+            <dependent idx="5">Carried</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Munitions</governor>
+            <dependent idx="6">Russian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="7">Munitions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Says</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Says</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Plane</governor>
+            <dependent idx="3">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="4">Plane</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">Says</governor>
+            <dependent idx="5">Carried</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Munitions</governor>
+            <dependent idx="6">Russian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="7">Munitions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Says</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Says</governor>
+            <dependent idx="1">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Plane</governor>
+            <dependent idx="3">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="4">Plane</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">Says</governor>
+            <dependent idx="5">Carried</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Munitions</governor>
+            <dependent idx="6">Russian</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Carried</governor>
+            <dependent idx="7">Munitions</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Says</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

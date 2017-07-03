@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>O_o</word>
+            <lemma>O_o</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>RT</word>
+            <lemma>rt</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>HuffingtonPost</word>
+            <lemma>HuffingtonPost</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>BREAKING</word>
+            <lemma>BREAKING</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Reports</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>mass</word>
+            <lemma>mass</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>shooting</word>
+            <lemma>shooting</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>California</word>
+            <lemma>California</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP O_o) (NN RT)) (PP (IN @) (NP (NNP HuffingtonPost) (NNP BREAKING)))) (: :) (NP (NP (NNS Reports)) (PP (IN of) (NP (NP (NN mass) (NN shooting)) (PP (IN in) (NP (NNP Fresno) (, ,) (NNP California)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">RT</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">RT</governor>
+            <dependent idx="1">O_o</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="4">HuffingtonPost</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">RT</governor>
+            <dependent idx="5">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">RT</governor>
+            <dependent idx="7">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">mass</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">Reports</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">California</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">California</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">California</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">shooting</governor>
+            <dependent idx="14">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">RT</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">RT</governor>
+            <dependent idx="1">O_o</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="4">HuffingtonPost</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">RT</governor>
+            <dependent idx="5">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">RT</governor>
+            <dependent idx="7">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">Reports</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">California</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">California</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">California</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">shooting</governor>
+            <dependent idx="14">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">RT</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">RT</governor>
+            <dependent idx="1">O_o</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="4">HuffingtonPost</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">RT</governor>
+            <dependent idx="5">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">RT</governor>
+            <dependent idx="7">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">Reports</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">California</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">California</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">California</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">shooting</governor>
+            <dependent idx="14">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">RT</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">RT</governor>
+            <dependent idx="1">O_o</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="4">HuffingtonPost</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">RT</governor>
+            <dependent idx="5">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">RT</governor>
+            <dependent idx="7">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">Reports</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">California</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">California</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">California</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">shooting</governor>
+            <dependent idx="14">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">RT</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">RT</governor>
+            <dependent idx="1">O_o</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">BREAKING</governor>
+            <dependent idx="4">HuffingtonPost</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">RT</governor>
+            <dependent idx="5">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">RT</governor>
+            <dependent idx="7">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">shooting</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">shooting</governor>
+            <dependent idx="9">mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">Reports</governor>
+            <dependent idx="10">shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">California</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">California</governor>
+            <dependent idx="12">Fresno</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">California</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">shooting</governor>
+            <dependent idx="14">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">RT</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

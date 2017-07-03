@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>World</word>
+            <lemma>world</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>At</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>least</word>
+            <lemma>least</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>23</word>
+            <lemma>23</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;=23.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>killed</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>blast</word>
+            <lemma>blast</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>TV</word>
+            <lemma>tv</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN () (NN World)) (NP (QP (CD )) (IN At) (JJS least) (CD 23)))) (VP (VBN killed) (PP (IN in) (NP (NP (NNP Riyadh) (NN fuel) (NN truck) (NN blast)) (: :) (NP (NN TV))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">World</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">World</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">23</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">23</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">World</governor>
+            <dependent idx="6">23</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">World</governor>
+            <dependent idx="7">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">blast</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="9">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="10">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="11">truck</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">killed</governor>
+            <dependent idx="12">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">blast</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">blast</governor>
+            <dependent idx="14">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">World</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">World</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">World</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">23</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">23</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">World</governor>
+            <dependent idx="6">23</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">World</governor>
+            <dependent idx="7">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">blast</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="9">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="10">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="11">truck</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">killed</governor>
+            <dependent idx="12">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">blast</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">blast</governor>
+            <dependent idx="14">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">World</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">World</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">World</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">23</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">23</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">World</governor>
+            <dependent idx="6">23</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">World</governor>
+            <dependent idx="7">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">blast</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="9">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="10">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="11">truck</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">killed</governor>
+            <dependent idx="12">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">blast</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">blast</governor>
+            <dependent idx="14">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">World</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">World</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">World</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">23</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">23</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">World</governor>
+            <dependent idx="6">23</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">World</governor>
+            <dependent idx="7">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">blast</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="9">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="10">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="11">truck</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">killed</governor>
+            <dependent idx="12">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">blast</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">blast</governor>
+            <dependent idx="14">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">World</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">World</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">World</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">23</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">least</governor>
+            <dependent idx="4">At</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="6">23</governor>
+            <dependent idx="5">least</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">World</governor>
+            <dependent idx="6">23</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">World</governor>
+            <dependent idx="7">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">blast</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="9">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="10">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">blast</governor>
+            <dependent idx="11">truck</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">killed</governor>
+            <dependent idx="12">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="12">blast</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">blast</governor>
+            <dependent idx="14">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">World</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

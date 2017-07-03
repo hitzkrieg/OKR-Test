@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Reports</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Mass</word>
+            <lemma>mass</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Shooting</word>
+            <lemma>shooting</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>At</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Apple</word>
+            <lemma>Apple</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Valley</word>
+            <lemma>Valley</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Farms</word>
+            <lemma>Farms</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Premises</word>
+            <lemma>Premises</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Central</word>
+            <lemma>Central</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>California</word>
+            <lemma>California</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Reports)) (PP (IN Of) (NP (NP (JJ Mass) (NN Shooting)) (RRC (PP (IN At) (NP (NNP Apple) (NNP Valley) (NNPS Farms) (NNP Premises))) (PP (IN In) (NP (NNP Central) (NNP California)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="2">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="3">Mass</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Reports</governor>
+            <dependent idx="4">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Premises</governor>
+            <dependent idx="5">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="6">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="7">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="8">Farms</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">California</governor>
+            <dependent idx="9">Premises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">California</governor>
+            <dependent idx="10">In</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">California</governor>
+            <dependent idx="11">Central</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="12">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Reports</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="2">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="3">Mass</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Reports</governor>
+            <dependent idx="4">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Premises</governor>
+            <dependent idx="5">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="6">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="7">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="8">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">California</governor>
+            <dependent idx="9">Premises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">California</governor>
+            <dependent idx="10">In</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">California</governor>
+            <dependent idx="11">Central</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="12">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Reports</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="2">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="3">Mass</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Reports</governor>
+            <dependent idx="4">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Premises</governor>
+            <dependent idx="5">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="6">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="7">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="8">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">California</governor>
+            <dependent idx="9">Premises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">California</governor>
+            <dependent idx="10">In</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">California</governor>
+            <dependent idx="11">Central</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="12">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Reports</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="2">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="3">Mass</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Reports</governor>
+            <dependent idx="4">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Premises</governor>
+            <dependent idx="5">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="6">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="7">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="8">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">California</governor>
+            <dependent idx="9">Premises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">California</governor>
+            <dependent idx="10">In</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">California</governor>
+            <dependent idx="11">Central</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="12">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Reports</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="2">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="3">Mass</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Reports</governor>
+            <dependent idx="4">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Premises</governor>
+            <dependent idx="5">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="6">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="7">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Premises</governor>
+            <dependent idx="8">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">California</governor>
+            <dependent idx="9">Premises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">California</governor>
+            <dependent idx="10">In</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">California</governor>
+            <dependent idx="11">Central</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Shooting</governor>
+            <dependent idx="12">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Reports</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

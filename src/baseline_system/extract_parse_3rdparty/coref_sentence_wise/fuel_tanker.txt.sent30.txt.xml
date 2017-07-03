@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>York</word>
+            <lemma>York</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Times</word>
+            <lemma>Times</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Saudi</word>
+            <lemma>Saudi</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Arabia</word>
+            <lemma>Arabia</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Truck</word>
+            <lemma>Truck</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Explodes</word>
+            <lemma>Explodes</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Killing</word>
+            <lemma>Killing</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>NYtimes</word>
+            <lemma>NYtimes</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>KSA</word>
+            <lemma>KSA</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Saudi</word>
+            <lemma>Saudi</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (DT The) (NNP New) (NNP York) (NNP Times)) (: -) (NP (NNP Saudi) (NNP Arabia)) (: :) (NP (NP (NN Fuel)) (NP (NNP Truck) (NNP Explodes))) (, ,) (NP (NP (NNP Killing) (JJ Many) (NNPS NYtimes)) (NP (NNP KSA) (NNP Saudi))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Times</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Times</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="2">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="3">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Arabia</governor>
+            <dependent idx="6">Saudi</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="7">Arabia</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="9">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Explodes</governor>
+            <dependent idx="10">Truck</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Fuel</governor>
+            <dependent idx="11">Explodes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="14">Many</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Times</governor>
+            <dependent idx="15">NYtimes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Saudi</governor>
+            <dependent idx="16">KSA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="17">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Times</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Times</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="2">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="3">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Arabia</governor>
+            <dependent idx="6">Saudi</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="7">Arabia</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="9">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Explodes</governor>
+            <dependent idx="10">Truck</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Fuel</governor>
+            <dependent idx="11">Explodes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="14">Many</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Times</governor>
+            <dependent idx="15">NYtimes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Saudi</governor>
+            <dependent idx="16">KSA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="17">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Times</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Times</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="2">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="3">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Arabia</governor>
+            <dependent idx="6">Saudi</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="7">Arabia</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="9">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Explodes</governor>
+            <dependent idx="10">Truck</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Fuel</governor>
+            <dependent idx="11">Explodes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="14">Many</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Times</governor>
+            <dependent idx="15">NYtimes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Saudi</governor>
+            <dependent idx="16">KSA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="17">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Times</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Times</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="2">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="3">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Arabia</governor>
+            <dependent idx="6">Saudi</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="7">Arabia</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="9">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Explodes</governor>
+            <dependent idx="10">Truck</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Fuel</governor>
+            <dependent idx="11">Explodes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="14">Many</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Times</governor>
+            <dependent idx="15">NYtimes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Saudi</governor>
+            <dependent idx="16">KSA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="17">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Times</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Times</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="2">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Times</governor>
+            <dependent idx="3">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Arabia</governor>
+            <dependent idx="6">Saudi</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="7">Arabia</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Times</governor>
+            <dependent idx="9">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Explodes</governor>
+            <dependent idx="10">Truck</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">Fuel</governor>
+            <dependent idx="11">Explodes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="13">Killing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="14">Many</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Times</governor>
+            <dependent idx="15">NYtimes</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Saudi</governor>
+            <dependent idx="16">KSA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">NYtimes</governor>
+            <dependent idx="17">Saudi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Times</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Truck</word>
+            <lemma>Truck</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Blast</word>
+            <lemma>blast</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>60</word>
+            <lemma>60</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>60.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Injures</word>
+            <lemma>injure</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>upto</word>
+            <lemma>upto</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>200</word>
+            <lemma>200</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>200.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>today</word>
+            <lemma>today</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN Fuel)) (PRN (S (NP (NNP Truck) (NN Blast)) (VP (VBZ Kills) (NP (CD 60)))) (, ,)) (VP (VBZ Injures) (NP (NP (NN upto) (CD 200)) (PP (IN in) (NP (NNP Riyadh)))) (PP (IN on) (NP (NN today)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Injures</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="1">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Blast</governor>
+            <dependent idx="2">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="3">Blast</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">Injures</governor>
+            <dependent idx="4">Kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="5">60</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Kills</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="8">upto</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="8">upto</governor>
+            <dependent idx="9">200</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">upto</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">today</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">Injures</governor>
+            <dependent idx="13">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Injures</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Injures</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="1">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Blast</governor>
+            <dependent idx="2">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="3">Blast</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">Injures</governor>
+            <dependent idx="4">Kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="5">60</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Kills</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="8">upto</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="8">upto</governor>
+            <dependent idx="9">200</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">upto</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">today</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">Injures</governor>
+            <dependent idx="13">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Injures</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Injures</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="1">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Blast</governor>
+            <dependent idx="2">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="3">Blast</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">Injures</governor>
+            <dependent idx="4">Kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="5">60</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Kills</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="8">upto</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="8">upto</governor>
+            <dependent idx="9">200</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">upto</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">today</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">Injures</governor>
+            <dependent idx="13">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Injures</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Injures</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="1">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Blast</governor>
+            <dependent idx="2">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="3">Blast</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">Injures</governor>
+            <dependent idx="4">Kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="5">60</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Kills</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="8">upto</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="8">upto</governor>
+            <dependent idx="9">200</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">upto</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">today</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">Injures</governor>
+            <dependent idx="13">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Injures</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Injures</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="1">Fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Blast</governor>
+            <dependent idx="2">Truck</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="3">Blast</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">Injures</governor>
+            <dependent idx="4">Kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Kills</governor>
+            <dependent idx="5">60</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Kills</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">Injures</governor>
+            <dependent idx="8">upto</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="8">upto</governor>
+            <dependent idx="9">200</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Riyadh</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">upto</governor>
+            <dependent idx="11">Riyadh</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">today</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">Injures</governor>
+            <dependent idx="13">today</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Injures</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

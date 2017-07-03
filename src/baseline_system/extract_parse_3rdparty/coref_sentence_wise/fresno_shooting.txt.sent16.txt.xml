@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Central</word>
+            <lemma>Central</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Fresno</word>
+            <lemma>Fresno</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>workplace</word>
+            <lemma>workplace</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>shooting</word>
+            <lemma>shooting</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>details</word>
+            <lemma>detail</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>injured</word>
+            <lemma>injure</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>shooter</word>
+            <lemma>shooter</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>business</word>
+            <lemma>business</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>plus</word>
+            <lemma>plus</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>witness</word>
+            <lemma>witness</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>accounts</word>
+            <lemma>account</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Central) (NNP Fresno) (NN workplace) (NN shooting)) (: --) (NP (NP (NP (JJ new) (NNS details)) (PP (IN on) (ADJP (VBN injured)))) (, ,) (NP (NP (NN shooter)) (CC and) (NP (NN business) (CC plus) (NN witness) (NNS accounts)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shooting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="2">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="3">workplace</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="5">--</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">details</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shooting</governor>
+            <dependent idx="7">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">injured</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">details</governor>
+            <dependent idx="9">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">details</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">details</governor>
+            <dependent idx="11">shooter</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">shooter</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">accounts</governor>
+            <dependent idx="13">business</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">business</governor>
+            <dependent idx="14">plus</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">business</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">shooter</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shooting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="2">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="3">workplace</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="5">--</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">details</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shooting</governor>
+            <dependent idx="7">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">injured</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">details</governor>
+            <dependent idx="9">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">details</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">details</governor>
+            <dependent idx="11">shooter</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">shooter</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">accounts</governor>
+            <dependent idx="13">business</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">business</governor>
+            <dependent idx="14">plus</dependent>
+          </dep>
+          <dep type="conj:plus">
+            <governor idx="13">business</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">shooter</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shooting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="2">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="3">workplace</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="5">--</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">details</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shooting</governor>
+            <dependent idx="7">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">injured</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">details</governor>
+            <dependent idx="9">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">details</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">details</governor>
+            <dependent idx="11">shooter</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">shooter</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">accounts</governor>
+            <dependent idx="13">business</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">business</governor>
+            <dependent idx="14">plus</dependent>
+          </dep>
+          <dep type="conj:plus">
+            <governor idx="13">business</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="16">accounts</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="appos" extra="true">
+            <governor idx="7">details</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">shooter</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shooting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="2">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="3">workplace</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="5">--</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">details</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shooting</governor>
+            <dependent idx="7">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">injured</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="acl:on">
+            <governor idx="7">details</governor>
+            <dependent idx="9">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">details</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">details</governor>
+            <dependent idx="11">shooter</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">shooter</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">accounts</governor>
+            <dependent idx="13">business</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">business</governor>
+            <dependent idx="14">plus</dependent>
+          </dep>
+          <dep type="conj:plus">
+            <governor idx="13">business</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="16">accounts</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="appos" extra="true">
+            <governor idx="7">details</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">shooter</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shooting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="1">Central</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="2">Fresno</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">shooting</governor>
+            <dependent idx="3">workplace</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="5">--</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">details</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shooting</governor>
+            <dependent idx="7">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">injured</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="acl:on">
+            <governor idx="7">details</governor>
+            <dependent idx="9">injured</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">details</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">details</governor>
+            <dependent idx="11">shooter</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">shooter</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">accounts</governor>
+            <dependent idx="13">business</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">business</governor>
+            <dependent idx="14">plus</dependent>
+          </dep>
+          <dep type="conj:plus">
+            <governor idx="13">business</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="16">accounts</governor>
+            <dependent idx="15">witness</dependent>
+          </dep>
+          <dep type="appos" extra="true">
+            <governor idx="7">details</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">shooter</governor>
+            <dependent idx="16">accounts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">shooting</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>different</word>
+            <lemma>different</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>reality</word>
+            <lemma>reality</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>today</word>
+            <lemma>today</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Reports</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Mass</word>
+            <lemma>mass</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Shooting</word>
+            <lemma>shooting</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>At</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Apple</word>
+            <lemma>Apple</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Valley</word>
+            <lemma>Valley</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Farms</word>
+            <lemma>Farms</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Plant</word>
+            <lemma>Plant</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>California</word>
+            <lemma>California</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (FRAG (NP (DT A) (JJ different) (NN reality)) (PP (ADVP (NN today)) (IN for) (ADJP (JJ many)))) (: :) (FRAG (NP (NP (NNS Reports)) (PP (IN Of) (NP (JJ Mass) (NN Shooting)))) (PP (IN At) (NP (NNP Apple) (NNP Valley) (NNPS Farms) (NNP Plant))) (PP (IN In) (NP (NNP California)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reality</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">reality</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">reality</governor>
+            <dependent idx="2">different</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">reality</governor>
+            <dependent idx="4">today</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">today</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">today</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">reality</governor>
+            <dependent idx="8">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="9">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="10">Mass</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">Reports</governor>
+            <dependent idx="11">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Plant</governor>
+            <dependent idx="12">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="13">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="14">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="15">Farms</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">Reports</governor>
+            <dependent idx="16">Plant</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">California</governor>
+            <dependent idx="17">In</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">Reports</governor>
+            <dependent idx="18">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reality</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">reality</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">reality</governor>
+            <dependent idx="2">different</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">reality</governor>
+            <dependent idx="4">today</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">today</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">today</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">reality</governor>
+            <dependent idx="8">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="9">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="10">Mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Reports</governor>
+            <dependent idx="11">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Plant</governor>
+            <dependent idx="12">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="13">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="14">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="15">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">Reports</governor>
+            <dependent idx="16">Plant</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">California</governor>
+            <dependent idx="17">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Reports</governor>
+            <dependent idx="18">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reality</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">reality</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">reality</governor>
+            <dependent idx="2">different</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">reality</governor>
+            <dependent idx="4">today</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">today</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">today</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">reality</governor>
+            <dependent idx="8">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="9">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="10">Mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Reports</governor>
+            <dependent idx="11">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Plant</governor>
+            <dependent idx="12">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="13">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="14">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="15">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">Reports</governor>
+            <dependent idx="16">Plant</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">California</governor>
+            <dependent idx="17">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Reports</governor>
+            <dependent idx="18">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reality</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">reality</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">reality</governor>
+            <dependent idx="2">different</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">reality</governor>
+            <dependent idx="4">today</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">today</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">today</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">reality</governor>
+            <dependent idx="8">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="9">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="10">Mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Reports</governor>
+            <dependent idx="11">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Plant</governor>
+            <dependent idx="12">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="13">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="14">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="15">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">Reports</governor>
+            <dependent idx="16">Plant</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">California</governor>
+            <dependent idx="17">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Reports</governor>
+            <dependent idx="18">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reality</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">reality</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">reality</governor>
+            <dependent idx="2">different</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">reality</governor>
+            <dependent idx="4">today</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">today</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">today</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">reality</governor>
+            <dependent idx="8">Reports</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="9">Of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Shooting</governor>
+            <dependent idx="10">Mass</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Reports</governor>
+            <dependent idx="11">Shooting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">Plant</governor>
+            <dependent idx="12">At</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="13">Apple</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="14">Valley</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">Plant</governor>
+            <dependent idx="15">Farms</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">Reports</governor>
+            <dependent idx="16">Plant</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">California</governor>
+            <dependent idx="17">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Reports</governor>
+            <dependent idx="18">California</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">reality</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

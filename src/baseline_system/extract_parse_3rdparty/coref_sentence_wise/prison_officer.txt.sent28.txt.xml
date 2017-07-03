@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>news</word>
+            <lemma>news</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Murdered</word>
+            <lemma>murder</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>officer</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>named</word>
+            <lemma>name</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN news)) (VP (VBN Murdered) (NP (NN prison) (NN officer)))) (VP (VBZ is) (VP (VBN named))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">named</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">named</governor>
+            <dependent idx="1">news</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">news</governor>
+            <dependent idx="2">Murdered</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">officer</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Murdered</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">named</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">named</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">named</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">named</governor>
+            <dependent idx="1">news</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">news</governor>
+            <dependent idx="2">Murdered</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">officer</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Murdered</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">named</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">named</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">named</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">named</governor>
+            <dependent idx="1">news</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">news</governor>
+            <dependent idx="2">Murdered</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">officer</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Murdered</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">named</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">named</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">named</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">named</governor>
+            <dependent idx="1">news</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">news</governor>
+            <dependent idx="2">Murdered</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">officer</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Murdered</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">named</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">named</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">named</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">named</governor>
+            <dependent idx="1">news</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">news</governor>
+            <dependent idx="2">Murdered</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">officer</governor>
+            <dependent idx="3">prison</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Murdered</governor>
+            <dependent idx="4">officer</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">named</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">named</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

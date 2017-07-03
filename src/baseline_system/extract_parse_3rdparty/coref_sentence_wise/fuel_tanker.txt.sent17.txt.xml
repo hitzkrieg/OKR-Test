@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Toll</word>
+            <lemma>toll</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Riyadh</word>
+            <lemma>Riyadh</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>fuel</word>
+            <lemma>fuel</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>tanker</word>
+            <lemma>tanker</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>explosion</word>
+            <lemma>explosion</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>rises</word>
+            <lemma>rise</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>22</word>
+            <lemma>22</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>22.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>dead</word>
+            <lemma>dead</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>111</word>
+            <lemma>111</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>111.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>wounded</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>-Saudi</word>
+            <lemma>-saudi</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>TV</word>
+            <lemma>tv</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NN Toll)) (PP (IN in) (NP (NP (NNP Riyadh) (NN fuel) (NN tanker) (NN explosion)) (SBAR (S (VP (VBZ rises) (PP (TO to) (NP (CD 22)))))))) (ADJP (JJ dead)) (, ,) (S (NP (CD 111)) (VP (VBD wounded) (NP (JJ -Saudi) (NNP State) (NN TV)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">explosion</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="3">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="4">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="5">tanker</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Toll</governor>
+            <dependent idx="6">explosion</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="6">explosion</governor>
+            <dependent idx="7">rises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">22</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">rises</governor>
+            <dependent idx="9">22</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Toll</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="12">111</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Toll</governor>
+            <dependent idx="13">wounded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">TV</governor>
+            <dependent idx="14">-Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">TV</governor>
+            <dependent idx="15">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="16">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">explosion</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="3">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="4">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="5">tanker</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">Toll</governor>
+            <dependent idx="6">explosion</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="6">explosion</governor>
+            <dependent idx="7">rises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">22</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="7">rises</governor>
+            <dependent idx="9">22</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Toll</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="12">111</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Toll</governor>
+            <dependent idx="13">wounded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">TV</governor>
+            <dependent idx="14">-Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">TV</governor>
+            <dependent idx="15">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="16">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">explosion</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="3">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="4">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="5">tanker</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">Toll</governor>
+            <dependent idx="6">explosion</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="6">explosion</governor>
+            <dependent idx="7">rises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">22</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="7">rises</governor>
+            <dependent idx="9">22</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Toll</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="12">111</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Toll</governor>
+            <dependent idx="13">wounded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">TV</governor>
+            <dependent idx="14">-Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">TV</governor>
+            <dependent idx="15">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="16">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">explosion</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="3">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="4">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="5">tanker</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">Toll</governor>
+            <dependent idx="6">explosion</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="6">explosion</governor>
+            <dependent idx="7">rises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">22</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="7">rises</governor>
+            <dependent idx="9">22</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Toll</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="12">111</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Toll</governor>
+            <dependent idx="13">wounded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">TV</governor>
+            <dependent idx="14">-Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">TV</governor>
+            <dependent idx="15">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="16">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Toll</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">explosion</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="3">Riyadh</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="4">fuel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">explosion</governor>
+            <dependent idx="5">tanker</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="1">Toll</governor>
+            <dependent idx="6">explosion</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="6">explosion</governor>
+            <dependent idx="7">rises</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">22</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="7">rises</governor>
+            <dependent idx="9">22</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Toll</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="12">111</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Toll</governor>
+            <dependent idx="13">wounded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">TV</governor>
+            <dependent idx="14">-Saudi</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">TV</governor>
+            <dependent idx="15">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">wounded</governor>
+            <dependent idx="16">TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Toll</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

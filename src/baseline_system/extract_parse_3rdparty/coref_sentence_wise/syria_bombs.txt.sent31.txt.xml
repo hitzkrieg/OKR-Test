@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Seized</word>
+            <lemma>seize</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Rebels</word>
+            <lemma>Rebels</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Town</word>
+            <lemma>Town</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Crushed</word>
+            <lemma>crush</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Forces</word>
+            <lemma>force</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBN Seized) (PP (IN by) (NP (NNPS Rebels))))) (, ,) (NP (NNP Town)) (VP (VBZ Is) (VP (VBN Crushed) (PP (IN by) (NP (JJ Syrian) (NNS Forces))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Crushed</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="1">Seized</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Rebels</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Seized</governor>
+            <dependent idx="3">Rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="5">Town</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="6">Is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Forces</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">Forces</governor>
+            <dependent idx="9">Syrian</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="10">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Crushed</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="1">Seized</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Rebels</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Seized</governor>
+            <dependent idx="3">Rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="5">Town</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="6">Is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Forces</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">Forces</governor>
+            <dependent idx="9">Syrian</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="10">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Crushed</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="1">Seized</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Rebels</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Seized</governor>
+            <dependent idx="3">Rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="5">Town</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="6">Is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Forces</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">Forces</governor>
+            <dependent idx="9">Syrian</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="10">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Crushed</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="1">Seized</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Rebels</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Seized</governor>
+            <dependent idx="3">Rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="5">Town</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="6">Is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Forces</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">Forces</governor>
+            <dependent idx="9">Syrian</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="10">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Crushed</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="1">Seized</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Rebels</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="1">Seized</governor>
+            <dependent idx="3">Rebels</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="5">Town</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="6">Is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Forces</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">Forces</governor>
+            <dependent idx="9">Syrian</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="10">Forces</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Crushed</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

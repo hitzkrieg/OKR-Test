@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>49</word>
+            <lemma>49</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>49.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>killed</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>jets</word>
+            <lemma>jet</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>attack</word>
+            <lemma>attack</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>strategic</word>
+            <lemma>strategic</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>rebel-held</word>
+            <lemma>rebel-held</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>town</word>
+            <lemma>town</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Oneindia.in</word>
+            <lemma>oneindia.in</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (CD 49)) (VP (VBN killed) (PP (IN as) (NP (NP (JJ Syrian) (NNS jets) (NN attack)) (NP (JJ strategic) (JJ rebel-held) (NN town)) (: -) (NP (NN Oneindia.in))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">killed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">killed</governor>
+            <dependent idx="1">49</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">attack</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">attack</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">attack</governor>
+            <dependent idx="5">jets</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">killed</governor>
+            <dependent idx="6">attack</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="7">strategic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="8">rebel-held</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="9">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">attack</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="11">Oneindia.in</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">killed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">killed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">killed</governor>
+            <dependent idx="1">49</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">attack</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">attack</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">attack</governor>
+            <dependent idx="5">jets</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">killed</governor>
+            <dependent idx="6">attack</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="7">strategic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="8">rebel-held</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="9">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">attack</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="11">Oneindia.in</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">killed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">killed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">killed</governor>
+            <dependent idx="1">49</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">attack</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">attack</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">attack</governor>
+            <dependent idx="5">jets</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">killed</governor>
+            <dependent idx="6">attack</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="7">strategic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="8">rebel-held</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="9">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">attack</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="11">Oneindia.in</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">killed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">killed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">killed</governor>
+            <dependent idx="1">49</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">attack</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">attack</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">attack</governor>
+            <dependent idx="5">jets</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">killed</governor>
+            <dependent idx="6">attack</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="7">strategic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="8">rebel-held</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="9">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">attack</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="11">Oneindia.in</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">killed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">killed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">killed</governor>
+            <dependent idx="1">49</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">attack</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">attack</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">attack</governor>
+            <dependent idx="5">jets</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">killed</governor>
+            <dependent idx="6">attack</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="7">strategic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">town</governor>
+            <dependent idx="8">rebel-held</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="9">town</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">attack</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">attack</governor>
+            <dependent idx="11">Oneindia.in</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">killed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

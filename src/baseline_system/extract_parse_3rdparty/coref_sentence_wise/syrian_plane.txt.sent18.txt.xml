@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Tensions</word>
+            <lemma>tension</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Escalate</word>
+            <lemma>escalate</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Turkey</word>
+            <lemma>Turkey</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Forces</word>
+            <lemma>Forces</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Down</word>
+            <lemma>Down</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Passenger</word>
+            <lemma>passenger</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Jet</word>
+            <lemma>Jet</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Tensions)) (VP (VBP Escalate) (PP (IN as) (NP (NNP Turkey) (NNP Forces) (NNP Down) (JJ Syrian) (NN Passenger)) (NP (NNP Jet)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="1">Tensions</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="4">Turkey</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="5">Forces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="6">Down</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="7">Syrian</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="8">Passenger</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="9">Jet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="1">Tensions</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="4">Turkey</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="5">Forces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="6">Down</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="7">Syrian</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="8">Passenger</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="9">Jet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="1">Tensions</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="4">Turkey</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="5">Forces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="6">Down</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="7">Syrian</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="8">Passenger</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="9">Jet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="1">Tensions</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="4">Turkey</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="5">Forces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="6">Down</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="7">Syrian</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="8">Passenger</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="9">Jet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Escalate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="1">Tensions</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="4">Turkey</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="5">Forces</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="6">Down</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="7">Syrian</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="8">Passenger</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Passenger</governor>
+            <dependent idx="9">Jet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Escalate</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

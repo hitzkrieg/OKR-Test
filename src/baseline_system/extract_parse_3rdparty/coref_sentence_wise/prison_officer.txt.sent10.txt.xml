@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Northern</word>
+            <lemma>northern</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Ireland</word>
+            <lemma>Ireland</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>motorway</word>
+            <lemma>motorway</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>crash</word>
+            <lemma>crash</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>victim</word>
+            <lemma>victim</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>'ambushed</word>
+            <lemma>'ambush</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>'</word>
+            <lemma>'</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>gunman</word>
+            <lemma>gunman</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (JJ Northern) (NNP Ireland) (NN motorway)) (NP (NN crash) (NN victim))) (VP (VBD 'ambushed) ('' ') (PP (IN by) (NP (NN gunman)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">'ambushed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motorway</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">motorway</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="3">motorway</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">victim</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">motorway</governor>
+            <dependent idx="5">victim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="7">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">gunman</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="9">gunman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">'ambushed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motorway</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">motorway</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="3">motorway</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">victim</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">motorway</governor>
+            <dependent idx="5">victim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="7">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">gunman</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="9">gunman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">'ambushed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motorway</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">motorway</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="3">motorway</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">victim</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">motorway</governor>
+            <dependent idx="5">victim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="7">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">gunman</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="9">gunman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">'ambushed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motorway</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">motorway</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="3">motorway</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">victim</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">motorway</governor>
+            <dependent idx="5">victim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="7">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">gunman</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="9">gunman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">'ambushed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motorway</governor>
+            <dependent idx="1">Northern</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">motorway</governor>
+            <dependent idx="2">Ireland</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="3">motorway</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">victim</governor>
+            <dependent idx="4">crash</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">motorway</governor>
+            <dependent idx="5">victim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="7">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">gunman</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="9">gunman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">'ambushed</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

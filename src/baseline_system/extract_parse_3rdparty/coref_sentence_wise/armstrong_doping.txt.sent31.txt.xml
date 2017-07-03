@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Five</word>
+            <lemma>five</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>5.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>former</word>
+            <lemma>former</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>team-mates</word>
+            <lemma>team-mate</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>received</word>
+            <lemma>receive</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>six-month</word>
+            <lemma>six-month</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P6M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P6M</Timex>
+          </token>
+          <token id="11">
+            <word>doping</word>
+            <lemma>doping</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>bans</word>
+            <lemma>ban</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>United</word>
+            <lemma>United</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>States</word>
+            <lemma>States</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Anti-Doping</word>
+            <lemma>Anti-Doping</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>Agency</word>
+            <lemma>Agency</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>Usada</word>
+            <lemma>Usada</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD Five)) (PP (IN of) (NP (NP (NNP Lance) (NNP Armstrong) (POS 's)) (JJ former) (NNS team-mates)))) (VP (VBP have) (VP (VBN received) (NP (JJ six-month) (NN doping) (NNS bans)) (PP (IN from) (NP (NP (DT the) (NNP United) (NNPS States) (NNP Anti-Doping)) (NNP Agency) (NNP () (NNP Usada) (NN )))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">received</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">received</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="6">former</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Five</governor>
+            <dependent idx="7">team-mates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">received</governor>
+            <dependent idx="8">have</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bans</governor>
+            <dependent idx="10">six-month</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">bans</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">received</governor>
+            <dependent idx="12">bans</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">)</governor>
+            <dependent idx="13">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="15">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="16">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="17">Anti-Doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="18">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="19">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="20">Usada</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">received</governor>
+            <dependent idx="21">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">received</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">received</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">received</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="6">former</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Five</governor>
+            <dependent idx="7">team-mates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">received</governor>
+            <dependent idx="8">have</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bans</governor>
+            <dependent idx="10">six-month</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">bans</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">received</governor>
+            <dependent idx="12">bans</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">)</governor>
+            <dependent idx="13">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="15">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="16">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="17">Anti-Doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="18">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="19">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="20">Usada</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="9">received</governor>
+            <dependent idx="21">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">received</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">received</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">received</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="6">former</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Five</governor>
+            <dependent idx="7">team-mates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">received</governor>
+            <dependent idx="8">have</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bans</governor>
+            <dependent idx="10">six-month</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">bans</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">received</governor>
+            <dependent idx="12">bans</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">)</governor>
+            <dependent idx="13">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="15">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="16">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="17">Anti-Doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="18">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="19">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="20">Usada</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="9">received</governor>
+            <dependent idx="21">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">received</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">received</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">received</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="6">former</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Five</governor>
+            <dependent idx="7">team-mates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">received</governor>
+            <dependent idx="8">have</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bans</governor>
+            <dependent idx="10">six-month</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">bans</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">received</governor>
+            <dependent idx="12">bans</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">)</governor>
+            <dependent idx="13">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="15">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="16">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="17">Anti-Doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="18">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="19">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="20">Usada</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="9">received</governor>
+            <dependent idx="21">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">received</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">received</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">received</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">team-mates</governor>
+            <dependent idx="6">former</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Five</governor>
+            <dependent idx="7">team-mates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">received</governor>
+            <dependent idx="8">have</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bans</governor>
+            <dependent idx="10">six-month</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">bans</governor>
+            <dependent idx="11">doping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">received</governor>
+            <dependent idx="12">bans</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">)</governor>
+            <dependent idx="13">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="15">United</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Anti-Doping</governor>
+            <dependent idx="16">States</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="17">Anti-Doping</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="18">Agency</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="19">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">)</governor>
+            <dependent idx="20">Usada</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="9">received</governor>
+            <dependent idx="21">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">received</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

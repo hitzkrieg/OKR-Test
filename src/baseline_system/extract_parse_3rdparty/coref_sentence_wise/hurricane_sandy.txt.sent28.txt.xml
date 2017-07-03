@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>reports</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Atlantic</word>
+            <lemma>Atlantic</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>City</word>
+            <lemma>City</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>flooding</word>
+            <lemma>flood</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Sandy</word>
+            <lemma>Sandy</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS reports)) (NP (NNP Atlantic) (NNP City))) (VP (VBZ is) (VP (VBG flooding) (NP (NNP Sandy)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">flooding</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="1">reports</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">Atlantic</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">reports</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">flooding</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="6">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">flooding</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">flooding</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="1">reports</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">Atlantic</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">reports</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">flooding</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="6">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">flooding</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">flooding</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="1">reports</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">Atlantic</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">reports</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">flooding</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="6">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">flooding</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">flooding</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="1">reports</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">Atlantic</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">reports</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">flooding</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="6">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">flooding</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">flooding</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="1">reports</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">Atlantic</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">reports</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">flooding</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">flooding</governor>
+            <dependent idx="6">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">flooding</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

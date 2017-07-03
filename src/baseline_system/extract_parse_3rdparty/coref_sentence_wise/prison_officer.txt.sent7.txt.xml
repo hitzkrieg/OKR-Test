@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Heart</word>
+            <lemma>Heart</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>goes</word>
+            <lemma>go</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>out</word>
+            <lemma>out</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>officers</word>
+            <lemma>officer</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>family</word>
+            <lemma>family</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>killed</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>n.</word>
+            <lemma>n.</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Ireland</word>
+            <lemma>Ireland</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>yesterday</word>
+            <lemma>yesterday</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P-1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Heart)) (VP (VBZ goes) (PRT (RP out)) (PP (TO to) (NP (NP (DT the) (NN prison) (NNS officers) (NN family)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN killed) (PP (IN in) (NP (NNP n.) (NNP Ireland))) (NP-TMP (NN yesterday))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">goes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">goes</governor>
+            <dependent idx="1">Heart</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">goes</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">family</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">family</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="6">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="7">officers</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">goes</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="9">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">family</governor>
+            <dependent idx="11">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="13">n.</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">killed</governor>
+            <dependent idx="14">Ireland</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="11">killed</governor>
+            <dependent idx="15">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">goes</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">goes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">goes</governor>
+            <dependent idx="1">Heart</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">goes</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">family</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">family</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="6">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="7">officers</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">goes</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="9">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">family</governor>
+            <dependent idx="11">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="13">n.</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">killed</governor>
+            <dependent idx="14">Ireland</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="11">killed</governor>
+            <dependent idx="15">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">goes</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">goes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">goes</governor>
+            <dependent idx="1">Heart</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">goes</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">family</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">family</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="6">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="7">officers</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">goes</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="9">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">family</governor>
+            <dependent idx="11">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="13">n.</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">killed</governor>
+            <dependent idx="14">Ireland</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="11">killed</governor>
+            <dependent idx="15">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">goes</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">goes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">goes</governor>
+            <dependent idx="1">Heart</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">goes</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">family</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">family</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="6">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="7">officers</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">goes</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="11">killed</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="8">family</governor>
+            <dependent idx="9">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">family</governor>
+            <dependent idx="11">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="13">n.</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">killed</governor>
+            <dependent idx="14">Ireland</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="11">killed</governor>
+            <dependent idx="15">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">goes</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">goes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">goes</governor>
+            <dependent idx="1">Heart</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">goes</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">family</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">family</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="6">prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">family</governor>
+            <dependent idx="7">officers</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">goes</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="11">killed</governor>
+            <dependent idx="8">family</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="8">family</governor>
+            <dependent idx="9">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">killed</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="8">family</governor>
+            <dependent idx="11">killed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Ireland</governor>
+            <dependent idx="13">n.</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">killed</governor>
+            <dependent idx="14">Ireland</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="11">killed</governor>
+            <dependent idx="15">yesterday</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">goes</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Lets</word>
+            <lemma>let</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>not</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>go</word>
+            <lemma>go</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>back</word>
+            <lemma>back</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>there</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>again</word>
+            <lemma>again</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VBZ Lets) (RB not) (VP (VB go) (ADVP (RB back) (RB there)) (ADVP (RB again)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Lets</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="1">Lets</governor>
+            <dependent idx="2">not</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Lets</governor>
+            <dependent idx="3">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">there</governor>
+            <dependent idx="4">back</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="6">again</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Lets</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Lets</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="1">Lets</governor>
+            <dependent idx="2">not</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Lets</governor>
+            <dependent idx="3">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">there</governor>
+            <dependent idx="4">back</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="6">again</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Lets</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Lets</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="1">Lets</governor>
+            <dependent idx="2">not</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Lets</governor>
+            <dependent idx="3">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">there</governor>
+            <dependent idx="4">back</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="6">again</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Lets</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Lets</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="1">Lets</governor>
+            <dependent idx="2">not</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Lets</governor>
+            <dependent idx="3">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">there</governor>
+            <dependent idx="4">back</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="6">again</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Lets</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Lets</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="1">Lets</governor>
+            <dependent idx="2">not</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Lets</governor>
+            <dependent idx="3">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">there</governor>
+            <dependent idx="4">back</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">go</governor>
+            <dependent idx="6">again</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Lets</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

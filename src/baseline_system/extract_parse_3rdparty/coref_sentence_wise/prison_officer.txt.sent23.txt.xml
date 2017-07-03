@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Prison</word>
+            <lemma>prison</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Officer</word>
+            <lemma>Officer</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Shot</word>
+            <lemma>Shot</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Dead</word>
+            <lemma>Dead</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Motorway</word>
+            <lemma>Motorway</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>NI</word>
+            <lemma>NI</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Sky</word>
+            <lemma>Sky</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>News</word>
+            <lemma>News</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN Prison) (NNP Officer) (NNP Shot) (NNP Dead)) (RRC (PP (IN On) (NP (NNP Motorway))) (PP (IN In) (NP (NNP NI))))) (: -) (NP (NNP Sky) (NNP News)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Dead</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="2">Officer</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="3">Shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Motorway</governor>
+            <dependent idx="5">On</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">NI</governor>
+            <dependent idx="6">Motorway</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">NI</governor>
+            <dependent idx="7">In</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Dead</governor>
+            <dependent idx="8">NI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">News</governor>
+            <dependent idx="10">Sky</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Dead</governor>
+            <dependent idx="11">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Dead</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="2">Officer</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="3">Shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Motorway</governor>
+            <dependent idx="5">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="8">NI</governor>
+            <dependent idx="6">Motorway</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">NI</governor>
+            <dependent idx="7">In</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Dead</governor>
+            <dependent idx="8">NI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">News</governor>
+            <dependent idx="10">Sky</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Dead</governor>
+            <dependent idx="11">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Dead</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="2">Officer</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="3">Shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Motorway</governor>
+            <dependent idx="5">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="8">NI</governor>
+            <dependent idx="6">Motorway</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">NI</governor>
+            <dependent idx="7">In</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Dead</governor>
+            <dependent idx="8">NI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">News</governor>
+            <dependent idx="10">Sky</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Dead</governor>
+            <dependent idx="11">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Dead</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="2">Officer</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="3">Shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Motorway</governor>
+            <dependent idx="5">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="8">NI</governor>
+            <dependent idx="6">Motorway</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">NI</governor>
+            <dependent idx="7">In</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Dead</governor>
+            <dependent idx="8">NI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">News</governor>
+            <dependent idx="10">Sky</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Dead</governor>
+            <dependent idx="11">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Dead</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="1">Prison</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="2">Officer</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Dead</governor>
+            <dependent idx="3">Shot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Motorway</governor>
+            <dependent idx="5">On</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="8">NI</governor>
+            <dependent idx="6">Motorway</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">NI</governor>
+            <dependent idx="7">In</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">Dead</governor>
+            <dependent idx="8">NI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">News</governor>
+            <dependent idx="10">Sky</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Dead</governor>
+            <dependent idx="11">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Dead</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

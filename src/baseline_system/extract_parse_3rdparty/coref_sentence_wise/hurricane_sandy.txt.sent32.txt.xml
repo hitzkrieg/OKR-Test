@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Hurricane</word>
+            <lemma>Hurricane</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Sandy</word>
+            <lemma>Sandy</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>speeds</word>
+            <lemma>speed</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>towards</word>
+            <lemma>towards</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>landfall</word>
+            <lemma>landfall</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>CBS</word>
+            <lemma>CBS</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>News</word>
+            <lemma>News</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP Hurricane) (NNP Sandy) (NNS speeds)) (PP (IN towards) (NP (NN landfall)))) (: -) (NP (NNP CBS) (NNP News)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">speeds</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">landfall</governor>
+            <dependent idx="4">towards</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">speeds</governor>
+            <dependent idx="5">landfall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">News</governor>
+            <dependent idx="7">CBS</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">speeds</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">speeds</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">landfall</governor>
+            <dependent idx="4">towards</dependent>
+          </dep>
+          <dep type="nmod:towards">
+            <governor idx="3">speeds</governor>
+            <dependent idx="5">landfall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">News</governor>
+            <dependent idx="7">CBS</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">speeds</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">speeds</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">landfall</governor>
+            <dependent idx="4">towards</dependent>
+          </dep>
+          <dep type="nmod:towards">
+            <governor idx="3">speeds</governor>
+            <dependent idx="5">landfall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">News</governor>
+            <dependent idx="7">CBS</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">speeds</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">speeds</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">landfall</governor>
+            <dependent idx="4">towards</dependent>
+          </dep>
+          <dep type="nmod:towards">
+            <governor idx="3">speeds</governor>
+            <dependent idx="5">landfall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">News</governor>
+            <dependent idx="7">CBS</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">speeds</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">speeds</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="1">Hurricane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">speeds</governor>
+            <dependent idx="2">Sandy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">landfall</governor>
+            <dependent idx="4">towards</dependent>
+          </dep>
+          <dep type="nmod:towards">
+            <governor idx="3">speeds</governor>
+            <dependent idx="5">landfall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="6">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">News</governor>
+            <dependent idx="7">CBS</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">speeds</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">speeds</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

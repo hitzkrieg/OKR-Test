@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Shark</word>
+            <lemma>shark</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>swimming</word>
+            <lemma>swimming</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>through</word>
+            <lemma>through</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>streets</word>
+            <lemma>street</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Atlantic</word>
+            <lemma>Atlantic</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>City</word>
+            <lemma>City</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>NJ</word>
+            <lemma>NJ</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>which</word>
+            <lemma>which</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>completely</word>
+            <lemma>completely</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>flooded</word>
+            <lemma>flood</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>hurricane</word>
+            <lemma>hurricane</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>Sandy</word>
+            <lemma>Sandy</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN Shark) (NN swimming)) (PP (IN through) (NP (NP (DT the) (NNS streets)) (PP (IN of) (NP (NNP Atlantic) (NNP City)))))) (, ,) (NP (NP (NNP NJ)) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (ADVP (RB completely)) (VP (VBN flooded) (PP (IN from) (NP (NN hurricane) (NNP Sandy)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">swimming</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">swimming</governor>
+            <dependent idx="1">Shark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">streets</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">streets</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">swimming</governor>
+            <dependent idx="5">streets</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">City</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">City</governor>
+            <dependent idx="7">Atlantic</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">streets</governor>
+            <dependent idx="8">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">swimming</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">flooded</governor>
+            <dependent idx="13">completely</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">NJ</governor>
+            <dependent idx="14">flooded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="15">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="16">hurricane</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">flooded</governor>
+            <dependent idx="17">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">swimming</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">swimming</governor>
+            <dependent idx="1">Shark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">streets</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">streets</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">swimming</governor>
+            <dependent idx="5">streets</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">City</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">City</governor>
+            <dependent idx="7">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">streets</governor>
+            <dependent idx="8">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">swimming</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">flooded</governor>
+            <dependent idx="13">completely</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">NJ</governor>
+            <dependent idx="14">flooded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="15">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="16">hurricane</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="14">flooded</governor>
+            <dependent idx="17">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">swimming</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">swimming</governor>
+            <dependent idx="1">Shark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">streets</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">streets</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">swimming</governor>
+            <dependent idx="5">streets</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">City</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">City</governor>
+            <dependent idx="7">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">streets</governor>
+            <dependent idx="8">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">swimming</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">flooded</governor>
+            <dependent idx="13">completely</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">NJ</governor>
+            <dependent idx="14">flooded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="15">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="16">hurricane</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="14">flooded</governor>
+            <dependent idx="17">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">swimming</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">swimming</governor>
+            <dependent idx="1">Shark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">streets</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">streets</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">swimming</governor>
+            <dependent idx="5">streets</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">City</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">City</governor>
+            <dependent idx="7">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">streets</governor>
+            <dependent idx="8">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">swimming</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="14">flooded</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="10">NJ</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">flooded</governor>
+            <dependent idx="13">completely</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">NJ</governor>
+            <dependent idx="14">flooded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="15">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="16">hurricane</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="14">flooded</governor>
+            <dependent idx="17">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">swimming</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">swimming</governor>
+            <dependent idx="1">Shark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">streets</governor>
+            <dependent idx="3">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">streets</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="2">swimming</governor>
+            <dependent idx="5">streets</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">City</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">City</governor>
+            <dependent idx="7">Atlantic</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">streets</governor>
+            <dependent idx="8">City</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">swimming</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="14">flooded</governor>
+            <dependent idx="10">NJ</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="10">NJ</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">flooded</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">flooded</governor>
+            <dependent idx="13">completely</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">NJ</governor>
+            <dependent idx="14">flooded</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="15">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">Sandy</governor>
+            <dependent idx="16">hurricane</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="14">flooded</governor>
+            <dependent idx="17">Sandy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">swimming</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>CRAZY</word>
+            <lemma>crazy</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>!</word>
+            <lemma>!</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (ADJP (JJ CRAZY)) (. !))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">CRAZY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">CRAZY</governor>
+            <dependent idx="2">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">CRAZY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">CRAZY</governor>
+            <dependent idx="2">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">CRAZY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">CRAZY</governor>
+            <dependent idx="2">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">CRAZY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">CRAZY</governor>
+            <dependent idx="2">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">CRAZY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">CRAZY</governor>
+            <dependent idx="2">!</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

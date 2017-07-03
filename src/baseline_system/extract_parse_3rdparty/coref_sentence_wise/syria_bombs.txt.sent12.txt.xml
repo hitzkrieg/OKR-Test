@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>helicopter</word>
+            <lemma>helicopter</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>reportedly</word>
+            <lemma>reportedly</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>downed</word>
+            <lemma>down</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>rebels</word>
+            <lemma>rebel</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Idlib</word>
+            <lemma>Idlib</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Syrian) (NN helicopter)) (ADVP (RB reportedly)) (VP (VBN downed) (PP (IN by) (NP (NP (NNS rebels)) (PP (IN over) (NP (NNP Idlib)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">downed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">helicopter</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">downed</governor>
+            <dependent idx="2">helicopter</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">downed</governor>
+            <dependent idx="3">reportedly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rebels</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">downed</governor>
+            <dependent idx="6">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Idlib</governor>
+            <dependent idx="7">over</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">rebels</governor>
+            <dependent idx="8">Idlib</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">downed</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">downed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">helicopter</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">downed</governor>
+            <dependent idx="2">helicopter</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">downed</governor>
+            <dependent idx="3">reportedly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rebels</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">downed</governor>
+            <dependent idx="6">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Idlib</governor>
+            <dependent idx="7">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="6">rebels</governor>
+            <dependent idx="8">Idlib</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">downed</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">downed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">helicopter</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">downed</governor>
+            <dependent idx="2">helicopter</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">downed</governor>
+            <dependent idx="3">reportedly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rebels</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">downed</governor>
+            <dependent idx="6">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Idlib</governor>
+            <dependent idx="7">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="6">rebels</governor>
+            <dependent idx="8">Idlib</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">downed</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">downed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">helicopter</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">downed</governor>
+            <dependent idx="2">helicopter</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">downed</governor>
+            <dependent idx="3">reportedly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rebels</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">downed</governor>
+            <dependent idx="6">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Idlib</governor>
+            <dependent idx="7">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="6">rebels</governor>
+            <dependent idx="8">Idlib</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">downed</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">downed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">helicopter</governor>
+            <dependent idx="1">Syrian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">downed</governor>
+            <dependent idx="2">helicopter</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">downed</governor>
+            <dependent idx="3">reportedly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rebels</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">downed</governor>
+            <dependent idx="6">rebels</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Idlib</governor>
+            <dependent idx="7">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="6">rebels</governor>
+            <dependent idx="8">Idlib</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">downed</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

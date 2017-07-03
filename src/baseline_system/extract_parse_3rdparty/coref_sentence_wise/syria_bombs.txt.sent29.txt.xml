@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>'Airstrikes</word>
+            <lemma>'airstrikes</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'</word>
+            <lemma>'</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Pound</word>
+            <lemma>Pound</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Syrian</word>
+            <lemma>syrian</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Rebel</word>
+            <lemma>rebel</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Strongholds</word>
+            <lemma>stronghold</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NN 'Airstrikes) ('' ')) (NP (NP (NNP Pound)) (NP (JJ Syrian) (NN Rebel) (NNS Strongholds))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">'Airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="2">'</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="3">Pound</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="5">Rebel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Pound</governor>
+            <dependent idx="6">Strongholds</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">'Airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="2">'</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="3">Pound</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="5">Rebel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Pound</governor>
+            <dependent idx="6">Strongholds</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">'Airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="2">'</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="3">Pound</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="5">Rebel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Pound</governor>
+            <dependent idx="6">Strongholds</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">'Airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="2">'</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="3">Pound</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="5">Rebel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Pound</governor>
+            <dependent idx="6">Strongholds</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">'Airstrikes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="2">'</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="3">Pound</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="4">Syrian</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Strongholds</governor>
+            <dependent idx="5">Rebel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Pound</governor>
+            <dependent idx="6">Strongholds</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">'Airstrikes</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

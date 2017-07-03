@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>NYTimes</word>
+            <lemma>nytime</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Lance</word>
+            <lemma>Lance</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="4">
+            <word>Armstrong</word>
+            <lemma>Armstrong</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="5">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="6">
+            <word>Center</word>
+            <lemma>Center</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="8">
+            <word>Cycling</word>
+            <lemma>Cycling</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="9">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="10">
+            <word>Most</word>
+            <lemma>most</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="11">
+            <word>Sophisticated</word>
+            <lemma>sophisticated</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="12">
+            <word>Doping</word>
+            <lemma>Doping</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="13">
+            <word>Program</word>
+            <lemma>Program</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="14">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NP (NNS NYTimes)) (NP (`` ``) (NP (NNP Lance) (NNP Armstrong)) (PP (IN at) (NP (NP (NNP Center)) (PP (IN of) (NP (NP (NP (NNP Cycling) (POS 's)) (JJS Most)) (NP (JJ Sophisticated) (NNP Doping) (NNP Program)))))) ('' ''))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">NYTimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">Center</governor>
+            <dependent idx="8">Cycling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="10">Most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Program</governor>
+            <dependent idx="11">Sophisticated</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Program</governor>
+            <dependent idx="12">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="13">Program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="14">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">NYTimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:'s">
+            <governor idx="6">Center</governor>
+            <dependent idx="8">Cycling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="10">Most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Program</governor>
+            <dependent idx="11">Sophisticated</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Program</governor>
+            <dependent idx="12">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="13">Program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="14">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">NYTimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:'s">
+            <governor idx="6">Center</governor>
+            <dependent idx="8">Cycling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="10">Most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Program</governor>
+            <dependent idx="11">Sophisticated</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Program</governor>
+            <dependent idx="12">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="13">Program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="14">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">NYTimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:'s">
+            <governor idx="6">Center</governor>
+            <dependent idx="8">Cycling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="10">Most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Program</governor>
+            <dependent idx="11">Sophisticated</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Program</governor>
+            <dependent idx="12">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="13">Program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="14">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">NYTimes</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="3">Lance</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="4">Armstrong</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Center</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="6">Center</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:'s">
+            <governor idx="6">Center</governor>
+            <dependent idx="8">Cycling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="10">Most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Program</governor>
+            <dependent idx="11">Sophisticated</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Program</governor>
+            <dependent idx="12">Doping</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">Cycling</governor>
+            <dependent idx="13">Program</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Armstrong</governor>
+            <dependent idx="14">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">NYTimes</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
