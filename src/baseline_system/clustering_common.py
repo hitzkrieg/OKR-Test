@@ -3,15 +3,15 @@ Utility script for clustering functions
 """
 
 
-def cluster_mentions(mention_list, score):
+def cluster_mentions(mention_list, score, clusters = []):
     """
     Cluster the predicate mentions in a greedy way: assign each predicate to the first
     cluster with similarity score > 0.5. If no such cluster exists, start a new one.
     :param mention_list: the mentions to cluster
     :param score: the score function that receives a mention and a cluster and returns a score
+    :param clusters: the initial clusters received by the algorithm from a previous coreference pipeline
     :return: clusters of mentions
     """
-    clusters = []
 
     for mention in mention_list:
         found_cluster = False
@@ -25,3 +25,8 @@ def cluster_mentions(mention_list, score):
             clusters.append(set([mention]))
 
     return clusters
+
+
+
+
+
