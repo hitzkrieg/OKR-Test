@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>bombing</word>
+            <lemma>bombing</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>intelligence</word>
+            <lemma>intelligence</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>official</word>
+            <lemma>official</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>rocks</word>
+            <lemma>rock</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Lebanon</word>
+            <lemma>Lebanon</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NN Car) (NN bombing)) (PP (IN of) (NP (NP (NN intelligence) (NN official) (NNS rocks)) (NP (NNP Lebanon)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bombing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">bombing</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rocks</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="4">intelligence</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="5">official</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">bombing</governor>
+            <dependent idx="6">rocks</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">rocks</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bombing</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bombing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">bombing</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rocks</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="4">intelligence</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="5">official</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">bombing</governor>
+            <dependent idx="6">rocks</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">rocks</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bombing</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bombing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">bombing</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rocks</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="4">intelligence</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="5">official</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">bombing</governor>
+            <dependent idx="6">rocks</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">rocks</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bombing</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bombing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">bombing</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rocks</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="4">intelligence</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="5">official</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">bombing</governor>
+            <dependent idx="6">rocks</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">rocks</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bombing</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">bombing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">bombing</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">rocks</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="4">intelligence</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">rocks</governor>
+            <dependent idx="5">official</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">bombing</governor>
+            <dependent idx="6">rocks</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">rocks</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">bombing</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

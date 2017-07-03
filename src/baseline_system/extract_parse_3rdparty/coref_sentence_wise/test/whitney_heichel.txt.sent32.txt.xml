@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Search</word>
+            <lemma>search</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Continues</word>
+            <lemma>Continues</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>For</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Gresham</word>
+            <lemma>Gresham</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Woman</word>
+            <lemma>Woman</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Search) (S (NP (NNP Continues)) (PP (IN For) (S (VP (VBG Missing) (NP (NNP Gresham) (NNP Woman))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Search</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Search</governor>
+            <dependent idx="2">Continues</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">Missing</governor>
+            <dependent idx="3">For</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">Continues</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Woman</governor>
+            <dependent idx="5">Gresham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="6">Woman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Search</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Search</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Search</governor>
+            <dependent idx="2">Continues</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">Missing</governor>
+            <dependent idx="3">For</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">Continues</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Woman</governor>
+            <dependent idx="5">Gresham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="6">Woman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Search</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Search</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Search</governor>
+            <dependent idx="2">Continues</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">Missing</governor>
+            <dependent idx="3">For</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">Continues</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Woman</governor>
+            <dependent idx="5">Gresham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="6">Woman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Search</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Search</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Search</governor>
+            <dependent idx="2">Continues</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">Missing</governor>
+            <dependent idx="3">For</dependent>
+          </dep>
+          <dep type="advcl:for">
+            <governor idx="2">Continues</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Woman</governor>
+            <dependent idx="5">Gresham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="6">Woman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Search</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Search</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="1">Search</governor>
+            <dependent idx="2">Continues</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">Missing</governor>
+            <dependent idx="3">For</dependent>
+          </dep>
+          <dep type="advcl:for">
+            <governor idx="2">Continues</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Woman</governor>
+            <dependent idx="5">Gresham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="6">Woman</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Search</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

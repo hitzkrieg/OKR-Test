@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Check</word>
+            <lemma>check</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>out</word>
+            <lemma>out</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Israel</word>
+            <lemma>Israel</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Netanyahu</word>
+            <lemma>Netanyahu</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>ally</word>
+            <lemma>ally</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Lieberman</word>
+            <lemma>Lieberman</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>merge</word>
+            <lemma>merge</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>parties</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>[</word>
+            <lemma>[</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>link</word>
+            <lemma>link</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>my</word>
+            <lemma>my</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>bio</word>
+            <lemma>bio</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>]</word>
+            <lemma>]</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VP (VB Check) (NP (DT this)) (PRT (RP out))) (: :) (NP (NP (NP (NNP Israel) (POS 's)) (NNP Netanyahu)) (, ,) (NP (NP (NN ally)) (SBAR (S (NP (NNP Lieberman)) (VP (VBP merge) (SBAR (S (NP (NNS parties)) (VP (VBP [) (NP (NP (DT a) (NN link)) (PP (IN in) (NP (PRP$ my) (NN bio) (NN ]))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Check</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="1">Check</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="5">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Israel</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="7">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="9">ally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">merge</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="9">ally</governor>
+            <dependent idx="11">merge</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">[</governor>
+            <dependent idx="12">parties</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">merge</governor>
+            <dependent idx="13">[</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">link</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">[</governor>
+            <dependent idx="15">link</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">]</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="19">]</governor>
+            <dependent idx="17">my</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">]</governor>
+            <dependent idx="18">bio</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="15">link</governor>
+            <dependent idx="19">]</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Check</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="1">Check</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="5">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Israel</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="7">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="9">ally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">merge</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="9">ally</governor>
+            <dependent idx="11">merge</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">[</governor>
+            <dependent idx="12">parties</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">merge</governor>
+            <dependent idx="13">[</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">link</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">[</governor>
+            <dependent idx="15">link</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">]</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="19">]</governor>
+            <dependent idx="17">my</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">]</governor>
+            <dependent idx="18">bio</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">link</governor>
+            <dependent idx="19">]</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Check</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="1">Check</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="5">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Israel</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="7">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="9">ally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">merge</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="9">ally</governor>
+            <dependent idx="11">merge</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">[</governor>
+            <dependent idx="12">parties</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">merge</governor>
+            <dependent idx="13">[</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">link</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">[</governor>
+            <dependent idx="15">link</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">]</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="19">]</governor>
+            <dependent idx="17">my</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">]</governor>
+            <dependent idx="18">bio</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">link</governor>
+            <dependent idx="19">]</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Check</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="1">Check</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="5">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Israel</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="7">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="9">ally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">merge</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="9">ally</governor>
+            <dependent idx="11">merge</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">[</governor>
+            <dependent idx="12">parties</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">merge</governor>
+            <dependent idx="13">[</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">link</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">[</governor>
+            <dependent idx="15">link</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">]</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="19">]</governor>
+            <dependent idx="17">my</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">]</governor>
+            <dependent idx="18">bio</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">link</governor>
+            <dependent idx="19">]</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Check</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="1">Check</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="5">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Israel</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Check</governor>
+            <dependent idx="7">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Netanyahu</governor>
+            <dependent idx="9">ally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">merge</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="9">ally</governor>
+            <dependent idx="11">merge</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">[</governor>
+            <dependent idx="12">parties</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">merge</governor>
+            <dependent idx="13">[</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">link</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">[</governor>
+            <dependent idx="15">link</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">]</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="19">]</governor>
+            <dependent idx="17">my</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="19">]</governor>
+            <dependent idx="18">bio</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">link</governor>
+            <dependent idx="19">]</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Check</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

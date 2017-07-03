@@ -4,9 +4,13 @@ import xml.etree.ElementTree as ET
 from collections import defaultdict
 import sys
 sys.path.append('../../common')
+sys.path.append('../../agreement')
+
 sys.path.append('..')
 from eval_entity_coref import *
 from okr import *
+from clustering_common import cluster_mentions
+
 """
 It could have been possible to have just reuse the existing code for evaluation, but I consider to convert the CoreNLP
 output into the ECB like format and then try to analyse from there.
@@ -84,7 +88,7 @@ def parse_and_evaluate_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_
 			# print('*********')
 			# print('*********')
 			curr_scores = eval_clusters(clusters, okr_graph)
-	        scores.append(curr_scores)
+			scores.append(curr_scores)
 
 	print(scores)		
 	scores = np.mean(scores, axis=0).tolist()    
@@ -149,9 +153,73 @@ def parse_and_analyse_corenlp_coref(input_dir = 'CoreNLP_coref_anno/dev', gold_a
 					print([mention.terms for mention in entity.mentions.values()])
 
 				print '**********'	
+
+
+
+
+def parse_sentence_wise_corenlp_coref_and_cluster_further(input_dir = './coref_sentence_wise/test', gold_annotations_folder = '../../../data/baseline/test'): 
+	"""
+	Parse the output xml file annotated by coreNLP which was supplied files sentencewise, use the mentions as the starting state for the baseline entity coreference resolver 
+	and evaluate the final clusters.
+	"""
+	
+	scores = []
+	
+	for file in os.listdir(gold_annotations_folder):
+		if re.match(r'(.+)\.xml', file)!= None:
+			okr_graph = load_graph_from_file(gold_annotations_folder + '/'+ file)
+
+			clusters = []
+			entities = [(str(mention), unicode(mention.terms)) for entity in okr_graph.entities.values() for mention in
+                    entity.mentions.values()]
+			gold_entity_mentions= [str(mention) for entity in okr_graph.entities.values() for mention in entity.mentions.values()]
+			for annotated_file in os.listdir(input_dir):
 				
+				if(re.match(file[:-4] + r'\.txt\.sent(\d+)\.txt.xml', annotated_file)!= None):
+					sent_number = int(re.match(file[:-4] + r'\.txt\.sent(\d+)\.txt.xml', annotated_file).group(1))
+					sentence_tokens = okr_graph.sentences[sent_number]
+
+
+					tree = ET.parse(input_dir + '/' + annotated_file)
+					document = tree.getroot()[0]
+					coref_node = document.find('coreference')
+					if(coref_node!= None):
+						for coref_id, coref_chain in enumerate(coref_node):
+							cluster = []
+							for mention in coref_chain:
+								start = int(mention[1].text)-1
+								end = int(mention[2].text)-1
+								indices = range(start,end)
+								text = mention[4].text	
+								mention_string = str(sent_number)+ str(indices)
+						
+								# Filter from the clusters the mentions which are not in gold
+
+								if(mention_string in gold_entity_mentions):
+									cluster.append((mention_string, text))
+							if(len(cluster)!=0):
+								clusters.append(set(cluster))	
+			clusters_hybrid = cluster_mentions(entities, score, clusters)
+			clusters = [set([item[0] for item in cluster]) for cluster in clusters]
+
+
+			curr_scores = eval_clusters(clusters, okr_graph)
+			scores.append(curr_scores)
+
+
+						
+	print(scores)		
+	scores = np.mean(scores, axis=0).tolist()    
+	print(scores)					
+
+
+
+
+
+	
+		
 def main():
-	parse_and_analyse_corenlp_coref()
+	parse_sentence_wise_corenlp_coref_and_cluster_further()
 
 
 

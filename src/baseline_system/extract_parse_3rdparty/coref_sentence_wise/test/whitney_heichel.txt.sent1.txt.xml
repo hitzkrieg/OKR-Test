@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Prayers</word>
+            <lemma>prayer</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Heichel</word>
+            <lemma>Heichel</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNS Prayers)) (PP (TO to) (NP (NNP Whitney) (NNP Heichel))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Prayers</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="3">Whitney</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="4">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Prayers</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="3">Whitney</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="4">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Prayers</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="3">Whitney</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="4">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Prayers</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="3">Whitney</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="4">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Prayers</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Heichel</governor>
+            <dependent idx="3">Whitney</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="4">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Prayers</governor>
+            <dependent idx="5">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Starbucks</word>
+            <lemma>Starbucks</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>MissingPerson</word>
+            <lemma>MissingPerson</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NNP Starbucks) (NNP MissingPerson) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">MissingPerson</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="1">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">MissingPerson</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="1">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">MissingPerson</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="1">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">MissingPerson</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="1">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">MissingPerson</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="1">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">MissingPerson</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

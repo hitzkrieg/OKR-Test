@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>CNN</word>
+            <lemma>CNN</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Breaking</word>
+            <lemma>break</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>News</word>
+            <lemma>News</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Former</word>
+            <lemma>Former</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Penn</word>
+            <lemma>Penn</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>President</word>
+            <lemma>President</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Graham</word>
+            <lemma>Graham</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Spanier</word>
+            <lemma>Spanier</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>charged</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>perjury</word>
+            <lemma>perjury</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>other</word>
+            <lemma>other</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>counts</word>
+            <lemma>count</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>child</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>rape</word>
+            <lemma>rape</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>scandal</word>
+            <lemma>scandal</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>university</word>
+            <lemma>university</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP CNN)) (VP (VBG Breaking) (NP (NNP News) (NNP Former) (NNP Penn) (NNP State) (NNP President) (NNP Graham) (NNP Spanier)))) (VP (VBD charged) (PP (IN with) (NP (NP (NN perjury) (CC and) (JJ other) (NNS counts)) (PP (IN in) (NP (DT the) (NN child) (NN rape) (NN scandal))))) (PP (IN at) (NP (NN university)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">charged</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">Breaking</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="3">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="4">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="5">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="8">Graham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Breaking</governor>
+            <dependent idx="9">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">counts</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">counts</governor>
+            <dependent idx="12">perjury</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">perjury</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">perjury</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">charged</governor>
+            <dependent idx="15">counts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">scandal</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">scandal</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="18">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="19">rape</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="15">counts</governor>
+            <dependent idx="20">scandal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">university</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">charged</governor>
+            <dependent idx="22">university</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">charged</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">charged</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">Breaking</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="3">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="4">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="5">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="8">Graham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Breaking</governor>
+            <dependent idx="9">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">counts</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">counts</governor>
+            <dependent idx="12">perjury</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">perjury</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">perjury</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="10">charged</governor>
+            <dependent idx="15">counts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">scandal</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">scandal</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="18">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="19">rape</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">counts</governor>
+            <dependent idx="20">scandal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">university</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">charged</governor>
+            <dependent idx="22">university</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">charged</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">charged</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">Breaking</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="3">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="4">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="5">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="8">Graham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Breaking</governor>
+            <dependent idx="9">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">counts</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">counts</governor>
+            <dependent idx="12">perjury</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">perjury</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">perjury</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="15">counts</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="10">charged</governor>
+            <dependent idx="15">counts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">scandal</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">scandal</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="18">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="19">rape</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">counts</governor>
+            <dependent idx="20">scandal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">university</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">charged</governor>
+            <dependent idx="22">university</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">charged</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">charged</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">Breaking</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="3">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="4">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="5">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="8">Graham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Breaking</governor>
+            <dependent idx="9">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">counts</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">counts</governor>
+            <dependent idx="12">perjury</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">perjury</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">perjury</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="15">counts</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="10">charged</governor>
+            <dependent idx="15">counts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">scandal</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">scandal</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="18">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="19">rape</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">counts</governor>
+            <dependent idx="20">scandal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">university</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">charged</governor>
+            <dependent idx="22">university</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">charged</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">charged</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">Breaking</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="3">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="4">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="5">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="7">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Spanier</governor>
+            <dependent idx="8">Graham</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Breaking</governor>
+            <dependent idx="9">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">counts</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">counts</governor>
+            <dependent idx="12">perjury</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">perjury</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">perjury</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="15">counts</governor>
+            <dependent idx="14">other</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="10">charged</governor>
+            <dependent idx="15">counts</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">scandal</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">scandal</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="18">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">scandal</governor>
+            <dependent idx="19">rape</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="15">counts</governor>
+            <dependent idx="20">scandal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">university</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">charged</governor>
+            <dependent idx="22">university</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">charged</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>WSVN-TV</word>
+            <lemma>wsvn-tv</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>8</word>
+            <lemma>8</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>8.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>wounds</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>dozens</word>
+            <lemma>dozen</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NN WSVN-TV)) (: -) (S (NP (NNP Beirut) (NN car) (NN bomb)) (VP (VBZ kills) (NP (NP (CD 8)) (, ,) (NP (NNS wounds) (NNS dozens))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">WSVN-TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="2">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="4">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="5">bomb</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">8</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">dozens</governor>
+            <dependent idx="9">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">8</governor>
+            <dependent idx="10">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">WSVN-TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="2">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="4">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="5">bomb</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">8</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">dozens</governor>
+            <dependent idx="9">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">8</governor>
+            <dependent idx="10">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">WSVN-TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="2">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="4">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="5">bomb</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">8</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">dozens</governor>
+            <dependent idx="9">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">8</governor>
+            <dependent idx="10">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">WSVN-TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="2">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="4">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="5">bomb</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">8</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">dozens</governor>
+            <dependent idx="9">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">8</governor>
+            <dependent idx="10">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">WSVN-TV</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="2">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">bomb</governor>
+            <dependent idx="4">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">kills</governor>
+            <dependent idx="5">bomb</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="6">kills</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">kills</governor>
+            <dependent idx="7">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">8</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">dozens</governor>
+            <dependent idx="9">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">8</governor>
+            <dependent idx="10">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">WSVN-TV</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

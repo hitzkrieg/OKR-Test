@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>anti-Damascus</word>
+            <lemma>anti-damascus</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>security</word>
+            <lemma>security</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>official</word>
+            <lemma>official</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Beirut) (NN car) (NN bomb)) (VP (VBZ kills) (NP (JJ anti-Damascus) (NN security) (NN official))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">official</governor>
+            <dependent idx="5">anti-Damascus</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">official</governor>
+            <dependent idx="6">security</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="7">official</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">official</governor>
+            <dependent idx="5">anti-Damascus</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">official</governor>
+            <dependent idx="6">security</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="7">official</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">official</governor>
+            <dependent idx="5">anti-Damascus</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">official</governor>
+            <dependent idx="6">security</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="7">official</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">official</governor>
+            <dependent idx="5">anti-Damascus</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">official</governor>
+            <dependent idx="6">security</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="7">official</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">official</governor>
+            <dependent idx="5">anti-Damascus</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">official</governor>
+            <dependent idx="6">security</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="7">official</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

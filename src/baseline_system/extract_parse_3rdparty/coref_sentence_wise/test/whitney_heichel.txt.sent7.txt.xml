@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>barista</word>
+            <lemma>barista</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>remains</word>
+            <lemma>remain</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>neighbor</word>
+            <lemma>neighbor</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>arrested</word>
+            <lemma>arrest</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBG Missing) (NP (NP (NN barista)) (SBAR (S (NP (POS 's)) (VP (VBZ remains) (VP (VBN found)))))))) (, ,) (NP (NN neighbor)) (VP (VBN arrested)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">arrested</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">arrested</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">remains</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">barista</governor>
+            <dependent idx="4">remains</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">remains</governor>
+            <dependent idx="5">found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">arrested</governor>
+            <dependent idx="7">neighbor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">arrested</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">arrested</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">remains</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">barista</governor>
+            <dependent idx="4">remains</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">remains</governor>
+            <dependent idx="5">found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">arrested</governor>
+            <dependent idx="7">neighbor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">arrested</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">arrested</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">remains</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">barista</governor>
+            <dependent idx="4">remains</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">remains</governor>
+            <dependent idx="5">found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">arrested</governor>
+            <dependent idx="7">neighbor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">arrested</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">arrested</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">remains</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">barista</governor>
+            <dependent idx="4">remains</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">remains</governor>
+            <dependent idx="5">found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">arrested</governor>
+            <dependent idx="7">neighbor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">arrested</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">arrested</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">remains</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">barista</governor>
+            <dependent idx="4">remains</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">remains</governor>
+            <dependent idx="5">found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">arrested</governor>
+            <dependent idx="7">neighbor</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">arrested</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

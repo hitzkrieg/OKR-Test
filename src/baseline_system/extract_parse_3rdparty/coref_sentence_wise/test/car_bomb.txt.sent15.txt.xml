@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Aftermath</word>
+            <lemma>aftermath</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>blast</word>
+            <lemma>blast</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Photos</word>
+            <lemma>photo</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN Aftermath)) (PP (IN of) (NP (NNP Beirut) (NN blast)))) (: -) (NP (NP (NNS Photos)) (: :) (NP (NP (NN Car) (NN bomb)) (PP (IN in) (NP (NNP Beirut))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Aftermath</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">blast</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">blast</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="4">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="6">Photos</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Photos</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">bomb</governor>
+            <dependent idx="8">Car</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">Photos</governor>
+            <dependent idx="9">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Beirut</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">bomb</governor>
+            <dependent idx="11">Beirut</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Aftermath</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">blast</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">blast</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="4">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="6">Photos</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Photos</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">bomb</governor>
+            <dependent idx="8">Car</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">Photos</governor>
+            <dependent idx="9">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Beirut</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">bomb</governor>
+            <dependent idx="11">Beirut</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Aftermath</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">blast</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">blast</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="4">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="6">Photos</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Photos</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">bomb</governor>
+            <dependent idx="8">Car</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">Photos</governor>
+            <dependent idx="9">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Beirut</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">bomb</governor>
+            <dependent idx="11">Beirut</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Aftermath</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">blast</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">blast</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="4">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="6">Photos</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Photos</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">bomb</governor>
+            <dependent idx="8">Car</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">Photos</governor>
+            <dependent idx="9">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Beirut</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">bomb</governor>
+            <dependent idx="11">Beirut</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Aftermath</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">blast</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">blast</governor>
+            <dependent idx="3">Beirut</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="4">blast</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="5">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="6">Photos</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Photos</governor>
+            <dependent idx="7">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">bomb</governor>
+            <dependent idx="8">Car</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">Photos</governor>
+            <dependent idx="9">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Beirut</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">bomb</governor>
+            <dependent idx="11">Beirut</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Aftermath</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Beirut</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>Beirut</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>sparks</word>
+            <lemma>spark</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>fears</word>
+            <lemma>fear</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Syria</word>
+            <lemma>Syria</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>spillover</word>
+            <lemma>spillover</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Beirut) (NN car) (NN bomb)) (VP (VBZ sparks) (NP (NP (NNS fears)) (PP (IN of) (NP (NNP Syria) (NN spillover))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sparks</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="5">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">spillover</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">spillover</governor>
+            <dependent idx="7">Syria</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">fears</governor>
+            <dependent idx="8">spillover</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">sparks</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sparks</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="5">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">spillover</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">spillover</governor>
+            <dependent idx="7">Syria</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">fears</governor>
+            <dependent idx="8">spillover</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">sparks</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sparks</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="5">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">spillover</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">spillover</governor>
+            <dependent idx="7">Syria</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">fears</governor>
+            <dependent idx="8">spillover</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">sparks</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sparks</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="5">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">spillover</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">spillover</governor>
+            <dependent idx="7">Syria</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">fears</governor>
+            <dependent idx="8">spillover</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">sparks</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sparks</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">sparks</governor>
+            <dependent idx="5">fears</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">spillover</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">spillover</governor>
+            <dependent idx="7">Syria</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">fears</governor>
+            <dependent idx="8">spillover</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">sparks</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

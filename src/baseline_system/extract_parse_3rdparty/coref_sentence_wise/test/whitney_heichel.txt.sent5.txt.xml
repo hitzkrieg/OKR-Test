@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Blog</word>
+            <lemma>blog</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Oregon</word>
+            <lemma>Oregon</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Barista</word>
+            <lemma>Barista</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Body</word>
+            <lemma>Body</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Found</word>
+            <lemma>Found</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Man</word>
+            <lemma>Man</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Arrested</word>
+            <lemma>arrest</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN () (NN Blog)) (NP (CD )))) (VP (VBG Missing) (NP (NP (NP (NNP Oregon) (NNP Barista) (POS 's)) (NNP Body) (NNP Found)) (, ,) (NP (NP (NNP Man)) (VP (VBN Arrested))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Blog</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Blog</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Blog</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Blog</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Barista</governor>
+            <dependent idx="5">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">Found</governor>
+            <dependent idx="6">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Barista</governor>
+            <dependent idx="7">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Found</governor>
+            <dependent idx="8">Body</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="9">Found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Found</governor>
+            <dependent idx="11">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">Man</governor>
+            <dependent idx="12">Arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Blog</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Blog</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Blog</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Blog</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Blog</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Barista</governor>
+            <dependent idx="5">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">Found</governor>
+            <dependent idx="6">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Barista</governor>
+            <dependent idx="7">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Found</governor>
+            <dependent idx="8">Body</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="9">Found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Found</governor>
+            <dependent idx="11">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">Man</governor>
+            <dependent idx="12">Arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Blog</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Blog</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Blog</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Blog</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Blog</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Barista</governor>
+            <dependent idx="5">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">Found</governor>
+            <dependent idx="6">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Barista</governor>
+            <dependent idx="7">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Found</governor>
+            <dependent idx="8">Body</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="9">Found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Found</governor>
+            <dependent idx="11">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">Man</governor>
+            <dependent idx="12">Arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Blog</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Blog</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Blog</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Blog</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Blog</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Barista</governor>
+            <dependent idx="5">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">Found</governor>
+            <dependent idx="6">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Barista</governor>
+            <dependent idx="7">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Found</governor>
+            <dependent idx="8">Body</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="9">Found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Found</governor>
+            <dependent idx="11">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">Man</governor>
+            <dependent idx="12">Arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Blog</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Blog</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Blog</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Blog</governor>
+            <dependent idx="3">)</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Blog</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Barista</governor>
+            <dependent idx="5">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">Found</governor>
+            <dependent idx="6">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Barista</governor>
+            <dependent idx="7">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Found</governor>
+            <dependent idx="8">Body</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="9">Found</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">Found</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Found</governor>
+            <dependent idx="11">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">Man</governor>
+            <dependent idx="12">Arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Blog</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

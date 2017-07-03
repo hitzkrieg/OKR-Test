@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Deal</word>
+            <lemma>Deal</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>merger</word>
+            <lemma>merger</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Netanyahu</word>
+            <lemma>Netanyahu</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Likud</word>
+            <lemma>Likud</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>reached</word>
+            <lemma>reach</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P-2M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="11">
+            <word>months</word>
+            <lemma>month</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P-2M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="12">
+            <word>ago</word>
+            <lemma>ago</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P-2M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="13">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Deal)) (PP (IN on) (NP (NP (NN merger)) (PP (IN with) (NP (NP (NNP Netanyahu) (POS 's)) (NNP Likud)))))) (VP (VBD was) (VP (VBN reached) (ADVP (NP (CD two) (NNS months)) (RB ago)))) (: :) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">reached</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="1">Deal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">merger</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Deal</governor>
+            <dependent idx="3">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Likud</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Likud</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">merger</governor>
+            <dependent idx="7">Likud</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">months</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">ago</governor>
+            <dependent idx="11">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">reached</governor>
+            <dependent idx="12">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">reached</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="1">Deal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">merger</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Deal</governor>
+            <dependent idx="3">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Likud</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Likud</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="3">merger</governor>
+            <dependent idx="7">Likud</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">months</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">ago</governor>
+            <dependent idx="11">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">reached</governor>
+            <dependent idx="12">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">reached</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="1">Deal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">merger</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Deal</governor>
+            <dependent idx="3">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Likud</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Likud</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="3">merger</governor>
+            <dependent idx="7">Likud</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">months</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">ago</governor>
+            <dependent idx="11">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">reached</governor>
+            <dependent idx="12">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">reached</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="1">Deal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">merger</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Deal</governor>
+            <dependent idx="3">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Likud</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Likud</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="3">merger</governor>
+            <dependent idx="7">Likud</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">months</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">ago</governor>
+            <dependent idx="11">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">reached</governor>
+            <dependent idx="12">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">reached</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="1">Deal</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">merger</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Deal</governor>
+            <dependent idx="3">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Likud</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">Likud</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="3">merger</governor>
+            <dependent idx="7">Likud</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">reached</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">months</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">ago</governor>
+            <dependent idx="11">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">reached</governor>
+            <dependent idx="12">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="13">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">reached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

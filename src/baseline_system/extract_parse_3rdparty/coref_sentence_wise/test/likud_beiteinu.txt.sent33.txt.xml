@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Israel</word>
+            <lemma>Israel</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Likud</word>
+            <lemma>Likud</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Party</word>
+            <lemma>Party</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Yisrael</word>
+            <lemma>Yisrael</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Beitenu</word>
+            <lemma>Beitenu</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>agree</word>
+            <lemma>agree</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>join</word>
+            <lemma>join</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>forces</word>
+            <lemma>force</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>right-wing</word>
+            <lemma>right-wing</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>bloc</word>
+            <lemma>bloc</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>January</word>
+            <lemma>January</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-01</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-01</Timex>
+          </token>
+          <token id="17">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>election</word>
+            <lemma>election</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Israel) (POS 's)) (NNP Likud) (NNP Party) (CC and) (NNP Yisrael) (NNP Beitenu)) (VP (VBP agree) (S (VP (TO to) (VP (VB join) (NP (NNS forces)) (PP (IN in) (NP (NP (JJ right-wing) (NN bloc)) (PP (IN for) (NP (NP (NNP January) (POS 's)) (NN election))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">agree</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Party</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Party</governor>
+            <dependent idx="3">Likud</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">agree</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Party</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Beitenu</governor>
+            <dependent idx="6">Yisrael</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">Party</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">join</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">agree</governor>
+            <dependent idx="10">join</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">join</governor>
+            <dependent idx="11">forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">bloc</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">bloc</governor>
+            <dependent idx="13">right-wing</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">join</governor>
+            <dependent idx="14">bloc</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">election</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="18">election</governor>
+            <dependent idx="16">January</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">January</governor>
+            <dependent idx="17">'s</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">bloc</governor>
+            <dependent idx="18">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">agree</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">agree</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Party</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Party</governor>
+            <dependent idx="3">Likud</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">agree</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Party</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Beitenu</governor>
+            <dependent idx="6">Yisrael</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">Party</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">join</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">agree</governor>
+            <dependent idx="10">join</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">join</governor>
+            <dependent idx="11">forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">bloc</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">bloc</governor>
+            <dependent idx="13">right-wing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">join</governor>
+            <dependent idx="14">bloc</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">election</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="18">election</governor>
+            <dependent idx="16">January</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">January</governor>
+            <dependent idx="17">'s</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">bloc</governor>
+            <dependent idx="18">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">agree</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">agree</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Party</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Party</governor>
+            <dependent idx="3">Likud</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">agree</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Party</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Beitenu</governor>
+            <dependent idx="6">Yisrael</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">Party</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="8">agree</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">join</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">agree</governor>
+            <dependent idx="10">join</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">join</governor>
+            <dependent idx="11">forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">bloc</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">bloc</governor>
+            <dependent idx="13">right-wing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">join</governor>
+            <dependent idx="14">bloc</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">election</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="18">election</governor>
+            <dependent idx="16">January</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">January</governor>
+            <dependent idx="17">'s</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">bloc</governor>
+            <dependent idx="18">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">agree</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">agree</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Party</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Party</governor>
+            <dependent idx="3">Likud</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">agree</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="10">join</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Party</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Beitenu</governor>
+            <dependent idx="6">Yisrael</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">Party</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="8">agree</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="10">join</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">join</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">agree</governor>
+            <dependent idx="10">join</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">join</governor>
+            <dependent idx="11">forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">bloc</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">bloc</governor>
+            <dependent idx="13">right-wing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">join</governor>
+            <dependent idx="14">bloc</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">election</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="18">election</governor>
+            <dependent idx="16">January</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">January</governor>
+            <dependent idx="17">'s</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">bloc</governor>
+            <dependent idx="18">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">agree</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">agree</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Party</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Party</governor>
+            <dependent idx="3">Likud</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">agree</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="10">join</governor>
+            <dependent idx="4">Party</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Party</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Beitenu</governor>
+            <dependent idx="6">Yisrael</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">Party</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="8">agree</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="10">join</governor>
+            <dependent idx="7">Beitenu</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">join</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">agree</governor>
+            <dependent idx="10">join</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">join</governor>
+            <dependent idx="11">forces</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">bloc</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">bloc</governor>
+            <dependent idx="13">right-wing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">join</governor>
+            <dependent idx="14">bloc</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">election</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="18">election</governor>
+            <dependent idx="16">January</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">January</governor>
+            <dependent idx="17">'s</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">bloc</governor>
+            <dependent idx="18">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">agree</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

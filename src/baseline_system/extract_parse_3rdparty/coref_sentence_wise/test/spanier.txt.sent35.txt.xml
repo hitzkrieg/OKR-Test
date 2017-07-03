@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Penn</word>
+            <lemma>Penn</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Scandal</word>
+            <lemma>Scandal</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>From</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Former</word>
+            <lemma>Former</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Paterno</word>
+            <lemma>Paterno</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Chair</word>
+            <lemma>Chair</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Penn) (NNP State) (NNP Scandal)) (PP (IN From) (NP (DT the) (CD () (NNP Former) (NNP )) (NNP Paterno) (NNP Chair))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Scandal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="2">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="3">State</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Chair</governor>
+            <dependent idx="5">From</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Chair</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Chair</governor>
+            <dependent idx="7">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="8">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="9">)</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="10">Paterno</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="11">Chair</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Scandal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="2">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="3">State</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Chair</governor>
+            <dependent idx="5">From</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Chair</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Chair</governor>
+            <dependent idx="7">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="8">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="9">)</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="10">Paterno</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="11">Chair</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Scandal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="2">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="3">State</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Chair</governor>
+            <dependent idx="5">From</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Chair</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Chair</governor>
+            <dependent idx="7">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="8">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="9">)</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="10">Paterno</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="11">Chair</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Scandal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="2">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="3">State</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Chair</governor>
+            <dependent idx="5">From</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Chair</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Chair</governor>
+            <dependent idx="7">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="8">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="9">)</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="10">Paterno</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="11">Chair</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Scandal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="2">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="3">State</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Chair</governor>
+            <dependent idx="5">From</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Chair</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Chair</governor>
+            <dependent idx="7">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="8">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="9">)</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Chair</governor>
+            <dependent idx="10">Paterno</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="11">Chair</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Scandal</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>sassine</word>
+            <lemma>sassine</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>pics</word>
+            <lemma>pic</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>coming</word>
+            <lemma>come</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>now</word>
+            <lemma>now</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>PRESENT_REF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">PRESENT_REF</Timex>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NN Car) (NN Bomb)) (PP (IN in) (NP (NN sassine) (NNS pics)))) (VP (VBG coming) (ADVP (RB now))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bomb</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">pics</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pics</governor>
+            <dependent idx="4">sassine</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="5">pics</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="6">coming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">coming</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bomb</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">pics</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pics</governor>
+            <dependent idx="4">sassine</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="5">pics</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="6">coming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">coming</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bomb</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">pics</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pics</governor>
+            <dependent idx="4">sassine</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="5">pics</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="6">coming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">coming</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bomb</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">pics</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pics</governor>
+            <dependent idx="4">sassine</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="5">pics</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="6">coming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">coming</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bomb</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="1">Car</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">pics</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">pics</governor>
+            <dependent idx="4">sassine</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="5">pics</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="6">coming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">coming</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bomb</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

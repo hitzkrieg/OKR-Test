@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>21-year-old</word>
+            <lemma>21-year-old</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P21Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P21Y</Timex>
+          </token>
+          <token id="3">
+            <word>Bangladeshi</word>
+            <lemma>Bangladeshi</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>arrested</word>
+            <lemma>arrest</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>attempting</word>
+            <lemma>attempt</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>blow</word>
+            <lemma>blow</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Bank</word>
+            <lemma>Bank</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>York</word>
+            <lemma>York</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (JJ 21-year-old) (NNP Bangladeshi)) (VP (VBZ is) (VP (VBN arrested) (PP (IN for) (S (VP (VBG attempting) (S (VP (TO to) (VP (VB blow) (PRT (RP up)) (NP (NP (DT the) (NNP Federal) (NNP Reserve) (NNP Bank)) (PP (IN of) (NP (NNP New) (NNP York)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">arrested</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="2">21-year-old</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="3">Bangladeshi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">attempting</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">arrested</governor>
+            <dependent idx="7">attempting</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">blow</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">attempting</governor>
+            <dependent idx="9">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">blow</governor>
+            <dependent idx="10">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">York</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">York</governor>
+            <dependent idx="16">New</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">Bank</governor>
+            <dependent idx="17">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">arrested</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">arrested</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="2">21-year-old</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="3">Bangladeshi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">attempting</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">arrested</governor>
+            <dependent idx="7">attempting</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">blow</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">attempting</governor>
+            <dependent idx="9">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">blow</governor>
+            <dependent idx="10">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">York</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">York</governor>
+            <dependent idx="16">New</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">Bank</governor>
+            <dependent idx="17">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">arrested</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">arrested</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="2">21-year-old</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="3">Bangladeshi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">attempting</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">arrested</governor>
+            <dependent idx="7">attempting</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">blow</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">attempting</governor>
+            <dependent idx="9">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">blow</governor>
+            <dependent idx="10">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">York</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">York</governor>
+            <dependent idx="16">New</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">Bank</governor>
+            <dependent idx="17">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">arrested</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">arrested</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="2">21-year-old</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="3">Bangladeshi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">attempting</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="advcl:for">
+            <governor idx="5">arrested</governor>
+            <dependent idx="7">attempting</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">blow</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">attempting</governor>
+            <dependent idx="9">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">blow</governor>
+            <dependent idx="10">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">York</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">York</governor>
+            <dependent idx="16">New</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">Bank</governor>
+            <dependent idx="17">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">arrested</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">arrested</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Bangladeshi</governor>
+            <dependent idx="2">21-year-old</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="3">Bangladeshi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">arrested</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">attempting</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="advcl:for">
+            <governor idx="5">arrested</governor>
+            <dependent idx="7">attempting</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">blow</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">attempting</governor>
+            <dependent idx="9">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">blow</governor>
+            <dependent idx="10">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">York</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">York</governor>
+            <dependent idx="16">New</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="14">Bank</governor>
+            <dependent idx="17">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">arrested</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

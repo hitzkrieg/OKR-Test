@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Penn</word>
+            <lemma>Penn</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Prez</word>
+            <lemma>Prez</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>face</word>
+            <lemma>face</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>charges</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>role</word>
+            <lemma>role</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>scandal</word>
+            <lemma>scandal</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Penn) (NNP State) (NNP Prez)) (VP (TO to) (VP (VB face) (NP (NNS charges)) (PP (IN for) (NP (NP (PRP$ his) (NN role)) (PP (IN in) (NP (DT the) (NN scandal))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">face</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="1">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">face</governor>
+            <dependent idx="3">Prez</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">face</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">face</governor>
+            <dependent idx="6">charges</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">role</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">role</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">face</governor>
+            <dependent idx="9">role</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">scandal</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scandal</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">role</governor>
+            <dependent idx="12">scandal</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">face</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">face</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="1">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">face</governor>
+            <dependent idx="3">Prez</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">face</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">face</governor>
+            <dependent idx="6">charges</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">role</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">role</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">face</governor>
+            <dependent idx="9">role</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">scandal</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scandal</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">role</governor>
+            <dependent idx="12">scandal</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">face</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">face</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="1">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">face</governor>
+            <dependent idx="3">Prez</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">face</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">face</governor>
+            <dependent idx="6">charges</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">role</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">role</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">face</governor>
+            <dependent idx="9">role</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">scandal</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scandal</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">role</governor>
+            <dependent idx="12">scandal</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">face</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">face</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="1">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">face</governor>
+            <dependent idx="3">Prez</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">face</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">face</governor>
+            <dependent idx="6">charges</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">role</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">role</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">face</governor>
+            <dependent idx="9">role</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">scandal</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scandal</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">role</governor>
+            <dependent idx="12">scandal</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">face</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">face</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="1">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Prez</governor>
+            <dependent idx="2">State</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">face</governor>
+            <dependent idx="3">Prez</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">face</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">face</governor>
+            <dependent idx="6">charges</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">role</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">role</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">face</governor>
+            <dependent idx="9">role</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">scandal</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scandal</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="9">role</governor>
+            <dependent idx="12">scandal</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">face</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Penn State Prez</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

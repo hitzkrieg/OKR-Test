@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Spanier</word>
+            <lemma>Spanier</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>charged</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>perjury</word>
+            <lemma>perjury</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>obstruction</word>
+            <lemma>obstruction</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>endangering</word>
+            <lemma>endanger</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>welfare</word>
+            <lemma>welfare</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>children</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>conspiracy</word>
+            <lemma>conspiracy</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Spanier)) (VP (VBD charged) (PP (IN with) (NP (NP (NN perjury)) (, ,) (NP (NN obstruction)))) (, ,) (S (VP (VBG endangering) (NP (NP (DT the) (NN welfare)) (PP (IN of) (NP (NNS children) (CC and) (NN conspiracy))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charged</governor>
+            <dependent idx="1">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">perjury</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">charged</governor>
+            <dependent idx="4">perjury</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">perjury</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">perjury</governor>
+            <dependent idx="6">obstruction</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charged</governor>
+            <dependent idx="8">endangering</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">welfare</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">endangering</governor>
+            <dependent idx="10">welfare</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">children</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">welfare</governor>
+            <dependent idx="12">children</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">children</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">children</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charged</governor>
+            <dependent idx="1">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">perjury</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">charged</governor>
+            <dependent idx="4">perjury</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">perjury</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">perjury</governor>
+            <dependent idx="6">obstruction</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charged</governor>
+            <dependent idx="8">endangering</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">welfare</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">endangering</governor>
+            <dependent idx="10">welfare</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">children</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">welfare</governor>
+            <dependent idx="12">children</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">children</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">children</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charged</governor>
+            <dependent idx="1">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">perjury</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">charged</governor>
+            <dependent idx="4">perjury</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">perjury</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">perjury</governor>
+            <dependent idx="6">obstruction</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charged</governor>
+            <dependent idx="8">endangering</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">welfare</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">endangering</governor>
+            <dependent idx="10">welfare</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">children</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">welfare</governor>
+            <dependent idx="12">children</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">children</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="10">welfare</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">children</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charged</governor>
+            <dependent idx="1">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">perjury</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">charged</governor>
+            <dependent idx="4">perjury</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">perjury</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">perjury</governor>
+            <dependent idx="6">obstruction</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charged</governor>
+            <dependent idx="8">endangering</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">welfare</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">endangering</governor>
+            <dependent idx="10">welfare</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">children</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">welfare</governor>
+            <dependent idx="12">children</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">children</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="10">welfare</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">children</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charged</governor>
+            <dependent idx="1">Spanier</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">perjury</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">charged</governor>
+            <dependent idx="4">perjury</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">perjury</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">perjury</governor>
+            <dependent idx="6">obstruction</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charged</governor>
+            <dependent idx="8">endangering</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">welfare</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">endangering</governor>
+            <dependent idx="10">welfare</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">children</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">welfare</governor>
+            <dependent idx="12">children</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">children</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="10">welfare</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="12">children</governor>
+            <dependent idx="14">conspiracy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charged</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

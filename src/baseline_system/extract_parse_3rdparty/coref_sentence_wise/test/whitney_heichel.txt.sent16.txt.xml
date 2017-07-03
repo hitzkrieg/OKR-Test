@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>RIP</word>
+            <lemma>rip</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Heichel</word>
+            <lemma>Heichel</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NN RIP)) (NP (NNP Whitney) (NNP Heichel)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">RIP</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Heichel</governor>
+            <dependent idx="2">Whitney</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">RIP</governor>
+            <dependent idx="3">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">RIP</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">RIP</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Heichel</governor>
+            <dependent idx="2">Whitney</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">RIP</governor>
+            <dependent idx="3">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">RIP</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">RIP</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Heichel</governor>
+            <dependent idx="2">Whitney</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">RIP</governor>
+            <dependent idx="3">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">RIP</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">RIP</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Heichel</governor>
+            <dependent idx="2">Whitney</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">RIP</governor>
+            <dependent idx="3">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">RIP</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">RIP</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Heichel</governor>
+            <dependent idx="2">Whitney</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">RIP</governor>
+            <dependent idx="3">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">RIP</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Oregon</word>
+            <lemma>Oregon</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>barista</word>
+            <lemma>barista</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>worked</word>
+            <lemma>work</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Starbucks</word>
+            <lemma>Starbucks</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VBD was) (NP (NP (DT an) (NNP Oregon) (NN barista)) (SBAR (WHNP (WP who)) (S (VP (VBD worked) (PP (IN for) (NP (NNP Starbucks)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">barista</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">barista</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">barista</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">barista</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">worked</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">barista</governor>
+            <dependent idx="7">worked</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Starbucks</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">worked</governor>
+            <dependent idx="9">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">barista</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">barista</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">barista</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">barista</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">barista</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">worked</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">barista</governor>
+            <dependent idx="7">worked</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Starbucks</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">worked</governor>
+            <dependent idx="9">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">barista</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">barista</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">barista</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">barista</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">barista</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">worked</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">barista</governor>
+            <dependent idx="7">worked</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Starbucks</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">worked</governor>
+            <dependent idx="9">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">barista</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">barista</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">barista</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">barista</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">barista</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="7">worked</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="5">barista</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">barista</governor>
+            <dependent idx="7">worked</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Starbucks</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">worked</governor>
+            <dependent idx="9">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">barista</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">barista</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">barista</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">barista</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">barista</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="7">worked</governor>
+            <dependent idx="5">barista</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="5">barista</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="5">barista</governor>
+            <dependent idx="7">worked</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Starbucks</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">worked</governor>
+            <dependent idx="9">Starbucks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">barista</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Only</word>
+            <lemma>only</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>21</word>
+            <lemma>21</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>21.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (RB Only) (CD 21)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">21</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">21</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">21</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">21</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">21</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">21</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">21</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">21</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">21</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">21</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">21</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">21</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">21</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">21</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">21</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>So</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>sad</word>
+            <lemma>sad</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (RB So) (ADJP (JJ sad)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">So</governor>
+            <dependent idx="2">sad</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">So</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">So</governor>
+            <dependent idx="2">sad</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">So</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">So</governor>
+            <dependent idx="2">sad</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">So</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">So</governor>
+            <dependent idx="2">sad</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">So</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">So</governor>
+            <dependent idx="2">sad</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">So</governor>
+            <dependent idx="3">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="5">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>2</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Whitney Heichel</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>She</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

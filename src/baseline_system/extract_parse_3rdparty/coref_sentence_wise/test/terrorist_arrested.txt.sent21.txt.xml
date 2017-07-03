@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>FBI-NYPD</word>
+            <lemma>fbi-nypd</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>task</word>
+            <lemma>task</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>force</word>
+            <lemma>force</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>foils</word>
+            <lemma>foil</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>plot</word>
+            <lemma>plot</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Los</word>
+            <lemma>Los</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Angeles</word>
+            <lemma>Angeles</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Times</word>
+            <lemma>Times</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN FBI-NYPD) (NN task) (NN force)) (VP (VBZ foils) (NP (NP (NNP Federal) (NNP Reserve) (NN bomb) (NN plot)) (: -) (NP (NNP Los) (NNP Angeles) (NNP Times)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">foils</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="1">FBI-NYPD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="2">task</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">foils</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="5">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="6">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">foils</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">plot</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">plot</governor>
+            <dependent idx="12">Times</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">foils</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">foils</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="1">FBI-NYPD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="2">task</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">foils</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="5">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="6">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">foils</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">plot</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">plot</governor>
+            <dependent idx="12">Times</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">foils</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">foils</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="1">FBI-NYPD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="2">task</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">foils</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="5">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="6">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">foils</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">plot</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">plot</governor>
+            <dependent idx="12">Times</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">foils</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">foils</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="1">FBI-NYPD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="2">task</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">foils</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="5">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="6">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">foils</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">plot</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">plot</governor>
+            <dependent idx="12">Times</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">foils</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">foils</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="1">FBI-NYPD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">force</governor>
+            <dependent idx="2">task</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">foils</governor>
+            <dependent idx="3">force</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="5">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="6">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">foils</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">plot</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Times</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">plot</governor>
+            <dependent idx="12">Times</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">foils</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

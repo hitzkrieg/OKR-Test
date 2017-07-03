@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Heichel</word>
+            <lemma>Heichel</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>10/16/2012</word>
+            <lemma>10/16/2012</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2012-10-16</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2012-10-16</Timex>
+          </token>
+          <token id="6">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Gresham</word>
+            <lemma>Gresham</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Oregon</word>
+            <lemma>Oregon</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP Whitney) (NNP Heichel)) (: -) (S (VP (VBG Missing) (NP (CD 10/16/2012)) (PP (IN from) (NP (NNP Gresham) (NNP Oregon))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="5">10/16/2012</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="7">Gresham</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">Missing</governor>
+            <dependent idx="8">Oregon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="5">10/16/2012</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="7">Gresham</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="4">Missing</governor>
+            <dependent idx="8">Oregon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="5">10/16/2012</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="7">Gresham</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="4">Missing</governor>
+            <dependent idx="8">Oregon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="5">10/16/2012</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="7">Gresham</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="4">Missing</governor>
+            <dependent idx="8">Oregon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="4">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">Missing</governor>
+            <dependent idx="5">10/16/2012</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Oregon</governor>
+            <dependent idx="7">Gresham</dependent>
+          </dep>
+          <dep type="nmod:from">
+            <governor idx="4">Missing</governor>
+            <dependent idx="8">Oregon</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

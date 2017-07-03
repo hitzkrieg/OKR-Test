@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>York</word>
+            <lemma>York</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>City</word>
+            <lemma>City</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>muslim</word>
+            <lemma>muslim</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>arrested</word>
+            <lemma>arrest</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>plot</word>
+            <lemma>plot</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>blow</word>
+            <lemma>blow</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Bank</word>
+            <lemma>Bank</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP New) (NNP York) (NNP City)) (: :) (NP (NP (JJ muslim)) (VP (VBN arrested) (PP (IN in) (NP (NN plot))) (S (VP (TO to) (VP (VB blow) (PRT (RP up)) (NP (NNP Federal) (NNP Reserve) (NNP Bank))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">City</governor>
+            <dependent idx="5">muslim</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="5">muslim</governor>
+            <dependent idx="6">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">arrested</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">blow</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">arrested</governor>
+            <dependent idx="10">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="10">blow</governor>
+            <dependent idx="11">up</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">City</governor>
+            <dependent idx="5">muslim</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="5">muslim</governor>
+            <dependent idx="6">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">arrested</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">blow</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">arrested</governor>
+            <dependent idx="10">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="10">blow</governor>
+            <dependent idx="11">up</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">City</governor>
+            <dependent idx="5">muslim</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="5">muslim</governor>
+            <dependent idx="6">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">arrested</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">blow</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">arrested</governor>
+            <dependent idx="10">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="10">blow</governor>
+            <dependent idx="11">up</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">City</governor>
+            <dependent idx="5">muslim</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="5">muslim</governor>
+            <dependent idx="6">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">arrested</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">blow</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">arrested</governor>
+            <dependent idx="10">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="10">blow</governor>
+            <dependent idx="11">up</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">City</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">City</governor>
+            <dependent idx="2">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="4">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">City</governor>
+            <dependent idx="5">muslim</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="5">muslim</governor>
+            <dependent idx="6">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">plot</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">arrested</governor>
+            <dependent idx="8">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">blow</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">arrested</governor>
+            <dependent idx="10">blow</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="10">blow</governor>
+            <dependent idx="11">up</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">blow</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">City</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>'8</word>
+            <lemma>'8</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>dead</word>
+            <lemma>dead</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>78</word>
+            <lemma>78</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>78.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>wounded</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>'</word>
+            <lemma>'</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>bombing</word>
+            <lemma>bombing</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (ADJP (NP (CD '8)) (JJ dead))) (, ,) (NP (CD 78)) (VP (VBD wounded) ('' ') (PP (IN in) (NP (NNP Beirut) (NN car) (NN bombing)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">'8</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">wounded</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">wounded</governor>
+            <dependent idx="4">78</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="6">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">bombing</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="8">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="9">car</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">wounded</governor>
+            <dependent idx="10">bombing</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">'8</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">wounded</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">wounded</governor>
+            <dependent idx="4">78</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="6">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">bombing</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="8">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="9">car</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">wounded</governor>
+            <dependent idx="10">bombing</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">'8</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">wounded</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">wounded</governor>
+            <dependent idx="4">78</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="6">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">bombing</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="8">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="9">car</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">wounded</governor>
+            <dependent idx="10">bombing</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">'8</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">wounded</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">wounded</governor>
+            <dependent idx="4">78</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="6">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">bombing</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="8">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="9">car</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">wounded</governor>
+            <dependent idx="10">bombing</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">wounded</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="2">dead</governor>
+            <dependent idx="1">'8</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">wounded</governor>
+            <dependent idx="2">dead</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">wounded</governor>
+            <dependent idx="4">78</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="6">'</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">bombing</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="8">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">bombing</governor>
+            <dependent idx="9">car</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">wounded</governor>
+            <dependent idx="10">bombing</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">wounded</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Heichel</word>
+            <lemma>Heichel</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>investigation</word>
+            <lemma>investigation</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>yelds</word>
+            <lemma>yeld</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>RBR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>clues</word>
+            <lemma>clue</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>say</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>police</word>
+            <lemma>police</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Gresham</word>
+            <lemma>Gresham</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>residents</word>
+            <lemma>resident</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>guard</word>
+            <lemma>guard</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>FindWhitney</word>
+            <lemma>findwhitney</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Whitney) (NNP Heichel) (NN investigation) (NNS yelds)) (PP (RBR more) (NP (NNS clues))) (, ,) (VP (VBP say) (NP (NP (NNS police)) (: ;) (NP (NP (NNP Gresham) (NNS residents)) (PP (IN on) (NP (NN guard) (NN FindWhitney)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="3">investigation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">say</governor>
+            <dependent idx="4">yelds</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">clues</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">say</governor>
+            <dependent idx="6">clues</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">say</governor>
+            <dependent idx="9">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">police</governor>
+            <dependent idx="10">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">residents</governor>
+            <dependent idx="11">Gresham</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">police</governor>
+            <dependent idx="12">residents</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="14">guard</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">residents</governor>
+            <dependent idx="15">FindWhitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="3">investigation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">say</governor>
+            <dependent idx="4">yelds</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">clues</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">say</governor>
+            <dependent idx="6">clues</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">say</governor>
+            <dependent idx="9">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">police</governor>
+            <dependent idx="10">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">residents</governor>
+            <dependent idx="11">Gresham</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">police</governor>
+            <dependent idx="12">residents</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="14">guard</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="12">residents</governor>
+            <dependent idx="15">FindWhitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="3">investigation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">say</governor>
+            <dependent idx="4">yelds</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">clues</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">say</governor>
+            <dependent idx="6">clues</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">say</governor>
+            <dependent idx="9">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">police</governor>
+            <dependent idx="10">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">residents</governor>
+            <dependent idx="11">Gresham</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">police</governor>
+            <dependent idx="12">residents</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="14">guard</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="12">residents</governor>
+            <dependent idx="15">FindWhitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="3">investigation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">say</governor>
+            <dependent idx="4">yelds</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">clues</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">say</governor>
+            <dependent idx="6">clues</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">say</governor>
+            <dependent idx="9">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">police</governor>
+            <dependent idx="10">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">residents</governor>
+            <dependent idx="11">Gresham</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">police</governor>
+            <dependent idx="12">residents</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="14">guard</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="12">residents</governor>
+            <dependent idx="15">FindWhitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">say</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">yelds</governor>
+            <dependent idx="3">investigation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">say</governor>
+            <dependent idx="4">yelds</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">clues</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">say</governor>
+            <dependent idx="6">clues</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">say</governor>
+            <dependent idx="9">police</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">police</governor>
+            <dependent idx="10">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">residents</governor>
+            <dependent idx="11">Gresham</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">police</governor>
+            <dependent idx="12">residents</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">FindWhitney</governor>
+            <dependent idx="14">guard</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="12">residents</governor>
+            <dependent idx="15">FindWhitney</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">say</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

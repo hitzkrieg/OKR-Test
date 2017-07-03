@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Israel</word>
+            <lemma>Israel</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Netanyahu</word>
+            <lemma>Netanyahu</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Lieberman</word>
+            <lemma>Lieberman</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>merge</word>
+            <lemma>merge</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>parties</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>ballot</word>
+            <lemma>ballot</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Reuters</word>
+            <lemma>Reuters</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (NNP Israel) (POS 's)) (NNP Netanyahu))) (, ,) (NP (NNP Lieberman)) (VP (VBP merge) (NP (NP (NNS parties)) (PP (IN for) (NP (NP (NN ballot) (CD () (NNP Reuters)) (X (SYM ))))))) (: -) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">merge</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">Netanyahu</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">merge</governor>
+            <dependent idx="3">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">merge</governor>
+            <dependent idx="5">Lieberman</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">merge</governor>
+            <dependent idx="7">parties</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="9">ballot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="10">(</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">parties</governor>
+            <dependent idx="11">Reuters</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="12">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="13">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">merge</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">Netanyahu</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">merge</governor>
+            <dependent idx="3">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">merge</governor>
+            <dependent idx="5">Lieberman</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">merge</governor>
+            <dependent idx="7">parties</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="9">ballot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="10">(</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">parties</governor>
+            <dependent idx="11">Reuters</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="12">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="13">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">merge</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">Netanyahu</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">merge</governor>
+            <dependent idx="3">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">merge</governor>
+            <dependent idx="5">Lieberman</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">merge</governor>
+            <dependent idx="7">parties</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="9">ballot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="10">(</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">parties</governor>
+            <dependent idx="11">Reuters</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="12">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="13">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">merge</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">Netanyahu</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">merge</governor>
+            <dependent idx="3">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">merge</governor>
+            <dependent idx="5">Lieberman</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">merge</governor>
+            <dependent idx="7">parties</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="9">ballot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="10">(</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">parties</governor>
+            <dependent idx="11">Reuters</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="12">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="13">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">merge</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">Netanyahu</governor>
+            <dependent idx="1">Israel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Israel</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">merge</governor>
+            <dependent idx="3">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">merge</governor>
+            <dependent idx="5">Lieberman</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">merge</governor>
+            <dependent idx="7">parties</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="9">ballot</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="10">(</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="7">parties</governor>
+            <dependent idx="11">Reuters</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Reuters</governor>
+            <dependent idx="12">)</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="13">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">merge</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>21-Year-Old</word>
+            <lemma>21-year-old</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P21Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P21Y</Timex>
+          </token>
+          <token id="2">
+            <word>Barista</word>
+            <lemma>barista</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Disappears</word>
+            <lemma>disappear</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Five</word>
+            <lemma>five</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT5M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT5M</Timex>
+          </token>
+          <token id="6">
+            <word>Minute</word>
+            <lemma>Minute</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT5M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT5M</Timex>
+          </token>
+          <token id="7">
+            <word>Drive</word>
+            <lemma>Drive</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>To</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Work</word>
+            <lemma>work</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ 21-Year-Old) (NN Barista)) (VP (VBZ Disappears) (S (PP (IN On) (NP (CD Five))) (NP (NP (NNP Minute) (NNP Drive)) (SBAR (S (VP (TO To) (VP (VB Work)))))))) (: :) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Disappears</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Barista</governor>
+            <dependent idx="1">21-Year-Old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="2">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Five</governor>
+            <dependent idx="4">On</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Drive</governor>
+            <dependent idx="5">Five</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Drive</governor>
+            <dependent idx="6">Minute</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="7">Drive</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Work</governor>
+            <dependent idx="8">To</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">Drive</governor>
+            <dependent idx="9">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Disappears</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Barista</governor>
+            <dependent idx="1">21-Year-Old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="2">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Five</governor>
+            <dependent idx="4">On</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Drive</governor>
+            <dependent idx="5">Five</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Drive</governor>
+            <dependent idx="6">Minute</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="7">Drive</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Work</governor>
+            <dependent idx="8">To</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">Drive</governor>
+            <dependent idx="9">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Disappears</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Barista</governor>
+            <dependent idx="1">21-Year-Old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="2">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Five</governor>
+            <dependent idx="4">On</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Drive</governor>
+            <dependent idx="5">Five</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Drive</governor>
+            <dependent idx="6">Minute</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="7">Drive</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Work</governor>
+            <dependent idx="8">To</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">Drive</governor>
+            <dependent idx="9">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Disappears</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Barista</governor>
+            <dependent idx="1">21-Year-Old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="2">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Five</governor>
+            <dependent idx="4">On</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Drive</governor>
+            <dependent idx="5">Five</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Drive</governor>
+            <dependent idx="6">Minute</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="7">Drive</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Work</governor>
+            <dependent idx="8">To</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="7">Drive</governor>
+            <dependent idx="9">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">Disappears</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Barista</governor>
+            <dependent idx="1">21-Year-Old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="2">Barista</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Five</governor>
+            <dependent idx="4">On</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">Drive</governor>
+            <dependent idx="5">Five</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Drive</governor>
+            <dependent idx="6">Minute</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="7">Drive</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Work</governor>
+            <dependent idx="8">To</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="7">Drive</governor>
+            <dependent idx="9">Work</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">Disappears</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

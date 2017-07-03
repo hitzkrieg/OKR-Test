@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>blast</word>
+            <lemma>blast</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>least</word>
+            <lemma>least</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>eight</word>
+            <lemma>eight</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&gt;=8.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN Bomb) (NN blast)) (PP (IN in) (NP (NNP Beirut)))) (VP (VBZ kills) (NP (QP (IN at) (JJS least) (CD eight)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">blast</governor>
+            <dependent idx="1">Bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="2">blast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Beirut</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">blast</governor>
+            <dependent idx="4">Beirut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">least</governor>
+            <dependent idx="6">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="8">eight</governor>
+            <dependent idx="7">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="8">eight</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">blast</governor>
+            <dependent idx="1">Bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="2">blast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Beirut</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">blast</governor>
+            <dependent idx="4">Beirut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">least</governor>
+            <dependent idx="6">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="8">eight</governor>
+            <dependent idx="7">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="8">eight</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">blast</governor>
+            <dependent idx="1">Bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="2">blast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Beirut</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">blast</governor>
+            <dependent idx="4">Beirut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">least</governor>
+            <dependent idx="6">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="8">eight</governor>
+            <dependent idx="7">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="8">eight</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">blast</governor>
+            <dependent idx="1">Bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="2">blast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Beirut</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">blast</governor>
+            <dependent idx="4">Beirut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">least</governor>
+            <dependent idx="6">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="8">eight</governor>
+            <dependent idx="7">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="8">eight</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">blast</governor>
+            <dependent idx="1">Bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">kills</governor>
+            <dependent idx="2">blast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Beirut</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">blast</governor>
+            <dependent idx="4">Beirut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">least</governor>
+            <dependent idx="6">at</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="8">eight</governor>
+            <dependent idx="7">least</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">kills</governor>
+            <dependent idx="8">eight</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">kills</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

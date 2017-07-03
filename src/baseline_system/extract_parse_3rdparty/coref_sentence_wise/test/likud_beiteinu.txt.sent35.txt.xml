@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>spot-on</word>
+            <lemma>spot-on</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>analysis</word>
+            <lemma>analysis</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>PeterBeinart</word>
+            <lemma>PeterBeinart</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>what</word>
+            <lemma>what</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Likud</word>
+            <lemma>Likud</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>merger</word>
+            <lemma>merger</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>w/Avigdor</word>
+            <lemma>w/Avigdor</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Lieberman</word>
+            <lemma>Lieberman</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>party</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>portends</word>
+            <lemma>portend</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT A) (JJ spot-on) (NN analysis)) (PP (IN by) (X (X (SYM @)) (NP (NP (NNP PeterBeinart)) (PP (IN of) (NP (NP (WP what)) (NP (NP (NP (NNP Likud) (POS 's)) (NN merger)) (NP (NP (NNP w/Avigdor) (NNP Lieberman) (POS 's)) (NN party))))))))) (VP (VBZ portends)) (: -) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">portends</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">analysis</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">analysis</governor>
+            <dependent idx="2">spot-on</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">portends</governor>
+            <dependent idx="3">analysis</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="4">by</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="5">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="3">analysis</governor>
+            <dependent idx="6">PeterBeinart</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">what</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="8">what</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">merger</governor>
+            <dependent idx="9">Likud</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Likud</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">what</governor>
+            <dependent idx="11">merger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="12">w/Avigdor</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">party</governor>
+            <dependent idx="13">Lieberman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">merger</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="17">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">portends</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">analysis</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">analysis</governor>
+            <dependent idx="2">spot-on</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">portends</governor>
+            <dependent idx="3">analysis</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="4">by</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="5">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="3">analysis</governor>
+            <dependent idx="6">PeterBeinart</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">what</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="8">what</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">merger</governor>
+            <dependent idx="9">Likud</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Likud</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">what</governor>
+            <dependent idx="11">merger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="12">w/Avigdor</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">party</governor>
+            <dependent idx="13">Lieberman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">merger</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="17">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">portends</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">analysis</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">analysis</governor>
+            <dependent idx="2">spot-on</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">portends</governor>
+            <dependent idx="3">analysis</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="4">by</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="5">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="3">analysis</governor>
+            <dependent idx="6">PeterBeinart</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">what</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="8">what</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">merger</governor>
+            <dependent idx="9">Likud</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Likud</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">what</governor>
+            <dependent idx="11">merger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="12">w/Avigdor</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">party</governor>
+            <dependent idx="13">Lieberman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">merger</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="17">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">portends</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">analysis</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">analysis</governor>
+            <dependent idx="2">spot-on</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">portends</governor>
+            <dependent idx="3">analysis</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="4">by</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="5">@</dependent>
+          </dep>
+          <dep type="acl:by">
+            <governor idx="3">analysis</governor>
+            <dependent idx="6">PeterBeinart</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">what</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="8">what</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">merger</governor>
+            <dependent idx="9">Likud</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Likud</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">what</governor>
+            <dependent idx="11">merger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="12">w/Avigdor</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">party</governor>
+            <dependent idx="13">Lieberman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">merger</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="17">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">portends</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">analysis</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">analysis</governor>
+            <dependent idx="2">spot-on</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">portends</governor>
+            <dependent idx="3">analysis</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="4">by</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="5">@</dependent>
+          </dep>
+          <dep type="acl:by">
+            <governor idx="3">analysis</governor>
+            <dependent idx="6">PeterBeinart</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">what</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="6">PeterBeinart</governor>
+            <dependent idx="8">what</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">merger</governor>
+            <dependent idx="9">Likud</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Likud</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">what</governor>
+            <dependent idx="11">merger</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="12">w/Avigdor</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">party</governor>
+            <dependent idx="13">Lieberman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Lieberman</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">merger</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="17">-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">portends</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

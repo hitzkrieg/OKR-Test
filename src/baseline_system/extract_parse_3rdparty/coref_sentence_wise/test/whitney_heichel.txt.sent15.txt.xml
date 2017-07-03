@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Kids</word>
+            <lemma>kid</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Oregon</word>
+            <lemma>Oregon</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>woman</word>
+            <lemma>woman</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cell</word>
+            <lemma>cell</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>phone</word>
+            <lemma>phone</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>field</word>
+            <lemma>field</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Kids)) (VP (VBP find) (S (VP (VBG missing) (NP (NP (NNP Oregon) (NN woman) (POS 's)) (NN cell) (NN phone)) (PP (IN in) (NP (DT a) (NN field)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">find</governor>
+            <dependent idx="1">Kids</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">find</governor>
+            <dependent idx="3">missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">phone</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">woman</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">cell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">missing</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">field</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">field</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">missing</governor>
+            <dependent idx="11">field</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">find</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">find</governor>
+            <dependent idx="1">Kids</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">find</governor>
+            <dependent idx="3">missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">phone</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">woman</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">cell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">missing</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">field</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">field</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">missing</governor>
+            <dependent idx="11">field</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">find</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">find</governor>
+            <dependent idx="1">Kids</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">find</governor>
+            <dependent idx="3">missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">phone</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">woman</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">cell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">missing</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">field</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">field</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">missing</governor>
+            <dependent idx="11">field</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">find</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">find</governor>
+            <dependent idx="1">Kids</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">find</governor>
+            <dependent idx="3">missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">phone</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">woman</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">cell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">missing</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">field</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">field</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">missing</governor>
+            <dependent idx="11">field</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">find</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">find</governor>
+            <dependent idx="1">Kids</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">find</governor>
+            <dependent idx="3">missing</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">phone</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">woman</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">cell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">missing</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">field</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">field</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="3">missing</governor>
+            <dependent idx="11">field</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">find</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Police</word>
+            <lemma>police</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>say</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>big</word>
+            <lemma>big</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>hunt</word>
+            <lemma>hunt</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Heichel.Watch</word>
+            <lemma>Heichel.Watch</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>NWCN</word>
+            <lemma>NWCN</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>details</word>
+            <lemma>detail</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>!</word>
+            <lemma>!</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Police)) (VP (VBP say) (SBAR (S (NP (PRP it)) (VP (VBZ 's) (S (NP (DT a) (JJ big)) (VP (VB find) (PP (IN in) (NP (NP (DT the) (NN hunt)) (PP (IN for) (NP (NP (NNP Whitney) (NNP Heichel.Watch) (NNP NWCN)) (PP (IN for) (NP (NNS details))))))))))))) (. !))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">say</governor>
+            <dependent idx="1">Police</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">'s</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">say</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">big</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">find</governor>
+            <dependent idx="6">big</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">'s</governor>
+            <dependent idx="7">find</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">hunt</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">hunt</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">find</governor>
+            <dependent idx="10">hunt</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="12">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="13">Heichel.Watch</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">hunt</governor>
+            <dependent idx="14">NWCN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">details</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="16">details</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">say</governor>
+            <dependent idx="17">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">say</governor>
+            <dependent idx="1">Police</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">'s</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">say</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">big</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">find</governor>
+            <dependent idx="6">big</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">'s</governor>
+            <dependent idx="7">find</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">hunt</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">hunt</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">find</governor>
+            <dependent idx="10">hunt</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="12">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="13">Heichel.Watch</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="10">hunt</governor>
+            <dependent idx="14">NWCN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">details</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="16">details</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">say</governor>
+            <dependent idx="17">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">say</governor>
+            <dependent idx="1">Police</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">'s</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">say</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">big</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">find</governor>
+            <dependent idx="6">big</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">'s</governor>
+            <dependent idx="7">find</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">hunt</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">hunt</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">find</governor>
+            <dependent idx="10">hunt</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="12">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="13">Heichel.Watch</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="10">hunt</governor>
+            <dependent idx="14">NWCN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">details</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="16">details</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">say</governor>
+            <dependent idx="17">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">say</governor>
+            <dependent idx="1">Police</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">'s</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">say</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">big</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">find</governor>
+            <dependent idx="6">big</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">'s</governor>
+            <dependent idx="7">find</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">hunt</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">hunt</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">find</governor>
+            <dependent idx="10">hunt</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="12">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="13">Heichel.Watch</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="10">hunt</governor>
+            <dependent idx="14">NWCN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">details</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="16">details</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">say</governor>
+            <dependent idx="17">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">say</governor>
+            <dependent idx="1">Police</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">'s</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">say</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">big</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">find</governor>
+            <dependent idx="6">big</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">'s</governor>
+            <dependent idx="7">find</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">hunt</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">hunt</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">find</governor>
+            <dependent idx="10">hunt</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="12">Whitney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="13">Heichel.Watch</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="10">hunt</governor>
+            <dependent idx="14">NWCN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">details</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="14">NWCN</governor>
+            <dependent idx="16">details</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">say</governor>
+            <dependent idx="17">!</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

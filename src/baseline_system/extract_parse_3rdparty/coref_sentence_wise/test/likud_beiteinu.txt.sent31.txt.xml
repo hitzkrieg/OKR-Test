@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Israeli</word>
+            <lemma>israeli</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>PM</word>
+            <lemma>PM</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Benjamin</word>
+            <lemma>Benjamin</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Netanyahu</word>
+            <lemma>Netanyahu</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>&amp;</word>
+            <lemma>&amp;</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>amp</word>
+            <lemma>amp</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>FM</word>
+            <lemma>FM</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Avigdor</word>
+            <lemma>Avigdor</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Lieberman</word>
+            <lemma>Lieberman</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>announced</word>
+            <lemma>announce</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>merging</word>
+            <lemma>merge</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>right-wing</word>
+            <lemma>right-wing</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>parties</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>ahead</word>
+            <lemma>ahead</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>election</word>
+            <lemma>election</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>|</word>
+            <lemma>|</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (JJ Israeli) (NNP PM) (NNP Benjamin) (NNP Netanyahu) (CC &amp;) (NNP amp)) (: ;) (S (NP (NNP FM) (NNP Avigdor) (NNP Lieberman)) (VP (VBD announced) (PP (IN on) (S (VP (VBG merging) (NP (PRP$ their) (JJ right-wing) (NNS parties)) (ADVP (RB ahead)) (PP (IN of) (NP (NN election) (NN |)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Netanyahu</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="3">Benjamin</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="5">&amp;</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="6">amp</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="8">FM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="9">Avigdor</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">announced</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">merging</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">merging</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="16">parties</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">parties</governor>
+            <dependent idx="15">right-wing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">merging</governor>
+            <dependent idx="16">parties</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">merging</governor>
+            <dependent idx="17">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">|</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">|</governor>
+            <dependent idx="19">election</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">merging</governor>
+            <dependent idx="20">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Netanyahu</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="3">Benjamin</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="5">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="6">amp</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="8">FM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="9">Avigdor</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">announced</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">merging</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">merging</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="16">parties</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">parties</governor>
+            <dependent idx="15">right-wing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">merging</governor>
+            <dependent idx="16">parties</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">merging</governor>
+            <dependent idx="17">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">|</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">|</governor>
+            <dependent idx="19">election</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">merging</governor>
+            <dependent idx="20">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Netanyahu</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="3">Benjamin</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="5">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="6">amp</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="8">FM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="9">Avigdor</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">announced</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">merging</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">merging</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="16">parties</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">parties</governor>
+            <dependent idx="15">right-wing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">merging</governor>
+            <dependent idx="16">parties</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">merging</governor>
+            <dependent idx="17">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">|</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">|</governor>
+            <dependent idx="19">election</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">merging</governor>
+            <dependent idx="20">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Netanyahu</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="3">Benjamin</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="5">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="6">amp</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="8">FM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="9">Avigdor</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">announced</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">merging</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="advcl:on">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">merging</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="16">parties</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">parties</governor>
+            <dependent idx="15">right-wing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">merging</governor>
+            <dependent idx="16">parties</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">merging</governor>
+            <dependent idx="17">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">|</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">|</governor>
+            <dependent idx="19">election</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">merging</governor>
+            <dependent idx="20">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Netanyahu</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="3">Benjamin</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="5">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="6">amp</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="8">FM</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Lieberman</governor>
+            <dependent idx="9">Avigdor</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">announced</governor>
+            <dependent idx="10">Lieberman</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">merging</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="advcl:on">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">merging</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="16">parties</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">parties</governor>
+            <dependent idx="15">right-wing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">merging</governor>
+            <dependent idx="16">parties</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">merging</governor>
+            <dependent idx="17">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">|</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">|</governor>
+            <dependent idx="19">election</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">merging</governor>
+            <dependent idx="20">|</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Netanyahu</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>11</end>
+          <head>10</head>
+          <text>FM Avigdor Lieberman</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>14</start>
+          <end>15</end>
+          <head>14</head>
+          <text>their</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

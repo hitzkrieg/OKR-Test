@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Awaiting</word>
+            <lemma>await</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>4pm</word>
+            <lemma>4pm</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T16:00</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="TIME">T16:00</Timex>
+          </token>
+          <token id="3">
+            <word>briefing</word>
+            <lemma>briefing</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>search</word>
+            <lemma>search</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Heichel</word>
+            <lemma>Heichel</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VBG Awaiting) (NP (JJ 4pm) (NN briefing)) (PP (IN on) (NP (NP (NN search)) (PP (IN for) (NP (NNP Whitney) (NNP Heichel)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Awaiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">briefing</governor>
+            <dependent idx="2">4pm</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="3">briefing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">search</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="5">search</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="7">Whitney</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">search</governor>
+            <dependent idx="8">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Awaiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">briefing</governor>
+            <dependent idx="2">4pm</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="3">briefing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">search</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="5">search</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="7">Whitney</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">search</governor>
+            <dependent idx="8">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Awaiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">briefing</governor>
+            <dependent idx="2">4pm</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="3">briefing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">search</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="5">search</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="7">Whitney</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">search</governor>
+            <dependent idx="8">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Awaiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">briefing</governor>
+            <dependent idx="2">4pm</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="3">briefing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">search</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="5">search</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="7">Whitney</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">search</governor>
+            <dependent idx="8">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Awaiting</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">briefing</governor>
+            <dependent idx="2">4pm</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="3">briefing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">search</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="5">search</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">Heichel</governor>
+            <dependent idx="7">Whitney</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">search</governor>
+            <dependent idx="8">Heichel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Awaiting</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

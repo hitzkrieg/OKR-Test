@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>BREAKING</word>
+            <lemma>BREAKING</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>CBSNews</word>
+            <lemma>cbsnew</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>learned</word>
+            <lemma>learn</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>FBI</word>
+            <lemma>FBI</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>thwarted</word>
+            <lemma>thwart</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>plot</word>
+            <lemma>plot</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>detonate</word>
+            <lemma>detonate</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>massive</word>
+            <lemma>massive</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>outside</word>
+            <lemma>outside</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>York</word>
+            <lemma>York</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (X (NP (NNP BREAKING)) (: :) (FRAG (SBAR (X (SYM @)) (S (NP (NNS CBSNews)) (VP (VBZ has) (VP (VBN learned) (SBAR (S (NP (DT the) (NNP FBI)) (VP (VBZ has) (VP (VBN thwarted) (NP (DT a) (NN plot) (S (VP (TO to) (VP (VB detonate) (NP (DT a) (JJ massive) (NN bomb)) (PP (IN outside) (NP (DT the) (NNP Federal) (NNP Reserve))))))) (PP (IN in) (NP (NNP New) (NNP York))) ('' '')))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">learned</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">learned</governor>
+            <dependent idx="4">CBSNews</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">learned</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="6">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">FBI</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="8">FBI</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">learned</governor>
+            <dependent idx="10">thwarted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">detonate</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">plot</governor>
+            <dependent idx="14">detonate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bomb</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">bomb</governor>
+            <dependent idx="16">massive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">detonate</governor>
+            <dependent idx="17">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="18">outside</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="20">Federal</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">detonate</governor>
+            <dependent idx="21">Reserve</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">York</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="24">York</governor>
+            <dependent idx="23">New</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="24">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="25">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">learned</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">learned</governor>
+            <dependent idx="4">CBSNews</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">learned</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="6">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">FBI</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="8">FBI</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">learned</governor>
+            <dependent idx="10">thwarted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">detonate</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">plot</governor>
+            <dependent idx="14">detonate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bomb</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">bomb</governor>
+            <dependent idx="16">massive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">detonate</governor>
+            <dependent idx="17">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="18">outside</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="20">Federal</dependent>
+          </dep>
+          <dep type="nmod:outside">
+            <governor idx="14">detonate</governor>
+            <dependent idx="21">Reserve</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">York</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="24">York</governor>
+            <dependent idx="23">New</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="24">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="25">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">learned</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">learned</governor>
+            <dependent idx="4">CBSNews</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">learned</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="6">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">FBI</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="8">FBI</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">learned</governor>
+            <dependent idx="10">thwarted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">detonate</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">plot</governor>
+            <dependent idx="14">detonate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bomb</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">bomb</governor>
+            <dependent idx="16">massive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">detonate</governor>
+            <dependent idx="17">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="18">outside</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="20">Federal</dependent>
+          </dep>
+          <dep type="nmod:outside">
+            <governor idx="14">detonate</governor>
+            <dependent idx="21">Reserve</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">York</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="24">York</governor>
+            <dependent idx="23">New</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="24">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="25">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">learned</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">learned</governor>
+            <dependent idx="4">CBSNews</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">learned</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="6">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">FBI</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="8">FBI</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">learned</governor>
+            <dependent idx="10">thwarted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">detonate</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="12">plot</governor>
+            <dependent idx="14">detonate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bomb</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">bomb</governor>
+            <dependent idx="16">massive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">detonate</governor>
+            <dependent idx="17">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="18">outside</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="20">Federal</dependent>
+          </dep>
+          <dep type="nmod:outside">
+            <governor idx="14">detonate</governor>
+            <dependent idx="21">Reserve</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">York</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="24">York</governor>
+            <dependent idx="23">New</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="24">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="25">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">BREAKING</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="2">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">learned</governor>
+            <dependent idx="3">@</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">learned</governor>
+            <dependent idx="4">CBSNews</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">learned</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="6">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">FBI</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="8">FBI</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">learned</governor>
+            <dependent idx="10">thwarted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">detonate</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="12">plot</governor>
+            <dependent idx="14">detonate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bomb</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">bomb</governor>
+            <dependent idx="16">massive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">detonate</governor>
+            <dependent idx="17">bomb</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="18">outside</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="21">Reserve</governor>
+            <dependent idx="20">Federal</dependent>
+          </dep>
+          <dep type="nmod:outside">
+            <governor idx="14">detonate</governor>
+            <dependent idx="21">Reserve</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="24">York</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="24">York</governor>
+            <dependent idx="23">New</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="24">York</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">thwarted</governor>
+            <dependent idx="25">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">BREAKING</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

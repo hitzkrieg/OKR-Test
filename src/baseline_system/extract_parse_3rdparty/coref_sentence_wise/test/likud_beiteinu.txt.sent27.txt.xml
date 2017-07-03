@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Israeli</word>
+            <lemma>israeli</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Prime</word>
+            <lemma>Prime</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Minister</word>
+            <lemma>Minister</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Benjamin</word>
+            <lemma>Benjamin</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Netanyahu</word>
+            <lemma>Netanyahu</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>announces</word>
+            <lemma>announce</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>merger</word>
+            <lemma>merger</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>ultra</word>
+            <lemma>ultra</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>nationalist</word>
+            <lemma>nationalist</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Israel</word>
+            <lemma>Israel</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Beiteinu</word>
+            <lemma>Beiteinu</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>AP</word>
+            <lemma>AP</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Israeli) (NNP Prime) (NNP Minister) (NNP Benjamin) (NNP Netanyahu)) (VP (VBZ announces) (S (NP (NP (NN merger)) (PP (IN with) (NP (NN ultra)))) (ADJP (JJ nationalist)) (NP (NNP Israel) (NNP Beiteinu)) (PP (IN @) (NP (NNP AP))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="4">Benjamin</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announces</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="7">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">ultra</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">merger</governor>
+            <dependent idx="9">ultra</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announces</governor>
+            <dependent idx="10">nationalist</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Beiteinu</governor>
+            <dependent idx="11">Israel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="12">Beiteinu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">AP</governor>
+            <dependent idx="13">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="14">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">announces</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="4">Benjamin</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announces</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="7">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">ultra</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">merger</governor>
+            <dependent idx="9">ultra</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announces</governor>
+            <dependent idx="10">nationalist</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Beiteinu</governor>
+            <dependent idx="11">Israel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="12">Beiteinu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">AP</governor>
+            <dependent idx="13">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="14">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">announces</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="4">Benjamin</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announces</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="7">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">ultra</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">merger</governor>
+            <dependent idx="9">ultra</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announces</governor>
+            <dependent idx="10">nationalist</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Beiteinu</governor>
+            <dependent idx="11">Israel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="12">Beiteinu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">AP</governor>
+            <dependent idx="13">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="14">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">announces</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="4">Benjamin</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announces</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="7">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">ultra</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">merger</governor>
+            <dependent idx="9">ultra</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announces</governor>
+            <dependent idx="10">nationalist</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Beiteinu</governor>
+            <dependent idx="11">Israel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="12">Beiteinu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">AP</governor>
+            <dependent idx="13">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="14">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">announces</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Netanyahu</governor>
+            <dependent idx="4">Benjamin</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announces</governor>
+            <dependent idx="5">Netanyahu</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="7">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">ultra</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">merger</governor>
+            <dependent idx="9">ultra</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announces</governor>
+            <dependent idx="10">nationalist</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">Beiteinu</governor>
+            <dependent idx="11">Israel</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="12">Beiteinu</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">AP</governor>
+            <dependent idx="13">@</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">nationalist</governor>
+            <dependent idx="14">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">announces</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

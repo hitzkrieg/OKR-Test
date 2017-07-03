@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Romney</word>
+            <lemma>Romney</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Ryan</word>
+            <lemma>Ryan</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Graham</word>
+            <lemma>Graham</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>B.</word>
+            <lemma>B.</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Spanier</word>
+            <lemma>Spanier</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Former</word>
+            <lemma>Former</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Penn</word>
+            <lemma>Penn</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>President</word>
+            <lemma>President</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Charged</word>
+            <lemma>Charged</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Sandusky</word>
+            <lemma>Sandusky</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Case</word>
+            <lemma>Case</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Romney) (NNP Ryan) (NNP Graham) (NNP B.) (NNP Spanier)) (, ,) (NP (NNP Former) (NNP Penn) (NNP State) (NNP President)) (, ,) (NP (NP (NNP Charged)) (PP (IN in) (NP (NNP Sandusky) (NNP Case)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Spanier</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="1">Romney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="2">Ryan</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="3">Graham</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="4">B.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="7">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="8">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="9">State</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="10">President</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="12">Charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Case</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">Case</governor>
+            <dependent idx="14">Sandusky</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">Charged</governor>
+            <dependent idx="15">Case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Spanier</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="1">Romney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="2">Ryan</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="3">Graham</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="4">B.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="7">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="8">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="9">State</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="10">President</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="12">Charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Case</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">Case</governor>
+            <dependent idx="14">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="12">Charged</governor>
+            <dependent idx="15">Case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Spanier</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="1">Romney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="2">Ryan</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="3">Graham</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="4">B.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="7">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="8">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="9">State</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="10">President</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="12">Charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Case</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">Case</governor>
+            <dependent idx="14">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="12">Charged</governor>
+            <dependent idx="15">Case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Spanier</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="1">Romney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="2">Ryan</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="3">Graham</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="4">B.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="7">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="8">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="9">State</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="10">President</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="12">Charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Case</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">Case</governor>
+            <dependent idx="14">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="12">Charged</governor>
+            <dependent idx="15">Case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Spanier</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="1">Romney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="2">Ryan</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="3">Graham</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="4">B.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="7">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="8">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">President</governor>
+            <dependent idx="9">State</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="10">President</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="12">Charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">Case</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">Case</governor>
+            <dependent idx="14">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="12">Charged</governor>
+            <dependent idx="15">Case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Spanier</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

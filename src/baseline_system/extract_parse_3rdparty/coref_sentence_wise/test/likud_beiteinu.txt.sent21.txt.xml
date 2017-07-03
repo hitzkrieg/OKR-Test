@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>AP</word>
+            <lemma>AP</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>News</word>
+            <lemma>News</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Israeli</word>
+            <lemma>israeli</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>prime</word>
+            <lemma>prime</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>minister</word>
+            <lemma>minister</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>announces</word>
+            <lemma>announce</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>merger</word>
+            <lemma>merger</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>ultranationalist</word>
+            <lemma>ultranationalist</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>party</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>ahead</word>
+            <lemma>ahead</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>January</word>
+            <lemma>January</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-01</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-01</Timex>
+          </token>
+          <token id="15">
+            <word>election</word>
+            <lemma>election</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP AP) (NNP News)) (: -) (S (NP (JJ Israeli) (JJ prime) (NN minister)) (VP (VBZ announces) (NP (NN merger)) (PP (IN with) (NP (NP (JJ ultranationalist) (NN party)) (PP (RB ahead) (IN of) (NP (NNP January) (NN election))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">News</governor>
+            <dependent idx="1">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="4">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="5">prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">announces</governor>
+            <dependent idx="6">minister</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">News</governor>
+            <dependent idx="7">announces</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">announces</governor>
+            <dependent idx="8">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">party</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">party</governor>
+            <dependent idx="10">ultranationalist</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">announces</governor>
+            <dependent idx="11">party</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">election</governor>
+            <dependent idx="12">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">election</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">election</governor>
+            <dependent idx="14">January</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">party</governor>
+            <dependent idx="15">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">News</governor>
+            <dependent idx="1">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="4">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="5">prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">announces</governor>
+            <dependent idx="6">minister</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">News</governor>
+            <dependent idx="7">announces</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">announces</governor>
+            <dependent idx="8">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">party</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">party</governor>
+            <dependent idx="10">ultranationalist</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">announces</governor>
+            <dependent idx="11">party</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">election</governor>
+            <dependent idx="12">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">election</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">election</governor>
+            <dependent idx="14">January</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="11">party</governor>
+            <dependent idx="15">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">News</governor>
+            <dependent idx="1">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="4">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="5">prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">announces</governor>
+            <dependent idx="6">minister</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">News</governor>
+            <dependent idx="7">announces</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">announces</governor>
+            <dependent idx="8">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">party</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">party</governor>
+            <dependent idx="10">ultranationalist</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">announces</governor>
+            <dependent idx="11">party</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">election</governor>
+            <dependent idx="12">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">election</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">election</governor>
+            <dependent idx="14">January</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="11">party</governor>
+            <dependent idx="15">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">News</governor>
+            <dependent idx="1">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="4">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="5">prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">announces</governor>
+            <dependent idx="6">minister</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">News</governor>
+            <dependent idx="7">announces</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">announces</governor>
+            <dependent idx="8">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">party</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">party</governor>
+            <dependent idx="10">ultranationalist</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">announces</governor>
+            <dependent idx="11">party</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">election</governor>
+            <dependent idx="12">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">election</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">election</governor>
+            <dependent idx="14">January</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="11">party</governor>
+            <dependent idx="15">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">News</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">News</governor>
+            <dependent idx="1">AP</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="3">-</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="4">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">minister</governor>
+            <dependent idx="5">prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">announces</governor>
+            <dependent idx="6">minister</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">News</governor>
+            <dependent idx="7">announces</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">announces</governor>
+            <dependent idx="8">merger</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">party</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">party</governor>
+            <dependent idx="10">ultranationalist</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">announces</governor>
+            <dependent idx="11">party</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">election</governor>
+            <dependent idx="12">ahead</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">election</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">election</governor>
+            <dependent idx="14">January</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="11">party</governor>
+            <dependent idx="15">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">News</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

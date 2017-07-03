@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Yechimovich</word>
+            <lemma>Yechimovich</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Wo</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Sit</word>
+            <lemma>sit</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Netanyahu-Liberman</word>
+            <lemma>Netanyahu-Liberman</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Coalition</word>
+            <lemma>Coalition</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Yechimovich)) (VP (MD Wo) (RB n't) (VP (VB Sit) (PP (IN in) (NP (NNP Netanyahu-Liberman) (NNP Coalition))))) (: :) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Sit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Sit</governor>
+            <dependent idx="1">Yechimovich</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">Sit</governor>
+            <dependent idx="2">Wo</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">Sit</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="6">Netanyahu-Liberman</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">Sit</governor>
+            <dependent idx="7">Coalition</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Sit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Sit</governor>
+            <dependent idx="1">Yechimovich</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">Sit</governor>
+            <dependent idx="2">Wo</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">Sit</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="6">Netanyahu-Liberman</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">Sit</governor>
+            <dependent idx="7">Coalition</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Sit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Sit</governor>
+            <dependent idx="1">Yechimovich</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">Sit</governor>
+            <dependent idx="2">Wo</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">Sit</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="6">Netanyahu-Liberman</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">Sit</governor>
+            <dependent idx="7">Coalition</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Sit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Sit</governor>
+            <dependent idx="1">Yechimovich</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">Sit</governor>
+            <dependent idx="2">Wo</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">Sit</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="6">Netanyahu-Liberman</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">Sit</governor>
+            <dependent idx="7">Coalition</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Sit</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">Sit</governor>
+            <dependent idx="1">Yechimovich</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">Sit</governor>
+            <dependent idx="2">Wo</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">Sit</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Coalition</governor>
+            <dependent idx="6">Netanyahu-Liberman</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">Sit</governor>
+            <dependent idx="7">Coalition</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="8">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Sit</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

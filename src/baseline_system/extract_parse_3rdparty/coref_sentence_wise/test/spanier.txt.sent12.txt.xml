@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Bang</word>
+            <lemma>Bang</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Bang</word>
+            <lemma>Bang</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="5">
+            <word>ajc</word>
+            <lemma>ajc</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="6">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="7">
+            <word>Ex-Penn</word>
+            <lemma>Ex-Penn</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="8">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="9">
+            <word>president</word>
+            <lemma>president</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="10">
+            <word>charged</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="12">
+            <word>Sandusky</word>
+            <lemma>Sandusky</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="13">
+            <word>child</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="14">
+            <word>sex</word>
+            <lemma>sex</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="15">
+            <word>case</word>
+            <lemma>case</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP Bang) (NNP Bang)) (PP (`` ``) (IN @) (NP (NN ajc)))) (: :) (NP (NP (NNP Ex-Penn) (NNP State) (NN president)) (VP (VBN charged) (PP (IN in) (NP (NP (NNP Sandusky)) (NP (NN child) (NN sex) (NN case)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bang</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bang</governor>
+            <dependent idx="1">Bang</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">ajc</governor>
+            <dependent idx="3">``</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">ajc</governor>
+            <dependent idx="4">@</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">Bang</governor>
+            <dependent idx="5">ajc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="7">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="8">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Bang</governor>
+            <dependent idx="9">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="9">president</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">charged</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="13">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="14">sex</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="15">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bang</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bang</governor>
+            <dependent idx="1">Bang</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">ajc</governor>
+            <dependent idx="3">``</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">ajc</governor>
+            <dependent idx="4">@</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">Bang</governor>
+            <dependent idx="5">ajc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="7">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="8">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Bang</governor>
+            <dependent idx="9">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="9">president</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">charged</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="13">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="14">sex</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="15">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bang</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bang</governor>
+            <dependent idx="1">Bang</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">ajc</governor>
+            <dependent idx="3">``</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">ajc</governor>
+            <dependent idx="4">@</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">Bang</governor>
+            <dependent idx="5">ajc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="7">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="8">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Bang</governor>
+            <dependent idx="9">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="9">president</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">charged</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="13">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="14">sex</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="15">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bang</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bang</governor>
+            <dependent idx="1">Bang</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">ajc</governor>
+            <dependent idx="3">``</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">ajc</governor>
+            <dependent idx="4">@</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">Bang</governor>
+            <dependent idx="5">ajc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="7">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="8">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Bang</governor>
+            <dependent idx="9">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="9">president</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">charged</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="13">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="14">sex</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="15">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Bang</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Bang</governor>
+            <dependent idx="1">Bang</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">ajc</governor>
+            <dependent idx="3">``</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">ajc</governor>
+            <dependent idx="4">@</dependent>
+          </dep>
+          <dep type="nmod:@">
+            <governor idx="2">Bang</governor>
+            <dependent idx="5">ajc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="7">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">president</governor>
+            <dependent idx="8">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Bang</governor>
+            <dependent idx="9">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="9">president</governor>
+            <dependent idx="10">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">charged</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="13">child</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="15">case</governor>
+            <dependent idx="14">sex</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">Sandusky</governor>
+            <dependent idx="15">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Bang</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

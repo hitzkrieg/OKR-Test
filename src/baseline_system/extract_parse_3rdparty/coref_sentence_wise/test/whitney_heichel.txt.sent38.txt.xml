@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Oregon</word>
+            <lemma>Oregon</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>woman</word>
+            <lemma>woman</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>remains</word>
+            <lemma>remain</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>neighbor</word>
+            <lemma>neighbor</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>arrested</word>
+            <lemma>arrest</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>U.S</word>
+            <lemma>U.S</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBG Missing) (NP (NP (NNP Oregon) (NP (NN woman) (POS 's))) (VP (VBZ remains))))) (VP (VP (VBN found)) (, ,) (NP (NP (NN neighbor)) (VP (VBN arrested)) (: -) (NP (NNP U.S)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="6">found</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="3">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">woman</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="5">remains</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">found</governor>
+            <dependent idx="8">neighbor</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="9">arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="11">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="6">found</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="3">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">woman</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="5">remains</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">found</governor>
+            <dependent idx="8">neighbor</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="9">arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="11">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="6">found</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="3">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">woman</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="5">remains</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">found</governor>
+            <dependent idx="8">neighbor</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="9">arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="11">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="6">found</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="3">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">woman</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="5">remains</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">found</governor>
+            <dependent idx="8">neighbor</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="9">arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="11">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="6">found</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Oregon</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="3">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">woman</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Oregon</governor>
+            <dependent idx="5">remains</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">found</governor>
+            <dependent idx="8">neighbor</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="9">arrested</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="10">-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">neighbor</governor>
+            <dependent idx="11">U.S</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>News</word>
+            <lemma>News</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP News)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">News</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">News</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">News</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">News</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">News</governor>
+            <dependent idx="2">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

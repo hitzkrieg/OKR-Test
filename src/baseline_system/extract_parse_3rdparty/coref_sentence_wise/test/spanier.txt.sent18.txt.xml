@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>New</word>
+            <lemma>New</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>charges</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>bring</word>
+            <lemma>bring</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Penn</word>
+            <lemma>Penn</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>officials</word>
+            <lemma>official</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>court</word>
+            <lemma>court</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP New)) (VP (VBZ charges) (VP (VB bring) (NP (NNP Penn) (NNP State) (NNS officials)) (PP (TO to) (NP (NN court))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charges</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charges</governor>
+            <dependent idx="3">bring</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="4">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="5">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">bring</governor>
+            <dependent idx="6">officials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">court</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">bring</governor>
+            <dependent idx="8">court</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charges</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charges</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charges</governor>
+            <dependent idx="3">bring</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="4">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="5">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">bring</governor>
+            <dependent idx="6">officials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">court</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">bring</governor>
+            <dependent idx="8">court</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charges</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charges</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charges</governor>
+            <dependent idx="3">bring</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="4">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="5">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">bring</governor>
+            <dependent idx="6">officials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">court</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">bring</governor>
+            <dependent idx="8">court</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charges</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charges</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charges</governor>
+            <dependent idx="3">bring</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="4">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="5">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">bring</governor>
+            <dependent idx="6">officials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">court</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">bring</governor>
+            <dependent idx="8">court</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charges</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">charges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">charges</governor>
+            <dependent idx="1">New</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">charges</governor>
+            <dependent idx="3">bring</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="4">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">officials</governor>
+            <dependent idx="5">State</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">bring</governor>
+            <dependent idx="6">officials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">court</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="3">bring</governor>
+            <dependent idx="8">court</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">charges</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

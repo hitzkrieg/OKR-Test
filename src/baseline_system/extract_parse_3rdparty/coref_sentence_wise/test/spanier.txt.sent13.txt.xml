@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Roanoke</word>
+            <lemma>Roanoke</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>&amp;</word>
+            <lemma>&amp;</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>gt</word>
+            <lemma>gt</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Ex-Penn</word>
+            <lemma>Ex-Penn</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>president</word>
+            <lemma>president</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>charged</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>perjury</word>
+            <lemma>perjury</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Sandusky</word>
+            <lemma>Sandusky</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>case</word>
+            <lemma>case</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Roanoke) (CC &amp;) (NP (NN gt))) (: ;) (NP (NP (NNP Ex-Penn) (NNP State) (NN president)) (VP (VBN charged) (PP (IN with) (NP (NP (NN perjury)) (PP (IN in) (NP (NNP Sandusky) (NN case))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Roanoke</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="2">&amp;</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="3">gt</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="4">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="5">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="7">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">president</governor>
+            <dependent idx="8">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">perjury</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">charged</governor>
+            <dependent idx="10">perjury</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">case</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">perjury</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Roanoke</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="2">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="3">gt</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="4">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="5">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="7">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">president</governor>
+            <dependent idx="8">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">perjury</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="8">charged</governor>
+            <dependent idx="10">perjury</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">case</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">perjury</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Roanoke</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="2">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="3">gt</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="4">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="5">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="7">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">president</governor>
+            <dependent idx="8">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">perjury</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="8">charged</governor>
+            <dependent idx="10">perjury</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">case</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">perjury</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Roanoke</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="2">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="3">gt</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="4">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="5">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="7">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">president</governor>
+            <dependent idx="8">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">perjury</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="8">charged</governor>
+            <dependent idx="10">perjury</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">case</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">perjury</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Roanoke</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="2">&amp;</dependent>
+          </dep>
+          <dep type="conj:&amp;">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="3">gt</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="4">;</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="5">Ex-Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">president</governor>
+            <dependent idx="6">State</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="7">president</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="7">president</governor>
+            <dependent idx="8">charged</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">perjury</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="8">charged</governor>
+            <dependent idx="10">perjury</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">case</governor>
+            <dependent idx="12">Sandusky</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="10">perjury</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Roanoke</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

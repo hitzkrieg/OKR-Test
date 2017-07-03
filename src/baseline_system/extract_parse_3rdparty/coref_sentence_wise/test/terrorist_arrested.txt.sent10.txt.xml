@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>AJC</word>
+            <lemma>AJC</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Praises</word>
+            <lemma>praise</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>FBI</word>
+            <lemma>FBI</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>NYPD</word>
+            <lemma>NYPD</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Averting</word>
+            <lemma>Averting</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Terror</word>
+            <lemma>terror</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Bombing</word>
+            <lemma>bombing</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>NY</word>
+            <lemma>NY</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Bank</word>
+            <lemma>Bank</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP AJC)) (VP (VBZ Praises) (NP (NP (NNP FBI) (, ,) (NNP NYPD)) (PP (IN for) (NP (NP (NNP Averting) (NN Terror) (NN Bombing)) (PP (IN of) (NP (NNP NY) (NNP Federal) (NNP Reserve) (NNP Bank))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Praises</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="1">AJC</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="3">FBI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="5">NYPD</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="7">Averting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="8">Terror</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="9">Bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Bank</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">NY</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Praises</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Praises</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="1">AJC</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="3">FBI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="5">NYPD</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="7">Averting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="8">Terror</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="9">Bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Bank</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">NY</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Praises</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Praises</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="1">AJC</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="3">FBI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="5">NYPD</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="7">Averting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="8">Terror</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="9">Bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Bank</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">NY</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Praises</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Praises</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="1">AJC</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="3">FBI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="5">NYPD</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="7">Averting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="8">Terror</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="9">Bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Bank</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">NY</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Praises</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Praises</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="1">AJC</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="3">FBI</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">Praises</governor>
+            <dependent idx="5">NYPD</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="7">Averting</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="8">Terror</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="5">NYPD</governor>
+            <dependent idx="9">Bombing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Bank</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="11">NY</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Bank</governor>
+            <dependent idx="13">Reserve</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">Bombing</governor>
+            <dependent idx="14">Bank</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Praises</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

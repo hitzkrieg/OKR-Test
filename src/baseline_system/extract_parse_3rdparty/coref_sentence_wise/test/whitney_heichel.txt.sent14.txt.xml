@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Help</word>
+            <lemma>help</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>findwhitney</word>
+            <lemma>findwhitney</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Watch</word>
+            <lemma>watch</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>4pm</word>
+            <lemma>4pm</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T16:00</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="TIME">T16:00</Timex>
+          </token>
+          <token id="5">
+            <word>press</word>
+            <lemma>press</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>conf</word>
+            <lemma>conf</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>live</word>
+            <lemma>live</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Help) (S (NP (NN findwhitney)) (VP (VB Watch) (SBAR (S (NP (JJ 4pm) (NN press) (NN conf)) (VP (VBP live))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Help</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Watch</governor>
+            <dependent idx="2">findwhitney</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Help</governor>
+            <dependent idx="3">Watch</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">conf</governor>
+            <dependent idx="4">4pm</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">conf</governor>
+            <dependent idx="5">press</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">live</governor>
+            <dependent idx="6">conf</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Watch</governor>
+            <dependent idx="7">live</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Help</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Help</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Watch</governor>
+            <dependent idx="2">findwhitney</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Help</governor>
+            <dependent idx="3">Watch</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">conf</governor>
+            <dependent idx="4">4pm</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">conf</governor>
+            <dependent idx="5">press</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">live</governor>
+            <dependent idx="6">conf</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Watch</governor>
+            <dependent idx="7">live</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Help</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Help</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Watch</governor>
+            <dependent idx="2">findwhitney</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Help</governor>
+            <dependent idx="3">Watch</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">conf</governor>
+            <dependent idx="4">4pm</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">conf</governor>
+            <dependent idx="5">press</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">live</governor>
+            <dependent idx="6">conf</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Watch</governor>
+            <dependent idx="7">live</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Help</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Help</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Watch</governor>
+            <dependent idx="2">findwhitney</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Help</governor>
+            <dependent idx="3">Watch</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">conf</governor>
+            <dependent idx="4">4pm</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">conf</governor>
+            <dependent idx="5">press</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">live</governor>
+            <dependent idx="6">conf</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Watch</governor>
+            <dependent idx="7">live</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Help</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Help</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">Watch</governor>
+            <dependent idx="2">findwhitney</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Help</governor>
+            <dependent idx="3">Watch</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">conf</governor>
+            <dependent idx="4">4pm</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">conf</governor>
+            <dependent idx="5">press</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">live</governor>
+            <dependent idx="6">conf</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">Watch</governor>
+            <dependent idx="7">live</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Help</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Missing</word>
+            <lemma>miss</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Gresham</word>
+            <lemma>Gresham</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Oregon</word>
+            <lemma>Oregon</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>woman</word>
+            <lemma>woman</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>last</word>
+            <lemma>last</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>seen</word>
+            <lemma>see</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Tuesday</word>
+            <lemma>Tuesday</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-WXX-2</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">XXXX-WXX-2</Timex>
+          </token>
+          <token id="9">
+            <word>morn.Tipline</word>
+            <lemma>morn.Tipline</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>503</word>
+            <lemma>503</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>503.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>618-2719</word>
+            <lemma>618-2719</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>618.0 - 2719.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBG Missing) (NP (NNP Gresham)))) (, ,) (NP (NNP Oregon) (NN woman)) (ADVP (JJ last)) (VP (VBN seen) (NP (NP (NNP Tuesday) (NNP morn.Tipline)) (: :) (NP (CD 503) (CD 618-2719)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">seen</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">seen</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Gresham</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">seen</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">seen</governor>
+            <dependent idx="6">last</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="8">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">seen</governor>
+            <dependent idx="9">morn.Tipline</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">618-2719</governor>
+            <dependent idx="11">503</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="12">618-2719</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">seen</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">seen</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Gresham</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">seen</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">seen</governor>
+            <dependent idx="6">last</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="8">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">seen</governor>
+            <dependent idx="9">morn.Tipline</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">618-2719</governor>
+            <dependent idx="11">503</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="12">618-2719</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">seen</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">seen</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Gresham</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">seen</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">seen</governor>
+            <dependent idx="6">last</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="8">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">seen</governor>
+            <dependent idx="9">morn.Tipline</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">618-2719</governor>
+            <dependent idx="11">503</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="12">618-2719</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">seen</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">seen</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Gresham</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">seen</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">seen</governor>
+            <dependent idx="6">last</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="8">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">seen</governor>
+            <dependent idx="9">morn.Tipline</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">618-2719</governor>
+            <dependent idx="11">503</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="12">618-2719</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">seen</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">seen</governor>
+            <dependent idx="1">Missing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Missing</governor>
+            <dependent idx="2">Gresham</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">woman</governor>
+            <dependent idx="4">Oregon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">seen</governor>
+            <dependent idx="5">woman</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">seen</governor>
+            <dependent idx="6">last</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="8">Tuesday</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">seen</governor>
+            <dependent idx="9">morn.Tipline</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="10">:</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">618-2719</governor>
+            <dependent idx="11">503</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">morn.Tipline</governor>
+            <dependent idx="12">618-2719</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">seen</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

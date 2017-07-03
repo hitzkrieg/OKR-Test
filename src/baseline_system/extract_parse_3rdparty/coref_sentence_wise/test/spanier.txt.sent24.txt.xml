@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Pennsylvania</word>
+            <lemma>Pennsylvania</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Attorney</word>
+            <lemma>Attorney</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>General</word>
+            <lemma>General</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Linda</word>
+            <lemma>Linda</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Kelly</word>
+            <lemma>Kelly</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>now</word>
+            <lemma>now</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>PRESENT_REF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">PRESENT_REF</Timex>
+          </token>
+          <token id="8">
+            <word>going</word>
+            <lemma>go</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>details</word>
+            <lemma>detail</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>charges</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>filed</word>
+            <lemma>file</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>Former</word>
+            <lemma>former</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Penn</word>
+            <lemma>Penn</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>State</word>
+            <lemma>State</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>President</word>
+            <lemma>President</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>Graham</word>
+            <lemma>Graham</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>Spainer</word>
+            <lemma>Spainer</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>ESPN</word>
+            <lemma>ESPN</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Pennsylvania) (NNP Attorney) (NNP General) (NNP Linda) (NNP Kelly)) (VP (VBZ is) (ADVP (RB now)) (VP (VBG going) (PP (IN over) (NP (NP (NNS details)) (PP (IN on) (NP (NP (NNS charges)) (VP (VBN filed) (PP (IN on) (NP (JJ Former) (NNP Penn) (NNP State) (NNP President) (NNP Graham) (NNP Spainer))) (PP (IN on) (NP (NNP ESPN)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">going</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="1">Pennsylvania</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="2">Attorney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="3">General</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="4">Linda</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">going</governor>
+            <dependent idx="5">Kelly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">going</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">going</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">details</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">going</governor>
+            <dependent idx="10">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">charges</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">details</governor>
+            <dependent idx="12">charges</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">charges</governor>
+            <dependent idx="13">filed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="15">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="16">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="17">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="18">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="19">Graham</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">filed</governor>
+            <dependent idx="20">Spainer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">ESPN</governor>
+            <dependent idx="21">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">filed</governor>
+            <dependent idx="22">ESPN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">going</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">going</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="1">Pennsylvania</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="2">Attorney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="3">General</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="4">Linda</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">going</governor>
+            <dependent idx="5">Kelly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">going</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">going</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">details</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="8">going</governor>
+            <dependent idx="10">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">charges</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="10">details</governor>
+            <dependent idx="12">charges</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">charges</governor>
+            <dependent idx="13">filed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="15">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="16">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="17">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="18">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="19">Graham</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="20">Spainer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">ESPN</governor>
+            <dependent idx="21">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="22">ESPN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">going</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">going</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="1">Pennsylvania</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="2">Attorney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="3">General</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="4">Linda</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">going</governor>
+            <dependent idx="5">Kelly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">going</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">going</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">details</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="8">going</governor>
+            <dependent idx="10">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">charges</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="10">details</governor>
+            <dependent idx="12">charges</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">charges</governor>
+            <dependent idx="13">filed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="15">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="16">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="17">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="18">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="19">Graham</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="20">Spainer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">ESPN</governor>
+            <dependent idx="21">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="22">ESPN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">going</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">going</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="1">Pennsylvania</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="2">Attorney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="3">General</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="4">Linda</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">going</governor>
+            <dependent idx="5">Kelly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">going</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">going</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">details</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="8">going</governor>
+            <dependent idx="10">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">charges</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="10">details</governor>
+            <dependent idx="12">charges</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">charges</governor>
+            <dependent idx="13">filed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="15">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="16">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="17">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="18">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="19">Graham</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="20">Spainer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">ESPN</governor>
+            <dependent idx="21">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="22">ESPN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">going</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">going</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="1">Pennsylvania</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="2">Attorney</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="3">General</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Kelly</governor>
+            <dependent idx="4">Linda</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">going</governor>
+            <dependent idx="5">Kelly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">going</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">going</governor>
+            <dependent idx="7">now</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">details</governor>
+            <dependent idx="9">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="8">going</governor>
+            <dependent idx="10">details</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">charges</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="10">details</governor>
+            <dependent idx="12">charges</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="12">charges</governor>
+            <dependent idx="13">filed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="15">Former</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="16">Penn</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="17">State</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="18">President</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="20">Spainer</governor>
+            <dependent idx="19">Graham</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="20">Spainer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">ESPN</governor>
+            <dependent idx="21">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="13">filed</governor>
+            <dependent idx="22">ESPN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">going</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

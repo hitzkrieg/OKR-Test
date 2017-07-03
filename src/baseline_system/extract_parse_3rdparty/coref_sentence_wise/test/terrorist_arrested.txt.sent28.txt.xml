@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>CNN</word>
+            <lemma>CNN</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Susan</word>
+            <lemma>Susan</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Candiotti</word>
+            <lemma>Candiotti</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Man</word>
+            <lemma>Man</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>arrested</word>
+            <lemma>arrest</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>plot</word>
+            <lemma>plot</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>21</word>
+            <lemma>21</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P21Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P21Y</Timex>
+          </token>
+          <token id="15">
+            <word>years</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P21Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P21Y</Timex>
+          </token>
+          <token id="16">
+            <word>old</word>
+            <lemma>old</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P21Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P21Y</Timex>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP CNN) (POS 's)) (NNP Susan) (NNP Candiotti)) (: :) (NP (NP (NNP Man)) (VP (VBN arrested) (PP (IN in) (NP (NP (NNP Federal) (NNP Reserve)) (SBAR (S (NP (NN bomb) (NN plot)) (VP (VBZ is) (ADJP (NP (CD 21) (NNS years)) (JJ old))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Candiotti</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="3">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="5">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="6">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">Man</governor>
+            <dependent idx="7">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">arrested</governor>
+            <dependent idx="10">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">old</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">old</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">years</governor>
+            <dependent idx="14">21</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="16">old</governor>
+            <dependent idx="15">years</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="16">old</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Candiotti</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="3">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="5">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="6">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">Man</governor>
+            <dependent idx="7">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">arrested</governor>
+            <dependent idx="10">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">old</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">old</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">years</governor>
+            <dependent idx="14">21</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="16">old</governor>
+            <dependent idx="15">years</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="16">old</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Candiotti</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="3">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="5">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="6">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">Man</governor>
+            <dependent idx="7">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">arrested</governor>
+            <dependent idx="10">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">old</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">old</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">years</governor>
+            <dependent idx="14">21</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="16">old</governor>
+            <dependent idx="15">years</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="16">old</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Candiotti</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="3">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="5">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="6">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">Man</governor>
+            <dependent idx="7">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">arrested</governor>
+            <dependent idx="10">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">old</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">old</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">years</governor>
+            <dependent idx="14">21</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="16">old</governor>
+            <dependent idx="15">years</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="16">old</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">Candiotti</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="1">CNN</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">CNN</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="3">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="5">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="6">Man</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="6">Man</governor>
+            <dependent idx="7">arrested</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="9">Federal</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="7">arrested</governor>
+            <dependent idx="10">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">plot</governor>
+            <dependent idx="11">bomb</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">old</governor>
+            <dependent idx="12">plot</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">old</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="15">years</governor>
+            <dependent idx="14">21</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="16">old</governor>
+            <dependent idx="15">years</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="10">Reserve</governor>
+            <dependent idx="16">old</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">Candiotti</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

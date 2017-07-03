@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Israeli</word>
+            <lemma>israeli</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>PM</word>
+            <lemma>PM</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>party</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>ally</word>
+            <lemma>ally</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>ultranationalists</word>
+            <lemma>ultranationalist</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (JJ Israeli) (NNP PM) (POS 's)) (NN party) (S (VP (TO to) (VP (VB ally) (PP (IN with) (NP (NNS ultranationalists))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">party</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">PM</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">party</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">PM</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">ally</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">party</governor>
+            <dependent idx="6">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">ultranationalists</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">ally</governor>
+            <dependent idx="8">ultranationalists</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">party</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">party</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">PM</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">party</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">PM</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">ally</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">party</governor>
+            <dependent idx="6">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">ultranationalists</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">ally</governor>
+            <dependent idx="8">ultranationalists</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">party</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">party</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">PM</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">party</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">PM</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">ally</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">party</governor>
+            <dependent idx="6">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">ultranationalists</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">ally</governor>
+            <dependent idx="8">ultranationalists</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">party</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">party</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">PM</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">party</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">PM</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">ally</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="4">party</governor>
+            <dependent idx="6">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">ultranationalists</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">ally</governor>
+            <dependent idx="8">ultranationalists</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">party</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">party</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">PM</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">party</governor>
+            <dependent idx="2">PM</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">PM</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">ally</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="4">party</governor>
+            <dependent idx="6">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">ultranationalists</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">ally</governor>
+            <dependent idx="8">ultranationalists</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">party</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

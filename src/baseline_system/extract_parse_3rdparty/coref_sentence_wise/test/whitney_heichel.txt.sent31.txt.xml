@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Whitney</word>
+            <lemma>Whitney</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Heichel</word>
+            <lemma>Heichel</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>cell</word>
+            <lemma>cell</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>phone</word>
+            <lemma>phone</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Troutdale</word>
+            <lemma>Troutdale</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Whitney) (NNP Heichel) (POS 's)) (NN cell) (NN phone)) (VP (VBN found) (PP (IN in) (NP (NNP Troutdale)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">phone</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">phone</governor>
+            <dependent idx="4">cell</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">found</governor>
+            <dependent idx="5">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Troutdale</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">found</governor>
+            <dependent idx="8">Troutdale</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">phone</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">phone</governor>
+            <dependent idx="4">cell</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">found</governor>
+            <dependent idx="5">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Troutdale</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">found</governor>
+            <dependent idx="8">Troutdale</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">phone</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">phone</governor>
+            <dependent idx="4">cell</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">found</governor>
+            <dependent idx="5">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Troutdale</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">found</governor>
+            <dependent idx="8">Troutdale</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">phone</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">phone</governor>
+            <dependent idx="4">cell</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">found</governor>
+            <dependent idx="5">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Troutdale</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">found</governor>
+            <dependent idx="8">Troutdale</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">found</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="1">Whitney</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">phone</governor>
+            <dependent idx="2">Heichel</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Heichel</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">phone</governor>
+            <dependent idx="4">cell</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">found</governor>
+            <dependent idx="5">phone</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Troutdale</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">found</governor>
+            <dependent idx="8">Troutdale</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">found</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

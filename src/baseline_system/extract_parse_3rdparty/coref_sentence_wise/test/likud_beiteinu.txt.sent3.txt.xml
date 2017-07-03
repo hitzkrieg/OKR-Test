@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Netanyahu</word>
+            <lemma>Netanyahu</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Liberman</word>
+            <lemma>Liberman</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>team</word>
+            <lemma>team</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Israeli</word>
+            <lemma>israeli</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>election</word>
+            <lemma>election</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Netanyahu)) (, ,) (NP (NP (NNP Liberman) (NN team)) (RRC (ADVP (RB up)) (PP (IN for) (NP (JJ Israeli) (NN election)) (: :)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">team</governor>
+            <dependent idx="3">Liberman</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="4">team</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">election</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">election</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">election</governor>
+            <dependent idx="7">Israeli</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">team</governor>
+            <dependent idx="8">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">election</governor>
+            <dependent idx="9">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">team</governor>
+            <dependent idx="3">Liberman</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="4">team</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">election</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">election</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">election</governor>
+            <dependent idx="7">Israeli</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">team</governor>
+            <dependent idx="8">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">election</governor>
+            <dependent idx="9">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">team</governor>
+            <dependent idx="3">Liberman</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="4">team</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">election</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">election</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">election</governor>
+            <dependent idx="7">Israeli</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">team</governor>
+            <dependent idx="8">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">election</governor>
+            <dependent idx="9">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">team</governor>
+            <dependent idx="3">Liberman</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="4">team</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">election</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">election</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">election</governor>
+            <dependent idx="7">Israeli</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">team</governor>
+            <dependent idx="8">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">election</governor>
+            <dependent idx="9">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Netanyahu</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">team</governor>
+            <dependent idx="3">Liberman</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="4">team</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">election</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">election</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">election</governor>
+            <dependent idx="7">Israeli</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="4">team</governor>
+            <dependent idx="8">election</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">election</governor>
+            <dependent idx="9">:</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Netanyahu</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

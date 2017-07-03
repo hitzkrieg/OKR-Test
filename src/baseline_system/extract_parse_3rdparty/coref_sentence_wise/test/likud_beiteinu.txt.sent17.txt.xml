@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Israeli</word>
+            <lemma>israeli</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>right-wing</word>
+            <lemma>right-wing</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>parties</word>
+            <lemma>party</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>ally</word>
+            <lemma>ally</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>via</word>
+            <lemma>via</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>@</word>
+            <lemma>@</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>SYM</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>BBCWorld</word>
+            <lemma>bbcworld</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (JJ Israeli) (JJ right-wing) (NNS parties)) (NP (NP (NN ally)) (PP (IN via) (FRAG (X (SYM @)) (NP (NN BBCWorld))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">parties</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="2">right-wing</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">parties</governor>
+            <dependent idx="4">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="5">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="6">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">ally</governor>
+            <dependent idx="7">BBCWorld</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">parties</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">parties</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="2">right-wing</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">parties</governor>
+            <dependent idx="4">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="5">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="6">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">ally</governor>
+            <dependent idx="7">BBCWorld</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">parties</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">parties</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="2">right-wing</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">parties</governor>
+            <dependent idx="4">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="5">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="6">@</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="4">ally</governor>
+            <dependent idx="7">BBCWorld</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">parties</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">parties</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="2">right-wing</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">parties</governor>
+            <dependent idx="4">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="5">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="6">@</dependent>
+          </dep>
+          <dep type="acl:via">
+            <governor idx="4">ally</governor>
+            <dependent idx="7">BBCWorld</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">parties</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">parties</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="1">Israeli</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">parties</governor>
+            <dependent idx="2">right-wing</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">parties</governor>
+            <dependent idx="4">ally</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="5">via</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">BBCWorld</governor>
+            <dependent idx="6">@</dependent>
+          </dep>
+          <dep type="acl:via">
+            <governor idx="4">ally</governor>
+            <dependent idx="7">BBCWorld</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">parties</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

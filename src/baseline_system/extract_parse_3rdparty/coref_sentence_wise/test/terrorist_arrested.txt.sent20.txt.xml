@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>(</word>
+            <lemma>(</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Alex</word>
+            <lemma>Alex</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Jones</word>
+            <lemma>Jones</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>)</word>
+            <lemma>)</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>FBI</word>
+            <lemma>FBI</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Entraps</word>
+            <lemma>entrap</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Witless</word>
+            <lemma>witless</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Patsy</word>
+            <lemma>Patsy</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Federal</word>
+            <lemma>Federal</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Reserve</word>
+            <lemma>Reserve</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Bombing</word>
+            <lemma>Bombing</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Plot</word>
+            <lemma>plot</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN () (NNP Alex) (NNP Jones) (NP (NNP )) (NNP FBI))) (VP (VBZ Entraps) (NP (JJ Witless) (NX (NNP Patsy))) (PP (IN in) (NP (NNP Federal) (NNP Reserve) (NNP Bombing) (NN Plot)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">Entraps</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="2">Alex</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="3">Jones</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">FBI</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Jones</governor>
+            <dependent idx="5">FBI</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Patsy</governor>
+            <dependent idx="7">Witless</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="8">Patsy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Plot</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="10">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="11">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="12">Bombing</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="13">Plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">Entraps</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="2">Alex</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="3">Jones</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">FBI</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Jones</governor>
+            <dependent idx="5">FBI</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Patsy</governor>
+            <dependent idx="7">Witless</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="8">Patsy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Plot</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="10">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="11">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="12">Bombing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="13">Plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">Entraps</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="2">Alex</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="3">Jones</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">FBI</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Jones</governor>
+            <dependent idx="5">FBI</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Patsy</governor>
+            <dependent idx="7">Witless</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="8">Patsy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Plot</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="10">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="11">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="12">Bombing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="13">Plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">Entraps</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="2">Alex</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="3">Jones</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">FBI</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Jones</governor>
+            <dependent idx="5">FBI</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Patsy</governor>
+            <dependent idx="7">Witless</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="8">Patsy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Plot</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="10">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="11">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="12">Bombing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="13">Plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">Entraps</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="1">(</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">Jones</governor>
+            <dependent idx="2">Alex</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="3">Jones</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">FBI</governor>
+            <dependent idx="4">)</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">Jones</governor>
+            <dependent idx="5">FBI</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">Patsy</governor>
+            <dependent idx="7">Witless</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="8">Patsy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">Plot</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="10">Federal</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="11">Reserve</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">Plot</governor>
+            <dependent idx="12">Bombing</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="13">Plot</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">Entraps</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

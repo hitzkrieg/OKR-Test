@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Beirut</word>
+            <lemma>Beirut</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>bomb</word>
+            <lemma>bomb</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>kills</word>
+            <lemma>kill</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>8</word>
+            <lemma>8</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>8.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>wounds</word>
+            <lemma>wound</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>dozens</word>
+            <lemma>dozen</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>-</word>
+            <lemma>-</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>USA</word>
+            <lemma>USA</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>TODAY</word>
+            <lemma>TODAY</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Beirut) (NN car) (NN bomb)) (VP (VBZ kills) (NP (NP (NP (CD 8)) (, ,) (NP (NNS wounds) (NNS dozens))) (: -) (NP (NNP USA) (NNP TODAY)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="5">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">dozens</governor>
+            <dependent idx="7">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">8</governor>
+            <dependent idx="8">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">TODAY</governor>
+            <dependent idx="10">USA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">8</governor>
+            <dependent idx="11">TODAY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="5">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">dozens</governor>
+            <dependent idx="7">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">8</governor>
+            <dependent idx="8">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">TODAY</governor>
+            <dependent idx="10">USA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">8</governor>
+            <dependent idx="11">TODAY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="5">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">dozens</governor>
+            <dependent idx="7">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">8</governor>
+            <dependent idx="8">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">TODAY</governor>
+            <dependent idx="10">USA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">8</governor>
+            <dependent idx="11">TODAY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="5">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">dozens</governor>
+            <dependent idx="7">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">8</governor>
+            <dependent idx="8">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">TODAY</governor>
+            <dependent idx="10">USA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">8</governor>
+            <dependent idx="11">TODAY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">kills</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="1">Beirut</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">bomb</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">kills</governor>
+            <dependent idx="3">bomb</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">kills</governor>
+            <dependent idx="5">8</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">dozens</governor>
+            <dependent idx="7">wounds</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">8</governor>
+            <dependent idx="8">dozens</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">8</governor>
+            <dependent idx="9">-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">TODAY</governor>
+            <dependent idx="10">USA</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">8</governor>
+            <dependent idx="11">TODAY</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">kills</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
