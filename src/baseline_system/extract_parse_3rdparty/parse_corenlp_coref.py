@@ -199,11 +199,11 @@ def parse_sentence_wise_corenlp_coref_and_cluster_further(input_dir = './coref_s
 									cluster.append((mention_string, text))
 							if(len(cluster)!=0):
 								clusters.append(set(cluster))	
-			clusters_hybrid = cluster_mentions(entities, score, clusters)
-			clusters = [set([item[0] for item in cluster]) for cluster in clusters]
+			clusters_hybrid = cluster_mentions(entities, score, clusters, merge_initially = True)
+			clusters_hybrid = [set([item[0] for item in cluster]) for cluster in clusters_hybrid]
 
 
-			curr_scores = eval_clusters(clusters, okr_graph)
+			curr_scores = eval_clusters(clusters_hybrid, okr_graph)
 			scores.append(curr_scores)
 
 
@@ -215,11 +215,55 @@ def parse_sentence_wise_corenlp_coref_and_cluster_further(input_dir = './coref_s
 
 
 
+def parse_and_cluster_and_evaluate_corenlp_coref_cross_doc(input_dir = 'CoreNLP_coref_anno/test', gold_annotations_folder = '../../../data/baseline/test'): 
+	"""
+	Parse the output xml file annotated by coreNLP (cross-document), use baseline system to cluster further and evaluate the accuracy of 
+	mentions and coreference resolution with gold annotations.
+	"""
+	
+	scores = []
+	
+	for file in os.listdir(input_dir):
+		if re.match(r'(.+)\.xml', file)!= None:
+			clusters = []
+			okr_graph = load_graph_from_file(gold_annotations_folder + '/'+ re.match(r'(.+)\.xml', file).group(1)[:-4]+'.xml')
+			entities = [(str(mention), unicode(mention.terms)) for entity in okr_graph.entities.values() for mention in
+                    entity.mentions.values()]
+			gold_entity_mentions= [str(mention) for entity in okr_graph.entities.values() for mention in entity.mentions.values()]                    
 
+			tree = ET.parse(input_dir + '/' + file)
+			document = tree.getroot()[0]
+			coref_node = document.find('coreference')
+			
+			for coref_id, coref_chain in enumerate(coref_node):
+				cluster = []
+				for mention in coref_chain:
+					sent_num = int(mention[0].text)
+					start = int(mention[1].text)-1
+					end = int(mention[2].text)-1
+					indices = range(start,end)
+					text = mention[4].text
+					mention_string = str(sent_num)+ str(indices)
+					if(mention_string in gold_entity_mentions):
+						cluster.append((mention_string, text))
+
+				if(len(cluster)!=0):
+					clusters.append(set(cluster))	
+			clusters_hybrid = cluster_mentions(entities, score, clusters)
+			clusters_hybrid = [set([item[0] for item in cluster]) for cluster in clusters_hybrid]
+
+
+			curr_scores = eval_clusters(clusters_hybrid, okr_graph)
+		
+			scores.append(curr_scores)
+
+	print(scores)		
+	scores = np.mean(scores, axis=0).tolist()    
+	print(scores)
 	
 		
 def main():
-	parse_sentence_wise_corenlp_coref_and_cluster_further()
+	parse_and_cluster_and_evaluate_corenlp_coref_cross_doc()
 
 
 
