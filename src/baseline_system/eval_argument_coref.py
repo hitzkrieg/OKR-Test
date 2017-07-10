@@ -55,6 +55,10 @@ def eval_clusters(gold, arg_clustering):
     """
 
     # Get argument mentions
+
+    # prop_id : list of dictionaries. Each dictionary is for a proposition mention of the prop_id. Now 
+    # Each dictionary contains the argument_mention_id : str(argument_mention) for each argument mention of the proposition mention
+
     gold_arg_mentions_dicts = { prop_id : [{ m_id : str(mention)
                                                for m_id, mention in mention.argument_mentions.iteritems()}
                                              for mention in prop.mentions.values()]
