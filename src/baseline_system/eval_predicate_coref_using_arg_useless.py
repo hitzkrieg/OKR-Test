@@ -29,7 +29,7 @@ def is_stop(w):
     return w in spacy.en.STOP_WORDS
 
 
-def evaluate_predicate_coref_using_everything_gold(test_graphs):
+def evaluate_predicate_coref_using_everything_gold(test_graphs, arg_match_ratio, lexical_vs_argument_ratio):
     """
     Receives the OKR test graphs and evaluates them for predicate coreference by leveraging entity coreference using the entity mentions, entity 
     coreference, and predicate coreference from gold
@@ -86,7 +86,7 @@ def evaluate_predicate_coref_using_everything_gold(test_graphs):
 def score(prop, cluster, gold_arg_mentions):
     return len([other for other in cluster if atleast_half_arg_match(other[0],prop[0], gold_arg_mentions)]) / (1.0 * len(cluster))
 
-def atleast_half_arg_match(prop_mention1, prop_mention2, gold_arg_mentions):
+def some_arg_match(prop_mention1, prop_mention2, gold_arg_mentions, arg_match_ratio):
     matched_arguments = 0
     for m_id1, arg_mention1 in prop_mention1.argument_mentions.iteritems():
         for m_id2, arg_mention2 in prop_mention2.argument_mentions.iteritems():
@@ -96,11 +96,11 @@ def atleast_half_arg_match(prop_mention1, prop_mention2, gold_arg_mentions):
                         if str(arg_mention2) in argument_set:
                             matched_arguments+=1
 
-    return (matched_arguments >= min(len(prop_mention1.argument_mentions) , len(prop_mention2.argument_mentions))/2.0)
+    return (matched_arguments >= min(len(prop_mention1.argument_mentions) , len(prop_mention2.argument_mentions))* arg_match_ratio)
 
                         
 
-def some_arg_match(prop_mention1, prop_mention2, gold_arg_mentions):
+def first_arg_match(prop_mention1, prop_mention2, gold_arg_mentions):
     for m_id1, arg_mention1 in prop_mention1.argument_mentions.iteritems():
         for m_id2, arg_mention2 in prop_mention2.argument_mentions.iteritems():
             for p_id, mention_list in gold_arg_mentions.iteritems():
@@ -340,6 +340,10 @@ def cluster_mentions(mention_list, score, gold_arg_mentions):
 def main():
     print "hello!!!!"
     graphs = load_graphs_from_folder('../../data/baseline/test')
+
+    ratios = [0.25, 0.5, 0.75, 1]
+
+
     scores = evaluate_predicate_coref_using_everything_gold(graphs)
     print(scores)
 
