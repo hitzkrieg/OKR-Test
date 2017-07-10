@@ -2,7 +2,7 @@
 Receives a test set and evaluates performance of predicate coreference.
 We cluster the mentions based on simple lexical similarity metrics (e.g., lemma matching and Levenshtein distance)
 
-Author: Combined, Shyam Upadhyay + Rachel Wities
+Author: Compiled from Shyam Upadhyay + Rachel Wities 
 """
 
 import sys
@@ -15,9 +15,7 @@ from okr import *
 from entity_coref import *
 from clustering_common import cluster_mentions
 from parsers.spacy_wrapper import spacy_wrapper
-from sematch.semantic.similarity import WordNetSimilarity
 
-wns = WordNetSimilarity()
 
 
 import spacy
