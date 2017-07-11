@@ -68,7 +68,7 @@ def evaluate_predicate_coref_using_everything_gold(test_graphs, arg_match_ratio,
                 head_lemma, head_pos = get_mention_head(mention, parser, graph)
                 prop_mentions.append((mention, head_lemma, head_pos))
 
-        clusters = cluster_mentions(prop_mentions, score_prime, gold_arg_mentions)
+        clusters = cluster_mentions(prop_mentions, score_prime, gold_arg_mentions, arg_match_ratio, lexical_vs_argument_ratio)
         clusters = [set([item[0] for item in cluster]) for cluster in clusters]    
         # Evaluate
         curr_scores, _ = eval_clusters(clusters, graph)
@@ -115,7 +115,7 @@ def first_arg_match(prop_mention1, prop_mention2, gold_arg_mentions):
     return False                        
 
 
-def score_prime(prop, cluster, gold_arg_mentions):
+def score_prime(prop, cluster, gold_arg_mentions, arg_match_ratio, lexical_vs_argument_ratio):
     """
     Receives a proposition mention (mention, head_lemma, head_pos)
     and a cluster of proposition mentions, and returns a numeric value denoting the
@@ -126,7 +126,11 @@ def score_prime(prop, cluster, gold_arg_mentions):
     """
     
     # return len([other for other in cluster if similar_words(other[1],prop[1])]) / (1.0 * len(cluster))
-    return len([other for other in cluster if (some_word_match(other[0].terms,prop[0].terms) or atleast_half_arg_match(other[0],prop[0], gold_arg_mentions) )]) / (1.0 * len(cluster))
+    lexical_score = len([other for other in cluster if (some_word_match(other[0].terms,prop[0].terms))]) / (1.0 * len(cluster))
+    argument_score = len([other for other in cluster if (some_arg_match(other[0],prop[0], gold_arg_mentions , arg_match_ratio) )]) / (1.0 * len(cluster))
+    
+    return lexical_vs_argument_ratio * lexical_score + (1- lexical_vs_argument_ratio)*argument_score
+
 
 
 
@@ -308,7 +312,7 @@ def partial_match(x, y):
 
 
 
-def cluster_mentions(mention_list, score, gold_arg_mentions):
+def cluster_mentions(mention_list, score, gold_arg_mentions, arg_match_ratio, lexical_vs_argument_ratio):
     """
     Cluster the predicate mentions in a greedy way: assign each predicate to the first
     cluster with similarity score > 0.5. If no such cluster exists, start a new one.
@@ -322,7 +326,7 @@ def cluster_mentions(mention_list, score, gold_arg_mentions):
     for mention in mention_list:
         found_cluster = False
         for cluster in clusters:
-            if score(mention, cluster, gold_arg_mentions) > 0.5:
+            if score(mention, cluster, gold_arg_mentions, arg_match_ratio, lexical_vs_argument_ratio) > 0.5:
                 cluster.add(mention)
                 found_cluster = True
                 break
@@ -341,12 +345,12 @@ def main():
     print "hello!!!!"
     graphs = load_graphs_from_folder('../../data/baseline/test')
 
-    ratios = [0.25, 0.5, 0.75, 1]
+    ratios = [0.0, 0.25, 0.5, 0.75, 1.0]
 
-
-    scores = evaluate_predicate_coref_using_everything_gold(graphs)
-    print(scores)
-
+    for lexical_vs_argument_ratio in ratios:
+        for arg_match_ratio in ratios:
+            scores = evaluate_predicate_coref_using_everything_gold(graphs, arg_match_ratio, lexical_vs_argument_ratio)
+            print 'lexical_vs_argument_ratio: {} arg_match_ratio: {} score: {}'.format(lexical_vs_argument_ratio, arg_match_ratio, scores)
 
 if __name__ == '__main__':
         main()    
