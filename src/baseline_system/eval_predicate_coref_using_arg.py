@@ -329,10 +329,6 @@ def partial_match(x, y):
 
 
 def main():
-    print "hello!!!!"
-    graphs = load_graphs_from_folder('../../data/baseline/test')
-    scores = evaluate_predicate_coref(graphs)
-    print(scores)
 
 
     print "hello!!!!"
