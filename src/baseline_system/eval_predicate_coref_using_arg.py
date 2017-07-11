@@ -27,7 +27,11 @@ def is_stop(w):
     return w in spacy.en.STOP_WORDS
 
 
-def evaluate_predicate_coref(test_graphs):
+def mention_string_to_terms(graph, mention, sentence_id):
+    terms = ' '.join([graph.sentences[sentence_id][int(id)] for id in str(mention).rstrip(']').split('[')[1].split(', ')     ])
+
+
+def evaluate_predicate_coref(test_graphs, arg_match_ratio, lexical_vs_argument_ratio):
     """
     Receives the OKR test graphs and evaluates them for predicate coreference
     :param test_graphs: the OKR test graphs
@@ -42,10 +46,11 @@ def evaluate_predicate_coref(test_graphs):
         # entities = [(str(mention), unicode(mention.terms)) for entity in graph.entities.values() for mention in
         #             entity.mentions.values()]
 
-        arguments = [(str(mention), unicode(mention.terms)) for mention in prop_mention.argument_mentions.values() for prop_mention in prop.mentions.values() for prop in graph.propositions.values()]
-        argument_clusters = cluster_mentions(entities, argument_score)
+        arguments = [(str(mention), unicode(mention_string_to_terms(graph, mention, prop_mention.sentence_id ))) for prop in graph.propositions.values() for prop_mention in prop.mentions.values() for mention in prop_mention.argument_mentions.values() if prop_mention.indices!=[-1]]
+        
+        argument_clusters = cluster_mentions(arguments, argument_score)
         argument_clusters = [set([item[0] for item in cluster]) for cluster in argument_clusters]
-
+ 
 
         # Cluster the mentions
         prop_mentions = []
@@ -58,7 +63,7 @@ def evaluate_predicate_coref(test_graphs):
                 head_lemma, head_pos = get_mention_head(mention, parser, graph)
                 prop_mentions.append((mention, head_lemma, head_pos))
 
-        clusters = cluster_mentions(prop_mentions, score)
+        clusters = cluster_prop_mentions(prop_mentions, score_prime, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio)
         clusters = [set([item[0] for item in cluster]) for cluster in clusters]
 
         # Evaluate
@@ -71,6 +76,29 @@ def evaluate_predicate_coref(test_graphs):
 
         
 
+def cluster_prop_mentions(mention_list, score, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio):
+    """
+    Cluster the predicate mentions in a greedy way: assign each predicate to the first
+    cluster with similarity score > 0.5. If no such cluster exists, start a new one.
+    :param mention_list: the mentions to cluster
+    :param score: the score function that receives a mention and a cluster and returns a score
+    :param clusters: the initial clusters received by the algorithm from a previous coreference pipeline
+    :return: clusters of mentions
+    """
+    clusters = []
+
+    for mention in mention_list:
+        found_cluster = False
+        for cluster in clusters:
+            if score(mention, cluster, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio) > 0.5:
+                cluster.add(mention)
+                found_cluster = True
+                break
+
+        if not found_cluster:
+            clusters.append(set([mention]))
+
+    return clusters
 
 
 
@@ -89,7 +117,9 @@ def argument_score(mention, cluster):
     """
     return len([other for other in cluster if similar_words(other[1], mention[1])]) / (1.0 * len(cluster))
 
-def score(prop, cluster, argument_clusters):
+
+
+def score_prime(prop, cluster, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio):
     """
     Receives a proposition mention (mention, head_lemma, head_pos)
     and a cluster of proposition mentions, and returns a numeric value denoting the
@@ -100,14 +130,24 @@ def score(prop, cluster, argument_clusters):
     """
     
     # return len([other for other in cluster if similar_words(other[1],prop[1])]) / (1.0 * len(cluster))
-    return len([other for other in cluster if (some_word_match(other[0].terms,prop[0].terms)]   or some_arg_match(other[0], prop[0], argument_clusters   ))    ) / (1.0 * len(cluster))
+    lexical_score = len([other for other in cluster if (some_word_match(other[0].terms,prop[0].terms))]) / (1.0 * len(cluster))
+    argument_score = len([other for other in cluster if (some_arg_match(other[0],prop[0], argument_clusters , arg_match_ratio) )]) / (1.0 * len(cluster))
+    
+    return lexical_vs_argument_ratio * lexical_score + (1- lexical_vs_argument_ratio)*argument_score
 
 
 
 
-def some_arg_match(prop_mention1, prop_mention2, argument_clusters):
-	for argument in prop_mention1.arguments
-	for cluster in argument_clusters:
+
+def some_arg_match(prop_mention1, prop_mention2, argument_clusters, arg_match_ratio):
+    matched_arguments = 0
+    for m_id1, arg_mention1 in prop_mention1.argument_mentions.iteritems():
+        for m_id2, arg_mention2 in prop_mention2.argument_mentions.iteritems():
+            for cluster in argument_clusters:
+                if str(arg_mention1) in cluster and str(arg_mention2) in cluster:
+                    matched_arguments+=1
+
+    return (matched_arguments >= min(len(prop_mention1.argument_mentions) , len(prop_mention2.argument_mentions))* arg_match_ratio)        
 
 
 
@@ -209,7 +249,7 @@ def similar_words(x, y):
     :param y: the second mention
     :return: whether x and y are similar
     """
-    return same_synset(x, y) or fuzzy_fit(x, y) or partial_match(x, y) or (wns.word_similarity(x, y)>0.5)
+    return same_synset(x, y) or fuzzy_fit(x, y) or partial_match(x, y) 
 
 
 def same_synset(x, y):
@@ -293,6 +333,17 @@ def main():
     graphs = load_graphs_from_folder('../../data/baseline/test')
     scores = evaluate_predicate_coref(graphs)
     print(scores)
+
+
+    print "hello!!!!"
+    graphs = load_graphs_from_folder('../../data/baseline/test')
+
+    ratios = [0.0, 0.25, 0.5, 0.75, 1.0]
+
+    for lexical_vs_argument_ratio in ratios:
+        for arg_match_ratio in ratios:
+            scores = evaluate_predicate_coref(graphs, arg_match_ratio, lexical_vs_argument_ratio)
+            print 'lexical_vs_argument_ratio: {} arg_match_ratio: {} score: {}'.format(lexical_vs_argument_ratio, arg_match_ratio, scores)
 
 
 if __name__ == '__main__':
