@@ -1,5 +1,6 @@
 """
-Series of experiments to try to leverage entity coreference for predicate coreference
+Series of experiments to try to leverage entity coreference for predicate coreference.
+In this file we use gold proposition extractions as well as 
 Author: Hitesh Golchha
 """ 
 import sys
@@ -31,9 +32,11 @@ def is_stop(w):
 
 def evaluate_predicate_coref_using_everything_gold(test_graphs, arg_match_ratio, lexical_vs_argument_ratio):
     """
-    Receives the OKR test graphs and evaluates them for predicate coreference by leveraging entity coreference using the entity mentions, entity 
-    coreference, and predicate coreference from gold
+    Receives the OKR test graphs and evaluates them for predicate coreference by leveraging entity coreference; using the entity mentions,  
+    predicate mentions, and argument coreference from gold
     :param test_graphs: the OKR test graphs
+    :param arg_match_ratio: the 
+    :param lexical_vs_argument_ratio: 
     :return: the coreference scores: MUC, B-CUBED, CEAF and MELA (CoNLL F1).
     """
 
