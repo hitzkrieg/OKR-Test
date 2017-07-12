@@ -29,9 +29,10 @@ def is_stop(w):
 
 def mention_string_to_terms(graph, mention, sentence_id):
     terms = ' '.join([graph.sentences[sentence_id][int(id)] for id in str(mention).rstrip(']').split('[')[1].split(', ')     ])
+    return terms
 
 
-def evaluate_predicate_coref(test_graphs, arg_match_ratio, lexical_vs_argument_ratio):
+def evaluate_predicate_coref(test_graphs, lexical_ratio, argument_ratio):
     """
     Receives the OKR test graphs and evaluates them for predicate coreference
     :param test_graphs: the OKR test graphs
@@ -63,7 +64,7 @@ def evaluate_predicate_coref(test_graphs, arg_match_ratio, lexical_vs_argument_r
                 head_lemma, head_pos = get_mention_head(mention, parser, graph)
                 prop_mentions.append((mention, head_lemma, head_pos))
 
-        clusters = cluster_prop_mentions(prop_mentions, score_prime, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio)
+        clusters = cluster_prop_mentions(prop_mentions, score_prime, argument_clusters, lexical_ratio, argument_ratio)
         clusters = [set([item[0] for item in cluster]) for cluster in clusters]
 
         # Evaluate
@@ -74,9 +75,18 @@ def evaluate_predicate_coref(test_graphs, arg_match_ratio, lexical_vs_argument_r
 
     return scores
 
-        
 
-def cluster_prop_mentions(mention_list, score, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio):
+
+
+def get_argument_clusters(graph):
+    arguments = [(str(mention), unicode(mention_string_to_terms(graph, mention, prop_mention.sentence_id ))) for prop in graph.propositions.values() for prop_mention in prop.mentions.values() for mention in prop_mention.argument_mentions.values() if prop_mention.indices!=[-1]]
+
+    entities = [(str(mention), unicode(mention.terms)) for entity in graph.entities.values() for mention in entity.mentions.values()]
+
+
+
+
+def cluster_prop_mentions(mention_list, score, argument_clusters, lexical_ratio, argument_ratio):
     """
     Cluster the predicate mentions in a greedy way: assign each predicate to the first
     cluster with similarity score > 0.5. If no such cluster exists, start a new one.
@@ -90,7 +100,7 @@ def cluster_prop_mentions(mention_list, score, argument_clusters, arg_match_rati
     for mention in mention_list:
         found_cluster = False
         for cluster in clusters:
-            if score(mention, cluster, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio) > 0.5:
+            if score(mention, cluster, argument_clusters, lexical_ratio, argument_ratio) > 0.5:
                 cluster.add(mention)
                 found_cluster = True
                 break
@@ -119,7 +129,7 @@ def argument_score(mention, cluster):
 
 
 
-def score_prime(prop, cluster, argument_clusters, arg_match_ratio, lexical_vs_argument_ratio):
+def score_prime(prop, cluster, argument_clusters, lexical_ratio, argument_ratio):
     """
     Receives a proposition mention (mention, head_lemma, head_pos)
     and a cluster of proposition mentions, and returns a numeric value denoting the
@@ -131,18 +141,30 @@ def score_prime(prop, cluster, argument_clusters, arg_match_ratio, lexical_vs_ar
     
     # return len([other for other in cluster if similar_words(other[1],prop[1])]) / (1.0 * len(cluster))
     lexical_score = len([other for other in cluster if (some_word_match(other[0].terms,prop[0].terms))]) / (1.0 * len(cluster))
-    argument_score = len([other for other in cluster if (some_arg_match(other[0],prop[0], argument_clusters , arg_match_ratio) )]) / (1.0 * len(cluster))
+    argument_score = len([other for other in cluster if (first_arg_match(other[0],prop[0], argument_clusters ) )]) / (1.0 * len(cluster))
     
-    return lexical_vs_argument_ratio * lexical_score + (1- lexical_vs_argument_ratio)*argument_score
+    return lexical_ratio * lexical_score + (argument_ratio)*argument_score
 
 
 
+def first_arg_match(prop_mention1, prop_mention2, argument_clusters):
+    for m_id1, arg_mention1 in prop_mention1.argument_mentions.iteritems():
+        for m_id2, arg_mention2 in prop_mention2.argument_mentions.iteritems():
+            
+            for cluster in argument_clusters:
+                if str(arg_mention1) in cluster:
+                    if str(arg_mention2) in cluster:
+                        return True
+                    else:
+                        return False
 
+    
 
 def some_arg_match(prop_mention1, prop_mention2, argument_clusters, arg_match_ratio):
     matched_arguments = 0
     for m_id1, arg_mention1 in prop_mention1.argument_mentions.iteritems():
         for m_id2, arg_mention2 in prop_mention2.argument_mentions.iteritems():
+            
             for cluster in argument_clusters:
                 if str(arg_mention1) in cluster and str(arg_mention2) in cluster:
                     matched_arguments+=1
@@ -329,17 +351,17 @@ def partial_match(x, y):
 
 
 def main():
-
+    
 
     print "hello!!!!"
     graphs = load_graphs_from_folder('../../data/baseline/test')
 
     ratios = [0.0, 0.25, 0.5, 0.75, 1.0]
 
-    for lexical_vs_argument_ratio in ratios:
-        for arg_match_ratio in ratios:
-            scores = evaluate_predicate_coref(graphs, arg_match_ratio, lexical_vs_argument_ratio)
-            print 'lexical_vs_argument_ratio: {} arg_match_ratio: {} score: {}'.format(lexical_vs_argument_ratio, arg_match_ratio, scores)
+    for lexical_ratio in ratios:
+        for arg_ratio in ratios:
+            scores = evaluate_predicate_coref(graphs, lexical_ratio, arg_ratio)
+            print 'lexical_ratio: {} arg_ratio: {} score: {}'.format(lexical_ratio, arg_ratio, scores)
 
 
 if __name__ == '__main__':
