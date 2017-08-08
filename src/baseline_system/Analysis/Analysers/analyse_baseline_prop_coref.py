@@ -43,7 +43,7 @@ def analyse_baseline_prop_coref(gold_annotations_dir = '../../data/baseline/dev'
 
 		# gold_dist -> Gold distribution of each predicted proposition cluster 
 		# predicted_dist -> Predicted distribution of each gold proposition cluster
-		x
+		
 		gold_dist = {} 
 		predicted_dist = {}
 

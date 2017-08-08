@@ -1,0 +1,2544 @@
+**** File 1****
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: A Syrian air force pilot explains why he bombed civilians
+Gold proposition: Syrian air force[air force, Syrian].  Explicit: False
+Predicted proposition: force.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: A Syrian air force pilot explains why he bombed civilians
+Gold proposition: air force pilot[air force, pilot].  Explicit: False
+Predicted proposition: force.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold proposition: rebel-held town[rebel-held, town].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold proposition: strategic town[strategic, town].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold proposition: Syrian jets[Syrian, jets].  Explicit: False
+Predicted proposition: jets.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 49 killed as Syrian jets attack strategic rebel-held town - Oneindia.in
+Gold proposition: -[killed as, Oneindia.in].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian helicopter explodes in Idlib , via @ cjchivers .
+Gold proposition: Syrian helicopter[Syrian, helicopter].  Explicit: False
+Predicted proposition: helicopter.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian helicopter explodes in Idlib , via @ cjchivers .
+Gold proposition: explodes[helicopter, Idlib].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Rebels 'hit Syrian oil and gas pipelines'
+Gold proposition: oil pipelines'[oil, pipelines'].  Explicit: False
+Predicted proposition: oil.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Rebels 'hit Syrian oil and gas pipelines'
+Gold proposition: gas pipelines'[gas, pipelines'].  Explicit: False
+Predicted proposition: gas.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Rebels 'hit Syrian oil and gas pipelines'
+Gold proposition: 'hit[pipelines', Rebels].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria drops cluster bombs on Maaret al-Numan : rebels http : //t.co/l7jFkDGG
+Gold proposition: drops cluster bombs[Syria, Maaret al-Numan].  Explicit: True
+Predicted proposition: drops.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syria drops cluster bombs on Maaret al-Numan : rebels http : //t.co/l7jFkDGG
+Gold proposition: :[drops cluster bombs on, rebels].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air @ Jalopnik
+Gold proposition: Syrian Rebels[Syrian, Rebels].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air @ Jalopnik
+Gold proposition: Military Helicopter[Military, Helicopter].  Explicit: False
+Predicted proposition: Helicopter.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian planes strike key town
+Gold proposition: Syrian planes[Syrian, planes].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian planes strike key town
+Gold proposition: key town[key, town].  Explicit: False
+Predicted proposition: key.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 'Airstrikes ' Pound Syrian Rebel Strongholds
+Gold proposition: 'Airstrikes[Strongholds, Syrian].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 'Airstrikes ' Pound Syrian Rebel Strongholds
+Gold proposition: Strongholds Strongholds[Strongholds, Strongholds].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 'Airstrikes ' Pound Syrian Rebel Strongholds
+Gold proposition: Syrian Rebel[Syrian, Rebel].  Explicit: False
+Predicted proposition: Rebel.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold proposition: Syrian government[Syrian, government].  Explicit: False
+Predicted proposition: government.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold proposition: government warplanes[government, warplanes].  Explicit: False
+Predicted proposition: government.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold proposition: northern town[northern, town].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian government warplanes bombed a rebel-held northern town , killing 44 people and reducing homes to rubble ,
+Gold proposition: rebel-held town[rebel-held, town].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian air strikes on rebel towns
+Gold proposition: rebel towns[rebel, towns].  Explicit: False
+Predicted proposition: rebel.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian air strikes on rebel towns
+Gold proposition: air strikes[towns, Syrian].  Explicit: True
+Predicted proposition: air.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian Rebels Bogged Down in Aleppo
+Gold proposition: Syrian Rebels[Syrian, Rebels].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Scores dead as Syrian jets bomb rebel-held town :
+Gold proposition: Syrian jets[Syrian, jets].  Explicit: False
+Predicted proposition: jets.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Scores dead as Syrian jets bomb rebel-held town :
+Gold proposition: rebel-held town[rebel-held, town].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Airstrike on Syrian city kills at least 30 civilians - Los Angeles Times
+Gold proposition: Syrian city[Syrian, city].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Airstrike on Syrian city kills at least 30 civilians - Los Angeles Times
+Gold proposition: Airstrike[city].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Airstrike on Syrian city kills at least 30 civilians - Los Angeles Times
+Gold proposition: -[kills, Los Angeles Times].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: News Syrian air strikes on rebel towns
+Gold proposition: air strikes[towns, Syrian].  Explicit: True
+Predicted proposition: air.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: News Syrian air strikes on rebel towns
+Gold proposition: rebel towns[rebel, towns].  Explicit: False
+Predicted proposition: rebel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold proposition: Syrian regime[Syrian, regime].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold proposition: rebel-held town[rebel-held, town].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold proposition: Immediate aftermath[Immediate, aftermath].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold proposition: AFP[Herve Bar, AFP].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold proposition: 's deadly bombing[regime, town].  Explicit: True
+Predicted proposition: bombing.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Immediate aftermath of Syrian regime 's deadly bombing of rebel-held town , captured by AFP 's Herve Bar :
+Gold proposition: aftermath['s deadly bombing of, aftermath].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Scores dead as Syria|n jets bomb rebel-held town
+Gold proposition: rebel-held town[rebel-held, town].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian helicopter reportedly downed by rebels over Idlib
+Gold proposition: reportedly[downed by over].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian helicopter reportedly downed by rebels over Idlib
+Gold proposition: Syrian helicopter[Syrian, helicopter].  Explicit: False
+Predicted proposition: helicopter.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air
+Gold proposition: Military Helicopter[Military, Helicopter].  Explicit: False
+Predicted proposition: Helicopter.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Watch Syrian Rebels Blow Up A Military Helicopter In Mid-Air
+Gold proposition: Syrian Rebels[Syrian, Rebels].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Divided Syrian rebels agree on joint leadership
+Gold proposition: Syrian rebels[Syrian, rebels].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Divided Syrian rebels agree on joint leadership
+Gold proposition: joint leadership[joint, leadership].  Explicit: False
+Predicted proposition: joint.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian rebels fight for key town of Maaret al-Numan
+Gold proposition: key town[key, town].  Explicit: False
+Predicted proposition: key.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian rebels fight for key town of Maaret al-Numan
+Gold proposition: town[Maaret al-Numan, town].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian rebels fight for key town of Maaret al-Numan
+Gold proposition: Syrian rebels[Syrian, rebels].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian Rebels Blow Up A Military Helicopter In Mid-Air [ vid 0:54 ]
+Gold proposition: Military Helicopter[Military, Helicopter].  Explicit: False
+Predicted proposition: Helicopter.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian Rebels Blow Up A Military Helicopter In Mid-Air [ vid 0:54 ]
+Gold proposition: Syrian Rebels[Syrian, Rebels].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian Regime Attacks on Rebel Areas Leave 90 Dead
+Gold proposition: Rebel Areas[Rebel, Areas].  Explicit: False
+Predicted proposition: Rebel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian Regime Attacks on Rebel Areas Leave 90 Dead
+Gold proposition: Syrian Regime[Syrian, Regime].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syria drops cluster bombs on Maaret al-Numan : rebels - AFP-
+Gold proposition: :[drops cluster bombs on, rebels].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syria drops cluster bombs on Maaret al-Numan : rebels - AFP-
+Gold proposition: -[:, AFP-].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria drops cluster bombs on Maaret al-Numan : rebels - AFP-
+Gold proposition: drops cluster bombs[Syria, Maaret al-Numan].  Explicit: True
+Predicted proposition: drops.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 90 dead in Syrian regime attacks on rebel areas
+Gold proposition: rebel areas[rebel, areas].  Explicit: False
+Predicted proposition: rebel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 90 dead in Syrian regime attacks on rebel areas
+Gold proposition: Syrian regime[Syrian, regime].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 90 dead in Syrian regime attacks on rebel areas
+Gold proposition: dead[attacks on, 90].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 90 dead in Syrian regime attacks on rebel areas
+Gold proposition: attacks[areas, regime].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian man loses 18 relatives in airstrike
+Gold proposition: Syrian man[Syrian, man].  Explicit: False
+Predicted proposition: man.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian man loses 18 relatives in airstrike
+Gold proposition: airstrike[].  Explicit: True
+
+Other statistics:
+No of consensual mentions: 44
+No of predicted mentions not in gold: 37
+No of gold mentions but not in predicted: 76
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 0
+No of predicted mentions which have some intersection with the unmatched gold predicates: 27
+Lexical match in such cases: 0.0
+*******************
+
+**** File 2****
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The northeastern United States battled epic flood waters and lengthy power outages on Tuesday after ( cont )
+Gold proposition: outages[lengthy, power].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: The northeastern United States battled epic flood waters and lengthy power outages on Tuesday after ( cont )
+Gold proposition: flood waters[northeastern United States, epic, Tuesday].  Explicit: True
+Predicted proposition: flood.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Sandy makes landfall near Atlantic City . Storm surge from 9 to 14 feet .
+Gold proposition: makes landfall[Atlantic City].  Explicit: True
+Predicted proposition: makes.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hurricane Sandy damages Atlantic City boardwalk , floods NJ coast
+Gold proposition: floods[Hurricane Sandy, NJ coast].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hurricane Sandy damages Atlantic City boardwalk , floods NJ coast
+Gold proposition: Atlantic City boardwalk[Atlantic City, boardwalk].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hurricane Sandy landfall : early this evening in southern NJ
+Gold proposition: landfall[southern NJ, Hurricane Sandy, early this evening].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: `` Hurricane Sandy moving toward coast at 28 mph . Storm is centered 40 miles south of Atlantic City , New Jersey . '' @ mix983
+Gold proposition: is centered[south of, Storm].  Explicit: True
+Predicted proposition: centered.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: `` Hurricane Sandy moving toward coast at 28 mph . Storm is centered 40 miles south of Atlantic City , New Jersey . '' @ mix983
+Gold proposition: ,[New Jersey, Atlantic City].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: `` Hurricane Sandy moving toward coast at 28 mph . Storm is centered 40 miles south of Atlantic City , New Jersey . '' @ mix983
+Gold proposition: south[40 miles, Storm, Atlantic City].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Up to one foot of water being reported in major roads in Atlantic City , New Jersey . Water levels rising , reports CNN .
+Gold proposition: ,[New Jersey, Atlantic City].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Up to one foot of water being reported in major roads in Atlantic City , New Jersey . Water levels rising , reports CNN .
+Gold proposition: Water levels[levels, Water].  Explicit: False
+Predicted proposition: Water.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: State routes closed in northeastern Pennsylvania due to Hurricane Sandy..
+Gold proposition: closed due[northeastern Pennsylvania, routes, Hurricane Sandy..].  Explicit: True
+Predicted proposition: closed.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: State routes closed in northeastern Pennsylvania due to Hurricane Sandy..
+Gold proposition: State routes[State, routes].  Explicit: False
+Predicted proposition: State.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: reports Atlantic City is flooding Sandy
+Gold proposition: reports[is flooding].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: reports Atlantic City is flooding Sandy
+Gold proposition: is flooding[Atlantic City, Sandy].  Explicit: True
+Predicted proposition: flooding.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Shark swimming through the streets of Atlantic City , NJ which is completely flooded from hurricane Sandy . CRAZY !
+Gold proposition: ,[NJ, Atlantic City].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Shark swimming through the streets of Atlantic City , NJ which is completely flooded from hurricane Sandy . CRAZY !
+Gold proposition: of[Atlantic City, streets].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: AP now saying `` former '' Hurricane Sandy has made landfall along New Jersey coast .
+Gold proposition: now[has made landfall along, AP].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: AP now saying `` former '' Hurricane Sandy has made landfall along New Jersey coast .
+Gold proposition: former Hurricane Sandy[former, Hurricane Sandy].  Explicit: False
+Predicted proposition: former.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: AP now saying `` former '' Hurricane Sandy has made landfall along New Jersey coast .
+Gold proposition: made landfall[New Jersey coast, Hurricane Sandy].  Explicit: True
+Predicted proposition: made.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Hurricane Sandy makes landfall on NJ coast | http : //t.co/ZFWYzGQx
+Gold proposition: makes landfall[NJ coast, Hurricane Sandy].  Explicit: True
+Predicted proposition: makes.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: World_news Hurricane Sandy picks up speed ahead of mid-Atlantic landfall
+Gold proposition: picks speed ahead[landfall, Hurricane Sandy].  Explicit: True
+Predicted proposition: picks.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: World_news Hurricane Sandy picks up speed ahead of mid-Atlantic landfall
+Gold proposition: landfall[mid-Atlantic, Hurricane Sandy].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Former Hurricane Sandy officially makes landfall on New Jersey coast near Atlantic City .
+Gold proposition: Former Hurricane Sandy[Former, Hurricane Sandy].  Explicit: False
+Predicted proposition: Former.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Former Hurricane Sandy officially makes landfall on New Jersey coast near Atlantic City .
+Gold proposition: makes landfall[New Jersey coast, Hurricane Sandy, Atlantic City, officially].  Explicit: True
+Predicted proposition: makes.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hurricane Sandy already flooded the beach sheeeshh
+Gold proposition: already[beach, Hurricane Sandy].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold proposition: former Hurricane Sandy[former, Hurricane Sandy].  Explicit: False
+Predicted proposition: former.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold proposition: @[say, AP].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold proposition: of[Hurricane Sandy, center].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: MT @ AP Forecasters say the center of former Hurricane Sandy made landfall along the NJ coast near Atlantic City :
+Gold proposition: made landfall along[NJ coast, center, Atlantic City].  Explicit: True
+Predicted proposition: made.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Shore Fellowship outside of Atlantic City , NJ is set up for relief in the aftermath of Hurricane Sandy .
+Gold proposition: outside[Atlantic City, Shore Fellowship].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Shore Fellowship outside of Atlantic City , NJ is set up for relief in the aftermath of Hurricane Sandy .
+Gold proposition: set aftermath[relief, Shore Fellowship, Hurricane Sandy].  Explicit: True
+Predicted proposition: set.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Shore Fellowship outside of Atlantic City , NJ is set up for relief in the aftermath of Hurricane Sandy .
+Gold proposition: ,[NJ, Atlantic City].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Hurricane Sandy 'largest storm recorded in Atlantic'
+Gold proposition: 'largest recorded[storm, Hurricane Sandy, Atlantic'].  Explicit: True
+Predicted proposition: recorded.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Sandy makes landfall in southern New Jersey .
+Gold proposition: makes landfall[southern New Jersey, Sandy].  Explicit: True
+Predicted proposition: makes.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Superstorm Sandy causes major flooding on New Jersey 's Atlantic coast
+Gold proposition: 's[New Jersey, Atlantic coast].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Superstorm Sandy causes major flooding on New Jersey 's Atlantic coast
+Gold proposition: causes flooding[Superstorm Sandy, Atlantic coast, major].  Explicit: True
+Predicted proposition: flooding.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Atlantic City is covered in flood waters that have swamped building
+Gold proposition: that have swamped[building, flood waters].  Explicit: True
+Predicted proposition: have.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Sandy makes landfall in New Jersey
+Gold proposition: makes landfall[New Jersey, Sandy].  Explicit: True
+Predicted proposition: makes.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Emergencies have been declared in 6 states as Hurricane Sandy wheels toward land.The monster storm is to make landfall in NJ this evening .
+Gold proposition: monster storm[monster, storm].  Explicit: False
+Predicted proposition: storm.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Emergencies have been declared in 6 states as Hurricane Sandy wheels toward land.The monster storm is to make landfall in NJ this evening .
+Gold proposition: make landfall[NJ, storm, this evening].  Explicit: True
+Predicted proposition: make.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: According to the National Hurricane Center , Sandy is located about 265 miles southeast of Atlantic City , New Jersey .
+Gold proposition: ,[New Jersey, Atlantic City].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: According to the National Hurricane Center , Sandy is located about 265 miles southeast of Atlantic City , New Jersey .
+Gold proposition: located southeast[about 265 miles, Sandy, Atlantic City].  Explicit: True
+Predicted proposition: located.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Hurricane Sandy Makes Landfall in New Jersey
+Gold proposition: Makes Landfall[New Jersey, Hurricane Sandy].  Explicit: True
+Predicted proposition: Makes.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hurricane Sandy expected to make landfall along or just south of southern NJ coast by early evening - @ NHC_Atlantic
+Gold proposition: just south[southern NJ coast, to make landfall along by].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Hurricane Sandy expected to make landfall along or just south of southern NJ coast by early evening - @ NHC_Atlantic
+Gold proposition: make landfall along[southern NJ coast, Hurricane Sandy, early evening].  Explicit: True
+Predicted proposition: make.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hurricane Sandy expected to make landfall along or just south of southern NJ coast by early evening - @ NHC_Atlantic
+Gold proposition: -[expected, NHC_Atlantic].  Explicit: True
+
+Other statistics:
+No of consensual mentions: 31
+No of predicted mentions not in gold: 73
+No of gold mentions but not in predicted: 66
+No of gold mentions which have been ignored from evaluation: 10
+No of predicted mentions which have been ignored from evaluation: 0
+No of predicted mentions which have some intersection with the unmatched gold predicates: 26
+Lexical match in such cases: 0.0
+*******************
+
+**** File 3****
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer family 'devastated ' The family of a Northern Ireland prison officer murdered as he drove to work are `` ab
+Gold proposition: of a[family, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer family 'devastated ' The family of a Northern Ireland prison officer murdered as he drove to work are `` ab
+Gold proposition: prison[prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer family 'devastated ' The family of a Northern Ireland prison officer murdered as he drove to work are `` ab
+Gold proposition: Northern Ireland[Northern Ireland, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold proposition: suspected[2 militants].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold proposition: Northern Ireland[guard, Northern Ireland].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold proposition: prison[prison, guard].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold proposition: slaying[guard].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 suspected IRA militants arrested over slaying of Northern Ireland prison guard
+Gold proposition: 2 IRA militants[2 militants, IRA].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Just commented on @ thejournal_ie : Prison officer killed in Armagh motorway shooting -
+Gold proposition: Prison[Prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: Northern Ireland[Northern Ireland, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: murder[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: Irish[Irish, police].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: prison[prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jail officer murder : Irish arrest : Irish police arrest a man in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: murder[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold proposition: prison[prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold proposition: -[prompts, The Guardian].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold proposition: ambush[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold proposition: fears[war].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland prison officer ambush prompts fears of sectarian shooting war - The Guardian
+Gold proposition: Northern Ireland[Northern Ireland, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer gets stiffed
+Gold proposition: Prison[Prison, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: prisoner officer shot dead on M1 in Northern Ireland . what a waste of life and does not bode well
+Gold proposition: prisoner officer[prisoner, officer].  Explicit: True
+Predicted proposition: officer.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: prisoner officer shot dead on M1 in Northern Ireland . what a waste of life and does not bode well
+Gold proposition: shot dead[Northern Ireland, officer, M1].  Explicit: True
+Predicted proposition: shot.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Prison Officer Shot Dead On Motorway In NI - Sky News
+Gold proposition: Shot Dead[NI, Officer, Motorway].  Explicit: True
+Predicted proposition: Shot.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison Officer Shot Dead On Motorway In NI - Sky News
+Gold proposition: Prison[Prison, Officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison Officer Shot Dead On Motorway In NI - Sky News
+Gold proposition: -[Shot Dead On In, Sky News].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: news Murdered prison officer is named
+Gold proposition: prison[prison, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: news Murdered prison officer is named
+Gold proposition: is named[officer].  Explicit: True
+Predicted proposition: is.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: news Murdered prison officer is named
+Gold proposition: Murdered[officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: RIP to the prison officer shot dead while travelling to work ! Hope the scumbag gets caught justice
+Gold proposition: shot dead[officer, travelling to].  Explicit: True
+Predicted proposition: shot.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: RIP to the prison officer shot dead while travelling to work ! Hope the scumbag gets caught justice
+Gold proposition: prison[prison, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold proposition: to discuss[murder, Ministers].  Explicit: True
+Predicted proposition: discuss.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold proposition: prison officer[prison, officer].  Explicit: True
+Predicted proposition: officer.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold proposition: Jakarta Ministers[Jakarta, Ministers].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: NewsUpdate Jakarta Ministers to discuss Northern Ireland prison officer murder
+Gold proposition: murder[Northern Ireland, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Prison officer shot dead on M1 Eastbound , Irish registered car found burnt out in Inglewood with locals saying 2/3 men inside
+Gold proposition: shot dead[M1 Eastbound, officer].  Explicit: True
+Predicted proposition: shot.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Prison officer shot dead on M1 Eastbound , Irish registered car found burnt out in Inglewood with locals saying 2/3 men inside
+Gold proposition: Prison officer[Prison, officer].  Explicit: True
+Predicted proposition: officer.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer shot dead on M1 Eastbound , Irish registered car found burnt out in Inglewood with locals saying 2/3 men inside
+Gold proposition: Irish[car, Irish].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Duffy arrested in connection with prison officer murder :
+Gold proposition: prison officer[prison, officer].  Explicit: True
+Predicted proposition: officer.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Duffy arrested in connection with prison officer murder :
+Gold proposition: murder[officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Prison officer murdered on M1
+Gold proposition: Prison officer[Prison, officer].  Explicit: True
+Predicted proposition: officer.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold proposition: prison officers[prison, officers].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold proposition: Irish police[Irish, police].  Explicit: True
+Predicted proposition: police.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold proposition: murder[N.Ire, officers, yesterday].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Garda/ Irish police arrest 29 year old in connection with prison officers murder yesterday in N.Ire
+Gold proposition: Garda/ in connection with[in connection with, Garda/].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Heart goes out to the prison officers family who was killed in n. Ireland yesterday . Lets not go back there again .
+Gold proposition: Heart goes[family].  Explicit: True
+Predicted proposition: goes.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Heart goes out to the prison officers family who was killed in n. Ireland yesterday . Lets not go back there again .
+Gold proposition: prison[prison, officers].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Heart goes out to the prison officers family who was killed in n. Ireland yesterday . Lets not go back there again .
+Gold proposition: officers family[family, officers].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: Northern Ireland officer[Northern Ireland, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: arrests[].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: Prison[Prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: murder[officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: have been arrested[Two men].  Explicit: True
+Predicted proposition: have.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer murder - arrests : Two men have been arrested in connection with the murder of Northern Ireland prison officer David Black .
+Gold proposition: murder[David Black].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Murdered prison officer is named -
+Gold proposition: is named[officer].  Explicit: True
+Predicted proposition: named.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Murdered prison officer is named -
+Gold proposition: Murdered[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Murdered prison officer is named -
+Gold proposition: prison[prison, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold proposition: dissident republicans[dissident, republicans].  Explicit: True
+Predicted proposition: dissident.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold proposition: Northern Ireland officer[Northern Ireland, officer].  Explicit: True
+Predicted proposition: officer.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold proposition: Long-serving[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: [ IN THE NEWS ] Long-serving Northern Ireland prison officer murdered in motorway ambush by dissident republicans
+Gold proposition: ambush[motorway].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: On MSN today - Prison officer shot dead in ambush
+Gold proposition: Prison[Prison, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: On MSN today - Prison officer shot dead in ambush
+Gold proposition: MSN today shot in[shot in, MSN today].  Explicit: True
+Predicted proposition: On shot.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: On MSN today - Prison officer shot dead in ambush
+Gold proposition: dead[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: On MSN today - Prison officer shot dead in ambush
+Gold proposition: ambush[].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Northern Ireland motorway crash victim 'ambushed ' by gunman
+Gold proposition: 'ambushed '[victim, gunman].  Explicit: True
+Predicted proposition: 'ambushed.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Gunman ambushes Northern Ireland prison officer
+Gold proposition: prison[prison, officer].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Gunman ambushes Northern Ireland prison officer
+Gold proposition: Northern Ireland officer[Northern Ireland, officer].  Explicit: True
+Predicted proposition: officer.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold proposition: prison[prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold proposition: Burnt-out[car].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold proposition: Dissident Republican[Dissident, Republican].  Explicit: True
+Predicted proposition: Dissident.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Burnt-out car linked to attack on prison officer in Northern Ireland found in Dissident Republican stronghold
+Gold proposition: Republican stronghold[Republican, stronghold].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland FM Peter Robinson and Deputy FM Martin McGuinness condemn `` brutal attack '' which killed prison officer
+Gold proposition: prison[prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland FM Peter Robinson and Deputy FM Martin McGuinness condemn `` brutal attack '' which killed prison officer
+Gold proposition: Northern Ireland FM[Northern Ireland, FM].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Northern Ireland FM Peter Robinson and Deputy FM Martin McGuinness condemn `` brutal attack '' which killed prison officer
+Gold proposition: Northern Ireland Deputy FM[Northern Ireland, Deputy FM].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Republicans Behind Motorway Attack On Prison Officer
+Gold proposition: Behind[Attack On, Republicans].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer 's murder condemned - The Ulster Herald
+Gold proposition: Prison[Prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer 's murder condemned - The Ulster Herald
+Gold proposition: murder[officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Prison officer 's murder condemned - The Ulster Herald
+Gold proposition: -[The Ulster Herald, condemned].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Counting blessings that I 'm working remotely today , after prison officer assassinated driving on M1 when I 'd normally be going to Belfast .
+Gold proposition: prison[prison, officer].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold proposition: from[Cookstown, David Black].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold proposition: shot dead[officer, drove to along the].  Explicit: True
+Predicted proposition: shot.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold proposition: drove along[to, work, MI].  Explicit: True
+Predicted proposition: drove.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The prison officer shot dead as he drove to work along the MI was David Black , a father of two , from Cookstown .
+Gold proposition: prison[prison, officer].  Explicit: True
+
+Other statistics:
+No of consensual mentions: 45
+No of predicted mentions not in gold: 83
+No of gold mentions but not in predicted: 83
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 5
+No of predicted mentions which have some intersection with the unmatched gold predicates: 23
+Lexical match in such cases: 0.0
+*******************
+
+**** File 4****
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Explosion rips through industrial building in Saudi Arabia 's capital
+Gold proposition: 's[Saudi Arabia, capital].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Explosion rips through industrial building in Saudi Arabia 's capital
+Gold proposition: Explosion[capital].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Explosion rips through industrial building in Saudi Arabia 's capital
+Gold proposition: industrial building[industrial, building].  Explicit: False
+Predicted proposition: building.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold proposition: explosion[tanker, Saudi Arabia].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold proposition: Saudi truck[truck, Saudi].  Explicit: False
+Predicted proposition: truck.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold proposition: Aftermath[kills in, fireball].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold proposition: Fuel tanker[tanker, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Aftermath of Saudi truck fireball : Fuel tanker explosion kills 22 in Saudi Arabia
+Gold proposition: fireball[Saudi, truck].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold proposition: Saudi capital[Saudi, capital].  Explicit: False
+Predicted proposition: capital.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold proposition: explosion[truck, Riyadh].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold proposition: explosion[tanker, capital].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel tanker explosion kills 22 in Saudi capital : The truck explosion in Riyadh killed at least 22 and injured more than 110 .
+Gold proposition: Fuel tanker[tanker, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Riyadh gas tanker mishap : Six malayalees include in injured
+Gold proposition: mishap[Riyadh, tanker].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Riyadh gas tanker mishap : Six malayalees include in injured
+Gold proposition: injured[Six malayalees].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Riyadh gas tanker mishap : Six malayalees include in injured
+Gold proposition: gas tanker[tanker, gas].  Explicit: False
+Predicted proposition: gas.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel tanker explosion kills 14 in Riyadh - The Hindu
+Gold proposition: Fuel tanker[tanker, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel tanker explosion kills 14 in Riyadh - The Hindu
+Gold proposition: -[kills in, The Hindu].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel tanker explosion kills 14 in Riyadh - The Hindu
+Gold proposition: explosion[tanker, Riyadh].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold proposition: Saudi capital[Saudi, capital].  Explicit: False
+Predicted proposition: capital.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold proposition: Fuel tanker[tanker, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold proposition: :[kills in, Yahoo News].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Yahoo News : Fuel tanker explosion kills 14 in Saudi capital
+Gold proposition: explosion[tanker, capital].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Explosion in Riyadh early today . 21 died and 123 are injured .
+Gold proposition: are injured[123].  Explicit: True
+Predicted proposition: are.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Explosion in Riyadh early today . 21 died and 123 are injured .
+Gold proposition: Explosion[early today, Riyadh].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: bbcworld news Deaths in Saudi fuel truck crash
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: truck.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: bbcworld news Deaths in Saudi fuel truck crash
+Gold proposition: Saudi truck[truck, Saudi].  Explicit: False
+Predicted proposition: truck.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: bbcworld news Deaths in Saudi fuel truck crash
+Gold proposition: Deaths[crash, Saudi].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: bbcworld news Deaths in Saudi fuel truck crash
+Gold proposition: bbcworld[Deaths in, bbcworld news].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel Truck Blast Kills 60 , Injures upto 200 in Riyadh on today
+Gold proposition: Fuel Truck[Truck, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel Truck Blast Kills 60 , Injures upto 200 in Riyadh on today
+Gold proposition: Kills[60, Blast in on, today, Riyadh].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: A gas tanker exploded under the National Guard Bridge in Riyadh - around 14 ppl killed , and more than 60 injured
+Gold proposition: gas tanker[tanker, gas].  Explicit: False
+Predicted proposition: gas.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: A gas tanker exploded under the National Guard Bridge in Riyadh - around 14 ppl killed , and more than 60 injured
+Gold proposition: injured[more than 60].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Gas explosion eastern Riyadh
+Gold proposition: explosion[Gas, eastern Riyadh].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: At least 23 killed in Riyadh fuel truck blast - http : //t.co/ZajumhON via
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: fuel.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: ( World ) At least 23 killed in Riyadh fuel truck blast : TV
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: fuel.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi Arabia fuel tanker explosion kills at least 22
+Gold proposition: fuel tanker[tanker, fuel].  Explicit: False
+Predicted proposition: fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Saudi Arabia fuel tanker explosion kills at least 22
+Gold proposition: Saudi Arabia tanker[tanker, Saudi Arabia].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Saudi Arabia fuel tanker explosion kills at least 22
+Gold proposition: explosion[tanker].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: At least 22 killed in Riyadh fuel truck blast - World Updates | The Star Online
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: truck.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Truck explodes in Saudi capital , killing at least 22 :
+Gold proposition: Saudi capital[Saudi, capital].  Explicit: False
+Predicted proposition: capital.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: to check[Embassy].  Explicit: True
+Predicted proposition: check.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: in[9, hospitals].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: :[discharged, Embassy].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: explosion[truck, Riyadh].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: PH Embassy[PH, Embassy].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Update- PH Embassy in Saudi : 1 Filipino was killed in Riyadh fuel truck explosion , 9 in hospitals , 3 discharged . Embassy continues to check .
+Gold proposition: in[Embassy, Saudi].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi fuel truck crash kills 22
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: truck.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi fuel truck crash kills 22
+Gold proposition: Saudi truck[truck, Saudi].  Explicit: False
+Predicted proposition: truck.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: At least 23 killed in Riyadh fuel truck blast | Reuters
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: At least 23 killed in Riyadh fuel truck blast | Reuters
+Gold proposition: |[killed in, Reuters].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: world news Fuel tanker explosion kills 22 in Saudi capital
+Gold proposition: explosion[tanker, capital].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: world news Fuel tanker explosion kills 22 in Saudi capital
+Gold proposition: Fuel tanker[tanker, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: world news Fuel tanker explosion kills 22 in Saudi capital
+Gold proposition: Saudi capital[Saudi, capital].  Explicit: False
+Predicted proposition: capital.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: Fuel Truck[Truck, Fuel].  Explicit: False
+Predicted proposition: Truck.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: Triggers[Explosion, Crash, Saudi Arabia].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: That Levels[Building, Explosion, Saudi Arabia].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Saudi Arabia : Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: Explosion[Saudi Arabia].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Egypt Jan25 Saudi fuel truck crash kills 22
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The route from Riyadh to Damamm is morbidly dark .
+Gold proposition: from to[Riyadh, route, Damamm].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: The route from Riyadh to Damamm is morbidly dark .
+Gold proposition: route morbidly dark[dark, route, morbidly].  Explicit: False
+Predicted proposition: route.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold proposition: fuel tanker[tanker, fuel].  Explicit: False
+Predicted proposition: fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold proposition: explosion[tanker, Riyadh].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold proposition: -Saudi State[rises to, -Saudi State TV].  Explicit: True
+Predicted proposition: State.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold proposition: dead[22, explosion, Riyadh].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Toll in Riyadh fuel tanker explosion rises to 22 dead , 111 wounded -Saudi State TV
+Gold proposition: in[explosion, Toll].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi Arabia ( Security Rating : 3 ) - Fuel truck explodes in Saudi capital , killing at least 22 people |
+Gold proposition: Saudi capital[Saudi, capital].  Explicit: False
+Predicted proposition: capital.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: of[King Abdullah, Saudi Arabia].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: of[condolences, cable].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: accident[Riyadh, fire in].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: UAE President[UAE, President].  Explicit: False
+Predicted proposition: President.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: of the[accident in, victims].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: UAE President sends a cable of condolences to King Abdullah of Saudi Arabia on the victims of the fuel truck fire accident in Riyadh
+Gold proposition: on[victims, condolences].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel tanker explosion kills 14 people after it crashes into highway underpass in Saudi capital
+Gold proposition: Fuel tanker[tanker, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel tanker explosion kills 14 people after it crashes into highway underpass in Saudi capital
+Gold proposition: Saudi capital[Saudi, capital].  Explicit: False
+Predicted proposition: capital.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel tanker explosion kills 14 people after it crashes into highway underpass in Saudi capital
+Gold proposition: explosion[tanker, capital].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: Fuel Truck[Truck, Fuel].  Explicit: False
+Predicted proposition: Fuel.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: Triggers[Explosion, Crash].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: Explosion[].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fuel Truck Crash Triggers Explosion That Levels Building , Killing 10 ( VIDEO )
+Gold proposition: That Levels[Building, Explosion].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The New York Times - Saudi Arabia : Fuel Truck Explodes , Killing Many NYtimes KSA Saudi
+Gold proposition: -[Killing, The New York Times].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The New York Times - Saudi Arabia : Fuel Truck Explodes , Killing Many NYtimes KSA Saudi
+Gold proposition: Explodes[Truck, Saudi Arabia].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi Arabia fuel truck crash kills 22 in Riyadh - BBC News
+Gold proposition: fuel truck[truck, fuel].  Explicit: False
+Predicted proposition: truck.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Saudi Arabia fuel truck crash kills 22 in Riyadh - BBC News
+Gold proposition: Saudi Arabia truck[truck, Saudi Arabia].  Explicit: False
+Predicted proposition: truck.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Saudi Arabia fuel truck crash kills 22 in Riyadh - BBC News
+Gold proposition: -[kills in, BBC News].  Explicit: True
+
+Other statistics:
+No of consensual mentions: 49
+No of predicted mentions not in gold: 76
+No of gold mentions but not in predicted: 86
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 2
+No of predicted mentions which have some intersection with the unmatched gold predicates: 39
+Lexical match in such cases: 0.0
+*******************
+
+**** File 5****
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian Plane Carried Ammunition
+Gold proposition: Syrian Plane[Plane, Syrian].  Explicit: False
+Predicted proposition: Plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey says Syrian plane carried Russian munitions | Reuters
+Gold proposition: Russian munitions[Russian, munitions].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey says Syrian plane carried Russian munitions | Reuters
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syria passenger plane to land in Ankara
+Gold proposition: Syria plane[plane, Syria].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syria passenger plane to land in Ankara
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey reportedly intercepts Syrian passenger plane
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey reportedly intercepts Syrian passenger plane
+Gold proposition: reportedly[intercepts].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey reportedly intercepts Syrian passenger plane
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Syrian Bound Plane From Moscow Forced To Land In Turkey
+Gold proposition: Forced[Plane, To Land In].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey intercepts Syrian passenger plane
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey intercepts Syrian passenger plane
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey Says Syrian Plane Carried Russian Munitions
+Gold proposition: Russian Munitions[Russian, Munitions].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey Says Syrian Plane Carried Russian Munitions
+Gold proposition: Syrian Plane[Plane, Syrian].  Explicit: False
+Predicted proposition: Plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syria plane to land
+Gold proposition: Syria plane[plane, Syria].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syria plane to land
+Gold proposition: to land[plane].  Explicit: True
+Predicted proposition: land.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold proposition: to land[plane].  Explicit: True
+Predicted proposition: land.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold proposition: en route[Moscow, plane].  Explicit: True
+Predicted proposition: route.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold proposition: suspicious[cargo].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey forces Syrian plane en route from Moscow to land over suspicious cargo
+Gold proposition: forces[plane, Turkey, suspicious, to land].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold proposition: Russian-made equipment[equipment, Russian-made].  Explicit: False
+Predicted proposition: equipment.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold proposition: Syria plane[plane, Syria].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane 'carried ammunition ' The Syrian plane forced to land in Turkey was carrying Russian-made equipment and ammunition
+Gold proposition: was carrying[equipment, plane].  Explicit: True
+Predicted proposition: carrying.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold proposition: Russian-made equipment[equipment, Russian-made].  Explicit: False
+Predicted proposition: equipment.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold proposition: was carrying[equipment, plane, Russian-made].  Explicit: True
+Predicted proposition: carrying.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria plane carried munitions . The Syrian plane forced to land in Turkey was carrying Russian-made equipment and munitions .
+Gold proposition: Syria plane[plane, Syria].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey Escalates Confrontation with Syria , Forcing Syrian Plane to Land
+Gold proposition: Syrian Plane[Plane, Syrian].  Explicit: False
+Predicted proposition: Plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey Escalates Confrontation with Syria , Forcing Syrian Plane to Land
+Gold proposition: to Land[Plane].  Explicit: True
+Predicted proposition: Land.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold proposition: ANGRY[Turkey, Russia, passengers].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold proposition: Russian passengers[passengers, Russian].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold proposition: Grounded[Jet, Turkey].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Russia ANGRY at Turkey about Grounded Syrian Jet and Russian passengers .
+Gold proposition: Syrian Jet[Jet, Syrian].  Explicit: False
+Predicted proposition: Jet.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: military equipment[equipment, military].  Explicit: False
+Predicted proposition: equipment.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: Syrian defence ministry[defence ministry, Syrian].  Explicit: False
+Predicted proposition: ministry.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: :[was carrying from for, PM].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: PM[PM, Turkey].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey 's PM : intercepted Syrian passenger plane was carrying military equipment and ammunition from Russia for Syrian defence ministry .
+Gold proposition: intercepted[plane].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian passenger plane forced to land in Turkey
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian passenger plane forced to land in Turkey
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces down suspect Syrian plane
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian passenger plane forced to land in Turkey :
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian passenger plane forced to land in Turkey :
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkish PM says plane from Moscow forced to land in Turkey was carrying ammunition for Syria government .
+Gold proposition: Syria government[government, Syria].  Explicit: False
+Predicted proposition: government.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkish PM says plane from Moscow forced to land in Turkey was carrying ammunition for Syria government .
+Gold proposition: from[Moscow, plane].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian plane was carrying ammunition
+Gold proposition: was carrying[ammunition, plane].  Explicit: True
+Predicted proposition: was.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold proposition: enroute[Moscow, plane].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold proposition: Turkish F16s[Turkish, F16s].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkish F16s force Syrian passenger plane enroute from Moscow land in Ankara .
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold proposition: Syria-bound plane[plane, Syria-bound].  Explicit: False
+Predicted proposition: plane.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold proposition: Russian lives[Russian, lives].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold proposition: to force[plane, military, to land in].  Explicit: True
+Predicted proposition: force.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold proposition: its military[its, military].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Moscow accuses Turkey of endangering Russian lives by using its military to force a Syria-bound passenger plane to land in Ankara .
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria passenger plane forced to land in Turkey
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syria passenger plane forced to land in Turkey
+Gold proposition: Syria plane[plane, Syria].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forced a Syrian passenger plane coming from Moscow to land at Ankara
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forced a Syrian passenger plane coming from Moscow to land at Ankara
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian plane was carrying ammunition .
+Gold proposition: was carrying[ammunition, plane].  Explicit: True
+Predicted proposition: was.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian plane was carrying ammunition .
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold proposition: is defending[decision, Turkey].  Explicit: True
+Predicted proposition: is.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold proposition: to land[plane].  Explicit: True
+Predicted proposition: land.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold proposition: to force[plane, Turkey, to land].  Explicit: True
+Predicted proposition: force.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey defends intercepting Syrian plane : Turkey is defending its decision to force a Syrian passenger plane to land .
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Ankara sends note to Damascus over plane cargo
+Gold proposition: plane cargo[plane, cargo].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian plane was carrying ammunition
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Syrian plane was carrying ammunition
+Gold proposition: was carrying[ammunition, plane].  Explicit: True
+Predicted proposition: carrying.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold proposition: Escalate[Tensions, Forces Down].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold proposition: Passenger Jet[Jet, Passenger].  Explicit: False
+Predicted proposition: Jet.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold proposition: Syrian Jet[Jet, Syrian].  Explicit: False
+Predicted proposition: Jet.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold proposition: Tensions[Turkey].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Tensions Escalate as Turkey Forces Down Syrian Passenger Jet
+Gold proposition: Forces[Jet, Turkey].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Turkey forces Syrian passenger plane to land
+Gold proposition: forces[plane, Turkey, to land].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syrian passenger plane to land
+Gold proposition: passenger plane[plane, passenger].  Explicit: False
+Predicted proposition: plane.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syrian passenger plane to land
+Gold proposition: to land[plane].  Explicit: True
+Predicted proposition: land.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Turkey forces Syrian passenger plane to land
+Gold proposition: Syrian plane[plane, Syrian].  Explicit: False
+Predicted proposition: plane.
+
+Other statistics:
+No of consensual mentions: 49
+No of predicted mentions not in gold: 62
+No of gold mentions but not in predicted: 84
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 0
+No of predicted mentions which have some intersection with the unmatched gold predicates: 61
+Lexical match in such cases: 0.0
+*******************
+
+**** File 6****
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: USADA Releases Doping Evidence Against Lance Armstrong - http : //t.co/OSWAQJpv
+Gold proposition: Against[Lance Armstrong, Evidence, Doping].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong Was Central Figure in Doping Ring , Officials Say
+Gold proposition: Central Figure[Ring, Lance Armstrong].  Explicit: True
+Predicted proposition: Figure.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong Was Central Figure in Doping Ring , Officials Say
+Gold proposition: Doping Ring[Doping, Ring].  Explicit: False
+Predicted proposition: Ring.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong Was Central Figure in Doping Ring , Officials Say
+Gold proposition: Doping[].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold proposition: Doping Program[Doping, Program].  Explicit: False
+Predicted proposition: Program.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold proposition: 's[Program, Cycling].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold proposition: ``[at Center of, NYTimes].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: NYTimes `` Lance Armstrong at Center of Cycling 's Most Sophisticated Doping Program ''
+Gold proposition: Most Sophisticated Program[Most Sophisticated, Program].  Explicit: False
+Predicted proposition: Program.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: A summing up of Lance 's USADA doping report
+Gold proposition: 's[doping, USADA].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: U.S . Anti-Doping Agency : Evidence against Lance Armstrong is `` overwhelming ''
+Gold proposition: against[Lance Armstrong, Evidence].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: U.S . Anti-Doping Agency : Evidence against Lance Armstrong is `` overwhelming ''
+Gold proposition: :[is, U.S Anti-Doping Agency].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: USADA to release file on Lance Armstrong and US Postal doping
+Gold proposition: doping[US Postal].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: USADA to release file on Lance Armstrong and US Postal doping
+Gold proposition: on[doping, file].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: USADA to release file on Lance Armstrong and US Postal doping
+Gold proposition: to release[file, USADA].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong finds support with some cyclists , desipite USADA doping report
+Gold proposition: finds support[some cyclists, Lance Armstrong, report].  Explicit: True
+Predicted proposition: support.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Atlanta ( GA ) WXIA : USADA issues scathing doping report on Lance Armstrong
+Gold proposition: issues report[doping, ( USADA, scathing].  Explicit: True
+Predicted proposition: report.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Atlanta ( GA ) WXIA : USADA issues scathing doping report on Lance Armstrong
+Gold proposition: :[issues report on, WXIA, Atlanta].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Atlanta ( GA ) WXIA : USADA issues scathing doping report on Lance Armstrong
+Gold proposition: ([GA, Atlanta].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong 's repeated denials of doping claims
+Gold proposition: claims[doping].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong 's repeated denials of doping claims
+Gold proposition: 's denials[claims, Lance Armstrong, repeated].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: George Hincapie , who raced alongside Armstrong in his 7 Tour wins , apologizes for doping . Stopped using in 2006 .
+Gold proposition: his 7 Tour wins[7 Tour wins, his].  Explicit: False
+Predicted proposition: Tour.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: George Hincapie , who raced alongside Armstrong in his 7 Tour wins , apologizes for doping . Stopped using in 2006 .
+Gold proposition: raced alongside[Armstrong, George Hincapie, 7 Tour wins].  Explicit: True
+Predicted proposition: raced.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: George Hincapie , who raced alongside Armstrong in his 7 Tour wins , apologizes for doping . Stopped using in 2006 .
+Gold proposition: Stopped using[2006, George Hincapie].  Explicit: True
+Predicted proposition: using.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold proposition: Key Teammate[Key, Teammate].  Explicit: False
+Predicted proposition: Key.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold proposition: Admits[Doping, George Hincapie].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold proposition: Teammate George Hincapie[George Hincapie, Teammate].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong 's Key Teammate George Hincapie Admits To Doping by @ hblodget
+Gold proposition: 's[Lance Armstrong, Teammate].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold proposition: doping program[doping, program].  Explicit: False
+Predicted proposition: program.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold proposition: to release[evidence, U.S Anti-Doping Agency, Lance Armstrong].  Explicit: True
+Predicted proposition: release.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold proposition: sophisticated program[sophisticated, program].  Explicit: False
+Predicted proposition: program.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold proposition: 's involvement[program, Lance Armstrong].  Explicit: True
+Predicted proposition: involvement.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: `` U.S . Anti-Doping Agency to release evidence detailing Lance Armstrong 's involvement in `` sophisticated '' doping program . '' -- CNN
+Gold proposition: --[to release, CNN].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Eleven Lance Armstrong Teammates Testified Against Him in Doping Case :
+Gold proposition: Eleven Lance Armstrong Teammates[Eleven Teammates, Lance Armstrong].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Eleven Lance Armstrong Teammates Testified Against Him in Doping Case :
+Gold proposition: Doping Case[Doping, Case].  Explicit: False
+Predicted proposition: Case.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: states[blamed for, affidavit].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: his cancer[cancer, his].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: doping controllers[doping, controllers].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: hi HCG[hi, HCG].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: '[affidavit, Jonathan Vaughters, USADA].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: not detecting[cancer, controllers, earlier].  Explicit: True
+Predicted proposition: detecting.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: ([cancer, .].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Jonathan Vaughters ' affidavit to USADA states Lance Armstrong blamed UCI 's doping controllers for not detecting his cancer ( hi HCG ) earlier .
+Gold proposition: 's[controllers, UCI].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: U.S . anti-doping agency report says cyclist Armstrong cheated
+Gold proposition: cyclist Armstrong[cyclist, Armstrong].  Explicit: False
+Predicted proposition: cyclist.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: U.S . Anti-Doping Agency says 11 of Lance Armstrong 's teammates testified against him in probe . Cycling
+Gold proposition: of 's[11 teammates, Lance Armstrong].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong has flown into New York to deny doping claims . Be more convincing if he 'd used a plane .
+Gold proposition: to deny[claims, Lance Armstrong].  Explicit: True
+Predicted proposition: deny.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong has flown into New York to deny doping claims . Be more convincing if he 'd used a plane .
+Gold proposition: claims[doping].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: US anti-doping agency has called lance armstrong `` not only a drug user but alao a dealer '' bloodyhell
+Gold proposition: drug user[drug, user].  Explicit: False
+Predicted proposition: user.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: USADA reveals evidence against Lance Armstrong
+Gold proposition: against[Lance Armstrong, evidence].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Looks like George Hincapie is solidifying the case against Lance Armstrong . Shame it 's true about lance.. But it will improve cycling
+Gold proposition: is solidifying[case, George Hincapie].  Explicit: True
+Predicted proposition: is.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Looks like George Hincapie is solidifying the case against Lance Armstrong . Shame it 's true about lance.. But it will improve cycling
+Gold proposition: against[Lance Armstrong, case].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: USADA releases Lance Armstrong evidence .
+Gold proposition: Lance Armstrong evidence[Lance Armstrong, evidence].  Explicit: False
+Predicted proposition: evidence.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong a real life dope peddlar @ upthealps
+Gold proposition: a[peddlar, Lance Armstrong].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong a real life dope peddlar @ upthealps
+Gold proposition: real life peddlar[real life, peddlar].  Explicit: False
+Predicted proposition: life.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Lance Armstrong a real life dope peddlar @ upthealps
+Gold proposition: dope peddlar[peddlar, dope].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Hincapie , Former Lance Armstrong Lieutenant , Admits Doping in Cycling
+Gold proposition: Former Lieutenant[Former, Lieutenant].  Explicit: False
+Predicted proposition: Former.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Hincapie , Former Lance Armstrong Lieutenant , Admits Doping in Cycling
+Gold proposition: Lance Armstrong Lieutenant[Lance Armstrong, Lieutenant].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Lance Armstrong was at center of doping program , USADA says
+Gold proposition: doping program[doping, program].  Explicit: False
+Predicted proposition: program.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Evidence From the Investigation Into Alleged Doping by Lance Armstrong
+Gold proposition: From[Investigation Into, Evidence].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Evidence From the Investigation Into Alleged Doping by Lance Armstrong
+Gold proposition: Doping[Lance Armstrong].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Evidence From the Investigation Into Alleged Doping by Lance Armstrong
+Gold proposition: Alleged[Lance Armstrong, Doping by].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold proposition: of 's[Lance Armstrong, Five team-mates].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold proposition: ([United States Anti-Doping Agency, Usada].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold proposition: Five former team-mates[former, Five team-mates].  Explicit: False
+Predicted proposition: former.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Five of Lance Armstrong 's former team-mates have received six-month doping bans from the United States Anti-Doping Agency ( Usada ) .
+Gold proposition: received bans[six-month, Five team-mates, doping, United States Anti-Doping Agency].  Explicit: True
+Predicted proposition: received.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Antidoping Agency Expected to Detail Its Case Against Lance Armstrong
+Gold proposition: Against[Lance Armstrong, Case].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Antidoping Agency Expected to Detail Its Case Against Lance Armstrong
+Gold proposition: to Detail[Case, Antidoping Agency, Lance Armstrong].  Explicit: True
+Predicted proposition: Detail.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Antidoping Agency Expected to Detail Its Case Against Lance Armstrong
+Gold proposition: Its Case[Its, Case].  Explicit: False
+Predicted proposition: Case.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: US- Anti-doping agency strengthens case against Lance Armstrong Cycling legend Lance Armstrong s
+Gold proposition: Cycling legend[Cycling, legend].  Explicit: False
+Predicted proposition: Cycling.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: US- Anti-doping agency strengthens case against Lance Armstrong Cycling legend Lance Armstrong s
+Gold proposition: against[Lance, case].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: US- Anti-doping agency strengthens case against Lance Armstrong Cycling legend Lance Armstrong s
+Gold proposition: legend Lance Armstrong[legend, Lance Armstrong].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 11 Teammates Testified In Doping Case Against Lance Armstrong
+Gold proposition: Doping Case[Doping, Case].  Explicit: False
+Predicted proposition: Case.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold proposition: Doping[Lance Armstrong].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold proposition: via[Details, nytimes].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold proposition: Doping Case[Doping, Case].  Explicit: False
+Predicted proposition: Case.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: ChrisG 's comment on Antidoping Agency Details Doping Case Against Lance Armstrong via @ nytimes
+Gold proposition: Against[Lance Armstrong, Case, Doping].  Explicit: True
+
+Other statistics:
+No of consensual mentions: 58
+No of predicted mentions not in gold: 79
+No of gold mentions but not in predicted: 87
+No of gold mentions which have been ignored from evaluation: 5
+No of predicted mentions which have been ignored from evaluation: 2
+No of predicted mentions which have some intersection with the unmatched gold predicates: 31
+Lexical match in such cases: 0.0
+*******************
+
+**** File 7****
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: We 're LIVE on @ ABC30 right NOW with the latest info on the fatal workplace shooting in Fresno .
+Gold proposition: on[shooting in, info].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: We 're LIVE on @ ABC30 right NOW with the latest info on the fatal workplace shooting in Fresno .
+Gold proposition: latest info[latest, info].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: We 're LIVE on @ ABC30 right NOW with the latest info on the fatal workplace shooting in Fresno .
+Gold proposition: fatal[shooting in, Fresno].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Initial reports from the central Fresno workplace shooting are that the gunman killed himself .
+Gold proposition: reports[shooting, Initial, killed].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Initial reports from the central Fresno workplace shooting are that the gunman killed himself .
+Gold proposition: central Fresno workplace[central Fresno, workplace].  Explicit: False
+Predicted proposition: central.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Mass shooting reported at Fresno workplace
+Gold proposition: Fresno workplace[Fresno, workplace].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 1 dead , 4 wounded as worker opens fire at Fresno plant , police say
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 1 dead , 4 wounded as worker opens fire at Fresno plant , police say
+Gold proposition: dead[Fresno].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 1 dead , 4 wounded as worker opens fire at Fresno plant , police say
+Gold proposition: opens fire[plant, Fresno, worker].  Explicit: True
+Predicted proposition: opens.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fresno police respond to workplace shooting
+Gold proposition: Fresno police[police, Fresno].  Explicit: False
+Predicted proposition: police.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Eight people shot , at least two dead , at Fresno plant - Los Angeles Times
+Gold proposition: -[dead at, Los Angeles Times].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Eight people shot , at least two dead , at Fresno plant - Los Angeles Times
+Gold proposition: dead[Fresno].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Eight people shot , at least two dead , at Fresno plant - Los Angeles Times
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Newspaper report : At least 3 people shot at workplace in Fresno , Calif . fox5atl
+Gold proposition: Fresno Calif[Calif, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Newspaper report : At least 3 people shot at workplace in Fresno , Calif . fox5atl
+Gold proposition: .[report :, fox5atl].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 3 people reportedly shot at the Apple Valley Farms plant in Fresno , California :
+Gold proposition: Apple Valley Farms plant[Apple Valley Farms, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 3 people reportedly shot at the Apple Valley Farms plant in Fresno , California :
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 3 people reportedly shot at the Apple Valley Farms plant in Fresno , California :
+Gold proposition: reportedly[shot at in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: As if on cue , reports of mass shooting in Fresno California .
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: As if on cue , reports of mass shooting in Fresno California .
+Gold proposition: reports[shooting in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: As if on cue , reports of mass shooting in Fresno California .
+Gold proposition: As if on cue[reports of].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold proposition: dead[shot, 2].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold proposition: Reports[shooting in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 8 people shot , 2 dead . Reports of mass shooting in Fresno , California . More : @ HuffingtonPost
+Gold proposition: :[Reports of, HuffingtonPost].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: fresno 's mass shooter was driving kimmiescar
+Gold proposition: 's[fresno, shooter].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: fresno 's mass shooter was driving kimmiescar
+Gold proposition: was driving[kimmiescar, shooter].  Explicit: True
+Predicted proposition: was.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: fresno 's mass shooter was driving kimmiescar
+Gold proposition: mass shooter[shooter, mass].  Explicit: False
+Predicted proposition: mass.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Man Reported in Surgery After Being Shot Multiple Times
+Gold proposition: Surgery[Being Shot, Man].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Man Reported in Surgery After Being Shot Multiple Times
+Gold proposition: Being Shot[Multiple Times, Man].  Explicit: True
+Predicted proposition: Being.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Horrifying ! Mass shooting reported at Fresno workplace | The Lookout - Yahoo ! News
+Gold proposition: -[|, Yahoo ! News].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Horrifying ! Mass shooting reported at Fresno workplace | The Lookout - Yahoo ! News
+Gold proposition: Fresno workplace[Fresno, workplace].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: O_o RT @ HuffingtonPost BREAKING : Reports of mass shooting in Fresno , California
+Gold proposition: Reports[shooting in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: O_o RT @ HuffingtonPost BREAKING : Reports of mass shooting in Fresno , California
+Gold proposition: :[Reports of, HuffingtonPost].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: O_o RT @ HuffingtonPost BREAKING : Reports of mass shooting in Fresno , California
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: The death toll from a workplace shooting in Fresno , California has risen to 3 Newsroom
+Gold proposition: death toll[shooting in, 3, Fresno].  Explicit: True
+Predicted proposition: death.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: The death toll from a workplace shooting in Fresno , California has risen to 3 Newsroom
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports Of Mass Shooting At Apple Valley Farms Plant In Central California , 8 shot
+Gold proposition: Reports[shot].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Reports Of Mass Shooting At Apple Valley Farms Plant In Central California , 8 shot
+Gold proposition: Apple Valley Farms Plant[Apple Valley Farms, Plant].  Explicit: False
+Predicted proposition: Plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold proposition: chicken plant[chicken, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold proposition: shooting rampage[plant, Fresno].  Explicit: True
+Predicted proposition: rampage.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold proposition: dead[shooting rampage at, 1].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 1 dead , 4 wounded after shooting rampage at Fresno chicken plant |
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Mass shooting reported at a Central Fresno business
+Gold proposition: Central Fresno business[Central Fresno, business].  Explicit: False
+Predicted proposition: Central.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold proposition: Fresno Calif[Calif, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold proposition: -RAS[reportedly, -RAS].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold proposition: reportedly[shot at in].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold proposition: shooting rampage[plant, Fresno].  Explicit: True
+Predicted proposition: shooting.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold proposition: chicken plant[chicken, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: 2 dead , 8 wounded after shooting rampage at Fresno California chicken plant
+Gold proposition: dead[shooting rampage at, 2, Fresno].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold proposition: Fresno workplace[Fresno, workplace].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold proposition: Fresno CA[CA, Fresno].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold proposition: may dead[scene, gunman].  Explicit: True
+Predicted proposition: may.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Mass shooting in Fresno , CA workplace ; gunman may be dead at scene . Sigh , when will it end ?
+Gold proposition: Sigh will end[shooting in, it].  Explicit: True
+Predicted proposition: will.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports Of Mass Shooting In Fresno , California
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports Of Mass Shooting In Fresno , California
+Gold proposition: Reports[Shooting In].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold proposition: :[wounds at, police].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold proposition: California plant[California, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold proposition: California plant[California, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Gunman kills one , wounds three at California plant : police : USA-SHOOTING-FRESNO : Gunman kills one , wounds three at California plant : police
+Gold proposition: :[wounds at, police].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Palin Says Gunman kills 2 co-workers , self at Calif . poultry plant
+Gold proposition: Calif plant[Calif, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Palin Says Gunman kills 2 co-workers , self at Calif . poultry plant
+Gold proposition: poultry plant[poultry, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Xiii ! RT @ AP : BREAKING : At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold proposition: reportedly[shot at in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Xiii ! RT @ AP : BREAKING : At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold proposition: -RAS[reportedly, -RAS].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Xiii ! RT @ AP : BREAKING : At least 3 people reportedly shot at workplace in Fresno , Calif . -RAS
+Gold proposition: Fresno Calif[Calif, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold proposition: 'extensive history[history, 'extensive].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold proposition: Suspect history[Suspect, history].  Explicit: False
+Predicted proposition: Suspect.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold proposition: chicken plant[chicken, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold proposition: in[shooting, Suspect].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Suspect in Fresno chicken plant shooting a parolee , 'extensive ' history
+Gold proposition: Suspect parolee[Suspect, parolee].  Explicit: False
+Predicted proposition: Suspect.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports Of Mass Shooting At Apple Valley Farms Plant In Central California
+Gold proposition: Reports[Shooting At In].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Reports Of Mass Shooting At Apple Valley Farms Plant In Central California
+Gold proposition: Apple Valley Farms Plant[Apple Valley Farms, Plant].  Explicit: False
+Predicted proposition: Plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Mass Shooting at California Meat Plant - ABC News
+Gold proposition: -[Shooting at, ABC News].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Mass Shooting at California Meat Plant - ABC News
+Gold proposition: Meat Plant[Meat, Plant].  Explicit: False
+Predicted proposition: Plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Mass Shooting at California Meat Plant - ABC News
+Gold proposition: California Plant[California, Plant].  Explicit: False
+Predicted proposition: Plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Workplace shooting in central Fresno . What a horrible way to start Election Day . ) - :
+Gold proposition: to start[shooting in, Election Day].  Explicit: True
+Predicted proposition: start.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Workplace shooting in central Fresno . What a horrible way to start Election Day . ) - :
+Gold proposition: horrible[to start, shooting in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Workplace shooting in central Fresno . What a horrible way to start Election Day . ) - :
+Gold proposition: horrible way[horrible, way].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Fresno gunman identified , in critical condition
+Gold proposition: in condition[gunman, critical].  Explicit: True
+Predicted proposition: condition.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Fresno gunman identified , in critical condition
+Gold proposition: Fresno gunman[Fresno, gunman].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Employee in Fresno , CA shoots 4 then himself
+Gold proposition: Fresno CA[CA, Fresno].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Employee in Fresno , CA shoots 4 then himself
+Gold proposition: in shoots[Fresno, Employee, then, himself].  Explicit: True
+Predicted proposition: shoots.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports Of Mass Shooting At Apple Valley Farms Premises In Central California
+Gold proposition: Apple Valley Farms Premises[Apple Valley Farms, Premises].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports Of Mass Shooting At Apple Valley Farms Premises In Central California
+Gold proposition: Reports[Shooting At In].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Gunman kills one , wounds three at Fresno , California plant : police
+Gold proposition: :[wounds at, police].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Gunman kills one , wounds three at Fresno , California plant : police
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Gunman kills one , wounds three at Fresno , California plant : police
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold proposition: on[business, details].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold proposition: injured[shooting, Central Fresno].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold proposition: Central Fresno workplace[Central Fresno, workplace].  Explicit: False
+Predicted proposition: Central.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Central Fresno workplace shooting -- new details on injured , shooter and business plus witness accounts .
+Gold proposition: new details[new, details].  Explicit: False
+Predicted proposition: details.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold proposition: Reports[Shooting At In].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold proposition: for :[reality, many, Reports Of, today].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold proposition: Apple Valley Farms Plant[Apple Valley Farms, Plant].  Explicit: False
+Predicted proposition: Plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: A different reality today for many : Reports Of Mass Shooting At Apple Valley Farms Plant In California
+Gold proposition: different reality[different, reality].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: 3 shot at Fresno poultry processing plant - Nov 6 @ 4:15 PM ET
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: More details on today 's report of a shooting in Fresno , California :
+Gold proposition: 's report[today, shooting in].  Explicit: True
+Predicted proposition: report.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: More details on today 's report of a shooting in Fresno , California :
+Gold proposition: More details[More, details].  Explicit: False
+Predicted proposition: details.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: More details on today 's report of a shooting in Fresno , California :
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: More details on today 's report of a shooting in Fresno , California :
+Gold proposition: on['s report of, details].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold proposition: ( )[say, AP, FRESNO].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold proposition: dead[shooting, 1, California].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold proposition: FRESNO Calif[Calif, FRESNO].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Breaking FRESNO , Calif . ( AP ) -- Police say 1 dead , 4 wounded , including gunman , in California workplace shooting .
+Gold proposition: California workplace[California, workplace].  Explicit: False
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports of mass shooting in Fresno , California
+Gold proposition: Reports[shooting in].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: Reports of mass shooting in Fresno , California
+Gold proposition: Fresno California[California, Fresno].  Explicit: False
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Death toll rises to three in Fresno chicken plant shooting
+Gold proposition: chicken plant[chicken, plant].  Explicit: False
+Predicted proposition: plant.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Death toll rises to three in Fresno chicken plant shooting
+Gold proposition: Death toll[shooting, three, Fresno].  Explicit: True
+Predicted proposition: Death.
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: Death toll rises to three in Fresno chicken plant shooting
+Gold proposition: Fresno plant[Fresno, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold proposition: .[dead, FOX News].  Explicit: True
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold proposition: dead[shooting, 2, Fresno].  Explicit: True
+ 
+------Example of Gold proposition which was missed by predicted (but there was some overlap) --------
+Sentence: BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold proposition: Apple Valley Farms plant[Apple Valley Farms, plant].  Explicit: False
+Predicted proposition: plant.
+
+-------Gold proposition which was completely missed (no overlap): ----------- 
+Sentence: BREAKING Workplace shooting occurred at the Apple Valley Farms processing plant in Fresno , CA ; 8 shot , 2 dead . FOX News
+Gold proposition: Fresno CA[CA, Fresno].  Explicit: False
+
+Other statistics:
+No of consensual mentions: 71
+No of predicted mentions not in gold: 114
+No of gold mentions but not in predicted: 122
+No of gold mentions which have been ignored from evaluation: 0
+No of predicted mentions which have been ignored from evaluation: 14
+No of predicted mentions which have some intersection with the unmatched gold predicates: 45
+Lexical match in such cases: 0.0
+*******************
+
