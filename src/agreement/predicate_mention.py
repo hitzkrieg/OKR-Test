@@ -120,32 +120,42 @@ def extract_consensual_mentions(graph1, graph2):
 
     return consensual_mentions, graph1_prop_mentions, graph2_prop_mentions
 
+def argument_mention_to_terms(mention, sentence):
+    """
+    Receives the argument mention and the sentence(list of tokens), and returns the string associated with the argument mention.
+    :param mention: the Argument mention
+    :param sentence: the list of tokens of string representing the sentence
+    """
+    terms = ' '.join([sentence[int(id)] for id in str(mention).rstrip(']').split('[')[1].split(', ')     ])
+    return terms
 
 
 def analyse_predicate_mentions_individually(graph1, graph2):
     """
-    Receives gold and pred graphs, and prints the predicted predicates.
+    Receives gold and pred graphs, and prints errors in predicate extraction.
     :param graph1: the gold graph
     :param graph2: the predicted graph
     :for now no returns
     """
+
+    # Extract the proposition mentions
+
     graph1_prop_mentions = set.union(*[set(map(str, prop.mentions.values())) for prop in graph1.propositions.values()])
     graph2_prop_mentions = set.union(*[set(map(str, prop.mentions.values())) for prop in graph2.propositions.values()])    
 
-
+    # List of the ids of Common sentences (as string)
     common_sentences = set([x.split('[')[0] for x in graph1_prop_mentions]).intersection(set([x.split('[')[0] for x in graph2_prop_mentions]))
 
+    # classify mentions into categories
     consensual_mentions = graph1_prop_mentions.intersection(graph2_prop_mentions)
-    # predicted_mentions_but_not_in_gold  = graph2_prop_mentions.union(graph1_prop_mentions).intersection(graph2_prop_mentions)
-    # gold_mentions_but_not_predicted = graph2_prop_mentions.union(graph1_prop_mentions).intersection(graph1_prop_mentions)
-
     predicted_mentions_but_not_in_gold = graph2_prop_mentions - graph1_prop_mentions
     gold_mentions_but_not_predicted = graph1_prop_mentions - graph2_prop_mentions
 
+    # Predicates ignored in current evaluation scheme (because only common sentences are currently considered)
     ignored_gold_predicates =  set([a for a in graph1_prop_mentions if a.split('[')[0] not in common_sentences])
     ignored_pred_predicates =  set([a for a in graph2_prop_mentions if a.split('[')[0] not in common_sentences])
 
-    # Create sentID :list of indices dictionary for predicates
+    # dict1 & dict2 (type dictionary) --> sentID: list of indices (each indices corresponds to a predicate mention)
 
     dict1 = defaultdict(list)
     dict2 = defaultdict(list)
@@ -156,51 +166,65 @@ def analyse_predicate_mentions_individually(graph1, graph2):
     for a in predicted_mentions_but_not_in_gold:
         dict2[a.split('[')[0]].append(a.split('[')[1].rstrip(']').split(', '))
 
-        
+
+
+    # matches: the number of examples where the predicted proposition is not there in gold, but shares some lexical overlap with the gold Propositions
+    # match_pc: the precentage of overlap (in terms of number ofwords)
+    # thresh: Minimum lexical overlap to record and print (may be used in further analysis)
 
     matches = 0    
     match_pc = 0.0
     thresh = 0.0
     for sentID in dict2.keys():
+
         list1 = dict1[sentID]
         list2 = dict2[sentID]
-        for i in list2:
-            for j in list1:
+        for j in list1:
+            overlapped = False
+            for i in list2:
                 intersect = set(i).intersection(j)
+
                 if len(intersect)!=0:
                     matches+=1
                     lexical_overal_pc = len(intersect)/len(set(i).union(j))
                     if(lexical_overal_pc >= thresh):
-                        print("    --------")
+                        print(" \n------Example of Gold proposition which was missed by predicted (but there was some overlap) --------")
                         sentence = graph1.sentences[int(sentID)]
                         gold_prop_mention = graph1.prop_mentions_by_key[sentID+'['+', '.join(j)+']']
                         predicted_prop_mention = graph2.prop_mentions_by_key[sentID+'['+', '.join(i)+']']
-                        print("    \n Sentence: {} , Gold predicate: {}, Gold arguments: {}, Predicted predicate: {}, Predicted arguments: {}".format(' '.join(sentence), ' '.join([sentence[int(index)] for index in j]) , [' '.join(argument_mention.terms) for argument_mention in gold_prop_mention.argument_mentions.values()]   ,  ' '.join([sentence[int(index)] for index in i] ),  [' '.join(argument_mention.terms) for argument_mention in predicate_prop_mention.argument_mentions.values()]  ))
+                        print("Sentence: {}".format(' '.join(sentence)))
+                        print("Gold proposition: {}.  Explicit: {}".format(  ' '.join([sentence[int(index)] for index in j]) + '[' + ', '.join([argument_mention_to_terms(argument_mention, sentence) for argument_mention in gold_prop_mention.argument_mentions.values()]) + ']', gold_prop_mention.is_explicit     )       )
+                        
+                        # Arguments of predicted proposition not printed because info not available in code (from prop_ex)
+                        print("Predicted proposition: {}.".format( ' '.join([sentence[int(index)] for index in i] ) ))
+                        overlapped = True
 
-                    match_pc += lexical_overal_pc
-                    break
+                        match_pc += lexical_overal_pc
+                        break
+            if(overlapped==False):
+                sentence = graph1.sentences[int(sentID)]
+                gold_prop_mention = graph1.prop_mentions_by_key[sentID+'['+', '.join(j)+']']
+                print '\n-------Gold proposition which was completely missed (no overlap): ----------- '
+                print("Sentence: {}".format(' '.join(sentence)))
+                print("Gold proposition: {}.  Explicit: {}".format(  ' '.join([sentence[int(index)] for index in j]) + '[' + ', '.join([argument_mention_to_terms(argument_mention, sentence) for argument_mention in gold_prop_mention.argument_mentions.values()]) + ']', gold_prop_mention.is_explicit     )       )
+
+
+
+
     if matches!=0:                
         match_pc = match_pc/matches*100  
         
 
 
-
+    print ('\nOther statistics:')
     print('No of consensual mentions: {}'.format(len(consensual_mentions)))
     print('No of predicted mentions not in gold: {}'.format(len(predicted_mentions_but_not_in_gold)))
     print('No of gold mentions but not in predicted: {}'.format(len(gold_mentions_but_not_predicted)))
     print('No of gold mentions which have been ignored from evaluation: {}'.format(len(ignored_gold_predicates)))
     print('No of predicted mentions which have been ignored from evaluation: {}'.format(len(ignored_pred_predicates)))
     print('No of predicted mentions which have some intersection with the unmatched gold predicates: {}'.format(matches))
-    print('Lexical match in such cases: {}'.format(match_pc))
-def evaluate_unmatched_sentences(list1, list2):
+    print('*******************\n')
 
-    """
-    Receives gold and predicted indices of different predicate mentions in a sentence
-    :param list1: the list of indices from gold annotation
-    :param graph2: the list of indices from predicted annotation
-    :returns .....
-    """
-    no_of_matches  = 0
 
                    
 
