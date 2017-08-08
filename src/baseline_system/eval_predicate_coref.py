@@ -142,48 +142,13 @@ def get_mention_head(mention, parser, graph):
     return curr_head, curr_pos
 
 
-def evaluate_predicate_coref_gold_without_implicit(test_graphs):
-    """
-    Evaluate gold predicate clusters after their implicit propositions are removed
 
-
-    :param test_graphs: the OKR test graphs
-    :return: the coreference scores: MUC, B-CUBED, CEAF and MELA (CodNLL F1).
-    """
-    parser = spacy_wrapper()
-
-    scores = []
-    
-    for graph in test_graphs:
-
-        # Cluster the mentions
-        clusters = []
-        for prop in graph.propositions.values():
-            cluster = []
-            for mention in prop.mentions.values():
-
-                if mention.indices != [-1]:
-                    cluster.append(mention)
-                   
-
-            clusters.append(cluster) 
-
-        clusters = [set([item for item in cluster]) for cluster in clusters]
-
-
-        # Evaluate
-        curr_scores, _ = eval_clusters(clusters, graph)
-        scores.append(curr_scores)
-
-    scores = np.mean(scores, axis=0).tolist()
-
-    return scores
 
 def main():
     test_graphs = load_graphs_from_folder('../../data/baseline/test')
-    print(test_graphs)
-    evaluate_predicate_coref_gold_without_implicit(test_graphs)
-
+    scores = evaluate_predicate_coref(test_graphs)
+    print scores
+    
 if __name__ == '__main__':
         main()    
 
