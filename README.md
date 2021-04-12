@@ -1,5 +1,5 @@
 # OKR: A Consolidated <b>O</b>pen <b>K</b>nowledge <b>R</b>epresentation for Multiple Texts
-Please note, this repository is just a fork of the original repository associated with the paper.
+**Please note, this repository is just a fork of the original repository associated with the paper.**
 
 This is the code used in the paper:
 
